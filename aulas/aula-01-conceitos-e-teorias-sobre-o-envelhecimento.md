@@ -401,34 +401,6 @@ subtitle: Bühler, Jung, Havighurst, Levinson, afastamento — a era do ciclo de
 ---
 
 ---
-layout: reference
-kicker: Quadro 1.1 · mapa do capítulo
-title: As doze teorias, agrupadas
-groups:
-  - title: "Clássicas — paradigma de ciclos de vida"
-    items:
-      - { term: "Desenvolvimento psicológico ao longo da vida", desc: "Jung (1971)" }
-      - { term: "Desenvolvimento ao longo da vida", desc: "Bühler (1935); Kühlen (1964)" }
-      - { term: "Tarefas evolutivas", desc: "Havighurst (1951)" }
-      - { term: "Atividade", desc: "Havighurst & Albrecht (1953)" }
-      - { term: "Afastamento", desc: "Cummings & Henry (1961)" }
-      - { term: "Estações da vida adulta", desc: "Levinson (1978)" }
-  - title: "Transição"
-    items:
-      - { term: "Psicossocial ao longo da vida", desc: "Erikson (1959)" }
-      - { term: "Social-interacionista no curso de vida", desc: "Neugarten (1965; 1969)" }
-  - title: "Contemporâneas — paradigma lifespan"
-    items:
-      - { term: "Desenvolvimento ao longo da vida", desc: "Baltes (1987; 1997)" }
-      - { term: "Dependência comportamental", desc: "M. M. Baltes (1996)" }
-      - { term: "Seletividade socioemocional", desc: "Carstensen (1991)" }
-      - { term: "Controle primário e secundário", desc: "Heckhausen & Schulz (1995)" }
-      - { term: "Eventos críticos", desc: "Diehl (1999)" }
----
-
-<!-- Deixe este slide aberto enquanto respiram. É o índice do capítulo — vale dizer que ele serve de guia de estudo para a prova. -->
-
----
 layout: define
 kicker: Clássica 1 · Bühler (1935)
 term: Desenvolvimento ao longo da vida
@@ -502,12 +474,14 @@ Investimentos que, segundo Jung, ajudam o idoso a encontrar sentido na vida **e 
 <v-click>
 
 <Callout icon="lucide:heart-handshake">
-Não é misticismo: é a descrição de um <strong>reposicionamento de metas</strong> quando o horizonte temporal encurta. Carstensen vai testar isso empiricamente 50 anos depois.
+Não é misticismo: é a descrição de um <strong>reposicionamento de metas</strong> quando o horizonte temporal encurta.
 </Callout>
 
 </v-click>
 
-<!-- Faça a ponte explícita: Jung intuiu clinicamente o que a seletividade socioemocional demonstrou em laboratório. Isso ilustra a natureza cumulativa do conhecimento científico. -->
+<!--
+Faça a ponte explícita: Jung intuiu clinicamente o que a seletividade socioemocional demonstrou em laboratório. Isso ilustra a natureza cumulativa do conhecimento científico.
+-->
 
 ---
 layout: define
@@ -619,45 +593,6 @@ events:
 
 <!-- Levinson entrevistou executivos homens, 17-50 anos. Amostra estreitíssima — mas chegou às mesmas conclusões de Bühler. Vale comentar o limite da amostra. -->
 
----
-layout: default
-kicker: Atividade em grupo · 10 min
-title: Mesma cena, quatro leituras
----
-
-**A cena.** Dona Ivone, 74 anos, aposentada há 9. Parou de ir ao grupo de dança da igreja. Passa as tardes em casa. Diz que "já fez a parte dela".
-
-<v-click>
-
-Em quatro grupos, cada um assume **uma teoria** e responde: o que está acontecendo, e o que se faria?
-
-</v-click>
-
-<v-clicks>
-
-- **Grupo 1** — Teoria da atividade
-- **Grupo 2** — Teoria do afastamento
-- **Grupo 3** — Defasagem estrutural
-- **Grupo 4** — Tarefas evolutivas de Havighurst
-
-</v-clicks>
-
-<v-click>
-
-<Callout icon="lucide:message-circle-question">
-Guardem a resposta. No fim da aula vocês vão reler a mesma cena com Carstensen e com M. Baltes — e ela vai parecer outra.
-</Callout>
-
-</v-click>
-
-<!-- 4 min de grupo, 6 min de plenária. O objetivo não é achar a resposta certa: é sentir que a teoria escolhida DECIDE o que se vê e o que se propõe. -->
-
----
-layout: bigtype
-kicker: Pausa
-title: Intervalo · <em>15 min</em>
-subtitle: Voltamos nas teorias de transição
----
 
 ---
 layout: section
@@ -709,19 +644,21 @@ title: Oito crises, oito qualidades do ego
 groups:
   - title: "Primeira metade da vida"
     items:
-      - { term: "Bebê — confiança × desconfiança", desc: "Esperança" }
-      - { term: "Infância inicial — autonomia × vergonha", desc: "Vontade / domínio" }
-      - { term: "Idade do brinquedo — iniciativa × culpa", desc: "Propósito" }
-      - { term: "Idade escolar — trabalho × inferioridade", desc: "Competência" }
+      - { term: "Bebê", desc: "confiança × desconfiança → <span class=\"accent2\">Esperança</span>" }
+      - { term: "Infância inicial", desc: "autonomia × vergonha → <span class=\"accent2\">Vontade / domínio</span>" }
+      - { term: "Idade do brinquedo", desc: "iniciativa × culpa → <span class=\"accent2\">Propósito</span>" }
+      - { term: "Idade escolar", desc: "trabalho × inferioridade → <span class=\"accent2\">Competência</span>" }
   - title: "Segunda metade da vida"
     items:
-      - { term: "Adolescência — identidade × difusão", desc: "Fidelidade" }
-      - { term: "Idade adulta — intimidade × isolamento", desc: "Amor" }
-      - { term: "Maturidade — generatividade × estagnação", desc: "Cuidado" }
-      - { term: "Velhice — integridade do ego × desespero", desc: "Sabedoria" }
+      - { term: "Adolescência", desc: "identidade × difusão → <span class=\"accent2\">Fidelidade</span>" }
+      - { term: "Idade adulta", desc: "intimidade × isolamento → <span class=\"accent2\">Amor</span>" }
+      - { term: "Maturidade", desc: "generatividade × estagnação → <span class=\"accent2\">Cuidado</span>" }
+      - { term: "Velhice", desc: "integridade do ego × desespero → <span class=\"accent2\">Sabedoria</span>" }
 ---
 
-<!-- Não leia todas. Foque nas duas últimas, que são o objeto da disciplina. -->
+<!--
+Não leia todas. Foque nas duas últimas, que são o objeto da disciplina.
+-->
 
 ---
 layout: define
@@ -829,31 +766,36 @@ points:
 ---
 
 ---
-layout: panels
+layout: columns
 kicker: Baltes · três classes de influência
 title: O que empurra uma trajetória
-panels:
-  - { icon: "lucide:calendar", title: "Graduadas por idade", items: ["Mais fortes na infância", "Identificadas com a maturação", "Voltam a pesar na senescência"] }
-  - { icon: "lucide:landmark", title: "Graduadas por história", items: ["Afetam quem nasceu no mesmo período", "É o efeito de coorte", "Guerra, inflação, pandemia"] }
-  - { icon: "lucide:shuffle", title: "Não normativas", items: ["Idiossincráticas", "Época imprevisível", "Demandam mais recursos do indivíduo e da sociedade"] }
+columns:
+  - { title: "Graduadas por idade", items: ["Mais fortes na infância", "Identificadas com a maturação", "Voltam a pesar na senescência"] }
+  - { title: "Graduadas por história", items: ["Afetam quem nasceu no mesmo período", "É o efeito de coorte", "Guerra, inflação, pandemia"] }
+  - { title: "Não normativas", items: ["Idiossincráticas", "Época imprevisível", "Demandam mais recursos do indivíduo e da sociedade"] }
 ---
 
 ---
 layout: chart
 kicker: Baltes · alocação de recursos
-title: O que muda não é <em>se</em> há desenvolvimento — é para onde ele vai
-note: "Proporções <strong>esquemáticas</strong> (não são dados empíricos): na infância a ênfase é o crescimento; na velhice, a manutenção e a regulação de perdas."
+title: Para onde vai o desenvolvimento.
+note: "Proporções <strong>esquemáticas</strong> (não são dados empíricos): na
+  infância a ênfase é o crescimento; na velhice, a manutenção e a regulação de
+  perdas."
 chart:
   type: area
+  height: "280px"
   unit: "%"
-  categories: [Infância, Adolescência, Vida adulta, Velhice, Quarta idade]
+  categories: [ Infância, Adolescência, Vida adulta, Velhice, Quarta idade ]
   series:
-    - { name: Crescimento, data: [70, 55, 32, 15, 8] }
-    - { name: Manutenção e resiliência, data: [25, 35, 48, 50, 42] }
-    - { name: Regulação de perdas, data: [5, 10, 20, 35, 50] }
+    - { name: Crescimento, data: [ 70, 55, 32, 15, 8 ] }
+    - { name: Manutenção e resiliência, data: [ 25, 35, 48, 50, 42 ] }
+    - { name: Regulação de perdas, data: [ 5, 10, 20, 35, 50 ] }
 ---
 
-<!-- Deixe claro que é um esquema didático, não um gráfico de dados. O ponto: em nenhuma faixa a barra de crescimento chega a zero. Isso é a tese lifespan em uma imagem. -->
+<!--
+Deixe claro que é um esquema didático, não um gráfico de dados. O ponto: em nenhuma faixa a barra de crescimento chega a zero. Isso é a tese lifespan em uma imagem.
+-->
 
 ---
 layout: steps
@@ -880,13 +822,13 @@ points:
 ---
 
 ---
-layout: panels
+layout: columns
 kicker: SOC · os três mecanismos
 title: O que cada um faz
-panels:
-  - { icon: "lucide:filter", title: "Seleção", items: ["Especificar e reduzir alternativas", "Requisito quando tempo, energia e capacidade são limitados", "Reorganiza a hierarquia e o número de metas"] }
-  - { icon: "lucide:sparkles", title: "Otimização", items: ["Aquisição, aplicação, coordenação e manutenção de recursos", "Busca níveis mais altos de funcionamento", "Via educação, treino sistemático e suporte social"] }
-  - { icon: "lucide:replace", title: "Compensação", items: ["Adoção de alternativas para manter o funcionamento", "Aparelho auditivo, cadeira de rodas", "Pistas visuais e deixas para auxiliar a memória"] }
+columns:
+  - { title: "Seleção", items: ["Especificar e reduzir alternativas", "Requisito quando tempo, energia e capacidade são limitados", "Reorganiza a hierarquia e o número de metas"] }
+  - { title: "Otimização", items: ["Aquisição, aplicação, coordenação e manutenção de recursos", "Busca níveis mais altos de funcionamento", "Via educação, treino sistemático e suporte social"] }
+  - { title: "Compensação", items: ["Adoção de alternativas para manter o funcionamento", "Aparelho auditivo, cadeira de rodas", "Pistas visuais e deixas para auxiliar a memória"] }
 ---
 
 <!-- Exemplo canônico de Baltes: o pianista Rubinstein aos 80 tocava menos peças (seleção), ensaiava mais cada uma (otimização) e diminuía o andamento antes dos trechos rápidos para criar contraste (compensação). -->
@@ -895,9 +837,10 @@ panels:
 layout: diagram
 kicker: Figura 1.1 · o modelo completo
 title: SOC como <em>mediador</em>, não como resultado
-note: "O modelo explica o <strong>paradoxo do bem-estar</strong>: continuidade da funcionalidade e da satisfação mesmo <em>na presença</em> de riscos e perdas biológicas e sociais."
+note: "O modelo explica o <strong>paradoxo do bem-estar</strong>: continuidade
+  da funcionalidade e da satisfação mesmo <em>na presença</em> de riscos e
+  perdas biológicas e sociais."
 build: true
-highlight: [SOC, Adapt]
 ---
 
 ```mermaid
