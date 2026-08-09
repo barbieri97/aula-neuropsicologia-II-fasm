@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(node node_modules/slidev-theme-tahta/lint.mjs \"aulas/aula-01-conceitos-e-teorias-sobre-o-envelhecimento.md\")",
+      "Bash(node node_modules/@slidev/cli/bin/slidev.mjs build \"aulas/aula-01-conceitos-e-teorias-sobre-o-envelhecimento.md\" --base / --router-mode hash --out \"C:/Users/andre/AppData/Local/Temp/claude/c--Users-andre-Documents-aula-neuropsicologia-II-fasm/a6253d7a-121f-4746-9187-41a2607c2139/scratchpad/dist-test\")",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
