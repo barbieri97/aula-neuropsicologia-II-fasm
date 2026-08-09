@@ -1,0 +1,6 @@
+{
+    "slidev.include": [
+        "**/slides.md",
+        "aulas/aula-01-conceitos-e-teorias-sobre-o-envelhecimento.md"
+    ]
+}

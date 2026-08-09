@@ -1,6 +1,6 @@
 ---
 theme: slidev-theme-tahta
-title: "Aula 01 · Conceitos e teorias sobre o envelhecimento"
+title: "Conceitos e teorias sobre o envelhecimento"
 info: Como a psicologia aprendeu a olhar para a velhice — de ciclo de vida a lifespan
 date: "2026-08-11"
 author: FASM · Neuropsicologia II
@@ -10,40 +10,34 @@ themeConfig:
 layout: lead
 index: "01"
 kicker: Neuropsicologia II · FASM
-subtitle: Neri (2013) — três paradigmas, doze teorias e uma pergunta que não sai de cena.
+subtitle: Teorias Clássicas, de Transição e Contemporâneas.
 ---
 
-<!-- Aula de 3h. O arco: começamos pelo estereótipo que a turma já traz, mostramos que ele tem história, e só então entramos nas teorias. Terminamos com a virada contemporânea: velhice como desenvolvimento, não só como declínio. -->
+<!--
+Aula de 3h. O arco: começamos pelo estereótipo que a turma já traz, mostramos que ele tem história, e só então entramos nas teorias. Terminamos com a virada contemporânea: velhice como desenvolvimento, não só como declínio.
+-->
 
 ---
 layout: agenda
 kicker: Aula 01 · 3 horas
 title: O caminho de hoje
 items:
-  - { topic: "Conceitos e história", desc: "idoso, velhice, senescência — e quem inventou a terceira idade · 35 min" }
-  - { topic: "Os três paradigmas", desc: "ciclo de vida, curso de vida, lifespan · 25 min" }
-  - { topic: "Teorias clássicas", desc: "Bühler, Jung, Havighurst, afastamento · 35 min" }
-  - { topic: "Teorias de transição", desc: "Erikson e Neugarten · 25 min" }
-  - { topic: "Teorias contemporâneas", desc: "Baltes, M. Baltes, Carstensen, Heckhausen, Diehl · 50 min" }
+  - { topic: "Conceitos e história", desc: "idoso, velhice, senescência — e quem inventou a terceira idade" }
+  - { topic: "Os três paradigmas", desc: "ciclo de vida, curso de vida, lifespan" }
+  - { topic: "Teorias clássicas", desc: "Bühler, Jung, Havighurst, afastamento" }
+  - { topic: "Teorias de transição", desc: "Erikson e Neugarten" }
+  - { topic: "Teorias contemporâneas", desc: "Baltes, M. Baltes, Carstensen, Heckhausen, Diehl" }
 ---
 
 <!-- Avise que o intervalo cai depois do bloco das clássicas, por volta de 1h40. -->
 
----
-layout: statement
-kicker: Antes de qualquer teoria
-title: Feche os olhos e imagine <em>um idoso</em>. Guarde a imagem — vamos voltar nela três vezes hoje.
----
-
-<!-- Peça 3 palavras de cada aluno no chat/quadro. Anote-as. Quase sempre aparecem: lento, doente, sozinho, sábio, aposentado. Não comente ainda — a lista vai ser usada em 'defasagem estrutural' e de novo no fechamento. -->
 
 ---
 layout: default
 kicker: Aquecimento · 5 min
-title: Três palavras
+title: Imagine <em>um idoso</em>. Guarde a imagem — vamos voltar nela três vezes hoje.
 ---
 
-Em dupla, listem **três palavras** que a imagem trouxe. Depois respondam:
 
 <v-clicks>
 
@@ -61,15 +55,22 @@ A proporção entre essas três colunas é, em miniatura, a história do campo q
 
 </v-click>
 
-<!-- O ponto: o estereótipo é majoritariamente corporal e deficitário. Isso não é acidente — é o rastro de um paradigma científico que dominou 50 anos. -->
+<!--
+O ponto: o estereótipo é majoritariamente corporal e deficitário. Isso não é acidente — é o rastro de um paradigma científico que dominou 50 anos.
+-->
 
 ---
 layout: quote
-quote: O objetivo da psicologia do envelhecimento é estudar os padrões de mudança comportamental associados ao avanço da idade, distinguindo aqueles que são típicos da velhice daqueles que são compartilhados por outras idades.
+quote: "O objetivo da psicologia do envelhecimento é estudar os padrões de
+  mudança comportamental associados ao avanço da idade, <em>distinguindo</em>
+  aqueles que são típicos da velhice daqueles que são compartilhados por outras
+  idades."
 author: Anita Liberalesso Neri (2013)
 ---
 
-<!-- Leia devagar e pare na palavra 'distinguindo'. É a tarefa mais difícil do campo: nem tudo que acontece com um idoso acontece POR ELE SER idoso. -->
+<!--
+Leia devagar e pare na palavra 'distinguindo'. É a tarefa mais difícil do campo: nem tudo que acontece com um idoso acontece POR ELE SER idoso.
+-->
 
 ---
 layout: define
@@ -106,7 +107,7 @@ subtitle: Neri (2013)
 ---
 layout: section
 index: "01"
-kicker: Parte um · 35 min
+kicker: Parte um
 title: Conceitos e história
 subtitle: Quem é 'idoso', o que é 'velhice' — e por que essas respostas mudaram tanto
 ---
@@ -215,7 +216,7 @@ Quando o bom envelhecimento vira <strong>mérito pessoal</strong>, a conta da de
 layout: section
 index: "01b"
 kicker: Parte um · continuação
-title: Por que o idoso perdeu status
+title: Por que o idoso perdeu status?
 subtitle: Duas teorias sociológicas que sustentam o estereótipo
 ---
 
@@ -252,28 +253,6 @@ steps:
 
 <!-- Peça exemplos brasileiros de cada um. O primeiro sai fácil (aplicativo de banco, PIX, atendimento só por chat). -->
 
----
-layout: default
-kicker: Honestidade intelectual
-title: A modernização é uma teoria <em>criticada</em>
-aside: "leitura crítica"
----
-
-<v-clicks>
-
-- Suas aplicações iniciais partiram do **Japão pré-industrial** — um caso, não uma lei
-- Ela **enaltece uma idade de ouro** da velhice em sociedades tradicionais que talvez nunca existiu
-- Ainda assim: combinada à defasagem estrutural, a lógica **se aplica** às sociedades contemporâneas
-
-</v-clicks>
-
-<v-click>
-
-<Callout icon="lucide:scale">
-Uma teoria pode ser <strong>empiricamente frágil</strong> e ainda assim <strong>heuristicamente útil</strong>. Saber distinguir as duas coisas é parte do ofício.
-</Callout>
-
-</v-click>
 
 ---
 layout: timeline
@@ -300,7 +279,7 @@ title: <em>Terceira idade</em> nasceu como marketing acadêmico — um rótulo q
 ---
 layout: section
 index: "02"
-kicker: Parte dois · 25 min
+kicker: Parte dois
 title: Os três paradigmas
 subtitle: A moldura decide o que a pesquisa consegue enxergar
 ---
@@ -380,7 +359,7 @@ aside: "deep dive"
 
 <div class="flex gap-8 items-start">
 
-<Stat value="1,8" unit=" mi" label="recrutas testados (Yerkes, 1921)" icon="lucide:users" />
+<Stat value="1,8" unit=" mi" label="recrutas testados (Yerkes, 1921)"  />
 
 </div>
 
@@ -401,7 +380,9 @@ Diferença entre grupos etários em estudo transversal é <strong>efeito de coor
 
 </v-click>
 
-<!-- Vale conectar com a prática de vocês: um idoso de 80 anos com 3 anos de escolaridade num teste normatizado é o mesmo problema, em escala clínica. Normas por escolaridade existem exatamente por isso. -->
+<!--
+Vale conectar com a prática de vocês: um idoso de 80 anos com 3 anos de escolaridade num teste normatizado é o mesmo problema, em escala clínica. Normas por escolaridade existem exatamente por isso.
+-->
 
 ---
 layout: bigtype
@@ -414,7 +395,7 @@ title: Idosos não só conservavam a integridade — <em>continuavam a se desenv
 ---
 layout: section
 index: "03"
-kicker: Parte três · 35 min
+kicker: Parte três
 title: Teorias psicológicas clássicas
 subtitle: Bühler, Jung, Havighurst, Levinson, afastamento — a era do ciclo de vida
 ---
@@ -914,7 +895,7 @@ panels:
 layout: diagram
 kicker: Figura 1.1 · o modelo completo
 title: SOC como <em>mediador</em>, não como resultado
-note: O modelo explica o <strong>paradoxo do bem-estar</strong>: continuidade da funcionalidade e da satisfação mesmo <em>na presença</em> de riscos e perdas biológicas e sociais.
+note: "O modelo explica o <strong>paradoxo do bem-estar</strong>: continuidade da funcionalidade e da satisfação mesmo <em>na presença</em> de riscos e perdas biológicas e sociais."
 build: true
 highlight: [SOC, Adapt]
 ---
