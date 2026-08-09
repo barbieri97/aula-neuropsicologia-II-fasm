@@ -875,9 +875,10 @@ points:
 layout: diagram
 kicker: M. Baltes · o script dependência-apoio
 title: Por que o padrão dependente <em>prospera</em>
-note: Ajuda física e atenção social seguem a dependência. Tentativas de independência são <strong>ignoradas</strong> — ou punidas com negativas, queixas e críticas.
+note: Ajuda física e atenção social seguem a dependência. Tentativas de
+  independência são <strong>ignoradas</strong> — ou punidas com negativas,
+  queixas e críticas.
 build: true
-highlight: [Pede, Ajuda, Reforco]
 ---
 
 ```mermaid
@@ -966,6 +967,7 @@ title: A rede não encolhe uniformemente
 note: "Esquema baseado em estudos longitudinais: <strong>relações periféricas declinam</strong>, parceiros emocionalmente próximos <strong>se mantêm</strong>."
 chart:
   type: line
+  height: "280px"
   categories: ["20 anos", "40 anos", "60 anos", "80 anos"]
   series:
     - { name: Contatos periféricos, data: [100, 82, 55, 28] }
@@ -1074,7 +1076,6 @@ title: Estratégias que aparecem na clínica
 
 - **Ajustamento de metas** — "passei da idade de querer isso"
 - **Comparação social para baixo** — "tem gente bem pior que eu"
-- **Desvalorização de alvos inatingíveis** — as uvas estão verdes
 - **Atribuições causais fantasiosas**, mas que aliviam a ansiedade pelo erro
 - **Revisão de vida** e redimensionamento de metas
 
@@ -1088,7 +1089,9 @@ Elas amortecem os efeitos da avaliação de erros e fracassos, salvaguardam a au
 
 </v-click>
 
-<!-- Os muito idosos enfrentam mais incontrolabilidade — saúde, capacidades, ambiente físico, social e familiar. Por isso predominam entre eles as estratégias secundárias. Não é desistência: é economia adaptativa. -->
+<!--
+Os muito idosos enfrentam mais incontrolabilidade — saúde, capacidades, ambiente físico, social e familiar. Por isso predominam entre eles as estratégias secundárias. Não é desistência: é economia adaptativa.
+-->
 
 ---
 layout: define
@@ -1137,38 +1140,10 @@ title: Agência pessoal e autodeterminação <em>esbarram</em> nos limites impos
 ---
 layout: section
 index: "06"
-kicker: Fechamento · 20 min
+kicker: Fechamento
 title: Amarrando
 subtitle: O que muda na sua prática a partir de hoje
 ---
-
----
-layout: default
-kicker: Atividade final · 10 min
-title: Dona Ivone, revisitada
----
-
-Voltem à cena do intervalo. Agora respondam com as **teorias contemporâneas**:
-
-<v-clicks>
-
-- **Carstensen** — e se parar de dançar for *seleção ativa*, não afastamento?
-- **M. Baltes** — o que o ambiente dela reforça: tentar, ou pedir?
-- **Heckhausen & Schulz** — "já fez a parte dela" é controle secundário funcional ou disfuncional?
-- **SOC** — o que ela selecionou, o que otimizou, o que compensou?
-- **Diehl** — houve algum evento crítico há 9 anos?
-
-</v-clicks>
-
-<v-click>
-
-<Callout icon="lucide:git-compare">
-A cena não mudou. Mudou a <strong>teoria</strong> — e com ela, a hipótese, a pergunta da entrevista e a intervenção.
-</Callout>
-
-</v-click>
-
-<!-- Este é o fecho pedagógico da aula. Se saírem daqui com uma coisa só, que seja esta: a teoria não descreve o caso, ela constrói o caso. -->
 
 ---
 layout: columns
@@ -1203,23 +1178,30 @@ author: Neri (2013), Considerações finais
 <!-- O campo saiu das grandes narrativas para modelos específicos e testáveis. É por isso que as contemporâneas parecem menos grandiosas — e são muito mais úteis. -->
 
 ---
-layout: reference
-kicker: Para a prova
-title: Glossário mínimo
-groups:
-  - title: "Conceitos"
-    items:
-      - { term: "Senescência", desc: "envelhecimento normal, universal, geneticamente determinado" }
-      - { term: "Coorte", desc: "nascidos no mesmo período; compartilham experiências históricas" }
-      - { term: "Defasagem estrutural", desc: "a estrutura social não acompanha a mudança demográfica" }
-      - { term: "Relógio social", desc: "temporalização internalizada do curso de vida" }
-  - title: "Mecanismos"
-    items:
-      - { term: "SOC", desc: "seleção, otimização e compensação (Baltes & Baltes, 1990)" }
-      - { term: "Dependência comportamental", desc: "padrão aprendido, mantido por contingências do ambiente" }
-      - { term: "Seletividade socioemocional", desc: "redistribuição de recursos por encurtamento do horizonte temporal" }
-      - { term: "Controle primário/secundário", desc: "mudar o ambiente × mudar a si mesmo" }
+layout: panels
+kicker: Para a prova · 1 de 2
+title: Glossário mínimo — os <em>conceitos</em>
+panels:
+  - { icon: "lucide:hourglass", title: "Senescência", items: ["Envelhecimento normal", "Universal e geneticamente determinado"] }
+  - { icon: "lucide:users", title: "Coorte", items: ["Nascidos no mesmo período", "Compartilham experiências históricas"] }
+  - { icon: "lucide:unlink", title: "Defasagem estrutural", items: ["A estrutura social não acompanha", "a mudança demográfica"] }
+  - { icon: "lucide:clock", title: "Relógio social", items: ["Temporalização internalizada", "do curso de vida"] }
 ---
+
+<!-- Quatro palavras que precisam sair daqui sabidas. Peça um exemplo de cada em vez de repetir a definição. -->
+
+---
+layout: panels
+kicker: Para a prova · 2 de 2
+title: Glossário mínimo — os <em>mecanismos</em>
+panels:
+  - { icon: "lucide:target", title: "SOC", items: ["Seleção, otimização e compensação", "Baltes & Baltes (1990)"] }
+  - { icon: "lucide:repeat", title: "Dependência comportamental", items: ["Padrão aprendido", "Mantido por contingências do ambiente"] }
+  - { icon: "lucide:heart-handshake", title: "Seletividade socioemocional", items: ["Redistribuição de recursos", "Horizonte temporal encurtado"] }
+  - { icon: "lucide:arrow-left-right", title: "Controle primário / secundário", items: ["Mudar o ambiente", "× mudar a si mesmo"] }
+---
+
+<!-- Estes quatro são os que explicam *como* o envelhecimento acontece — os conceitos do slide anterior só nomeiam. -->
 
 ---
 layout: end
