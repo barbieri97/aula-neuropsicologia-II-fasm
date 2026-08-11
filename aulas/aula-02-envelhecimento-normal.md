@@ -1,7 +1,7 @@
 ---
 theme: slidev-theme-tahta
-title: "Envelhecimento normal do sistema nervoso"
-info: Do corpo ao cérebro — modificações fisiológicas sistêmicas e envelhecimento normal do SN
+title: "Envelhecimento normal"
+info: Corpo, cérebro e mundo social — modificações fisiológicas, envelhecimento normal do SN e aspectos psicossociais
 date: "2026-08-18"
 author: FASM · Neuropsicologia II
 themeConfig:
@@ -10,27 +10,29 @@ themeConfig:
 layout: lead
 index: "02"
 kicker: Neuropsicologia II · FASM
-subtitle: Modificações fisiológicas sistêmicas e o que muda no sistema nervoso.
+subtitle: O que muda no corpo, no sistema nervoso e nas condições de vida.
 ---
 
 <!--
-Aula de 3h, dois capítulos. A primeira metade (cap. 2) descreve o que envelhece no corpo; a segunda (cap. 4) descreve o que envelhece no sistema nervoso. O fio condutor é a reserva funcional: ela cai em todos os sistemas, e é isso que explica por que o idoso responde pior a estressores sem estar doente.
+Três capítulos. O cap. 2 descreve o que envelhece no corpo; o cap. 4, o que envelhece no sistema nervoso; o cap. 3, o terreno psicossocial em que os dois acontecem. O fio condutor é a reserva: ela cai em todos os sistemas — e a capacidade de compensar essa queda se distribui de forma socialmente desigual.
+
+Sobre o tempo: com os três capítulos o deck não cabe em 3h. Ou se estende para dois encontros (corte natural no fim da parte cinco), ou se corta a parte seis para os slides essenciais — demografia, Estatuto do Idoso, sabedoria e envelhecimento bem-sucedido.
 -->
 
 ---
 layout: agenda
-kicker: Aula 02 · 3 horas
+kicker: Aula 02 · capítulos 2, 3 e 4
 title: O caminho de hoje
 items:
-  - { topic: "Reserva funcional", desc: "o conceito que organiza os dois capítulos" }
+  - { topic: "Reserva funcional", desc: "o conceito que organiza os três capítulos" }
   - { topic: "Sistemas do corpo", desc: "cardiovascular, respiratório, renal, hepático, endócrino, imune, musculoesquelético" }
   - { topic: "Fármacos e fragilidade", desc: "por que a farmacologia importa para a neuropsicologia" }
-  - { topic: "Sistema nervoso — sensorial e motor", desc: "visão, audição, equilíbrio, motricidade, autonômico" }
-  - { topic: "Sistema nervoso — estrutura e bioquímica", desc: "macro, micro, agregação proteica, neurotransmissores" }
+  - { topic: "Sistema nervoso — sensorial, motor, estrutura e bioquímica", desc: "da presbiacusia aos neurotransmissores" }
   - { topic: "Plasticidade e reserva", desc: "compensação neural e o que a protege" }
+  - { topic: "Aspectos psicossociais", desc: "demografia, direitos, sabedoria e envelhecimento bem-sucedido" }
 ---
 
-<!-- Intervalo depois do bloco de fragilidade, por volta de 1h30. A segunda metade é a que responde diretamente pelo título da aula. -->
+<!-- Intervalo depois do bloco de fragilidade, por volta de 1h30. A parte seis (cap. 3) é a que fecha o argumento: mostra de onde vêm os recursos que sustentam a reserva descrita nas partes anteriores. -->
 
 ---
 layout: default
@@ -1132,6 +1134,377 @@ A contrapartida é bem documentada e frequentemente omitida quando se fala de re
 ---
 layout: section
 index: "06"
+kicker: Parte seis
+title: Aspectos psicossociais do envelhecimento
+subtitle: Capítulo 3 — Rivero, Canali-Prado, Vieira e Rivero
+---
+
+---
+layout: default
+kicker: A ponte com a parte anterior
+title: De onde vem a reserva
+---
+
+Acabamos de dizer que escolaridade, ocupação complexa e engajamento protegem a cognição. Falta a pergunta seguinte:
+
+<v-clicks>
+
+- Nenhum desses fatores é um **atributo individual** — todos são adquiridos
+- Eles dependem de **quando** e **onde** a pessoa nasceu, e do que lhe foi acessível
+- Dependem também de **direitos garantidos** e de políticas públicas efetivas
+
+</v-clicks>
+
+<v-click>
+
+<Callout icon="lucide:link">
+O capítulo 3 descreve esse terreno. Ele não é um apêndice social da aula: é a explicação de <strong>por que a reserva se distribui de forma desigual</strong> entre os pacientes que você vai atender.
+</Callout>
+
+</v-click>
+
+<!--
+Esta é a articulação que justifica a ordem escolhida. Os capítulos 2 e 4 descrevem o organismo; o 3 descreve as condições em que esse organismo envelhece. Se a turma sair achando que reserva cognitiva é mérito pessoal, a aula falhou.
+-->
+
+---
+layout: stats
+kicker: Demografia do envelhecimento
+title: A escala da mudança
+columns: 3
+stats:
+  - { value: "2", unit: " bi", label: "pessoas com 60 anos ou mais no mundo em 2050 — eram 600 milhões em 2000", icon: "lucide:users", tone: info }
+  - { value: "4,9", unit: "×", label: "o crescimento do grupo de <strong>80 anos ou mais</strong> entre 2000 e 2050", icon: "lucide:trending-up", tone: warn }
+  - { value: "69", unit: "%", label: "das pessoas muito idosas viverão em <em>países em desenvolvimento</em>", icon: "lucide:globe", tone: warn }
+---
+
+<!--
+Dados da OMS (2005), citados no capítulo. Em números absolutos: 80 milhões de pessoas com 80+ em 2000, projeção de 395 milhões em 2050. A faixa que mais cresce é justamente a de maior prevalência de doença neurodegenerativa — e é a que hoje representa só 1,3% da população mundial.
+-->
+
+---
+layout: metric
+kicker: Brasil · IBGE (2008)
+value: "172,7"
+label: idosos de 65 anos ou mais para cada <em>100 crianças</em> de 0 a 14 anos, na projeção para 2050. Em 2008, essa razão era de <strong>24,7</strong>.
+---
+
+<!--
+Este é o número que desenha a inversão da pirâmide. Peça que comparem com a própria família: quantos idosos e quantas crianças havia na casa dos avós deles, e quantos há hoje.
+-->
+
+---
+layout: default
+kicker: Demografia · o que isso cobra
+title: Três números brasileiros
+---
+
+<v-clicks>
+
+- Em 2000, para cada pessoa de 65 anos ou mais, **12** estavam na faixa potencialmente ativa (15 a 64 anos). Em 2050, serão **menos de 3**
+- A população idosa brasileira cresce **3,3% ao ano**; entre os idosos mais velhos, **5,4%** — uma das taxas mais altas do mundo
+- A esperança de vida ao nascer chegou a **73,48 anos** em 2010 — três anos a mais que em 2000
+
+</v-clicks>
+
+<v-click>
+
+<Callout icon="lucide:hospital">
+O capítulo atribui parte desse ritmo à universalização da atenção pública à saúde a partir do <strong>SUS</strong> (1989) — apontado pela OMS como exemplo a ser seguido por países em desenvolvimento.
+</Callout>
+
+</v-click>
+
+<!--
+Rosset e colaboradores (2011); IBGE (2008; 2012). O primeiro número é o mais desconfortável: a razão de dependência cai de 12 para 3 em cinquenta anos. É o pano de fundo econômico de qualquer discussão sobre cuidado, previdência e institucionalização.
+-->
+
+---
+layout: timeline
+kicker: Condições sociais do idoso
+title: Como a imagem social da velhice mudou
+events:
+  - { date: "até o séc. XIX", title: "Velhice como doença", desc: "quase uma condição de mendicância — o traço definidor era a impossibilidade de assegurar-se financeiramente" }
+  - { date: "início do séc. XX", title: "Stanley Hall", desc: "traça o primeiro perfil da velhice: transformações fisiológicas e perdas, mas com variabilidade individual enorme" }
+  - { date: "1970", title: "Simone de Beauvoir", desc: "a velhice deixa de ser só fenômeno biológico e passa a ser lida como fato social e psíquico" }
+  - { date: "2003", title: "Estatuto do Idoso", desc: "os direitos da população idosa brasileira ganham norma própria" }
+---
+
+<!--
+Araújo & Carvalho (2005); Neri (1995); Beauvoir (1990). Peixoto (1998) registra que "velho" (vieux) e "velhote" (veillard) designavam justamente quem não desfrutava de status social. Vale conectar com a defasagem estrutural da aula 01: o estereótipo tem história datável.
+-->
+
+---
+layout: define
+kicker: Vocabulário · Neri & Freire (2000)
+term: Quatro palavras que não são sinônimas
+definition: A imprecisão do vocabulário sobre a velhice é, ela mesma, um dado <span class="accent2">sociocultural</span>.
+points:
+  - "<em>Velho</em> ou <em>idoso</em> — pessoa na média de 60 anos; a ONU marca o início da velhice aos 60 nos países em desenvolvimento e aos 65 nos desenvolvidos"
+  - "<em>Velhice</em> — a última fase da existência humana"
+  - "<em>Envelhecimento</em> — o processo de mudanças físicas, psicológicas e sociais"
+  - "<em>Amadurecer</em> e <em>maturidade</em> — a sucessão de mudanças no organismo e a obtenção de papéis sociais"
+---
+
+<!-- Repare que só uma dessas palavras nomeia um processo. As outras três nomeiam um estado ou uma pessoa — e é por isso que escorregam tão facilmente para o estereótipo. -->
+
+---
+layout: quote
+quote: "Enquanto biologicamente faltam a força, a saúde e a capacidade adaptativa dos jovens, o envelhecimento traz um <em>maior poder de julgamento e execução</em> — habilidades influenciadas diretamente pelas experiências vividas e pelas memórias."
+author: Rivero e colaboradores (2013), cap. 3, sobre Beauvoir
+---
+
+<!--
+Beauvoir (1990) propôs uma visão abrangente do envelhecimento e acreditava na contribuição que envelhecer traz à coletividade, sobretudo em sociedades organizadas e repetidoras, que valorizam experiência e julgamento. O mesmo capítulo registra o contrário: a sociedade ocidental ainda carrega repugnância biológica e rejeição sutil da condição do envelhecimento.
+-->
+
+---
+layout: panels
+kicker: Estatuto do Idoso · Lei 10.741/2003
+title: O que a norma garante
+panels:
+  - { icon: "lucide:scale", title: "Princípio da igualdade", items: ["Atendimento prioritário em hospitais, bancos e locais públicos", "Preferência na formulação de políticas sociais", "Compensa a condição de hipossuficiência"] }
+  - { icon: "lucide:bus", title: "Aplicação imediata", items: ["Gratuidade no transporte coletivo urbano aos maiores de 65 anos", "Reserva de vagas e assentos preferenciais", "Desconto de no mínimo 50% em eventos culturais e esportivos"] }
+  - { icon: "lucide:gavel", title: "Proteção penal", items: ["Criminaliza condutas praticadas contra idosos", "Aumenta penas para qualificar esses crimes", "Regulamenta os artigos 229 e 230 da Constituição"] }
+  - { icon: "lucide:banknote", title: "Previdência", items: ["Preserva o valor real dos salários no cálculo de aposentadorias e pensões", "Protege a qualidade de vida de oscilações macroeconômicas"] }
+---
+
+<!--
+Os artigos 229 e 230 da Constituição estabelecem o dever dos filhos maiores de amparar os pais na velhice e o dever da família, da sociedade e do Estado de assegurar participação, dignidade e bem-estar. O Estatuto os regulamenta — ou seja, transforma princípio em procedimento.
+-->
+
+---
+layout: statement
+kicker: A ressalva do capítulo
+title: Não basta normatizar o direito: só a <em>prática reiterada</em> e políticas públicas efetivas o convertem em ganho.
+---
+
+<!--
+O capítulo é duro aqui, e com razão: garantias de aplicação imediata (transporte, assento, desconto) funcionam sozinhas; proteção, seguridade e assistência dependem de política pública complexa — e é aí que o Estatuto trava. Vale perguntar à turma quais garantias eles já viram funcionar e quais não.
+-->
+
+---
+layout: default
+kicker: Erikson · retomada
+title: Já vimos o estágio; o capítulo acrescenta a tarefa
+aside: "retomada da aula 01"
+---
+
+<v-clicks>
+
+- Na velhice o conflito é a **integridade**; não resolvido, gera o **desespero**
+- O grande desafio é encontrar **significado na rotina do dia a dia**
+- Isso fortalece a capacidade de adaptar-se a situações novas e de enfrentar os desafios próprios da fase — envelhecimento e morte
+- Os valores a reconhecer como próprios: **dignidade, prudência, sabedoria prática, aceitação do modo de viver**
+- Não percebidos, o desespero se alimenta de raiva, amargura, depressão e inadequação
+
+</v-clicks>
+
+<!--
+Erikson (1963; 1964). A aula 01 apresentou o quadro dos oito estágios; aqui o foco é operacional — "significado na rotina do dia a dia" é o que se investiga na anamnese e o que a revisão de vida como técnica busca reconstruir. O desespero de Erikson não é sinônimo de depressão.
+-->
+
+---
+layout: vs
+kicker: Estudos longitudinais · BASE e Seattle
+title: Duas inteligências, duas trajetórias
+label: ×
+left:
+  title: Mecânica — inteligência fluida
+  items:
+    - "Determinada pela <strong>biologia</strong> do indivíduo"
+    - "Declina assim que o aparato neurológico começa a declinar"
+    - "É o que os testes de desempenho medem melhor"
+    - "Foi o que sustentou a leitura da velhice como perda"
+right:
+  title: Pragmática — inteligência cristalizada
+  items:
+    - "Determinada pela exposição à <strong>cultura</strong>"
+    - "Tende a <em>aumentar</em> durante o envelhecimento"
+    - "Vocabulário, conhecimento e julgamento sobre a vida"
+    - "É a base sobre a qual se desenvolve a sabedoria"
+---
+
+<!--
+Baltes (1997); Schaie (1996). Os dois estudos: o BASE (Berlim, iniciado em 1990, pessoas de 70 a 100 anos) e o de Seattle (iniciado em 1956) — ambos ainda coletando dados. Foi o desenho longitudinal que permitiu ver os dois padrões separados; o transversal os confundia. O capítulo relata ainda que, no WAIS, o QI verbal teria caído mais que o executivo (Schaie, 1983; 1994) — deixei fora do slide porque contraria o resultado corrente da literatura e provavelmente é um lapso do texto.
+-->
+
+---
+layout: define
+kicker: Da pragmática à sabedoria
+term: Sabedoria
+definition: Conhecimento <span class="accent2">especializado</span> sobre fatos ocorridos na vida das pessoas, procedimentos e capacidade de julgamento em relação à vida.
+points:
+  - "Idosos resolveram problemas sociais tão bem quanto jovens — mesmo com desempenho mecânico inferior (Baltes, 1993)"
+  - "No BASE, participantes pensavam em voz alta diante de vinhetas com situações difíceis e inesperadas"
+  - "Domínio no qual os adultos mais velhos podem chegar à <em>excelência</em>"
+  - "Depende de educação, aprendizado contínuo e experiências socioculturais — e de nenhuma patologia cerebral tê-la afetado"
+---
+
+<!--
+Baltes & Baltes (1986); Baltes & Smith (1995); Gerstorf, Smith & Baltes (2006). O último ponto é o que amarra este capítulo aos outros dois: sabedoria é uma conquista que depende de um cérebro preservado. Não é consolo poético — é um desfecho que a patologia interrompe.
+-->
+
+---
+layout: columns
+kicker: Schaie (2005) · sete estágios do ciclo de vida
+title: Um modelo organizado por metas, não por idades
+columns:
+  - title: "Infância e adolescência"
+    items:
+      - "<strong>Aquisitivo</strong>"
+      - "Aquisição de informação e de capacidades"
+  - title: "Vida adulta inicial"
+    items:
+      - "<strong>Realizador</strong>"
+      - "<strong>Responsável</strong>"
+      - "<strong>Executivo</strong>"
+      - "Aplicar o que se adquiriu a metas próprias, familiares e coletivas"
+  - title: "Velhice"
+    items:
+      - "<strong>Reorganizacional</strong>"
+      - "<strong>Reintegrativo</strong>"
+      - "<strong>Criação da herança</strong>"
+      - "Velho jovem, velho velho e velho muito velho"
+---
+
+<!--
+O modelo tende a criar faixas etárias, mas o próprio Schaie entende os estágios em relação à capacidade dos sujeitos de funcionar e atuar diante das metas e objetivos da vida — não em relação à idade. As glosas de cada estágio vêm do modelo de Schaie; o capítulo apenas os nomeia.
+-->
+
+---
+layout: default
+kicker: Personalidade e cognição · Schaie, Willis & Caskie (2004)
+title: Traços que predizem desempenho
+---
+
+<Grid :data="[['Traço de personalidade', 'Correlação observada com habilidades cognitivas'], ['Abertura para experiências', 'positiva e alta com <b>todas</b> as habilidades, exceto a numérica'], ['Extroversão', 'raciocínio indutivo, velocidade perceptual, habilidade numérica e memória verbal'], ['Escrupulosidade', 'orientação espacial'], ['Sociabilidade', 'negativa com raciocínio indutivo; positiva com orientação espacial']]" head highlight="row:2" />
+
+<Callout icon="lucide:users">
+1.761 participantes, de <strong>22 a 88 anos</strong>. Os autores concluem que a personalidade é um dos possíveis fatores preditores de diferentes níveis de desempenho cognitivo ao longo da vida.
+</Callout>
+
+<!-- A linha destacada é a que mais interessa: abertura a experiências é o traço que mais se aproxima, no plano da personalidade, do que a literatura de reserva chama de engajamento. Cuidado com a leitura causal — são correlações. -->
+
+---
+layout: statement
+kicker: Schaie & Parham (1976)
+title: A estabilidade da personalidade parece ser a regra — e <em>não</em> a exceção.
+---
+
+<!--
+A ressalva do próprio estudo: existe muita mudança na personalidade, principalmente por experiências precoces de socialização, impacto ambiental geração-específico e transições socioculturais. O que se mantém mais estável são as variáveis dependentes de fatores biológicos ou de experiências precoces de sociabilidade. Exceções à estabilidade: traços ligados a gastos energéticos e envolvimento social.
+-->
+
+---
+layout: columns
+kicker: Rowe & Kahn (1987); Birren & Schroots (1996)
+title: Três trajetórias de envelhecimento
+columns:
+  - title: "Habitual (primário)"
+    items:
+      - "Não patológico"
+      - "Mas de <em>alto risco</em>"
+      - "É o padrão mais frequente"
+  - title: "Bem-sucedido"
+    items:
+      - "Baixo risco"
+      - "Alto nível de funcionalidade"
+      - "Não é ausência de mudança — é mudança sem incapacidade"
+  - title: "Terciário"
+    items:
+      - "Grande aumento das perdas cognitivas e físicas"
+      - "Em período relativamente curto, ao cabo do qual a pessoa morre"
+      - "Acúmulo dos efeitos do envelhecimento normal <em>e</em> do patológico"
+---
+
+<!--
+A distinção primário/secundário/terciário é a que permite conversar com a medicina sem medicalizar tudo. O terciário é o que a geriatria chama de declínio terminal; note que ele soma as duas fontes — a fisiológica descrita no capítulo 2 e a patológica.
+-->
+
+---
+layout: feature
+kicker: Rowe & Kahn (1997)
+title: Três componentes do envelhecimento bem-sucedido
+columns: 3
+features:
+  - { icon: "lucide:shield", title: "Prevenção", desc: "de doenças e de incapacidades" }
+  - { icon: "lucide:activity", title: "Manutenção", desc: "das funções físicas e cognitivas" }
+  - { icon: "lucide:users", title: "Engajamento", desc: "em atividades sociais e produtivas" }
+---
+
+<!--
+Os três componentes são cumulativos, não alternativos. O capítulo os associa ao modelo de seleção, otimização e compensação (Bajor & Baltes, 2003) que vimos na aula 01: seleção eletiva ou baseada nas perdas, otimização dos meios e compensação por meios alternativos quando os objetivos anteriores já não estão disponíveis.
+-->
+
+---
+layout: define
+kicker: O pilar das intervenções não farmacológicas
+term: Autoeficácia
+definition: A crença na própria capacidade de <span class="accent2">organizar e executar</span> o curso de ação necessário para alcançar determinado resultado.
+points:
+  - "Diminui o estresse e a depressão diante de situações ameaçadoras e de adaptação"
+  - "É com base em autocrenças de eficácia que se escolhe o desafio, o esforço e o tempo de perseverança"
+  - "A falha na autoeficácia prediz baixos resultados em intervenção não farmacológica com idosos"
+  - "Por isso deve ser um pilar — e não um efeito colateral — do planejamento da intervenção"
+---
+
+<!--
+Bandura (1986; 1988; 1989; 1997); Denkinger e colaboradores (2010). Aplicação direta na devolutiva: a forma como se comunica um resultado de avaliação altera a autoeficácia do paciente, e portanto o resultado da reabilitação. Um laudo que só enumera déficits trabalha contra a própria intervenção que recomenda.
+-->
+
+---
+layout: diagram
+kicker: O que prediz um envelhecimento bem-sucedido
+title: A reserva começa cedo — e fora do indivíduo
+build: true
+highlight: [Pol, Inf, Bem]
+note: "Brandt, Deindl & Hank (2012) encontraram associação <strong>independente</strong> entre condições de vida na infância e envelhecimento bem-sucedido. Iwamasa & Iwasaki (2011) apontam o apoio social como principal fator de enfrentamento."
+---
+
+```mermaid
+flowchart LR
+  Pol["Políticas públicas<br/>redução da desigualdade ao longo do ciclo de vida"] --> Inf
+  Pol --> Adulta
+  Inf["Condições de infância<br/>socioeconômicas · leitura e matemática · saúde"] --> Bem
+  Adulta["Vida adulta<br/>condições socioeconômicas · comportamentos saudáveis"] --> Bem
+  Rede["Apoio social e rede de relações"] --> Bem
+  Bem["Envelhecimento bem-sucedido<br/>menor perda funcional"]
+```
+
+<!--
+Este slide é o par social do diagrama que fechou a parte um. Lá, comorbidade sistêmica chegava à cognição; aqui, condição social chega à mesma cognição por outro caminho. O achado de Brandt e colaboradores é o mais forte: habilidades de leitura e matemática na infância predizem funcionalidade sessenta anos depois.
+-->
+
+---
+layout: define
+kicker: OMS (2005)
+term: Envelhecimento ativo
+definition: A <span class="accent2">otimização das oportunidades</span> de saúde, participação e segurança, com o objetivo de melhorar a qualidade de vida à medida que as pessoas ficam mais velhas.
+points:
+  - "Qualidade de vida — a percepção que o indivíduo tem da sua posição na vida"
+  - "Sempre no contexto da sua cultura e do seu sistema de valores"
+  - "E em relação aos seus objetivos, expectativas, padrões e preocupações"
+  - "Ou seja: quem define se o envelhecimento foi bem-sucedido é, em parte, quem envelheceu"
+---
+
+<!--
+Retome aqui a crítica que fizemos na aula 01: "envelhecimento ativo" vira exigência moral quando se esquece a segunda metade da definição. A própria OMS ancora qualidade de vida na percepção do sujeito e no seu contexto cultural — não num checklist de atividades.
+-->
+
+---
+layout: bigtype
+kicker: Considerações finais do capítulo 3
+title: A primeira visão expõe o homem ao <em>desamparo</em>; a segunda, a um futuro mais esperançoso.
+---
+
+<!--
+As duas visões são: a velhice como declínio geral, e a velhice como desenvolvimento com superação e compensação de limitações. O capítulo fecha registrando que a percepção social e a autopercepção da velhice mudaram de um estado de limitação inevitável para um momento de acúmulo de sabedoria e potencialidades sociais. Vale perguntar à turma qual das duas visões o laudo neuropsicológico costuma comunicar.
+-->
+
+---
+layout: section
+index: "07"
 kicker: Fechamento
 title: O que muda na prática
 subtitle: Da fisiologia à sala de avaliação
@@ -1140,16 +1513,17 @@ subtitle: Da fisiologia à sala de avaliação
 ---
 layout: steps
 kicker: Implicações para a avaliação neuropsicológica
-title: Quatro decisões que a aula de hoje justifica
-ghost: "4"
+title: Cinco decisões que a aula de hoje justifica
+ghost: "5"
 steps:
   - { title: "Agendar no horário de melhor disposição", desc: "fragmentação do sono e variação circadiana do cortisol tornam o desempenho instável ao longo do dia", icon: "lucide:clock" }
   - { title: "Prever pausas e sessões mais curtas", desc: "menor reserva cardiorrespiratória e muscular significa fadiga mais precoce sob demanda sustentada", icon: "lucide:pause" }
   - { title: "Garantir a correção sensorial", desc: "óculos e aparelho auditivo em uso durante toda a testagem; verificar iluminação e contraste do material", icon: "lucide:glasses" }
   - { title: "Revisar a lista de medicamentos", desc: "meia-vida prolongada, anticolinérgicos e sedativos produzem rebaixamento que imita quadro degenerativo", icon: "lucide:pill" }
+  - { title: "Levantar a biografia social", desc: "escolaridade, ocupação, rede de apoio e condições de infância mudam a norma esperada e o prognóstico de reabilitação", icon: "lucide:users" }
 ---
 
-<!-- Peça que anotem estas quatro. São operacionais: cabem num roteiro de anamnese e num item de checklist antes de qualquer bateria. -->
+<!-- Peça que anotem estas cinco. São operacionais: cabem num roteiro de anamnese e num item de checklist antes de qualquer bateria. A quinta é a que costuma ficar de fora — e é a que sustenta a interpretação de todas as outras. -->
 
 ---
 layout: default
@@ -1176,31 +1550,45 @@ items:
 <!-- Se a turma sair sabendo nomear os cinco níveis e dar um exemplo de cada, a aula cumpriu o objetivo descritivo. -->
 
 ---
+layout: reference
+kicker: Recapitulando · o terreno psicossocial
+title: O que o capítulo 3 acrescenta
+items:
+  - { term: "Demografia", desc: "a faixa que mais cresce é a de 80+; no Brasil, 12 ativos por idoso em 2000 e menos de 3 em 2050" }
+  - { term: "Imagem social e direitos", desc: "da velhice como mendicância ao Estatuto do Idoso — que só vale quando praticado" }
+  - { term: "Duas inteligências", desc: "a mecânica declina com a biologia; a pragmática cresce com a cultura e sustenta a sabedoria" }
+  - { term: "Personalidade", desc: "estável como regra; abertura a experiências prediz melhor desempenho cognitivo" }
+  - { term: "Envelhecimento bem-sucedido", desc: "prevenção, manutenção e engajamento — apoiados em autoeficácia e rede social" }
+---
+
+<!-- Cinco entradas para o cap. 3, espelhando os cinco níveis do cap. 4. A ideia é que a turma consiga responder: o que muda no corpo, o que muda no cérebro, e em que condições isso acontece. -->
+
+---
 layout: panels
 kicker: Para a prova
 title: Glossário mínimo
 panels:
   - { icon: "lucide:gauge", title: "Reserva funcional", items: ["Margem entre capacidade máxima e demanda de repouso", "Cai em todos os sistemas"] }
-  - { icon: "lucide:ear", title: "Presbiacusia", items: ["Perda auditiva progressiva de altas frequências", "44% aos 60; 90% após os 80"] }
   - { icon: "lucide:pill", title: "Iatrofarmacologia", items: ["Efeito adverso por meia-vida prolongada", "Metabolismo hepático e renal reduzidos"] }
   - { icon: "lucide:brain", title: "Reserva cognitiva", items: ["Uso eficiente e flexível das redes", "Explica discrepância imagem × função"] }
+  - { icon: "lucide:sparkles", title: "Envelhecimento bem-sucedido", items: ["Baixo risco e alto nível de funcionalidade", "Prevenção, manutenção e engajamento"] }
 ---
 
-<!-- Quatro termos. Peça um exemplo de cada, não a definição de volta. -->
+<!-- Quatro termos. Peça um exemplo de cada, não a definição de volta. Tirei a presbiacusia daqui porque ela já aparece com números na parte dois; se a turma estiver segura no cap. 3, vale trocar de volta. -->
 
 ---
 layout: statement
 kicker: A síntese da aula
-title: O corpo e o cérebro envelhecem juntos — e quase toda perda funcional tem <em>mais de uma</em> explicação possível.
+title: O corpo, o cérebro e a biografia envelhecem juntos — e quase toda perda funcional tem <em>mais de uma</em> explicação possível.
 ---
 
 <!--
-Fecha com o que interessa clinicamente: a tarefa do neuropsicólogo não é constatar o declínio, é discriminar suas fontes. Sensorial, farmacológica, sistêmica, degenerativa — cada uma tem uma conduta diferente.
+Fecha com o que interessa clinicamente: a tarefa do neuropsicólogo não é constatar o declínio, é discriminar suas fontes. Sensorial, farmacológica, sistêmica, degenerativa, social — cada uma tem uma conduta diferente.
 -->
 
 ---
 layout: end
 title: Até a próxima
 subtitle: "Aula 03 — cognição no envelhecimento normal: atenção, memória e funções executivas"
-contact: Leitura · Malloy-Diniz, Fuentes & Cosenza (orgs.), caps. 2 e 4
+contact: Leitura · Malloy-Diniz, Fuentes & Cosenza (orgs.), caps. 2, 3 e 4
 ---
