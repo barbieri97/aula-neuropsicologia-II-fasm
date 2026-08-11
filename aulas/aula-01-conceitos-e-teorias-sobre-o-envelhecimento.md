@@ -1206,6 +1206,6 @@ panels:
 ---
 layout: end
 title: Até a próxima
-subtitle: "Aula 02 — envelhecimento cerebral: o que muda na estrutura e na função"
+subtitle: "Aula 02 — envelhecimento normal do sistema nervoso: do corpo ao cérebro"
 contact: Leitura · Neri, A. L. (2013), cap. 1, em Malloy-Diniz, Fuentes & Cosenza (orgs.)
 ---
