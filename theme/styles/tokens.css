@@ -87,12 +87,29 @@
      junto não resolveria isso e ainda cobraria o dobro de altura, que é o
      recurso escasso aqui (o canvas tem 552px e o <Fit> encolhe o que não cabe).
 
-     Então: corpo de 19 → 22px, e os degraus abaixo dele na mesma proporção. */
-  --fs-kicker: 0.875rem;   /* 14px */
-  --fs-caption: 0.9375rem; /* 15px */
-  --fs-small: 1.0625rem;   /* 17px */
-  --fs-body: 1.375rem;     /* 22px — o número que decide se o fundo da sala lê */
-  --fs-lead: 1.5625rem;    /* 25px — corpo de slide curto, entradas de lista */
+     Então: corpo de 19 → 22px, e os degraus abaixo dele na mesma proporção.
+
+     Segunda rodada, e desta vez com medição. Rodando o deck da aula 02 no
+     navegador e lendo o font-size COMPUTADO slide a slide, o degrau `small`
+     (17px) aparecia em quase tudo que não é título: item de `columns`, ponto do
+     `define`, item de `panels` e `vs`, descrição da `agenda`, corpo do
+     <Callout>, célula de tabela. Ou seja: o texto que a turma mais lê era o
+     menor da escala, cinco pixels abaixo do corpo — um degrau grande demais
+     para uma diferença que é só de hierarquia, não de importância.
+
+     Vale registrar por que subir token é seguro. O <Fit> ESCALA PARA CABER e
+     nunca amplia: o tamanho na tela é `min(token, o que a altura permite)`.
+     Subir o token, então, só pode aumentar ou empatar — jamais encolher um
+     slide que antes cabia. O preço não é legibilidade, é uniformidade: quanto
+     mais slides batem no teto de altura, mais eles diferem entre si. Daí a
+     segunda metade desta rodada estar lá embaixo, no ritmo — devolver altura ao
+     quadro é o único jeito de aumentar o texto dos slides que JÁ batem no teto,
+     onde mexer em token não muda um pixel. */
+  --fs-kicker: 0.9375rem;  /* 15px */
+  --fs-caption: 1rem;      /* 16px */
+  --fs-small: 1.1875rem;   /* 19px — o degrau que a medição mostrou ser o gargalo */
+  --fs-body: 1.4375rem;    /* 23px — o número que decide se o fundo da sala lê */
+  --fs-lead: 1.625rem;     /* 26px — corpo de slide curto, entradas de lista */
   --fs-title: 2.125rem;    /* 34px — título de slide de conteúdo */
   --fs-display: 3.25rem;   /* 52px — abertura, statement */
   --fs-mega: 5.5rem;       /* 88px — numeral gigante (metric, fact) */
@@ -112,9 +129,16 @@
   /* A margem lateral é larga (espaço em branco é legibilidade barata); a de cima
      e a de baixo é mais contida de propósito. O canvas tem 552px de altura e o
      cabeçalho com título já come ~120: cada rem gasto em respiro vertical sai
-     direto da área útil e obriga o <Fit> a encolher o texto. */
+     direto da área útil e obriga o <Fit> a encolher o texto.
+
+     A medição da aula 02 mostrou 20 slides encolhidos pelo <Fit>, alguns a 0.74
+     — onde o item de lista chegava a 12,5px na tela. Nesses slides o token não
+     manda em nada: quem manda é a altura sobrando. Por isso a margem vertical
+     caiu de 2rem para 1.5rem e o cabeçalho e o rodapé apertaram junto (veja
+     base.css). São ~26px devolvidos a uma área útil de ~430px: cada slide que
+     bate no teto renderiza ~6% maior, de graça. */
   --pad-x: 3.75rem;
-  --pad-y: 2rem;
+  --pad-y: 1.5rem;
   --gap: 1.5rem;
   --gap-sm: 0.75rem;
   --gap-lg: 2.25rem;

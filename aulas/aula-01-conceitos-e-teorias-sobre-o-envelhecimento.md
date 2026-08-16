@@ -984,12 +984,30 @@ kicker: Carstensen · o efeito de positividade
 title: O que muda na experiência emocional
 columns: 3
 stats:
-  - { value: "−", label: "resposta da amígdala a imagens negativas", icon: "lucide:trending-down", tone: good }
-  - { value: "=", label: "resposta a imagens positivas e neutras", icon: "lucide:equal", tone: info }
-  - { value: "13", unit: " anos", label: "sobrevivência superior com mais experiências emocionais positivas", icon: "lucide:heart-pulse", tone: good }
+  - {
+      value: "−",
+      label: "resposta da amígdala a imagens negativas",
+      icon: "lucide:trending-down",
+      tone: good
+    }
+  - {
+      value: "=",
+      label: "resposta a imagens positivas e neutras",
+      icon: "lucide:equal",
+      tone: info
+    }
+  - {
+      value: "13",
+      unit: " anos",
+      label: "sobrevivência superior com mais experiências emocionais positivas",
+      icon: "lucide:heart-pulse",
+      tone: good
+    }
 ---
 
-<!-- Neuroimagem funcional: nos jovens, imagens negativas causaram maior excitação do que nos idosos; nas positivas e neutras não houve diferença. A experiência emocional foi preditiva de mortalidade, independentemente de gênero, idade e raça. -->
+<!--
+Neuroimagem funcional: nos jovens, imagens negativas causaram maior excitação do que nos idosos; nas positivas e neutras não houve diferença. A experiência emocional foi preditiva de mortalidade, independentemente de gênero, idade e raça.
+-->
 
 ---
 layout: default

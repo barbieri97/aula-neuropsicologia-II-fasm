@@ -232,13 +232,13 @@
   font-size: var(--fs-small);
   color: var(--ink-2);
   display: grid;
-  gap: 0.5rem;
+  gap: 0.42rem;
 }
 
 .define-points li {
   position: relative;
   padding-left: 1.1rem;
-  line-height: 1.45;
+  line-height: 1.38;
 }
 
 .define-points li::before {
@@ -285,9 +285,9 @@
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 0.55rem;
+  gap: 0.45rem;
   font-size: var(--fs-small);
-  line-height: 1.45;
+  line-height: 1.38;
   color: var(--ink);
 }
 
@@ -337,9 +337,9 @@
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 0.4rem;
+  gap: 0.35rem;
   font-size: var(--fs-small);
-  line-height: 1.45;
+  line-height: 1.38;
   color: var(--ink-2);
 }
 
@@ -398,9 +398,9 @@
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 0.55rem;
+  gap: 0.45rem;
   font-size: var(--fs-small);
-  line-height: 1.45;
+  line-height: 1.38;
   color: var(--ink);
 }
 
@@ -501,7 +501,7 @@
 
 .step-desc {
   font-size: var(--fs-small);
-  line-height: 1.45;
+  line-height: 1.38;
   color: var(--ink-2);
 }
 
@@ -546,7 +546,7 @@
 
 .agenda-desc {
   font-size: var(--fs-small);
-  line-height: 1.45;
+  line-height: 1.38;
   color: var(--ink-2);
 }
 
@@ -751,7 +751,7 @@
 
 .feature-desc {
   font-size: var(--fs-small);
-  line-height: 1.45;
+  line-height: 1.38;
   color: var(--ink-2);
   margin: 0;
 }
@@ -768,7 +768,7 @@
 
 .chart-note {
   font-size: var(--fs-caption);
-  line-height: 1.45;
+  line-height: 1.38;
   color: var(--ink-2);
   margin: 0;
   padding-left: 0.85rem;
@@ -821,7 +821,7 @@
 
 .diagram-note {
   font-size: var(--fs-caption);
-  line-height: 1.45;
+  line-height: 1.38;
   color: var(--ink-2);
   margin: 0;
   padding-left: 0.85rem;
@@ -1060,7 +1060,7 @@
   display: grid;
   gap: 0.7rem;
   font-size: var(--fs-small);
-  line-height: 1.45;
+  line-height: 1.38;
 }
 
 .ce-note {

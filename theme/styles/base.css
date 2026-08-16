@@ -58,9 +58,12 @@ body {
   z-index: 1;
 }
 
+/* O respiro entre o título e o corpo: apertado de propósito. O título já se
+   separa do corpo pela régua embaixo dele — o espaço aqui é ritmo, não
+   informação, e é altura que sai direto do orçamento do <Fit>. */
 .frame-head {
   flex: none;
-  margin-bottom: 1.15rem;
+  margin-bottom: 0.85rem;
 }
 
 .frame-body {
@@ -83,8 +86,8 @@ body {
   align-items: baseline;
   justify-content: space-between;
   gap: var(--gap);
-  margin-top: 0.9rem;
-  padding-top: 0.55rem;
+  margin-top: 0.65rem;
+  padding-top: 0.45rem;
   border-top: 1px solid var(--line);
   font-size: var(--fs-caption);
   color: var(--ink-3);
@@ -246,8 +249,11 @@ body {
   max-width: none;
 }
 
+/* O passo entre blocos é em `em`, então acompanha o corpo sozinho. 0.7 e não
+   0.85: com o corpo em 23px o espaço já é generoso em pixels, e o que sobra de
+   altura é o que evita o <Fit> encolher o slide todo. */
 .copy > * + * {
-  margin-top: 0.85em;
+  margin-top: 0.7em;
 }
 
 .copy h1,
@@ -275,7 +281,7 @@ body {
 .copy ol { list-style: decimal; }
 
 .copy li + li {
-  margin-top: 0.5em;
+  margin-top: 0.4em;
 }
 
 .copy li::marker {
@@ -385,7 +391,7 @@ body {
 .copy th,
 .copy td {
   text-align: left;
-  padding: 0.5em 0.7em;
+  padding: 0.42em 0.6em;
   border-bottom: 1px solid var(--line);
   vertical-align: baseline;
 }
