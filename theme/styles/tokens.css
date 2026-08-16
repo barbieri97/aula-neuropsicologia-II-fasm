@@ -1,0 +1,123 @@
+/* =============================================================================
+   slidev-theme-fasm — tokens
+   -----------------------------------------------------------------------------
+   Todo valor visual do tema nasce aqui. Layouts e componentes só consomem var().
+   Se você quiser mudar a cara das aulas, mude este arquivo — e só ele.
+
+   O tema é claro e único: não há variantes nem modo escuro. Foi uma decisão de
+   projeto, não uma falta — um visual só significa metade dos tokens para calibrar,
+   nenhum slide que fica ilegível no tema errado, e um PDF idêntico à tela.
+
+   Contraste: todos os pares de texto/fundo abaixo passam de 4.5:1 (WCAG AA), e os
+   de texto corrido passam de 7:1 (AAA). Os números estão anotados porque o público
+   lê isso projetado, de longe, numa sala que quase nunca está escura.
+   ========================================================================== */
+
+:root {
+  /* --- superfícies -------------------------------------------------------
+     Papel quase branco, levemente quente: branco puro (#fff) vibra no projetor
+     e cansa em 3h de aula. Os "wash" são fundos lavados, não cards cinzas —
+     o tema separa áreas com fio de cabelo, não com blocos de cor. */
+  --paper: #fdfdfb;
+  --wash: #f5f4ee;
+  --wash-2: #edece4;
+
+  /* --- tinta -------------------------------------------------------------
+     Preto quente em vez de #000: casa com o papel e reduz o "brilho" da borda
+     das letras na projeção. */
+  --ink: #1b1b19;    /* texto principal        — 16.1:1 sobre --paper */
+  --ink-2: #4a4a45;  /* secundário, descrições —  8.4:1 */
+  --ink-3: #6b6b63;  /* legendas, rodapé       —  5.1:1 */
+
+  /* --- fios --------------------------------------------------------------
+     A régua é o principal recurso de composição deste tema. Duas espessuras
+     de cor, uma só de largura (1px): mais que isso vira decoração. */
+  --line: #dcdbd3;
+  --line-2: #bfbeb3;
+
+  /* --- cor ---------------------------------------------------------------
+     Um azul só, escuro o bastante para servir de texto. Ele marca hierarquia
+     (kicker, numeral, régua de destaque, ênfase no título) e nada mais.
+     Cor aqui é sinal, não enfeite. */
+  --accent: #1d3e6e;      /* 10.6:1 sobre --paper */
+  --accent-soft: #e7ecf3; /* lavagem do accent, para fundo de bloco */
+  --accent-line: #b9c6da; /* fio na cor do accent */
+  --on-accent: #fdfdfb;   /* texto sobre o accent cheio */
+
+  /* --- tons funcionais ---------------------------------------------------
+     Os quatro `tone:` do contrato. Escuros e dessaturados de propósito: são
+     legíveis como texto e não competem com o accent. */
+  --good: #2c6047;
+  --good-soft: #e5eee9;
+  --warn: #8a5a12;
+  --warn-soft: #f4ece0;
+  --bad: #8c2f2f;
+  --bad-soft: #f5e7e7;
+  --info: #1d3e6e;
+  --info-soft: #e7ecf3;
+
+  /* --- séries de gráfico -------------------------------------------------
+     A paleta categórica. Duas exigências, nesta ordem: as séries têm que se
+     distinguir por MATIZ na projeção e por LUMINOSIDADE numa impressão em preto
+     e branco — o PDF da aula acaba impresso. Por isso elas não são cinco tons do
+     mesmo azul nem cinco cores puras: variam nos dois eixos ao mesmo tempo. */
+  --series-1: #1d3e6e; /* azul do tema — a série principal */
+  --series-2: #9a5b2d; /* ocre queimado */
+  --series-3: #2c6047; /* verde escuro */
+  --series-4: #6b6b63; /* cinza quente */
+  --series-5: #5b4a7a; /* ameixa */
+
+  /* --- tipografia --------------------------------------------------------
+     Duas famílias do mesmo desenhista (Adobe), servidas do próprio repositório:
+     serifada nos títulos (o tom acadêmico), sem serifa no corpo (o que a turma
+     lê de longe). Mono é a pilha do sistema — o curso não tem slide de código.
+     As fontes são variáveis: peso 400–700 contínuo num arquivo só. */
+  --font-display: 'Source Serif 4', Charter, Cambria, Georgia, serif;
+  --font-body: 'Source Sans 3', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, monospace;
+
+  /* Escala de tipo. O canvas do Slidev tem 980px de largura, então estes px são
+     px de canvas — a projeção escala tudo junto. O corpo em 19px é generoso de
+     propósito: é o número que decide se o fundo da sala enxerga. */
+  --fs-kicker: 0.8125rem;  /* 13px */
+  --fs-caption: 0.8125rem; /* 13px */
+  --fs-small: 0.9375rem;   /* 15px */
+  --fs-body: 1.1875rem;    /* 19px */
+  --fs-lead: 1.375rem;     /* 22px — corpo de slide curto, entradas de lista */
+  --fs-title: 2.125rem;    /* 34px — título de slide de conteúdo */
+  --fs-display: 3.25rem;   /* 52px — abertura, statement */
+  --fs-mega: 5.5rem;       /* 88px — numeral gigante (metric, fact) */
+
+  --lh-tight: 1.14;
+  --lh-title: 1.2;
+  --lh-body: 1.6;
+
+  --ls-kicker: 0.14em;  /* versalete só funciona com entreletra generosa */
+  --ls-display: -0.018em;
+
+  /* --- ritmo -------------------------------------------------------------
+     Margem do slide e passo vertical. A margem é larga: espaço em branco é o
+     recurso mais barato de legibilidade que existe. */
+  /* A margem lateral é larga (espaço em branco é legibilidade barata); a de cima
+     e a de baixo é mais contida de propósito. O canvas tem 552px de altura e o
+     cabeçalho com título já come ~120: cada rem gasto em respiro vertical sai
+     direto da área útil e obriga o <Fit> a encolher o texto. */
+  --pad-x: 3.75rem;
+  --pad-y: 2.25rem;
+  --gap: 1.5rem;
+  --gap-sm: 0.75rem;
+  --gap-lg: 2.25rem;
+
+  /* Largura de medida do texto corrido. Acima de ~70 caracteres o olho perde a
+     linha ao voltar — é a regra mais antiga da tipografia e vale no projetor. */
+  --measure: 64ch;
+
+  --radius: 3px;   /* quase reto: o tema é de papel e régua, não de cartão */
+  --rail: 3px;     /* espessura da barra de acento vertical */
+
+  /* --- movimento ---------------------------------------------------------
+     Uma entrada curta e discreta. Desligada na impressão e em reduced-motion
+     (veja index.css) — o PDF nunca depende de animação. */
+  --motion-dur: 380ms;
+  --motion-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}

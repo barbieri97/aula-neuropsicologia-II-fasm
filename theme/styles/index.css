@@ -1,0 +1,22 @@
+/* =============================================================================
+   slidev-theme-fasm — ponto de entrada do estilo
+   -----------------------------------------------------------------------------
+   Só imports, e a ordem importa: ela É a cascata do tema.
+
+     fonts       @font-face das famílias servidas do próprio repositório
+     tokens      todo valor visual (cor, tipo, ritmo) — a única fonte da verdade
+     base        fundação, quadro do slide, tipografia do markdown, impressão
+     components  os .vue de theme/components/
+     layouts     os .vue de theme/layouts/
+
+   Componentes e layouts vêm depois da base de propósito: eles refinam o que a
+   base estabeleceu, e com especificidade equivalente quem vem por último vence.
+   O CSS exige @import antes de qualquer regra — por isso este arquivo não tem
+   nenhuma regra própria, e a base mora em base.css.
+   ========================================================================== */
+
+@import './fonts.css';
+@import './tokens.css';
+@import './base.css';
+@import './components.css';
+@import './layouts.css';

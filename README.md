@@ -1,8 +1,8 @@
 # Psicologia Comportamental · FASM
 
 Slides das aulas do semestre. Uma aula por arquivo em [`aulas/`](aulas/), feitas com
-[Slidev](https://sli.dev/) + tema [tahta](https://github.com/zcag/tahta), publicadas no GitHub Pages
-— cada aula na sua própria URL.
+[Slidev](https://sli.dev/) e o tema próprio [`slidev-theme-fasm`](theme/), publicadas no GitHub
+Pages — cada aula na sua própria URL, com PDF para download.
 
 ```
 https://barbieri97.github.io/template-aulas/                    ← índice
@@ -21,18 +21,31 @@ npm run dev                                   # abre a primeira aula com hot rel
 npm run dev -- 03                             # abre a aula cujo nome contém "03"
 npm run ref                                   # catálogo de layouts e componentes do tema
 npm run lint                                  # valida os decks
-npm run build                                 # gera dist/ igual ao que vai pro ar
+npm run build                                 # gera dist/ igual ao que vai pro ar (com os PDFs)
+npm run docs                                  # regenera docs/fasm.md do contrato do tema
 ```
 
 **Para criar uma aula nova:** copie um `.md` de `aulas/`, renomeie para
 `aula-NN-titulo-em-slug.md`, edite, commit, push. O workflow builda e publica sozinho — o índice se
 atualiza a partir do `title` / `info` / `date` do topo do arquivo. O nome do arquivo vira a URL.
 
-Antes de escrever slides, leia [`docs/tahta.md`](docs/tahta.md) — é o contrato do tema (layouts,
+Antes de escrever slides, leia [`docs/fasm.md`](docs/fasm.md) — é o contrato do tema (layouts,
 campos, componentes). Resumo das convenções em [`CLAUDE.md`](CLAUDE.md).
 
-> O `npm run lint` mostra um aviso `unknown field "date"` por aula. É esperado: `date` não é um campo
-> do tema, ele existe para o índice do site. Avisos não quebram o build; erros sim.
+> O `npm run lint` separa **erros** de **avisos**: erro (layout inexistente, campo obrigatório
+> ausente, slide vazio) aborta o build; aviso (slide denso, campo desconhecido) só aparece.
+
+## O tema
+
+O tema mora em [`theme/`](theme/) e é declarado como workspace npm, então um deck em `aulas/` o
+resolve como resolveria um pacote publicado. É claro, com um visual só — sem variantes e sem modo
+escuro —, serifada nos títulos e sem serifa no corpo, com as fontes servidas do próprio
+repositório para que o slide saia igual em qualquer máquina e no PDF.
+
+Todo valor visual está em [`theme/styles/tokens.css`](theme/styles/tokens.css); é o único arquivo
+que se edita para mudar a aparência das aulas. O contrato de layouts e campos está em
+[`theme/layouts.json`](theme/layouts.json), que alimenta tanto o `fasm-lint` quanto o
+`docs/fasm.md` — depois de mexer nele, rode `npm run docs`.
 
 ## Primeira publicação
 
@@ -106,11 +119,17 @@ nome do repositório não aparece em lugar nenhum do código.
 `scripts/build-site.mjs`:
 
 1. lê o topo (headmatter) de cada `aulas/*.md` para pegar título, ementa e data;
-2. roda `tahta-lint` em todos — erro aqui aborta o build;
+2. roda `fasm-lint` em todos — erro aqui aborta o build;
 3. roda **um `slidev build` por aula**, cada uma com o seu `--base` e `--router-mode hash`
    (necessário porque o Pages serve tudo sob `/<repo>/` e só tem um `404.html`, na raiz);
-4. gera a landing `dist/index.html` listando as aulas, com título e ementa vindos de
+4. exporta o **PDF** de cada aula (o headmatter traz `download: true`) e confere que ele existe —
+   se faltar, o build falha, para o site não subir com um botão de download quebrado;
+5. gera a landing `dist/index.html` listando as aulas, com título e ementa vindos de
    `site.config.json`.
+
+A exportação do PDF é feita pelo Playwright. Local: o `npm install` já baixa o Chromium. No CI: o
+workflow roda `npx playwright install --with-deps chromium`, porque o runner não traz as
+bibliotecas de sistema que o navegador carrega.
 
 O `--base` vem da variável `SITE_BASE` (`/` local, `/<repo>/` no CI).
 

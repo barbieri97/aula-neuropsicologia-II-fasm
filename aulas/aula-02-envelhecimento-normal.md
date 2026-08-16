@@ -1,11 +1,13 @@
 ---
-theme: slidev-theme-tahta
+theme: slidev-theme-fasm
 title: "Envelhecimento normal"
 info: Corpo, cérebro e mundo social — modificações fisiológicas, envelhecimento normal do SN e aspectos psicossociais
 date: "2026-08-18"
 author: FASM · Neuropsicologia II
+# Gera o PDF no build (via playwright-chromium) e liga o botão de download no deck.
+download: true
+exportFilename: aula-02-envelhecimento-normal
 themeConfig:
-  variant: notebook
   lang: pt-BR
 layout: lead
 index: "02"

@@ -1,11 +1,13 @@
 ---
-theme: slidev-theme-tahta
+theme: slidev-theme-fasm
 title: "Conceitos e teorias sobre o envelhecimento"
 info: Como a psicologia aprendeu a olhar para a velhice — de ciclo de vida a lifespan
 date: "2026-08-11"
 author: FASM · Neuropsicologia II
+# Gera o PDF no build (via playwright-chromium) e liga o botão de download no deck.
+download: true
+exportFilename: aula-01-conceitos-e-teorias-sobre-o-envelhecimento
 themeConfig:
-  variant: notebook
   lang: pt-BR
 layout: lead
 index: "01"

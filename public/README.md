@@ -1,7 +1,7 @@
 # Imagens de exemplo
 
 Placeholders em SVG para montar slides antes de ter a imagem final. Servem ao deck de bancada
-[`referencia-tahta.md`](../referencia-tahta.md), que fica na raiz — por isso esta pasta é a
+[`referencia-fasm.md`](../referencia-fasm.md), que fica na raiz — por isso esta pasta é a
 `public/` **da raiz**, e não `aulas/public/`.
 
 | arquivo | proporção | demonstra |
@@ -14,12 +14,13 @@ Placeholders em SVG para montar slides antes de ter a imagem final. Servem ao de
 | `exemplo-avatar.svg` | 1:1 | `<Person photo>` |
 | `exemplo-avatar-2.svg` | 1:1 | `<Person photo>`, segunda cor |
 | `exemplo-fundo.svg` | 16:9 | campo `bg:` com arquivo — textura de baixo contraste |
-| `exemplo-logo.svg` | 1:1 | `themeConfig.logo` — marca colorida |
-| `exemplo-logo-mono.svg` | 1:1 | `themeConfig.logoInvert` — marca de uma cor só |
+| `exemplo-logo.svg` | 1:1 | marca colorida, para compor com `<Figure>` |
+| `exemplo-logo-mono.svg` | 1:1 | a mesma marca, de uma cor só |
 
 **Para usar numa aula**, copie o arquivo para `aulas/public/`: o Slidev resolve `public/` a partir
 da pasta do `.md`, e as aulas moram em `aulas/`. O caminho dentro do markdown é sempre absoluto e
 sem o nome da pasta — `/exemplo-figura.svg`.
 
 São SVGs de propósito: pesam poucos KB, escalam sem borrar e podem ser editados em qualquer editor
-de texto (as cores são as mesmas do variant `notebook` — `#16274a`, `#1f4fd8`, `#fbfbf7`).
+de texto. Para casá-los com o tema, use as cores de `theme/styles/tokens.css` — o azul `#1d3e6e`,
+a tinta `#1b1b19` e o papel `#fdfdfb`.

@@ -2,20 +2,25 @@
   "name": "aulas-slidev",
   "type": "module",
   "private": true,
+  "//": "O tema mora em theme/ e é declarado como workspace. Isso faz o npm criar o link em node_modules/slidev-theme-fasm — e é o que permite que um deck em aulas/ resolva `theme: slidev-theme-fasm` subindo os diretórios até o node_modules da raiz, exatamente como faria com um tema publicado.",
+  "workspaces": [
+    "theme"
+  ],
   "scripts": {
     "dev": "node scripts/dev.mjs",
-    "ref": "slidev referencia-tahta.md --open",
+    "ref": "slidev referencia-fasm.md --open",
     "build": "node scripts/build-site.mjs",
-    "lint": "tahta-lint aulas/*.md",
-    "sync-docs": "node scripts/sync-tahta-docs.mjs"
+    "lint": "node theme/lint.mjs aulas/*.md",
+    "docs": "node theme/scripts/gen-docs.mjs",
+    "fonts": "node theme/scripts/fetch-fonts.mjs"
   },
   "dependencies": {
     "@slidev/cli": "^52.19.0",
     "echarts": "^6.1.0",
-    "slidev-theme-tahta": "^0.13.3",
     "vue": "^3.5.33"
   },
   "devDependencies": {
+    "playwright-chromium": "^1.62.1",
     "yaml": "^2.9.0"
   }
 }

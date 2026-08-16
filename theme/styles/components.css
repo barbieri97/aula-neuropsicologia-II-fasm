@@ -1,0 +1,385 @@
+/* =============================================================================
+   slidev-theme-fasm — componentes
+   -----------------------------------------------------------------------------
+   Cada bloco corresponde a um .vue de theme/components/. Os componentes que têm
+   tom (`tone`) leem --tone e --tone-soft, definidos pelas classes .tone-* de
+   index.css — assim nenhum componente precisa saber a lista de tons.
+   ========================================================================== */
+
+/* ------------------------------------------------------------------- <Icon> */
+
+.icon {
+  display: inline-block;
+  vertical-align: -0.14em;
+  flex: none;
+}
+
+/* ---------------------------------------------------------------- <Callout>
+   O componente mais usado das aulas. Régua de cor à esquerda, fundo lavado,
+   ícone alinhado à primeira linha do texto. */
+
+.callout {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  background: var(--tone-soft);
+  border-left: var(--rail) solid var(--tone);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.7rem 0.95rem;
+  font-size: var(--fs-small);
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.callout-icon {
+  color: var(--tone);
+  font-size: 1.15em;
+  margin-top: 0.12em;
+}
+
+.callout-body > :first-child { margin-top: 0; }
+.callout-body > :last-child { margin-bottom: 0; }
+.callout-body p { margin: 0; }
+.callout-body p + p { margin-top: 0.5em; }
+
+/* Dentro de um aparte, o itálico é ênfase de voz — mantém a cor do tom em vez
+   de puxar o azul do tema e criar uma terceira cor no mesmo bloco. */
+.callout-body em {
+  font-style: italic;
+  color: var(--tone);
+}
+
+/* ------------------------------------------------------------------ <Badge> */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  background: var(--tone-soft);
+  color: var(--tone);
+  border: 1px solid color-mix(in srgb, var(--tone) 24%, transparent);
+  border-radius: 999px;
+  padding: 0.08em 0.55em;
+  font-size: 0.78em;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  vertical-align: 0.08em;
+}
+
+/* -------------------------------------------------------------------- <Kbd> */
+
+.kbd {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.82em;
+  line-height: 1.4;
+  background: var(--paper);
+  border: 1px solid var(--line-2);
+  border-bottom-width: 2px;
+  border-radius: var(--radius);
+  padding: 0.05em 0.4em;
+  color: var(--ink);
+  vertical-align: 0.08em;
+}
+
+/* ------------------------------------------------------------------- <Tags> */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tag {
+  background: var(--wash);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.22rem 0.7rem;
+  font-size: var(--fs-small);
+  color: var(--ink-2);
+  line-height: 1.35;
+}
+
+/* ------------------------------------------------------------- <Stat> family
+   Quatro tamanhos. A escala é multiplicativa sobre --fs-mega para que mudar o
+   token reescale todos os números do deck de uma vez. */
+
+.stat-sm .stat-value { font-size: calc(var(--fs-mega) * 0.34); }
+.stat-md .stat-value { font-size: calc(var(--fs-mega) * 0.5); }
+.stat-lg .stat-value { font-size: calc(var(--fs-mega) * 0.72); }
+.stat-xl .stat-value { font-size: var(--fs-mega); }
+
+.stat-value {
+  display: flex;
+  align-items: baseline;
+  gap: 0.14em;
+}
+
+/* Com `tone`, o número assume a cor do tom; com `accent` desligado, vira tinta. */
+.stat[class*='tone-'] .stat-value { color: var(--tone); }
+.stat.plain .stat-value { color: var(--ink); }
+
+.stat-icon {
+  font-size: 0.34em;
+  align-self: center;
+  opacity: 0.9;
+}
+
+.stat .num-label {
+  margin-top: 0.35rem;
+  max-width: 22ch;
+}
+
+.statcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* ------------------------------------------------------------------ <Meter> */
+
+.meter-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: var(--fs-small);
+  margin-bottom: 0.35rem;
+}
+
+.meter-label { color: var(--ink-2); }
+
+.meter-value {
+  font-variant-numeric: lining-nums tabular-nums;
+  font-weight: 650;
+  color: var(--tone);
+}
+
+.meter-track {
+  height: 8px;
+  background: var(--wash-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.meter-fill {
+  height: 100%;
+  background: var(--tone);
+  border-radius: 999px;
+}
+
+/* ----------------------------------------------------------------- <Figure> */
+
+.figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 0;
+}
+
+.figure-media {
+  min-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure-media img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.figure-caption {
+  font-size: var(--fs-caption);
+  color: var(--ink-2);
+  line-height: 1.45;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.figure-credit {
+  color: var(--ink-3);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* ----------------------------------------------------------------- <Person> */
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.person-photo {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
+  border: 1px solid var(--line);
+}
+
+.person-initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-weight: 650;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.person-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  min-width: 0;
+}
+
+.person-name {
+  font-weight: 650;
+  color: var(--ink);
+}
+
+.person-role {
+  font-size: var(--fs-caption);
+  color: var(--ink-2);
+}
+
+/* --------------------------------------------------------------- <Terminal> */
+
+.terminal {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--wash);
+}
+
+.terminal-title {
+  font-family: var(--font-mono);
+  font-size: var(--fs-caption);
+  color: var(--ink-3);
+  padding: 0.35rem 0.8rem;
+  background: var(--wash-2);
+  border-bottom: 1px solid var(--line);
+}
+
+.terminal-body {
+  margin: 0;
+  padding: 0.7rem 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.terminal-cmd { color: var(--ink); }
+.terminal-out { color: var(--ink-2); }
+
+.terminal-prompt {
+  color: var(--accent);
+  user-select: none;
+}
+
+/* --------------------------------------------------------------- <FileTree> */
+
+.filetree {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  line-height: 1.75;
+  color: var(--ink-2);
+}
+
+/* Fio-guia da indentação: substitui os caracteres de árvore por uma linha real,
+   que não quebra quando o nome do arquivo é longo. */
+.filetree:not(.filetree-root) {
+  margin-left: 0.55rem;
+  padding-left: 0.8rem;
+  border-left: 1px solid var(--line);
+}
+
+.filetree-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.filetree-icon {
+  color: var(--ink-3);
+  font-size: 0.95em;
+}
+
+/* ------------------------------------------------------------------- <Grid>
+   A tabela quando ela é o argumento. Sem bordas verticais: o alinhamento já
+   separa as colunas, e a grade completa transforma o quadro numa gaiola. */
+
+.datagrid-wrap {
+  overflow: auto;
+  max-width: 100%;
+}
+
+.datagrid {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-small);
+  line-height: 1.4;
+}
+
+.datagrid th,
+.datagrid td {
+  text-align: left;
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.datagrid th {
+  font-size: var(--fs-caption);
+  font-weight: 650;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  border-bottom: 1px solid var(--line-2);
+  white-space: nowrap;
+}
+
+/* A primeira coluna costuma ser o rótulo da linha — ela ganha o peso. */
+.datagrid td:first-child {
+  font-weight: 650;
+  color: var(--ink);
+}
+
+.datagrid tr:last-child td { border-bottom: 0; }
+
+/* O destaque: fundo lavado + régua na cor do tema à esquerda. É o que faz a
+   grade ter uma tese em vez de ser texto alinhado. */
+.datagrid .is-marked {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+.datagrid td.is-marked:first-child,
+.datagrid th.is-marked:first-child {
+  box-shadow: inset var(--rail) 0 0 var(--accent);
+}
+
+/* ------------------------------------------------------------------- <Plot> */
+
+.plot {
+  width: 100%;
+  min-height: 0;
+}

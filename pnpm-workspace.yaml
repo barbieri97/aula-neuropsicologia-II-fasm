@@ -1,3 +1,9 @@
+# O repositório é gerido com npm (package-lock.json, `npm ci` no CI). Este arquivo existe para
+# quem preferir pnpm — e por isso precisa declarar o mesmo workspace do package.json: o tema
+# mora em theme/ e é resolvido como pacote a partir dos decks em aulas/.
+packages:
+  - theme
+
 shamefullyHoist: true
 
 # `playwright-chromium` is needed for `slidev export` (PDF/PNG/PPTX) and has a

@@ -8,7 +8,7 @@
 // Um `slidev build` por aula, de propósito: o `--base` do CLI vale para a invocação inteira,
 // e cada aula precisa do seu (é o que faz os assets resolverem sob /<repo>/<slug>/).
 import { execFileSync } from 'node:child_process'
-import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { basename, join } from 'node:path'
 import YAML from 'yaml'
 import { binOf, deckFiles, root, siteConfig } from './lib.mjs'
@@ -25,7 +25,7 @@ const site = siteConfig()
 const run = (bin, args) => execFileSync(process.execPath, [bin, ...args], { cwd: root, stdio: 'inherit' })
 
 const slidevBin = binOf('@slidev/cli', 'slidev')
-const lintBin = binOf('slidev-theme-tahta', 'tahta-lint')
+const lintBin = binOf('slidev-theme-fasm', 'fasm-lint')
 
 /** Headmatter = o primeiro bloco `---` do arquivo. É de onde a landing tira título, ementa e data. */
 function readHeadmatter (file) {
@@ -56,6 +56,10 @@ const decks = deckFiles().map((path) => {
     title: head.title ?? slug,
     info: head.info ?? '',
     date: head.date ?? '',
+    // `download: true` no headmatter faz o slidev exportar o PDF ao fim do build (Playwright).
+    // O nome do arquivo é `exportFilename`, com o mesmo default do slidev.
+    download: head.download === true || head.download === 'true' || head.download === 'auto',
+    pdfName: `${head.exportFilename ?? 'slidev-exported'}.pdf`,
   }
 })
 
@@ -67,8 +71,8 @@ console.log(`\n${decks.length} aula(s) · base ${siteBase}\n`)
 
 // ---------------------------------------------------------------- validar antes de buildar
 
-// tahta-lint aceita vários arquivos e sai com código != 0 em erro — falha aqui aborta o build.
-// (O aviso `unknown field "date"` é esperado: o campo alimenta esta landing, o tema o ignora.)
+// fasm-lint aceita vários arquivos e sai com código != 0 em erro — falha aqui aborta o build.
+// É de propósito: é melhor não publicar do que publicar uma aula com um slide vazio.
 run(lintBin, decks.map((d) => d.path))
 
 // ---------------------------------------------------------------- buildar cada deck
@@ -87,6 +91,21 @@ for (const deck of decks) {
     // o 404.html da raiz do site, então history quebraria o refresh dentro de /<slug>/.
     '--router-mode', 'hash',
   ])
+
+  // O PDF é exportado pelo próprio slidev quando o deck traz `download: true`. Se o Playwright
+  // não estiver instalado o slidev avisa mas não falha o build — então conferimos aqui, senão o
+  // site sobe com um botão de download apontando para um 404.
+  if (deck.download) {
+    const pdf = join(distDir, deck.slug, deck.pdfName)
+    if (!existsSync(pdf)) {
+      throw new Error(
+        `${deck.slug}: o deck pede \`download: true\` mas ${deck.pdfName} não foi gerado.\n` +
+        '  A exportação depende do Playwright: `npm i -D playwright-chromium` e ' +
+        '`npx playwright install --with-deps chromium`.',
+      )
+    }
+    console.log(`   PDF: ${deck.pdfName}`)
+  }
 }
 
 // ---------------------------------------------------------------- landing page
@@ -177,7 +196,7 @@ const indexHtml = `<!doctype html>
   <ul>${cards}
   </ul>
   <footer>
-    Feito com <a href="https://sli.dev/">Slidev</a> e o tema <a href="https://github.com/zcag/tahta">tahta</a>.
+    Feito com <a href="https://sli.dev/">Slidev</a>.
   </footer>
 </main>
 </body>

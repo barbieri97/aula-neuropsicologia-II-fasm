@@ -32,6 +32,13 @@ jobs:
 
       - run: npm ci
 
+      # As aulas trazem `download: true` no headmatter, então o `slidev build` exporta o PDF
+      # de cada uma com o Playwright. O `npm ci` já baixa o Chromium (o postinstall do
+      # playwright-chromium), mas as bibliotecas de sistema que ele carrega não vêm com o
+      # runner — daí o `--with-deps`. O comando é idempotente.
+      - name: Instalar o Chromium do Playwright
+        run: npx playwright install --with-deps chromium
+
       # Descobre a URL pública do site. O output `base_path` é o caminho dela:
       # "/<nome-do-repo>" num repo comum, "/" num repo <usuario>.github.io.
       - name: Configurar Pages

@@ -1,0 +1,302 @@
+{
+  "$comment": "O contrato do tema, legível por máquina. É a ÚNICA fonte da verdade sobre layouts e campos: o fasm-lint valida contra este arquivo e o docs/fasm.md é gerado dele. Se você criar um layout novo em theme/layouts/, descreva-o aqui — senão o lint vai reclamar que ele não existe.",
+
+  "universal": [
+    { "name": "bg", "type": "string", "desc": "Fundo do slide: mesh | aurora | grain | dots | grid, ou um caminho/URL de imagem (que recebe um véu automático de legibilidade)." },
+    { "name": "ghost", "type": "string", "desc": "Glifo gigante e apagado ao fundo. Textura, não informação." },
+    { "name": "foot", "type": "string", "desc": "Substitui o rótulo do rodapé neste slide (o padrão é o título do deck)." },
+    { "name": "aside", "type": "string|boolean", "desc": "Marca o slide como tangente/aprofundamento: régua de acento à esquerda e etiqueta no canto. `true` usa 'aprofundamento'; uma string define o texto." },
+    { "name": "class", "type": "string", "desc": "Classe extra no slide. A única prevista pelo tema é `dropcap`, que dá capitular ao primeiro parágrafo de um `default`." },
+    { "name": "wide", "type": "boolean", "desc": "Solta a medida de leitura do corpo (por padrão o texto é limitado a ~64 caracteres por linha)." }
+  ],
+
+  "layouts": {
+    "cover": {
+      "use": "Capa: kicker, título e subtítulo centrados.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string", "required": true, "desc": "Aceita <em>ênfase</em> e <span class=\"accent2\">destaque</span>." },
+        { "name": "subtitle", "type": "string" }
+      ]
+    },
+    "lead": {
+      "use": "Abertura assimétrica: título ancorado embaixo à esquerda, muito espaço em branco. A alternativa dramática à capa.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string", "required": true },
+        { "name": "subtitle", "type": "string" },
+        { "name": "index", "type": "string", "desc": "Numeral gigante e apagado no espaço negativo." }
+      ]
+    },
+    "section": {
+      "use": "Divisória de parte. Também é o que alimenta a trilha de progresso no topo dos slides seguintes.",
+      "fields": [
+        { "name": "index", "type": "string", "desc": "Numeral da parte, em destaque e ao fundo." },
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string", "required": true },
+        { "name": "subtitle", "type": "string" }
+      ]
+    },
+    "end": {
+      "use": "Fechamento.",
+      "fields": [
+        { "name": "title", "type": "string" },
+        { "name": "subtitle", "type": "string" },
+        { "name": "contact", "type": "string" }
+      ]
+    },
+    "statement": {
+      "use": "Uma frase grande e centrada. O slide de pausa.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string", "required": true }
+      ]
+    },
+    "bigtype": {
+      "use": "Tipo em sangria: uma frase preenche o slide. Momento de pontuação, para virar a página do argumento.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string", "required": true },
+        { "name": "subtitle", "type": "string" }
+      ]
+    },
+    "quote": {
+      "use": "Citação com atribuição.",
+      "fields": [
+        { "name": "quote", "type": "string", "required": true },
+        { "name": "author", "type": "string" }
+      ]
+    },
+    "default": {
+      "use": "Uso geral: o markdown do autor no corpo. A tela em branco do tema — é aqui que se compõem os componentes.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" }
+      ]
+    },
+    "define": {
+      "use": "Termo + definição. O slide 'o que é X'.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "term", "type": "string", "required": true },
+        { "name": "definition", "type": "string" },
+        { "name": "points", "type": "array", "desc": "Lista de strings de apoio." }
+      ]
+    },
+    "columns": {
+      "use": "Duas ou três colunas com cabeça própria, para listas que se leem em paralelo.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "columns", "type": "array", "required": true, "items": "title: string, items: string[], body: string (HTML, alternativo a items)" }
+      ]
+    },
+    "panels": {
+      "use": "De 2 a 4 subtemas em cartões. Cada cartão é uma unidade fechada (diferente de `columns`, em que as listas se comparam).",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "panels", "type": "array", "required": true, "items": "title: string, icon: string (lucide:*), items: string[], body: string" }
+      ]
+    },
+    "vs": {
+      "use": "Confronto A × B: dois painéis simétricos e um divisor.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "left", "type": "object", "required": true, "items": "title: string, items: string[]" },
+        { "name": "right", "type": "object", "required": true, "items": "title: string, items: string[]" },
+        { "name": "label", "type": "string", "desc": "Texto do divisor (padrão 'vs')." }
+      ]
+    },
+    "steps": {
+      "use": "Um processo em etapas, ligadas por um fio vertical.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "steps", "type": "array", "required": true, "items": "title: string, desc: string, icon: string (lucide:*)" }
+      ]
+    },
+    "agenda": {
+      "use": "O roteiro do encontro.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "items", "type": "array", "required": true, "items": "topic: string, desc: string" }
+      ]
+    },
+    "reference": {
+      "use": "Folha de consulta: pares termo → descrição. Glossário, bibliografia, atalhos.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "groups", "type": "array", "items": "title: string, items: [{ term, desc }]", "desc": "Use `groups` OU `items`." },
+        { "name": "items", "type": "array", "items": "term: string, desc: string" }
+      ]
+    },
+    "timeline": {
+      "use": "Sequência datada na horizontal. Conta ordem, não duração.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "events", "type": "array", "required": true, "items": "date: string, title: string, desc: string" }
+      ]
+    },
+    "stats": {
+      "use": "De 2 a 4 números em destaque.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "columns", "type": "number" },
+        { "name": "stats", "type": "array", "required": true, "items": "value: string|number, unit: string, label: string, icon: string, tone: good|warn|bad|info" }
+      ]
+    },
+    "metric": {
+      "use": "Um número só, assimétrico: algarismo gigante de um lado, contexto do outro.",
+      "fields": [
+        { "name": "value", "type": "string|number", "required": true, "desc": "Deixe o número cru; o símbolo vai em `unit`." },
+        { "name": "unit", "type": "string" },
+        { "name": "kicker", "type": "string" },
+        { "name": "label", "type": "string", "desc": "Linha de contexto; aceita HTML." }
+      ]
+    },
+    "fact": {
+      "use": "Um número gigante, centrado. O irmão simétrico do `metric`.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "value", "type": "string|number", "required": true },
+        { "name": "unit", "type": "string" },
+        { "name": "label", "type": "string" }
+      ]
+    },
+    "feature": {
+      "use": "Células de ícone + título + descrição, sem cartão. Para 3 a 6 razões ou atributos.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "columns", "type": "number" },
+        { "name": "features", "type": "array", "required": true, "items": "icon: string (lucide:*), title: string, desc: string" }
+      ]
+    },
+    "chart": {
+      "use": "Gráfico (ECharts) com nota de rodapé.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "note", "type": "string", "desc": "Legenda sob o gráfico; é onde se diz a fonte — ou que o traçado é esquemático." },
+        { "name": "chart", "type": "object", "required": true, "items": "type: bar|line|area|donut, unit: string, categories: array, series: [{ name, data[] }], horizontal: boolean, height: string" }
+      ]
+    },
+    "diagram": {
+      "use": "Palco emoldurado para um visual: Mermaid, <Figure> ou <Grid>. Prefira-o sempre que a ideia for uma estrutura ou um fluxo.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "note", "type": "string" },
+        { "name": "highlight", "type": "array", "desc": "Só fluxograma: ids dos nós a acentuar; o resto apaga. Use os ids do seu mermaid, sem sublinhado." },
+        { "name": "build", "type": "boolean", "desc": "Faz o diagrama entrar em cascata. Use quando a montagem em si ensina." }
+      ]
+    },
+    "compare": {
+      "use": "Tabela antes/depois.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "columns", "type": "array", "desc": "Cabeçalhos; padrão [Medida, Antes, Depois, Δ]." },
+        { "name": "rows", "type": "array", "required": true, "items": "metric: string, before: string, after: string, delta: string" }
+      ]
+    },
+    "two-cols": {
+      "use": "Divisão genérica: o corpo à esquerda, o que vem depois de `::right::` à direita.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" }
+      ]
+    },
+    "image": {
+      "use": "Texto + imagem lado a lado. O markdown do corpo é a coluna de texto.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "image", "type": "string", "required": true, "desc": "Caminho em aulas/public/, p.ex. /figura.png." },
+        { "name": "side", "type": "string", "enum": ["left", "right"] },
+        { "name": "alt", "type": "string" }
+      ]
+    },
+    "showcase": {
+      "use": "Herói assimétrico (43/57): a imagem é o assunto e o texto é a legenda dela.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "subtitle", "type": "string" },
+        { "name": "image", "type": "string", "required": true },
+        { "name": "side", "type": "string", "enum": ["left", "right"] },
+        { "name": "alt", "type": "string" }
+      ]
+    },
+    "bleed": {
+      "use": "Imagem em sangria com texto sobreposto. O texto sempre recebe um véu de legibilidade.",
+      "fields": [
+        { "name": "image", "type": "string", "required": true },
+        { "name": "kicker", "type": "string" },
+        { "name": "stat", "type": "string", "desc": "Um algarismo gigante sobreposto." },
+        { "name": "title", "type": "string" },
+        { "name": "subtitle", "type": "string" },
+        { "name": "duotone", "type": "boolean", "desc": "Dessatura a imagem e a puxa para o azul do tema (padrão: ligado)." }
+      ]
+    },
+    "embed": {
+      "use": "Vídeo ou iframe.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "video", "type": "string" },
+        { "name": "iframe", "type": "string" }
+      ]
+    },
+    "logos": {
+      "use": "Parede de marcas ou instituições (num contexto acadêmico: as fontes de um dado).",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "columns", "type": "number" },
+        { "name": "logos", "type": "array", "required": true, "items": "icon: string (lucide:*), text: string" }
+      ]
+    },
+    "code": {
+      "use": "Código. O corpo é um bloco cercado (aceita magic-move).",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" }
+      ]
+    },
+    "code-explain": {
+      "use": "Código + notas numeradas ao lado. Com realce por etapas (```ts {1|2|3}```), cada nota acende na sua vez.",
+      "fields": [
+        { "name": "kicker", "type": "string" },
+        { "name": "title", "type": "string" },
+        { "name": "notes", "type": "array", "required": true, "desc": "Uma nota por etapa, em ordem; aceita HTML." }
+      ]
+    }
+  },
+
+  "components": {
+    "Callout": { "props": "icon (padrão lucide:info), tone (accent|good|warn|bad|info|muted)", "use": "Aparte destacado: a ressalva, o aviso.", "example": "<Callout tone=\"warn\" icon=\"lucide:triangle-alert\">A correspondência é <strong>aproximada</strong>.</Callout>" },
+    "Grid": { "props": "data (array 2D, HTML permitido), head (boolean), highlight (\"row:3\" | \"col:2\" | \"cell:3,2\", base 1 sobre `data` inteiro)", "use": "A tabela quando ela é o argumento.", "example": "<Grid :data=\"[['Sistema','Mecanismo'],['Renal','menor depuração']]\" head highlight=\"row:2\" />" },
+    "Stat": { "props": "value, unit, label, size (sm|md|lg|xl), icon, tone, accent", "use": "Um número com rótulo.", "example": "<Stat value=\"1,8\" unit=\" mi\" label=\"recrutas testados\" />" },
+    "StatCard": { "props": "os mesmos de Stat (padrão size=md, accent=false)", "use": "O número dentro de um cartão, para vários lado a lado.", "example": "<StatCard value=\"38\" unit=\"%\" label=\"prevalência\" />" },
+    "Tags": { "props": "items (array de strings)", "use": "Fileira de termos curtos que não merece virar bullets.", "example": "<Tags :items=\"['exaustão', 'fraqueza de preensão', 'lentidão da marcha']\" />" },
+    "Badge": { "props": "tone", "use": "Selo em linha, para um estado curto no meio do texto.", "example": "consenso <Badge tone=\"good\">estabelecido</Badge>" },
+    "Meter": { "props": "value, max (padrão 100), label, display, tone", "use": "Barra de proporção: quando a fração importa mais que a grandeza.", "example": "<Meter :value=\"38\" label=\"Cobertura\" />" },
+    "Icon": { "props": "name (lucide:*), size", "use": "Ícone, embutido no bundle (funciona offline e no PDF).", "example": "<Icon name=\"lucide:brain\" />" },
+    "Figure": { "props": "src, alt, caption, credit", "use": "Imagem ou diagrama com legenda — numa aula, a figura sem legenda é enfeite.", "example": "<Figure src=\"/corte.png\" caption=\"Atrofia cortical\" credit=\"Adaptado de …\" />" },
+    "Person": { "props": "name, role, photo", "use": "Atribuir uma teoria a quem a formulou, sem gastar um slide.", "example": "<Person name=\"Paul Baltes\" role=\"lifespan\" />" },
+    "Kbd": { "props": "—", "use": "Tecla, para atalhos.", "example": "<Kbd>o</Kbd> mostra todos os slides" },
+    "Terminal": { "props": "lines ([{cmd}|{out}]), title", "use": "Sessão de terminal.", "example": "<Terminal :lines=\"[{cmd:'npm run dev'}]\" />" },
+    "FileTree": { "props": "items ([{name, children}])", "use": "Árvore de arquivos.", "example": "<FileTree :items=\"[{name:'aulas', children:[{name:'aula-01.md'}]}]\" />" },
+    "Plot": { "props": "type, categories, series, unit, height, horizontal (apelido: BarChart)", "use": "Gráfico solto dentro de um corpo de slide.", "example": "<Plot type=\"line\" :categories=\"['20','40','60']\" :series=\"[{name:'Volume',data:[100,96,90]}]\" />" },
+    "Fit": { "props": "—", "use": "Encolhe o conteúdo para caber (os layouts já o aplicam).", "example": "<Fit>conteúdo longo</Fit>" },
+    "Ghost": { "props": "text", "use": "Glifo gigante ao fundo.", "example": "<Ghost text=\"03\" />" },
+    "Reveal": { "props": "delay", "use": "Entrada padrão do tema para conteúdo extra.", "example": "<Reveal :delay=\"120\">entra depois</Reveal>" }
+  }
+}

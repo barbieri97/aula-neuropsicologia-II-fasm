@@ -1,0 +1,36 @@
+{
+  "name": "slidev-theme-fasm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tema Slidev das aulas da FASM — papel claro, serifada nos títulos, um azul só.",
+  "license": "MIT",
+  "engines": {
+    "slidev": ">=52.0.0"
+  },
+  "bin": {
+    "fasm-lint": "./lint.mjs"
+  },
+  "scripts": {
+    "fonts": "node scripts/fetch-fonts.mjs"
+  },
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "shiki"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.0",
+    "@iconify/vue": "^5.0.0"
+  },
+  "devDependencies": {
+    "@slidev/types": "^52.19.0"
+  },
+  "peerDependencies": {
+    "echarts": "^5 || ^6"
+  },
+  "peerDependenciesMeta": {
+    "echarts": {
+      "optional": true
+    }
+  }
+}
