@@ -132,11 +132,18 @@
 .l-quote .frame-body { justify-content: center; }
 
 /* As aspas são desenhadas fora da coluna de texto: a primeira linha da citação
-   fica alinhada com as demais, em vez de recuada pela marca de abertura. */
+   fica alinhada com as demais, em vez de recuada pela marca de abertura.
+
+   A citação ocupa a LARGURA INTEIRA do slide. Antes havia um `max-width: 34ch`
+   aqui, e ele fazia duas coisas erradas ao mesmo tempo: o `ch` era medido na
+   fonte deste bloco (a sem serifa do corpo), não na serifada em que a citação é
+   de fato composta, e o resultado era uma coluna estreita encostada na margem
+   esquerda com metade do slide vazia à direita — o slide parecia desalinhado.
+   Sem a trava, a medida de leitura passa a ser governada pelo tamanho do texto
+   (abaixo), que é o lugar certo dela num bloco de uma frase só. */
 .quote-mark {
   position: relative;
-  padding-left: 3.25rem;
-  max-width: 34ch;
+  padding-left: 3.75rem;
   margin: 0;
 }
 
@@ -144,27 +151,37 @@
   content: '\201C';
   position: absolute;
   left: 0;
-  top: -0.32em;
+  top: -0.3em;
   font-family: var(--font-display);
-  font-size: 5.5rem;
+  font-size: 6.5rem;
   line-height: 1;
   color: var(--accent-line);
 }
 
+/* Grande o bastante para que uma citação de umas 40 palavras — o tamanho das
+   que aparecem nas aulas — encha as duas dimensões do slide, e não tão grande
+   que a linha passe de ~48 caracteres. */
 .quote-text {
   font-family: var(--font-display);
-  font-size: calc(var(--fs-display) * 0.62);
-  line-height: 1.28;
+  font-size: calc(var(--fs-display) * 0.78);
+  line-height: 1.26;
   font-style: italic;
   color: var(--ink);
   margin: 0;
   text-wrap: pretty;
 }
 
+/* A citação já é toda itálica, então <em> aqui marca com a cor do tema — mesma
+   regra dos títulos: uma cor de destaque só. */
+.quote-text em {
+  color: var(--accent);
+  font-style: italic;
+}
+
 .quote-author {
-  margin-top: 1.1rem;
+  margin-top: 1.25rem;
   font-family: var(--font-body);
-  font-size: var(--fs-small);
+  font-size: var(--fs-body);
   font-style: normal;
   color: var(--ink-2);
 }
@@ -255,7 +272,7 @@
 .column-title {
   font-family: var(--font-display);
   font-weight: 650;
-  font-size: 1.15rem;
+  font-size: calc(var(--fs-body) * 0.97);
   line-height: 1.25;
   color: var(--accent);
   margin: 0 0 0.75rem;
@@ -368,7 +385,7 @@
 .vs-title {
   font-family: var(--font-display);
   font-weight: 650;
-  font-size: 1.2rem;
+  font-size: calc(var(--fs-body) * 1.01);
   line-height: 1.25;
   color: var(--ink);
   margin: 0 0 0.8rem;
@@ -412,7 +429,7 @@
 .vs-label {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 1.4rem;
+  font-size: calc(var(--fs-body) * 1.18);
   color: var(--accent);
   background: var(--paper);
   padding: 0.35rem 0.15rem;
@@ -457,7 +474,7 @@
   border-radius: 50%;
   border: 1px solid var(--accent-line);
   background: var(--paper);
-  font-size: 1.05rem;
+  font-size: calc(var(--fs-body) * 0.88);
   color: var(--accent);
   position: relative;
   z-index: 1;
@@ -475,7 +492,7 @@
   gap: 0.45rem;
   font-family: var(--font-display);
   font-weight: 650;
-  font-size: 1.1rem;
+  font-size: calc(var(--fs-body) * 0.93);
   line-height: 1.25;
   color: var(--ink);
 }
@@ -509,7 +526,7 @@
 .agenda-item:last-child { border-bottom: 0; }
 
 .agenda-num {
-  font-size: 1.4rem;
+  font-size: calc(var(--fs-body) * 1.18);
   color: var(--accent-line);
   line-height: 1;
 }
@@ -522,7 +539,7 @@
 .agenda-topic {
   font-family: var(--font-display);
   font-weight: 650;
-  font-size: 1.18rem;
+  font-size: calc(var(--fs-body) * 0.99);
   line-height: 1.25;
   color: var(--ink);
 }
@@ -634,7 +651,7 @@
 .tl-title {
   font-family: var(--font-display);
   font-weight: 650;
-  font-size: 1.05rem;
+  font-size: calc(var(--fs-body) * 0.88);
   line-height: 1.25;
   color: var(--ink);
 }
@@ -717,7 +734,7 @@
 }
 
 .feature-icon {
-  font-size: 1.5rem;
+  font-size: calc(var(--fs-body) * 1.26);
   color: var(--accent);
   margin-bottom: 0.5rem;
   display: block;
@@ -726,7 +743,7 @@
 .feature-title {
   font-family: var(--font-display);
   font-weight: 650;
-  font-size: 1.1rem;
+  font-size: calc(var(--fs-body) * 0.93);
   line-height: 1.25;
   color: var(--ink);
   margin: 0 0 0.3rem;
@@ -1059,7 +1076,7 @@
 .ce-note.dim { opacity: 0.34; }
 
 .ce-num {
-  font-size: 0.95rem;
+  font-size: calc(var(--fs-body) * 0.8);
   color: var(--accent);
   line-height: 1.5;
 }

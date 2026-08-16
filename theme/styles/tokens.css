@@ -77,20 +77,31 @@
   --font-mono: ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, monospace;
 
   /* Escala de tipo. O canvas do Slidev tem 980px de largura, então estes px são
-     px de canvas — a projeção escala tudo junto. O corpo em 19px é generoso de
-     propósito: é o número que decide se o fundo da sala enxerga. */
-  --fs-kicker: 0.8125rem;  /* 13px */
-  --fs-caption: 0.8125rem; /* 13px */
-  --fs-small: 0.9375rem;   /* 15px */
-  --fs-body: 1.1875rem;    /* 19px */
-  --fs-lead: 1.375rem;     /* 22px — corpo de slide curto, entradas de lista */
+     px de canvas — a projeção escala tudo junto.
+
+     A escala é COMPRIMIDA de baixo para cima: os três degraus grandes (título,
+     display, mega) estão como sempre estiveram, e os pequenos subiram até
+     encostar neles. O motivo é sala de aula real, não gosto: a turma reclamou
+     de não enxergar justamente o texto sem destaque — o corpo, a legenda, a
+     entrada de lista — enquanto os títulos nunca foram problema. Aumentar tudo
+     junto não resolveria isso e ainda cobraria o dobro de altura, que é o
+     recurso escasso aqui (o canvas tem 552px e o <Fit> encolhe o que não cabe).
+
+     Então: corpo de 19 → 22px, e os degraus abaixo dele na mesma proporção. */
+  --fs-kicker: 0.875rem;   /* 14px */
+  --fs-caption: 0.9375rem; /* 15px */
+  --fs-small: 1.0625rem;   /* 17px */
+  --fs-body: 1.375rem;     /* 22px — o número que decide se o fundo da sala lê */
+  --fs-lead: 1.5625rem;    /* 25px — corpo de slide curto, entradas de lista */
   --fs-title: 2.125rem;    /* 34px — título de slide de conteúdo */
   --fs-display: 3.25rem;   /* 52px — abertura, statement */
   --fs-mega: 5.5rem;       /* 88px — numeral gigante (metric, fact) */
 
   --lh-tight: 1.14;
   --lh-title: 1.2;
-  --lh-body: 1.6;
+  /* 1.5 e não 1.6: com o corpo em 22px a linha já tem altura de sobra, e cada
+     décimo aqui vira altura de slide — que sai do orçamento do <Fit>. */
+  --lh-body: 1.5;
 
   --ls-kicker: 0.14em;  /* versalete só funciona com entreletra generosa */
   --ls-display: -0.018em;
@@ -103,7 +114,7 @@
      cabeçalho com título já come ~120: cada rem gasto em respiro vertical sai
      direto da área útil e obriga o <Fit> a encolher o texto. */
   --pad-x: 3.75rem;
-  --pad-y: 2.25rem;
+  --pad-y: 2rem;
   --gap: 1.5rem;
   --gap-sm: 0.75rem;
   --gap-lg: 2.25rem;

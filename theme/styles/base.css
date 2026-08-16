@@ -424,7 +424,7 @@ body {
 .card-title {
   font-family: var(--font-display);
   font-weight: 650;
-  font-size: 1.05rem;
+  font-size: calc(var(--fs-body) * 0.88);
   line-height: 1.25;
   color: var(--ink);
   margin-bottom: 0.4rem;
