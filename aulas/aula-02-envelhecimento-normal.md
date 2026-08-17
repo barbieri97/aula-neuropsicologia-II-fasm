@@ -249,8 +249,6 @@ stats:
 
 <!--
 Dados de Pedrão (2011), citados no capítulo 2. No levantamento brasileiro de 2009 (Souza & Russo), 62,5% dos idosos apresentavam perda auditiva.
-
-Traduza a estatística em rotina: se nove em cada dez pacientes acima de 80 anos têm perda auditiva, a pergunta sobre audição deixa de ser triagem e passa a ser procedimento padrão.
 -->
 
 ---
@@ -581,7 +579,8 @@ Coloquei o alerta porque o mapa "um neurotransmissor, uma função" é didático
 ---
 layout: statement
 kicker: A frase que fecha esta parte
-title: Muitas das características histológicas do Alzheimer e do Parkinson aparecem, <em>em menor proporção</em>, no envelhecimento normal.
+title: Muitas das características histológicas do Alzheimer e do Parkinson
+  aparecem, <em>em menor proporção</em>, no envelhecimento normal.
 ---
 
 <!--
@@ -593,7 +592,8 @@ O perfil da doença parece ser uma exacerbação do perfil do envelhecimento: é
 ---
 layout: bigtype
 kicker: Uma síntese parcial
-title: O substrato muda de forma mensurável. O desempenho, em muitos domínios, <em>se mantém</em>.
+title: O substrato muda de forma mensurável. O desempenho, em muitos domínios,
+  <em>se mantém</em>.
 ---
 
 <!--
@@ -618,7 +618,8 @@ label: ×
 left:
   title: Sensível à idade
   items:
-    - "<strong>Velocidade de processamento</strong> — o declínio mais precoce e mais geral"
+    - "<strong>Velocidade de processamento</strong> — o declínio mais precoce e
+      mais geral"
     - "Memória episódica, sobretudo a <em>recuperação livre</em>"
     - "Memória de trabalho, quando exige manipulação"
     - "Atenção dividida e alternância entre tarefas"
@@ -750,7 +751,7 @@ title: O padrão que parece frontal
 - Atenção **sustentada** e **seletiva simples**: relativamente preservadas
 - Atenção **dividida** e **alternância** entre tarefas: claramente sensíveis à idade
 - Maior dificuldade em **inibir o irrelevante** — o filtro fica menos eficiente
-- Flexibilidade e formação de conceitos declinam; o conhecimento acumulado compensa quando o problema é familiar
+- Flexibilidade e formação de conceitos declinam; o conhecimento acumulado compensa.
 
 </v-clicks>
 
@@ -763,9 +764,7 @@ title: O padrão que parece frontal
 </v-click>
 
 <!--
-A hipótese frontal do envelhecimento (West, 1996) descreve bem o padrão e explica mal a causa: o gradiente pré-frontal é real, mas o desempenho executivo é o mais inespecífico de todos os domínios — é o primeiro a cair sob qualquer condição adversa.
-
-Daí a regra: achado executivo isolado é hipótese, nunca conclusão. Ele obriga a revisar humor, sono, dor, fármaco e audição antes de qualquer outra coisa.
+achado executivo isolado é hipótese, nunca conclusão. Ele obriga a revisar humor, sono, dor, fármaco e audição antes de qualquer outra coisa.
 -->
 
 ---
@@ -859,12 +858,37 @@ kicker: O que a literatura associa a maior reserva
 title: Fatores de enriquecimento ao longo da vida
 columns: 3
 features:
-  - { icon: "lucide:graduation-cap", title: "Escolaridade", desc: "anos de estudo formal — o preditor mais consistente" }
-  - { icon: "lucide:briefcase", title: "Complexidade ocupacional", desc: "demanda cognitiva sustentada ao longo da vida laboral" }
-  - { icon: "lucide:footprints", title: "Atividade física", desc: "efeito vascular e neurotrófico; o capítulo cita aumento do fluxo cerebral" }
-  - { icon: "lucide:users", title: "Engajamento social", desc: "redes de relação e participação em atividades" }
-  - { icon: "lucide:languages", title: "Bilinguismo", desc: "exercício sustentado de controle cognitivo; evidência mais debatida" }
-  - { icon: "lucide:book-open", title: "Atividades de lazer cognitivo", desc: "leitura, música, jogos — medida por índices compostos" }
+  - {
+      icon: "lucide:graduation-cap",
+      title: "Escolaridade",
+      desc: "anos de estudo formal — o preditor mais consistente"
+    }
+  - {
+      icon: "lucide:briefcase",
+      title: "Complexidade ocupacional",
+      desc: "demanda cognitiva sustentada ao longo da vida laboral"
+    }
+  - {
+      icon: "lucide:footprints",
+      title: "Atividade física",
+      desc: "efeito vascular e neurotrófico; o capítulo cita aumento do fluxo
+        cerebral"
+    }
+  - {
+      icon: "lucide:users",
+      title: "Engajamento social",
+      desc: "redes de relação e participação em atividades"
+    }
+  - {
+      icon: "lucide:languages",
+      title: "Bilinguismo",
+      desc: "exercício sustentado de controle cognitivo; evidência mais debatida"
+    }
+  - {
+      icon: "lucide:book-open",
+      title: "Atividades de lazer cognitivo",
+      desc: "leitura, música, jogos — medida por índices compostos"
+    }
 ---
 
 <!--
@@ -951,11 +975,14 @@ O quinto item merece destaque: início súbito e curso flutuante são, antes de 
 layout: define
 kicker: A queixa mais comum do ambulatório
 term: Declínio cognitivo subjetivo
-definition: A queixa de piora da própria memória <span class="accent2">sem alteração objetiva</span> nos testes.
+definition: A queixa de piora da própria memória <span class="accent2">sem
+  alteração objetiva</span> nos testes.
 points:
   - "Muito frequente — e associada, em média, a maior risco de progressão"
-  - "Mas a autoqueixa se correlaciona mais com humor e ansiedade do que com desempenho"
-  - "A queixa do <em>informante</em> prediz melhor a evolução do que a do próprio paciente"
+  - "Mas a autoqueixa se correlaciona mais com humor e ansiedade do que com
+    desempenho"
+  - "A queixa do <em>informante</em> prediz melhor a evolução do que a do
+    próprio paciente"
   - "Conduta: nem descartar nem diagnosticar — acompanhar, e tratar humor e sono"
 aside: "aprofundando"
 ---
@@ -971,7 +998,6 @@ layout: section
 index: "05"
 kicker: Parte cinco
 title: O terreno psicológico e social
-subtitle: Capítulo 3 — o que sustenta e o que derruba o desempenho
 ---
 
 ---
@@ -1011,7 +1037,7 @@ definition: Conhecimento <span class="accent2">especializado</span> sobre fatos
 ---
 
 <!--
-Baltes & Baltes (1986); Baltes & Smith (1995); Gerstorf, Smith & Baltes (2006). O último ponto é o que amarra esta parte às anteriores: sabedoria é uma conquista que depende de um cérebro preservado. Não é consolo poético — é um desfecho que a patologia interrompe.
+Baltes & Baltes (1986); Baltes & Smith (1995); Gerstorf, Smith & Baltes (2006).
 -->
 
 ---
@@ -1161,10 +1187,45 @@ layout: panels
 kicker: Estatuto do Idoso · Lei 10.741/2003
 title: O que a norma garante
 panels:
-  - { icon: "lucide:scale", title: "Princípio da igualdade", items: ["Atendimento prioritário em serviços públicos e privados", "Preferência na formulação de políticas sociais", "Compensa a condição de hipossuficiência"] }
-  - { icon: "lucide:bus", title: "Aplicação imediata", items: ["Gratuidade no transporte coletivo urbano aos maiores de 65 anos", "Reserva de vagas e assentos preferenciais", "Desconto mínimo de 50% em eventos culturais e esportivos"] }
-  - { icon: "lucide:gavel", title: "Proteção penal", items: ["Criminaliza condutas praticadas contra idosos", "Aumenta penas para qualificar esses crimes", "Regulamenta os artigos 229 e 230 da Constituição"] }
-  - { icon: "lucide:banknote", title: "Previdência", items: ["Preserva o valor real dos salários no cálculo de aposentadorias", "Protege a qualidade de vida de oscilações macroeconômicas"] }
+  - {
+      icon: "lucide:scale",
+      title: "Princípio da igualdade",
+      items:
+        [
+          "Atendimento prioritário em serviços públicos e privados",
+          "Preferência na formulação de políticas sociais",
+          "Compensa a condição de hipossuficiência"
+        ]
+    }
+  - {
+      icon: "lucide:bus",
+      title: "Aplicação imediata",
+      items:
+        [
+          "Gratuidade no transporte coletivo urbano aos maiores de 65 anos",
+          "Reserva de vagas e assentos preferenciais",
+          "Desconto mínimo de 50% em eventos culturais e esportivos"
+        ]
+    }
+  - {
+      icon: "lucide:gavel",
+      title: "Proteção penal",
+      items:
+        [
+          "Criminaliza condutas praticadas contra idosos",
+          "Aumenta penas para qualificar esses crimes",
+          "Regulamenta os artigos 229 e 230 da Constituição"
+        ]
+    }
+  - {
+      icon: "lucide:banknote",
+      title: "Previdência",
+      items:
+        [
+          "Preserva o valor real dos salários no cálculo de aposentadorias",
+          "Protege a qualidade de vida de oscilações macroeconômicas"
+        ]
+    }
 ---
 
 <!--
@@ -1288,7 +1349,7 @@ kicker: Recapitulando
 title: Seis camadas, uma conduta cada
 ---
 
-<Grid :data="[['Camada', 'O que muda', 'O que fazer com isso'], ['Corpo', 'perda de reserva em todos os sistemas', 'sessões mais curtas, pausas, atenção aos fármacos'], ['Sensorial', 'presbiopia e presbiacusia, quase universais', 'corrigir e registrar antes de interpretar qualquer escore'], ['Cérebro', 'menos sinapse e menos substância branca — não menos neurônio', 'esperar lentificação e desconexão, não perda de conhecimento'], ['Cognição', 'velocidade, recuperação e executivo; semântica preservada', 'usar pista, controlar o tempo, comparar por escolaridade'], ['Psicológico', 'humor, autoeficácia e estereótipo afetam o desempenho', 'cuidar do enquadre da sessão e da devolutiva'], ['Social', 'escolaridade e condições de vida distribuem a reserva', 'ler o escore contra a biografia, nunca sozinho']]" head highlight="row:3" />
+<Grid :data="[['Camada', 'O que muda', 'O que fazer com isso'], ['Corpo', 'perda de reserva em todos os sistemas', 'sessões mais curtas, pausas, atenção aos fármacos'], ['Sensorial', 'presbiopia e presbiacusia, quase universais', 'corrigir e registrar antes de interpretar qualquer escore'], ['Cérebro', 'menos sinapse e menos substância branca — não menos neurônio', 'esperar lentificação e desconexão, não perda de conhecimento'], ['Cognição', 'velocidade, recuperação e executivo; semântica preservada', 'usar pista, controlar o tempo, comparar por escolaridade'], ['Psicológico', 'humor, autoeficácia e estereótipo afetam o desempenho', 'cuidar do enquadre da sessão e da devolutiva'], ['Social', 'escolaridade e condições de vida distribuem a reserva', 'ler o escore contra a biografia, nunca sozinho']]" head highlight="row:5" />
 
 <!--
 A linha destacada é a única em que a repercussão não é sobre a cognição, mas sobre a medida da cognição. Essa distinção é o ponto mais fino da aula — e a razão pela qual a parte dois cresceu.
