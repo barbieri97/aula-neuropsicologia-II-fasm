@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escala de Depressão Geriátrica (GDS-15) — ficha imprimível</title>
+<style>
+  @page { size: A4; margin: 14mm 13mm; }
+
+  :root {
+    --ink: #1b1b19;
+    --ink-2: #4a4a45;
+    --ink-3: #6b6b63;
+    --accent: #1d3e6e;
+    --accent-soft: #e7ecf3;
+    --rule: #b9c6da;
+    --score: #dfe5ee;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 18mm 14mm;
+    background: #f4f4f0;
+    color: var(--ink);
+    font-family: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+
+  .sheet {
+    width: 184mm;
+    margin: 0 auto 10mm;
+    padding: 12mm;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0,0,0,.14);
+  }
+
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 6px; margin-bottom: 12px; }
+  .kicker { font-size: 8.5pt; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1 { font-family: "Source Serif 4", Georgia, serif; font-size: 17pt; margin: 3px 0 2px; font-weight: 600; }
+  .sub { font-size: 9.5pt; color: var(--ink-3); }
+
+  .ident { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 10px 0 14px; font-size: 9.5pt; }
+  .ident > div { flex: 1 1 auto; border-bottom: 1px solid var(--rule); padding: 10px 0 3px; min-width: 46mm; }
+  .ident .wide { flex-basis: 100%; }
+  .ident span { color: var(--ink-3); }
+
+  .instr { background: var(--accent-soft); border-left: 3px solid var(--accent); padding: 7px 10px; font-size: 9.5pt; margin-bottom: 12px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 10pt; }
+  thead th { font-size: 8.5pt; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); font-weight: 700; padding-bottom: 5px; border-bottom: 1.5px solid var(--ink); text-align: left; }
+  thead th.opt { text-align: center; width: 17mm; }
+  tbody td { padding: 5.2px 4px; border-bottom: 1px solid #e6e6e0; vertical-align: middle; }
+  tbody td.num { width: 8mm; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+  tbody td.opt { text-align: center; width: 17mm; font-weight: 600; }
+  td.scores { background: var(--score); }
+  tbody tr:last-child td { border-bottom: none; }
+
+  .total { display: flex; align-items: center; gap: 10px; margin-top: 10px; padding-top: 9px; border-top: 1.5px solid var(--ink); font-size: 10.5pt; font-weight: 700; }
+  .total .box { width: 22mm; height: 11mm; border: 1.5px solid var(--ink); }
+  .total .hint { font-weight: 400; font-size: 9pt; color: var(--ink-3); }
+
+  .key { margin-top: 12px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .key section { border: 1px solid var(--rule); padding: 8px 10px; }
+  .key h2 { font-size: 9pt; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); margin: 0 0 5px; }
+  .key ul { margin: 0; padding-left: 15px; font-size: 9pt; }
+  .key li { margin-bottom: 2px; }
+  .cut { background: var(--accent-soft); border-color: var(--accent); }
+  .cut strong { font-size: 11pt; }
+
+  footer { margin-top: 12px; padding-top: 7px; border-top: 1px solid var(--rule); font-size: 8pt; color: var(--ink-3); line-height: 1.45; }
+
+  /* --- folha 2: apuração da dinâmica --- */
+  .grid3 thead th.v { text-align: center; width: 24mm; }
+  .grid3 tbody td.v { text-align: center; border-left: 1px solid #e6e6e0; }
+  .interp { margin-top: 12px; }
+  .interp table td { height: 17mm; vertical-align: top; }
+  .interp table td.lbl { width: 26mm; font-size: 9pt; color: var(--ink-3); font-weight: 600; }
+
+  @media print {
+    body { background: #fff; padding: 0; font-size: 10.5pt; }
+    .sheet { width: auto; margin: 0; padding: 0; box-shadow: none; }
+    .sheet + .sheet { page-break-before: always; padding-top: 0; }
+    td.scores { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .instr, .cut { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== FOLHA 1 — a escala ===================== -->
+<div class="sheet">
+  <header>
+    <div class="kicker">Neuropsicologia II · FASM · Aula 03</div>
+    <h1>Escala de Depressão Geriátrica — GDS-15</h1>
+    <div class="sub">Yesavage et al. (1983); versão de 15 itens de Sheikh e Yesavage (1986). Instrumento de <strong>rastreio</strong> — não estabelece diagnóstico.</div>
+  </header>
+
+  <div class="ident">
+    <div class="wide"><span>Nome</span></div>
+    <div><span>Data de nascimento</span></div>
+    <div><span>Idade</span></div>
+    <div><span>Escolaridade (anos)</span></div>
+    <div><span>Data da avaliação</span></div>
+    <div><span>Avaliador</span></div>
+    <div><span>Forma de aplicação (hetero / auto)</span></div>
+  </div>
+
+  <div class="instr">
+    <strong>Instrução ao avaliado:</strong> pensando em <strong>como o(a) senhor(a) tem se sentido na última semana</strong>, responda
+    <strong>sim</strong> ou <strong>não</strong> a cada pergunta. Não existe resposta “mais ou menos”.
+    <br><strong>Ao avaliador:</strong> leia a pergunta como está escrita. Se não for compreendida, repita mais devagar, sem interpretar as palavras — até três tentativas. Item não respondido fica em branco; <strong>não infira a resposta</strong>.
+  </div>
+
+  <table>
+    <thead>
+      <tr><th colspan="2">Pergunta</th><th class="opt">Sim</th><th class="opt">Não</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="num">1</td><td>Está satisfeito(a) com a sua vida?</td><td class="opt">SIM</td><td class="opt scores">NÃO</td></tr>
+      <tr><td class="num">2</td><td>Interrompeu muitas de suas atividades e interesses?</td><td class="opt scores">SIM</td><td class="opt">NÃO</td></tr>
+      <tr><td class="num">3</td><td>Acha que a sua vida está vazia?</td><td class="opt scores">SIM</td><td class="opt">NÃO</td></tr>
+      <tr><td class="num">4</td><td>Aborrece-se com frequência?</td><td class="opt scores">SIM</td><td class="opt">NÃO</td></tr>
+      <tr><td class="num">5</td><td>Sente-se de bem com a vida na maior parte do tempo?</td><td class="opt">SIM</td><td class="opt scores">NÃO</td></tr>
+      <tr><td class="num">6</td><td>Teme que algo de ruim lhe aconteça?</td><td class="opt scores">SIM</td><td class="opt">NÃO</td></tr>
+      <tr><td class="num">7</td><td>Sente-se alegre a maior parte do tempo?</td><td class="opt">SIM</td><td class="opt scores">NÃO</td></tr>
+      <tr><td class="num">8</td><td>Sente-se desamparado(a) com frequência?</td><td class="opt scores">SIM</td><td class="opt">NÃO</td></tr>
+      <tr><td class="num">9</td><td>Prefere ficar em casa a sair e fazer coisas novas?</td><td class="opt scores">SIM</td><td class="opt">NÃO</td></tr>
+      <tr><td class="num">10</td><td>Acha que tem mais problemas de memória que as outras pessoas?</td><td class="opt scores">SIM</td><td class="opt">NÃO</td></tr>
+      <tr><td class="num">11</td><td>Acha que é maravilhoso estar vivo(a) agora?</td><td class="opt">SIM</td><td class="opt scores">NÃO</td></tr>
+      <tr><td class="num">12</td><td>Vale a pena viver como agora?</td><td class="opt">SIM</td><td class="opt scores">NÃO</td></tr>
+      <tr><td class="num">13</td><td>Sente-se cheio(a) de energia?</td><td class="opt">SIM</td><td class="opt scores">NÃO</td></tr>
+      <tr><td class="num">14</td><td>Acha que a sua situação tem solução?</td><td class="opt">SIM</td><td class="opt scores">NÃO</td></tr>
+      <tr><td class="num">15</td><td>Acha que tem muita gente em situação melhor que a sua?</td><td class="opt scores">SIM</td><td class="opt">NÃO</td></tr>
+    </tbody>
+  </table>
+
+  <div class="total">
+    <span>Total de pontos</span>
+    <span class="box"></span>
+    <span class="hint">Some 1 ponto para cada resposta assinalada na <strong>coluna sombreada</strong>. Registre também quantos itens ficaram sem resposta.</span>
+  </div>
+
+  <div class="key">
+    <section class="cut">
+      <h2>Ponto de corte</h2>
+      <p style="margin:0 0 4px"><strong>5/6</strong> — escore de <strong>6 ou mais</strong> é rastreamento positivo.</p>
+      <ul>
+        <li>Sensibilidade 81,1% · especificidade 71,1% · AUC 0,85 (Paradela, Lourenço e Veras, 2005)</li>
+        <li>Positivo significa <strong>investigar</strong> com entrevista clínica — não diagnosticar</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Faixas descritivas da ficha de uso corrente</h2>
+      <ul>
+        <li>0 a 5 — sem indicativo de depressão</li>
+        <li>6 a 10 — indicativo de depressão leve</li>
+        <li>11 a 15 — indicativo de depressão grave</li>
+        <li style="color:#8a5a12"><strong>Atenção:</strong> a graduação em três faixas é convenção de uso; o que os estudos validaram foi o ponto de corte binário</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <strong>Limites.</strong> A GDS-15 não mede risco de suicídio — não há item sobre ideação; isso se investiga na entrevista.
+    Sua acurácia cai em idosos com comprometimento cognitivo (Park, 2020); na doença de Alzheimer leve, a área sob a curva foi de 0,66, não diferente do acaso (Burke et al., 1989).
+    Em comprometimento grave, use a Cornell Scale for Depression in Dementia, que combina observação direta e entrevista com informante.
+    <br><strong>Fontes.</strong> Yesavage et al. (1983); Sheikh e Yesavage (1986); Almeida e Almeida (1999), <em>Int J Geriatr Psychiatry</em> 14(10):858-865 e <em>Arq Neuropsiquiatr</em> 57(2B):421-426; Paradela, Lourenço e Veras (2005), <em>Rev Saúde Pública</em> 39(6):918-923. A GDS é de uso livre.
+  </footer>
+</div>
+
+<!-- ===================== FOLHA 2 — dinâmica ===================== -->
+<div class="sheet">
+  <header>
+    <div class="kicker">Neuropsicologia II · FASM · Aula 03 · dinâmica em grupo</div>
+    <h1>Folha de apuração das três vinhetas</h1>
+    <div class="sub">Marque, em cada coluna, o ponto obtido em cada item. Depois some e responda às três perguntas do rodapé.</div>
+  </header>
+
+  <div class="ident">
+    <div><span>Grupo</span></div>
+    <div class="wide"><span>Integrantes</span></div>
+  </div>
+
+  <table class="grid3">
+    <thead>
+      <tr>
+        <th colspan="2">Item</th>
+        <th class="v">1 · D. Ivone</th>
+        <th class="v">2 · Sr. Aparecido</th>
+        <th class="v">3 · D. Terezinha</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="num">1</td><td>Satisfeito(a) com a vida? <em>(pontua NÃO)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">2</td><td>Interrompeu atividades? <em>(pontua SIM)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">3</td><td>Vida vazia? <em>(pontua SIM)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">4</td><td>Aborrece-se com frequência? <em>(pontua SIM)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">5</td><td>De bem com a vida? <em>(pontua NÃO)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">6</td><td>Teme que algo ruim aconteça? <em>(pontua SIM)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">7</td><td>Alegre a maior parte do tempo? <em>(pontua NÃO)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">8</td><td>Sente-se desamparado(a)? <em>(pontua SIM)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">9</td><td>Prefere ficar em casa? <em>(pontua SIM)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">10</td><td>Mais problemas de memória? <em>(pontua SIM)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">11</td><td>Maravilhoso estar vivo(a)? <em>(pontua NÃO)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">12</td><td>Vale a pena viver assim? <em>(pontua NÃO)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">13</td><td>Cheio(a) de energia? <em>(pontua NÃO)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">14</td><td>Situação tem solução? <em>(pontua NÃO)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num">15</td><td>Muita gente em situação melhor? <em>(pontua SIM)</em></td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+      <tr><td class="num"></td><td style="font-weight:700">Total</td><td class="v scores"></td><td class="v scores"></td><td class="v scores"></td></tr>
+      <tr><td class="num"></td><td>Itens sem resposta</td><td class="v"></td><td class="v"></td><td class="v"></td></tr>
+    </tbody>
+  </table>
+
+  <div class="interp">
+    <table>
+      <tbody>
+        <tr><td class="lbl">Vinheta 1<br>conduta</td><td></td></tr>
+        <tr><td class="lbl">Vinheta 2<br>conduta</td><td></td></tr>
+        <tr><td class="lbl">Vinheta 3<br>conduta</td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    Para cada vinheta, responda em uma frase: <strong>(a)</strong> o escore está acima ou abaixo do corte 5/6? <strong>(b)</strong> o escore é interpretável? <strong>(c)</strong> qual a conduta, e por quê?
+  </footer>
+</div>
+
+</body>
+</html>
