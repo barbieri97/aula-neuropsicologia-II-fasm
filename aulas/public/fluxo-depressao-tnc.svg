@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" width="960" height="660" role="img" aria-label="Fluxograma de decisão diante de queixa cognitiva no idoso: examinar instalação e curso, origem da queixa, comportamento no teste e ordem de aparecimento do humor; três desfechos possíveis — quadro depressivo provável, transtorno neurocognitivo provável, ou coexistência que exige reavaliação após tratamento do humor.">
+  <rect width="960" height="660" fill="#fdfdfb"/>
+
+  <g font-family="Source Sans 3, Segoe UI, system-ui, sans-serif">
+
+    <!-- Entrada -->
+    <rect x="330" y="24" width="300" height="56" rx="4" fill="#1d3e6e"/>
+    <text x="480" y="59" text-anchor="middle" font-size="17" font-weight="600" fill="#fdfdfb">Queixa cognitiva no idoso</text>
+    <path d="M480 80 V112" stroke="#1d3e6e" stroke-width="3"/>
+    <path d="M472 106 l8 12 8 -12" fill="none" stroke="#1d3e6e" stroke-width="3"/>
+
+    <!-- Bloco das quatro perguntas -->
+    <rect x="150" y="118" width="660" height="214" rx="4" fill="#fdfdfb" stroke="#1d3e6e" stroke-width="2"/>
+    <text x="180" y="150" font-size="16" font-weight="700" fill="#1d3e6e">Quatro perguntas, antes de qualquer escore</text>
+
+    <g font-size="14.5" fill="#1b1b19">
+      <text x="180" y="184" font-weight="600">1.</text><text x="206" y="184">Instalação e curso: semanas e datável, ou meses e insidioso?</text>
+      <text x="180" y="218" font-weight="600">2.</text><text x="206" y="218">Quem traz a queixa: o próprio paciente, ou o acompanhante?</text>
+      <text x="180" y="252" font-weight="600">3.</text><text x="206" y="252">No teste: desiste e responde &#8220;não sei&#8221;, ou tenta e erra por aproximação?</text>
+      <text x="180" y="286" font-weight="600">4.</text><text x="206" y="286">O que veio primeiro: a alteração do humor, ou a do desempenho?</text>
+    </g>
+    <text x="180" y="316" font-size="13.5" fill="#6b6b63">Nenhuma delas decide sozinha. O padrão das quatro é que orienta.</text>
+
+    <!-- Conectores para os três desfechos -->
+    <path d="M480 332 V368" stroke="#1d3e6e" stroke-width="3"/>
+    <path d="M170 368 H790" stroke="#1d3e6e" stroke-width="3"/>
+    <g stroke="#1d3e6e" stroke-width="3">
+      <path d="M170 368 V400"/>
+      <path d="M480 368 V400"/>
+      <path d="M790 368 V400"/>
+    </g>
+
+    <!-- Desfecho 1: depressão -->
+    <rect x="42" y="400" width="256" height="176" rx="4" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="2"/>
+    <text x="170" y="432" text-anchor="middle" font-size="16" font-weight="700" fill="#1d3e6e">Quadro depressivo provável</text>
+    <g font-size="13.5" fill="#1b1b19" text-anchor="middle">
+      <text x="170" y="462">instalação em semanas</text>
+      <text x="170" y="484">queixa espontânea e enfática</text>
+      <text x="170" y="506">esforço baixo, &#8220;não sei&#8221;</text>
+      <text x="170" y="528">humor mudou primeiro</text>
+      <text x="170" y="556" font-weight="600" fill="#1d3e6e">Tratar e reavaliar</text>
+    </g>
+
+    <!-- Desfecho 2: coexistência -->
+    <rect x="352" y="400" width="256" height="176" rx="4" fill="#f4ece0" stroke="#8a5a12" stroke-width="2"/>
+    <text x="480" y="432" text-anchor="middle" font-size="16" font-weight="700" fill="#8a5a12">Os dois, ao mesmo tempo</text>
+    <g font-size="13.5" fill="#1b1b19" text-anchor="middle">
+      <text x="480" y="462">o cenário mais comum</text>
+      <text x="480" y="484">na clínica geriátrica</text>
+      <text x="480" y="506">não se decide na primeira</text>
+      <text x="480" y="528">avaliação</text>
+      <text x="480" y="556" font-weight="600" fill="#8a5a12">Reavaliar em 6–12 semanas</text>
+    </g>
+
+    <!-- Desfecho 3: TNC -->
+    <rect x="662" y="400" width="256" height="176" rx="4" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="2"/>
+    <text x="790" y="432" text-anchor="middle" font-size="16" font-weight="700" fill="#8c2f2f">Transtorno neurocognitivo provável</text>
+    <g font-size="13.5" fill="#1b1b19" text-anchor="middle">
+      <text x="790" y="462">instalação em meses</text>
+      <text x="790" y="484">queixa vem do acompanhante</text>
+      <text x="790" y="506">tenta, erra e confabula</text>
+      <text x="790" y="528">desempenho mudou primeiro</text>
+      <text x="790" y="556" font-weight="600" fill="#8c2f2f">Investigação etiológica</text>
+    </g>
+
+    <!-- Rodapé -->
+    <line x1="42" y1="602" x2="918" y2="602" stroke="#b9c6da" stroke-width="1"/>
+    <text x="42" y="630" font-size="13.5" fill="#6b6b63">O tratamento adequado do humor é a única prova diagnóstica disponível: quem não recupera o desempenho depois de remitir o humor tem, muito provavelmente, os dois quadros.</text>
+  </g>
+</svg>

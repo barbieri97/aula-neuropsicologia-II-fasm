@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" aria-label="Linha do tempo da idade de início dos quadros: esquizofrenia de início precoce antes dos 40 anos, de início tardio a partir dos 40 e psicose esquizofreniforme de início muito tardio a partir dos 60; transtorno bipolar de início precoce antes dos 40 a 50 anos e tardio depois; depressão de início precoce e tardia com corte aos 60 anos; transtorno neurocognitivo maior concentrado a partir dos 65.">
+  <rect width="960" height="600" fill="#fdfdfb"/>
+
+  <g font-family="Source Sans 3, Segoe UI, system-ui, sans-serif">
+
+    <!-- Eixo -->
+    <line x1="120" y1="512" x2="912" y2="512" stroke="#1b1b19" stroke-width="3"/>
+    <g stroke="#1b1b19" stroke-width="2">
+      <path d="M120 512 V524"/><path d="M233 512 V524"/><path d="M346 512 V524"/>
+      <path d="M459 512 V524"/><path d="M572 512 V524"/><path d="M685 512 V524"/>
+      <path d="M798 512 V524"/><path d="M911 512 V524"/>
+    </g>
+    <g font-size="14" fill="#4a4a45" text-anchor="middle">
+      <text x="120" y="546">20</text><text x="233" y="546">30</text><text x="346" y="546">40</text>
+      <text x="459" y="546">50</text><text x="572" y="546">60</text><text x="685" y="546">70</text>
+      <text x="798" y="546">80</text><text x="911" y="546">90</text>
+    </g>
+    <text x="516" y="576" font-size="14.5" fill="#6b6b63" text-anchor="middle">idade de início (anos)</text>
+
+    <!-- Linhas verticais de corte -->
+    <g stroke="#b9c6da" stroke-width="1.5" stroke-dasharray="5 5">
+      <path d="M346 60 V512"/>
+      <path d="M572 60 V512"/>
+    </g>
+    <g font-size="13.5" fill="#1d3e6e" font-weight="700" text-anchor="middle">
+      <text x="346" y="50">40 anos</text>
+      <text x="572" y="50">60 anos</text>
+    </g>
+
+    <!-- Faixa 1: esquizofrenia -->
+    <text x="20" y="102" font-size="15" font-weight="700" fill="#1b1b19">Esquizofrenia</text>
+    <rect x="120" y="112" width="226" height="42" rx="3" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="2"/>
+    <text x="233" y="139" text-anchor="middle" font-size="14" fill="#1b1b19">início precoce</text>
+    <rect x="346" y="112" width="226" height="42" rx="3" fill="#cdd9ea" stroke="#1d3e6e" stroke-width="2"/>
+    <text x="459" y="139" text-anchor="middle" font-size="14" fill="#1b1b19">início tardio</text>
+    <rect x="572" y="112" width="340" height="42" rx="3" fill="#1d3e6e"/>
+    <text x="742" y="139" text-anchor="middle" font-size="14" font-weight="600" fill="#fdfdfb">psicose esquizofreniforme de início muito tardio</text>
+
+    <!-- Faixa 2: transtorno bipolar -->
+    <text x="20" y="196" font-size="15" font-weight="700" fill="#1b1b19">Transtorno</text>
+    <text x="20" y="215" font-size="15" font-weight="700" fill="#1b1b19">bipolar</text>
+    <rect x="120" y="206" width="226" height="42" rx="3" fill="#e5eee9" stroke="#2c6047" stroke-width="2"/>
+    <text x="233" y="233" text-anchor="middle" font-size="14" fill="#1b1b19">início precoce</text>
+    <rect x="346" y="206" width="566" height="42" rx="3" fill="#2c6047"/>
+    <text x="629" y="233" text-anchor="middle" font-size="14" font-weight="600" fill="#fdfdfb">início tardio — corte entre 40 e 50 anos, ainda sem consenso</text>
+
+    <!-- Faixa 3: depressão -->
+    <text x="20" y="296" font-size="15" font-weight="700" fill="#1b1b19">Depressão</text>
+    <rect x="120" y="300" width="452" height="42" rx="3" fill="#f4ece0" stroke="#8a5a12" stroke-width="2"/>
+    <text x="346" y="327" text-anchor="middle" font-size="14" fill="#1b1b19">início precoce — mais comorbidade psiquiátrica e história familiar</text>
+    <rect x="572" y="300" width="340" height="42" rx="3" fill="#8a5a12"/>
+    <text x="742" y="327" text-anchor="middle" font-size="14" font-weight="600" fill="#fdfdfb">início tardio — mais lesão vascular</text>
+
+    <!-- Faixa 4: TNC -->
+    <text x="20" y="390" font-size="15" font-weight="700" fill="#1b1b19">Transtorno</text>
+    <text x="20" y="409" font-size="15" font-weight="700" fill="#1b1b19">neurocognitivo</text>
+    <path d="M459 436 C560 436 600 400 685 396 C770 392 830 392 912 392 L912 436 Z" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="2"/>
+    <text x="742" y="424" text-anchor="middle" font-size="14" fill="#1b1b19">incidência cresce de forma acelerada a partir dos 65</text>
+
+    <!-- Zona de sobreposição -->
+    <rect x="572" y="60" width="340" height="404" fill="#8c2f2f" opacity="0.045"/>
+    <text x="742" y="486" text-anchor="middle" font-size="14" font-weight="700" fill="#8c2f2f">a faixa em que os quatro se sobrepõem — e o diagnóstico diferencial deixa de ser acadêmico</text>
+  </g>
+</svg>
