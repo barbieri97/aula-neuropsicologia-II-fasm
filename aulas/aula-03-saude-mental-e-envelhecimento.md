@@ -31,12 +31,9 @@ items:
       desc: "depressão e transtorno bipolar: quadro, especificidades e cognição"
     }
   - {
-      topic: "Intervalo",
-      desc: "quinze minutos"
-    }
-  - {
       topic: "Transtornos psicóticos",
-      desc: "esquizofrenia, início tardio e o diferencial com o transtorno neurocognitivo"
+      desc: "esquizofrenia, início tardio e o diferencial com o transtorno
+        neurocognitivo"
     }
   - {
       topic: "A Escala de Depressão Geriátrica",
@@ -45,7 +42,7 @@ items:
 ---
 
 <!--
-Diga o desenho da noite antes de começar: dois blocos de conteúdo, intervalo, um terceiro bloco curto e a última hora inteira dedicada a um instrumento. Avise que a GDS será aplicada por eles, em grupo, sobre vinhetas — quem já sabe que vai usar presta outra atenção nas duas horas anteriores.
+D
 -->
 
 ---
@@ -72,16 +69,8 @@ O capítulo de referência abre com perguntas que a literatura ainda não fechou
 
 </v-clicks>
 
-<v-click>
-
-<Callout tone="muted" icon="lucide:help-circle">
-Nicolato e Alvarenga (2010) formulam as três e as deixam abertas. Não são retóricas: cada uma tem um programa de pesquisa em andamento e nenhuma tem resposta consensual.
-</Callout>
-
-</v-click>
-
 <!--
-Leia as três em voz alta e peça que anotem. Não comente ainda. O objetivo é que a turma passe a aula ouvindo os dados como material para responder — e perceba, no fim, que a resposta honesta a duas delas é "ainda não se sabe". Isso é conteúdo, não lacuna.
+L
 -->
 
 ---
@@ -93,13 +82,16 @@ definition: O estudo sistemático dos <em>sinais e sintomas</em> mentais — sua
   reconhecê-las de forma reprodutível.
 points:
   - "Descreve e classifica; não explica a causa nem prescreve o tratamento"
-  - "Trabalha com critérios operacionais — o que torna o diagnóstico comunicável entre profissionais"
-  - "Não é sinônimo de doença: um sintoma isolado não constitui quadro psicopatológico"
-  - "No idoso, os mesmos critérios foram construídos e validados em adultos jovens"
+  - "Trabalha com critérios operacionais — o que torna o diagnóstico comunicável
+    entre profissionais"
+  - "Não é sinônimo de doença: um sintoma isolado não constitui quadro
+    psicopatológico"
+  - "No idoso, os mesmos critérios foram construídos e validados em adultos
+    jovens"
 ---
 
 <!--
-Insista no último ponto: é a chave de toda a aula. Os critérios do DSM não foram derivados de amostras geriátricas. Isso não os invalida, mas explica por que o quadro do idoso frequentemente fica na borda do critério — e por que o capítulo diz, com todas as letras, que não há critérios diagnósticos específicos para depressão ou qualquer outro quadro no idoso.
+I
 -->
 
 ---
@@ -111,84 +103,47 @@ features:
   - {
       icon: "lucide:eye-off",
       title: "Apresentação",
-      desc: "Queixas somáticas inespecíficas, sintomas ansiosos, desamparo, queixa de memória e irritabilidade tomam o lugar da tristeza relatada (Gallo e Rabins, 1999)"
+      desc: "Queixas somáticas inespecíficas, sintomas ansiosos, desamparo, queixa de
+        memória e irritabilidade tomam o lugar da tristeza relatada (Gallo e
+        Rabins, 1999)"
     }
   - {
       icon: "lucide:layers",
       title: "Comorbidade clínica",
-      desc: "Insônia, dor, perda de apetite e fadiga têm várias causas simultâneas; o sintoma é creditado à doença de base e não ao humor"
+      desc: "Insônia, dor, perda de apetite e fadiga têm várias causas simultâneas; o
+        sintoma é creditado à doença de base e não ao humor"
     }
   - {
       icon: "lucide:pill",
       title: "Iatrogenia",
-      desc: "Anti-hipertensivos, antiparkinsonianos e corticosteroides produzem quadros depressivos; fármacos com carga anticolinérgica rebaixam o desempenho nos testes"
+      desc: "Anti-hipertensivos, antiparkinsonianos e corticosteroides produzem
+        quadros depressivos; fármacos com carga anticolinérgica rebaixam o
+        desempenho nos testes"
     }
   - {
       icon: "lucide:file-question",
       title: "Subdiagnóstico",
-      desc: "Casos de depressão são frequentemente subdiagnosticados e subtratados — inclusive dentro do hospital, onde a prevalência é maior"
+      desc: "Casos de depressão são frequentemente subdiagnosticados e subtratados —
+        inclusive dentro do hospital, onde a prevalência é maior"
     }
 ---
 
 <!--
-Quatro razões, quatro consequências diretas para a nossa prática. A primeira muda a anamnese; a segunda muda o que perguntamos ao médico assistente; a terceira muda o que pedimos antes de agendar a testagem; a quarta muda o que fazemos com um encaminhamento que veio com hipótese de demência. Peça um exemplo de cada da experiência de estágio deles.
+Q
 -->
 
 ---
-layout: image
-side: right
-image: /filtros-diagnostico-idoso.svg
-alt: Funil com quatro filtros entre o quadro psiquiátrico presente no idoso e o
-  diagnóstico efetivamente registrado
+layout: diagram
 kicker: O mesmo problema, em uma figura
 title: Quatro filtros entre o quadro e o diagnóstico
+note: Hipótese de demência no encaminhamento <em>não</em> dispensa investigar
+  humor — frequentemente é o inverso do que está escrito na guia.
 ---
 
-O idoso que chega à avaliação neuropsicológica já passou por todos os quatro.
-
-- Cada filtro **retém** parte dos casos
-- O que sobra é a base sobre a qual se calcula a prevalência
-- O motivo do encaminhamento raramente coincide com o diagnóstico
-
-<Callout tone="warn" icon="lucide:triangle-alert">
-Consequência prática: hipótese de demência no encaminhamento não dispensa investigar humor. Frequentemente é o inverso do que está escrito na guia.
-</Callout>
+<Figure src="/filtros-diagnostico-idoso.svg" alt="Funil em quatro degraus: entre o quadro psiquiátrico que o idoso de fato tem e o que chega a ser diagnosticado há quatro filtros — apresentação atípica, comorbidade clínica, iatrogenia e subdiagnóstico" />
 
 <!--
-Use a figura para fixar a direção do argumento: a subestimação é cumulativa, não pontual. E chame atenção para a conclusão prática — em quase todo serviço, a hipótese que chega escrita na guia é "investigar demência", e a nossa primeira tarefa é decidir se aquilo é humor. Vamos passar a segunda parte da aula exatamente nisso.
--->
-
----
-layout: stats
-kicker: O tamanho do problema
-title: Onde a depressão no idoso se concentra
-columns: 3
-stats:
-  - {
-      value: "20–33",
-      unit: "%",
-      label: "dos pacientes internados em hospital geral — é o transtorno psiquiátrico mais prevalente em interconsulta",
-      icon: "lucide:bed",
-      tone: "bad"
-    }
-  - {
-      value: "38,5",
-      unit: "%",
-      label: "de sintomas depressivos em idosos da comunidade, pela GHQ-12, em Minas Gerais (Castro-Costa et al., 2008)",
-      icon: "lucide:home",
-      tone: "warn"
-    }
-  - {
-      value: "7",
-      unit: "%",
-      label: "de depressão maior em 15.491 idosos brasileiros — contra 26% de sintomatologia significativa (Barcelos-Ferreira et al., 2010)",
-      icon: "lucide:users",
-      tone: "info"
-    }
----
-
-<!--
-Três números que não se contradizem: medem coisas diferentes. O primeiro é ambiente hospitalar; o segundo é rastreio por escala na comunidade; o terceiro separa diagnóstico de sintomatologia. Adiante o que vamos ver no gráfico do bloco dois: em depressão geriátrica, o número que alguém cita diz mais sobre a definição de caso adotada do que sobre a população estudada.
+Uma frase por filtro, sem repetir o slide anterior: o ponto aqui é a forma do funil. Cada filtro retém parte dos casos, então a subestimação é cumulativa, não pontual — e o que sobra na ponta direita é justamente a base sobre a qual a literatura calcula prevalência. O idoso que chega à avaliação neuropsicológica já atravessou os quatro. Daí a conclusão prática do rodapé: em quase todo serviço a hipótese que chega escrita na guia é "investigar demência", e a nossa primeira tarefa é decidir se aquilo é humor. Vamos passar a segunda parte da aula exatamente nisso.
 -->
 
 ---
@@ -223,7 +178,7 @@ title: Alternativa <span class="accent2">c</span>
 - **d)** inverte a lógica do rastreio: é por serem pouco específicos que existe uma escala que os evita — a GDS, na última parte
 
 <!--
-Detenha-se na b. É o ponto em que a maioria erra na prática, não na prova: o paciente diz "não estou triste" e o profissional encerra a linha de investigação. Anedonia é a outra porta de entrada do critério, e no idoso ela costuma se apresentar como abandono de atividades, não como queixa de perda de prazer.
+D
 -->
 
 ---
@@ -299,10 +254,10 @@ kicker: Caracterização do quadro · 2 de 2
 title: Os critérios que fecham o diagnóstico
 ---
 
-<Grid :data="[['Critério', 'O que exige', 'Por que importa no idoso'], ['Prejuízo', 'Sofrimento clinicamente significativo ou prejuízo social, ocupacional ou funcional', 'Aposentadoria e viuvez reduzem as demandas externas — o prejuízo fica menos visível'], ['Exclusão orgânica', 'Não atribuível a substância ou a outra condição médica', 'É o critério mais trabalhoso na geriatria: hipotireoidismo, fármacos, anemia, neoplasia'], ['Exclusão de mania', 'Nunca houve episódio maníaco ou hipomaníaco', 'Muda o tratamento inteiro: antidepressivo isolado no bipolar arrisca virada'], ['Luto', 'O DSM-5 retirou a exclusão por luto que existia no DSM-IV-TR', 'Viuvez é evento frequente após os 70 — e luto e depressão maior podem coexistir']]" head highlight="row:5" />
+<Grid :data="[['Critério', 'O que exige', 'Por que importa no idoso'], ['Prejuízo', 'Sofrimento clinicamente significativo ou prejuízo social, ocupacional ou funcional', 'Aposentadoria e viuvez reduzem as demandas externas — o prejuízo fica menos visível'], ['Exclusão orgânica', 'Não atribuível a substância ou a outra condição médica', 'É o critério mais trabalhoso na geriatria: hipotireoidismo, fármacos, anemia, neoplasia'], ['Exclusão de mania', 'Nunca houve episódio maníaco ou hipomaníaco', 'Muda o tratamento inteiro: antidepressivo isolado no bipolar arrisca virada']]" head highlight="row:5" />
 
 <!--
-A linha destacada é uma mudança de manual com consequência clínica direta na população que estudamos. No DSM-IV-TR, sintomas depressivos após a perda de um ente querido só fechavam diagnóstico se persistissem mais de dois meses ou tivessem marcadores de gravidade. O DSM-5 retirou essa exclusão, com a justificativa de que o luto é um estressor grave que pode precipitar um episódio em pessoas vulneráveis — e de que dois meses não descrevem a duração normal do luto. Foi a mudança mais controversa do DSM-5; vale dizer isso à turma.
+A
 -->
 
 ---
@@ -366,11 +321,7 @@ O terceiro painel é o que mais muda conduta. Os conceitos de depressão menor e
 -->
 
 ---
-layout: image
-side: left
-image: /depressao-vascular-circuito.svg
-alt: Esquema do circuito frontoestriatal-límbico com lesões de substância branca
-  marcadas sobre a alça
+layout: default
 kicker: Especificidades no idoso · início tardio
 title: Depressão de início tardio e o conceito de depressão vascular
 ---
@@ -386,7 +337,22 @@ A lesão não está no córtex: está na fiação que liga o pré-frontal ao est
 </Callout>
 
 <!--
-Explique a figura pela alça: pré-frontal para estriado, para pálido, para tálamo e de volta ao pré-frontal. Lesões de pequenos vasos na substância branca interrompem o circuito em pontos que a atrofia cortical não atingiria. É por isso que o perfil neuropsicológico da depressão vascular se parece com o de uma síndrome frontal e não com o do início de uma doença de Alzheimer. Essa distinção é o que vamos operacionalizar dois slides adiante.
+Os três marcadores são o que sustenta o conceito: achado de imagem, perfil cognitivo e ausência de carga familiar. Depois de enunciá-los, passe para a figura — ela mostra onde exatamente a lesão age.
+-->
+
+---
+layout: diagram
+kicker: Especificidades no idoso · início tardio
+title: Onde a lesão age — a alça frontoestriatal
+note: A doença de pequenos vasos interrompe o circuito em pontos que a atrofia
+  cortical não atingiria. Daí um perfil de síndrome frontal, e <em>não</em> o
+  perfil amnéstico do início de uma doença de Alzheimer.
+---
+
+<Figure src="/depressao-vascular-circuito.svg" alt="A alça frontoestriatal desenhada como um circuito fechado — pré-frontal dorsolateral, caudado, globo pálido e tálamo, com o retorno ao pré-frontal — e marcas de hiperintensidade de substância branca sobre as conexões entre as estruturas" />
+
+<!--
+hiperintensidades da substância branca = são áreas brilhantes ou "manchas brancas" vistas em exames de ressonância magnética (nas sequências T2 e FLAIR). Elas indicam alterações nos tecidos cerebrais causadas por acúmulo de líquido, pequenas cicatrizes (gliose), perda de mielina (desmielinização) ou alterações vasculares
 -->
 
 ---
@@ -407,16 +373,19 @@ columns:
       - "Curva de aprendizagem achatada, sem esquecimento acelerado"
       - "Erros de omissão e respostas 'não sei'"
       - "Esforço variável ao longo da sessão"
-      - "Reconhecimento preservado é o achado mais discriminativo"
+      - "Reconhecimento preservado"
   - title: "O que isso prediz"
     items:
-      - "Vilalta-Franch et al. (2012): desempenho inferior em abstração, teste do relógio, fluência semântica e atenção, pela CAMDEX"
-      - "Deprimidos idosos com alterações frontais têm maior chance de evoluir para quadro demencial"
-      - "Dotson et al. (2010): o número de episódios aumenta a chance de progressão"
+      - "Vilalta-Franch et al. (2012): desempenho inferior em abstração, teste
+        do relógio, fluência semântica e atenção, pela CAMDEX"
+      - "Deprimidos idosos com alterações frontais têm maior chance de evoluir
+        para quadro demencial"
+      - "Dotson et al. (2010): o número de episódios aumenta a chance de
+        progressão"
 ---
 
 <!--
-A terceira coluna é a que sustenta a conduta: não basta descrever o perfil, é preciso dizer o que ele prediz. Deixe explícito o que isso significa para o laudo — perfil frontal em um idoso deprimido não é achado tranquilizador, é indicação de reavaliação seriada. O capítulo é direto nisso: esses pacientes requerem melhor acompanhamento clínico e neuropsicológico.
+A
 -->
 
 ---
@@ -425,7 +394,7 @@ kicker: Questão 2 · depressão
 title: Mulher de 72 anos, primeiro episódio depressivo aos 70
 ---
 
-Ressonância com hiperintensidades de substância branca periventricular. Encaminhada para avaliação neuropsicológica por queixa de memória. Qual perfil é o **mais esperado**?
+Ressonância indica diminuição de substância branca. Encaminhada para avaliação neuropsicológica por queixa de memória. Qual perfil é o **mais esperado**?
 
 - **a)** Prejuízo desproporcional em evocação tardia, sem benefício de pista, com nomeação preservada
 - **b)** Lentificação psicomotora e prejuízo atencional e executivo, com memória que melhora com pista
@@ -480,60 +449,22 @@ right:
 ---
 
 <!--
-Passe coluna por coluna, mas termine com a ressalva que vale mais que a tabela: nenhum desses sinais isolado decide, e o cenário mais comum na clínica geriátrica é a coexistência. A tabela orienta hipótese, não fecha diagnóstico. É por isso que a figura do próximo slide termina em três caixas e não em duas.
+P
 -->
 
 ---
-layout: image
-side: right
-image: /fluxo-depressao-tnc.svg
-alt: Fluxograma de decisão diante de queixa cognitiva no idoso, com três
-  desfechos possíveis
+layout: diagram
 kicker: Diagnóstico diferencial
-title: O fluxo de decisão tem <em>três</em> saídas, não duas
+title: O fluxo de decisão tem <em>três</em> saídas
+note: O tratamento adequado do humor é a única prova diagnóstica disponível —
+  quem não recupera desempenho depois de remitir o humor tem, provavelmente, os
+  dois quadros.
 ---
 
-Quatro perguntas antes de qualquer escore — e três desfechos possíveis.
-
-- O desfecho do meio é o mais frequente na clínica geriátrica
-- O tratamento adequado do humor é a única prova diagnóstica disponível
-- Quem não recupera desempenho após remitir o humor tem, provavelmente, os dois quadros
-
-<Callout tone="warn" icon="lucide:clock">
-Reavaliação em 6 a 12 semanas não é protelação: é o desenho que separa reversível de irreversível.
-</Callout>
+<Figure src="/fluxo-depressao-tnc.svg" alt="Diante de queixa cognitiva no idoso o fluxo abre em três desfechos: quadro depressivo provável, os dois quadros ao mesmo tempo, e transtorno neurocognitivo provável" />
 
 <!--
-Marque o intervalo de reavaliação como conduta concreta e defensável em laudo. Alexopoulos e colaboradores (2002) acompanharam por três anos pacientes deprimidos com sintomas demenciais aparentemente reversíveis: o risco de desenvolver demência irreversível foi quase cinco vezes maior entre eles do que entre deprimidos sem sintomas cognitivos. Reavaliação seriada não é excesso de zelo, é o que a evidência recomenda.
--->
-
----
-layout: default
-kicker: Um termo em revisão
-title: Por que "pseudodemência" é um termo problemático
----
-
-O termo descreve um quadro cognitivo que imita demência e seria reversível com o tratamento do transtorno psiquiátrico de base. A objeção não é semântica.
-
-<v-clicks>
-
-- **O prefixo é falso.** O déficit é real, mensurável e funcionalmente incapacitante — não é "pseudo" nada
-- **A reversibilidade não se sustenta.** Em 18 estudos, 33% dos casos evoluíram para demência irreversível (Connors et al., 2018)
-- **A dicotomia é falsa.** Sugere que o paciente tem ou um quadro orgânico ou um funcional; a maioria tem componentes dos dois
-- **É descrição, não categoria.** Não consta do DSM-5-TR nem da CID como diagnóstico
-
-</v-clicks>
-
-<v-click>
-
-<Callout tone="warn" icon="lucide:scale">
-Há quem defenda mantê-lo: Brodaty e Connors (2020) argumentam que o termo continua útil por sinalizar um grupo de pacientes em risco de erro diagnóstico. A crítica ao rótulo não é unânime — a exigência de reavaliação, sim.
-</Callout>
-
-</v-click>
-
-<!--
-Traga o dado que mais impressiona: Sáez-Fonseca e colaboradores (2007) acompanharam por cinco a sete anos deprimidos internados; 71,4% dos que tinham comprometimento cognitivo dito reversível converteram para demência, contra 18,2% dos deprimidos cognitivamente íntegros. Mukku e colaboradores (2021) resumem a posição atual: o conceito hoje é histórico. Escreva "comprometimento cognitivo associado a episódio depressivo" no laudo, com a conduta de reavaliação — é preciso e é defensável.
+Os discriminadores da caixa do meio são os do slide anterior — não os repita, aponte para eles. O que este slide acrescenta é a terceira saída: o desfecho do meio é o mais frequente na clínica geriátrica, e é justamente o que um fluxo de duas saídas obriga a arredondar para um lado. Marque o intervalo de reavaliação como conduta concreta e defensável em laudo: Alexopoulos e colaboradores (2002) acompanharam por três anos pacientes deprimidos com sintomas demenciais aparentemente reversíveis, e o risco de demência irreversível foi quase cinco vezes maior entre eles do que entre deprimidos sem sintomas cognitivos. Reavaliação em 6 a 12 semanas não é protelação nem excesso de zelo: é o desenho que separa reversível de irreversível.
 -->
 
 ---
@@ -644,17 +575,30 @@ O terceiro painel corrige uma crença difundida. Há muitos estudos associando m
 -->
 
 ---
-layout: default
+layout: columns
 kicker: Alterações cognitivas · e o efeito dos fármacos
 title: O que o transtorno bipolar e seu tratamento fazem com os testes
+columns:
+  - title: "O próprio transtorno"
+    items:
+      - "Mesmo em eutimia: lentificação, memória verbal e executivo (Martino, 2008)"
+      - "≈ 50% alteram o relógio ou o MEEM (Tsai, 2007)"
+      - "<strong>Conduta:</strong> eutimia não autoriza esperar desempenho normal"
+  - title: "Lítio"
+    items:
+      - "Pequeno e circunscrito: TE 0,24 em aprendizagem verbal (Wingo, 2009)"
+      - "Maior no psicomotor (TE 0,62); memória tardia e executivo intactos"
+      - "<strong>Conduta:</strong> registrar litemia e função tireoidiana"
+  - title: "Carga anticolinérgica"
+    items:
+      - "<strong>+45%</strong> de chance de comprometimento — OR 1,45 (Ruxton, 2015)"
+      - "Piora MEEM, FAB e RBANS (Dyer, 2021)"
+      - "<strong>Conduta:</strong> levantar toda a lista de medicamentos antes de testar"
 ---
 
-<Grid :data="[['O que atua', 'Efeito sobre o desempenho', 'Conduta na avaliação'], ['O próprio transtorno', 'Idosos bipolares eutímicos apresentam sintomas extrapiramidais, lentificação, prejuízo de memória verbal e de funções executivas (Martino et al., 2008); quase 50% alteram o relógio ou o MEEM (Tsai et al., 2007)', 'Eutimia não autoriza esperar desempenho normal — a maioria dos idosos eutímicos exibe comprometimento (Gildengers et al., 2004)'], ['Lítio', 'Meta-análise de 12 estudos: prejuízo pequeno em aprendizagem verbal imediata (TE 0,24); nos pacientes, prejuízo maior em desempenho psicomotor (TE 0,62). Memória tardia, atenção e executivo não afetados (Wingo et al., 2009)', 'Registrar litemia e função tireoidiana. O efeito é pequeno e não justifica atribuir a ele um perfil francamente rebaixado'], ['Carga anticolinérgica', 'Exposição a fármacos anticolinérgicos associa-se a chance 45% maior de comprometimento cognitivo em idosos (OR 1,45; Ruxton et al., 2015). Uso de anticolinérgicos definidos piora MEEM, FAB e RBANS (Dyer et al., 2021)', 'Levantar a lista completa de medicamentos antes de testar — inclusive os que o paciente não considera remédio']]" head highlight="row:4" />
-
 <!--
-A linha destacada é a que mais muda conduta imediata. Não existe teste neuropsicológico que descubra sozinho carga anticolinérgica: ela precisa ser levantada na anamnese. Antidepressivos tricíclicos, anti-histamínicos, antiespasmódicos urinários e alguns antipsicóticos entram na conta. Peça a lista com as caixas, não de memória.
+A ordem das colunas é a ordem do tamanho do efeito, e a terceira é a que mais muda conduta imediata: nenhum teste detecta carga anticolinérgica sozinho, ela sai da anamnese. Entram na conta tricíclicos, anti-histamínicos, antiespasmódicos urinários e alguns antipsicóticos — peça a lista com as caixas, não de memória. Insista na primeira coluna: Gildengers e colaboradores (2004) mostram que a maioria dos idosos bipolares eutímicos exibe comprometimento — eutimia é critério de humor, não prognóstico cognitivo. E desfaça o reflexo da segunda coluna: o efeito do lítio é pequeno e circunscrito, não serve para explicar um perfil francamente rebaixado. Se o desempenho despencou, procure outra coisa — provavelmente a terceira coluna, que é a única invisível ao teste.
 -->
-
 ---
 layout: default
 kicker: Questão 3 · transtorno bipolar
@@ -685,17 +629,7 @@ title: Alternativa <span class="accent2">c</span>
 - **d)** o efeito do lítio é pequeno e circunscrito (Wingo et al., 2009). Verifique antes litemia, função tireoidiana e o humor
 
 <!--
-Sobre a d, complemente com a orientação de Honig e colaboradores (1999): se litemia, tireoide e humor estiverem dentro dos limites e a queixa persistir, aí sim discute-se redução de dose ou troca de estabilizador — decisão médica, não nossa. O nosso papel é documentar o perfil e sinalizar a hipótese.
--->
-
----
-layout: statement
-kicker: Intervalo
-title: Quinze minutos.
----
-
-<!--
-Peça que voltem no horário: a segunda metade tem um bloco curto e uma atividade em grupo que precisa de tempo. Se alguém quiser conversar sobre caso próprio, este é o momento — não durante a dinâmica.
+S
 -->
 
 ---
@@ -710,31 +644,32 @@ subtitle: Esquizofrenia, início tardio e o diferencial com o transtorno neuroco
 layout: define
 kicker: A família
 term: Transtornos psicóticos
-definition: Quadros definidos por perda de contato com a realidade compartilhada,
-  expressa em cinco domínios sintomáticos — dos quais <em>delírio</em>,
-  <em>alucinação</em> e <em>discurso desorganizado</em> são os nucleares.
+definition: Quadros definidos por perda de contato com a realidade
+  compartilhada, expressa em cinco domínios sintomáticos — dos quais
+  <em>delírio</em>, <em>alucinação</em> e <em>discurso desorganizado</em> são os
+  nucleares.
 points:
-  - "Delírios: crenças fixas, não corrigíveis por evidência contrária"
-  - "Alucinações: percepções sem objeto, vívidas e involuntárias"
-  - "Discurso desorganizado: descarrilamento, incoerência"
   - "Comportamento amplamente desorganizado ou catatônico"
   - "Sintomas negativos: expressão emocional diminuída, avolição, alogia"
-  - "No idoso, a maior parte dos quadros psicóticos NÃO é esquizofrenia — é secundária"
+  - "No idoso, a maior parte dos quadros psicóticos NÃO é esquizofrenia — é
+    secundária"
 ---
 
 <!--
-O último ponto reorienta o bloco inteiro. Depois dos 60, sintomas psicóticos aparecem com muito mais frequência em doença de Alzheimer, doença de Parkinson, demência com corpos de Lewy, delirium, alterações metabólicas e efeito de fármacos do que em esquizofrenia primária. A pergunta clínica quase nunca é "que tipo de esquizofrenia é" — é "o que está causando essa psicose".
+**Avolição** = perda total de motivação para iniciar ou terminar tarefas
+
+Alogia = pobreza da fala e do pensamento, com respostas curtas e vazias
 -->
 
 ---
 layout: bigtype
 kicker: O quadro do bloco
 title: Esquizofrenia
-subtitle: Kraepelin a chamou de demência precoce; a literatura neuropsicológica contemporânea mostra alterações estáticas, e não degenerativas.
+subtitle:
 ---
 
 <!--
-A tensão do bloco está nessa frase. O legado do nome "demência precoce" aponta para condição neurodegenerativa; os estudos que vamos ver indicam comprometimento de neurodesenvolvimento, com perfil que não progride como o da doença de Alzheimer.
+A
 -->
 
 ---
@@ -742,82 +677,50 @@ layout: columns
 kicker: Caracterização do quadro
 title: Esquizofrenia — o que o diagnóstico exige
 columns:
-  - title: "Sintomas e duração"
+  - title: "Critério A — os cinco sintomas"
     items:
-      - "Dois ou mais sintomas do critério A, por porção significativa de um mês"
-      - "Ao menos um deles precisa ser delírio, alucinação ou discurso desorganizado"
+      - "<strong>1. Delírios</strong>"
+      - "<strong>2. Alucinações</strong>"
+      - "<strong>3. Discurso desorganizado</strong> — descarrilamento, incoerência"
+      - "4. Comportamento grosseiramente desorganizado ou catatônico"
+      - "5. Sintomas negativos — expressão emocional diminuída, avolia"
+  - title: "Quantos, e por quanto tempo"
+    items:
+      - "<strong>Dois ou mais</strong> do critério A, por porção significativa de
+        um mês"
+      - "Ao menos um deles entre os <strong>três primeiros</strong> — delírio,
+        alucinação ou discurso desorganizado"
       - "Sinais contínuos por pelo menos 6 meses, incluindo 1 mês de fase ativa"
-      - "O período de 6 meses pode incluir fases prodrômica e residual"
+      - "Os 6 meses podem incluir fases prodrômica e residual"
   - title: "Prejuízo e exclusões"
     items:
       - "Declínio acentuado em trabalho, relações ou autocuidado"
-      - "Excluídos transtorno esquizoafetivo e transtornos do humor com sintomas psicóticos"
+      - "Excluídos transtorno esquizoafetivo e transtornos do humor com sintomas
+        psicóticos"
       - "Não atribuível a substância, medicamento ou outra condição médica"
-      - "Se há transtorno do neurodesenvolvimento, exige-se 1 mês de delírio ou alucinação proeminentes"
-  - title: "O que mudou do DSM-IV-TR"
-    items:
-      - "Caiu a regra que permitia diagnóstico com um único sintoma quando o delírio era bizarro"
-      - "Agora são sempre necessários dois sintomas do critério A"
-      - "Os subtipos (paranoide, desorganizado, catatônico) foram eliminados"
-      - "Síntese parafraseada do DSM-5-TR — a redação oficial é da APA"
+      - "Se há transtorno do neurodesenvolvimento, exige-se 1 mês de delírio ou
+        alucinação proeminentes"
 ---
 
 <!--
-Síntese parafraseada do DSM-5-TR conforme Hany e Rizvi (StatPearls, 2024). A terceira coluna importa porque o capítulo de referência reproduz o Quadro 6.4 com os critérios do DSM-IV-TR, e a turma vai ler aquele quadro. Diga explicitamente onde a versão do livro está desatualizada — os subtipos saíram porque não tinham estabilidade ao longo do tempo nem valor preditivo de resposta ao tratamento.
+Síntese parafraseada do DSM-5-TR conforme Hany e Rizvi (StatPearls, 2024). Leia os cinco da primeira coluna em voz alta e marque a assimetria: os três primeiros são sintomas psicóticos positivos e qualquer diagnóstico precisa de pelo menos um deles — não se fecha esquizofrenia só com desorganização motora e sintomas negativos. Os dois últimos são justamente os que mais nos interessam na avaliação, porque avolia e embotamento se confundem com apatia de quadro depressivo e com a lentificação do idoso. Avise ainda que o capítulo de referência reproduz o Quadro 6.4 com os critérios do DSM-IV-TR, e a turma vai ler aquele quadro: diga explicitamente onde o livro está desatualizado — os subtipos saíram porque não tinham estabilidade ao longo do tempo nem valor preditivo de resposta ao tratamento.
 -->
 
 ---
-layout: image
-side: left
-image: /linha-tempo-inicio.svg
-alt: Linha do tempo comparando a idade de início da esquizofrenia, do transtorno
-  bipolar, da depressão e do transtorno neurocognitivo
+layout: diagram
 kicker: Especificidades no idoso · nomenclatura
 title: Precoce, tardio e <em>muito</em> tardio
+note: Os cortes são convenção operacional, não fronteira biológica. Servem para tornar
+  comparáveis estudos que antes misturavam populações muito diferentes.
 ---
 
-O consenso internacional de Howard, Rabins, Seeman e Jeste (2000) fixou dois cortes que a literatura passou a usar.
-
-- **Esquizofrenia de início tardio** — após os 40 anos
-- **Psicose esquizofreniforme de início muito tardio** — após os 60 anos
-- Bleuler (1978) já dividia em precoce e tardio, com corte aos 40
-
-<Callout icon="lucide:target">
-Os cortes são convenção operacional, não fronteira biológica. Servem para tornar comparáveis estudos que antes misturavam populações muito diferentes.
-</Callout>
+<Figure src="/linha-tempo-inicio.svg" alt="Linha do tempo da idade de início da esquizofrenia, do transtorno bipolar, da depressão e do transtorno neurocognitivo, com os cortes dos 40 e dos 60 anos e a faixa em que os quatro se sobrepõem" />
 
 <!--
-A figura existe para mostrar a faixa em que os quatro quadros se sobrepõem — dos 60 anos em diante. É nessa faixa que o diferencial deixa de ser exercício acadêmico. Um paciente de 68 anos com delírio persecutório pode estar abrindo psicose muito tardia, pode estar no pródromo de uma demência, pode ter mania com sintomas psicóticos ou depressão psicótica. Os quatro caminhos levam a condutas diferentes.
+Leia os dois cortes na figura: esquizofrenia de início tardio depois dos 40, psicose esquizofreniforme de início muito tardio depois dos 60 — o consenso de Howard, Rabins, Seeman e Jeste (2000). Bleuler (1978) já dividia em precoce e tardio com corte aos 40, então o corte dos 40 não é novo; o dos 60 é. Mas o que a figura foi feita para mostrar é a faixa sombreada: dos 60 em diante os quatro quadros convivem, e é aí que o diferencial deixa de ser exercício acadêmico. Um paciente de 68 anos com delírio persecutório pode estar abrindo psicose muito tardia, pode estar no pródromo de uma demência, pode ter mania com sintomas psicóticos ou depressão psicótica. Os quatro caminhos levam a condutas diferentes.
 -->
 
----
-layout: stats
-kicker: Especificidades no idoso · epidemiologia
-title: A esquizofrenia depois dos 60, em números
-columns: 3
-stats:
-  - {
-      value: "0,71",
-      unit: "%",
-      label: "de prevalência em um ano para todo o espectro em maiores de 60 anos, em área de captação em Amsterdã (Meesters et al., 2010)",
-      icon: "lucide:users",
-      tone: "info"
-    }
-  - {
-      value: "0,05",
-      unit: "%",
-      label: "cabe especificamente à psicose esquizofreniforme de início muito tardio — contra 0,35% de início precoce",
-      icon: "lucide:calendar-clock",
-      tone: "info"
-    }
-  - {
-      value: "7,5",
-      unit: "/100 mil",
-      label: "de incidência anual de esquizofrenia após os 65 anos, em meta-análise de 41 estudos (Stafford et al., 2017)",
-      icon: "lucide:trending-up",
-      tone: "warn"
-    }
----
+
 
 <!--
 O contraste entre a primeira e a segunda barra é o dado a fixar: a maior parte dos idosos com esquizofrenia envelheceu com a doença, não a adquiriu tarde. Isso muda o que esperamos encontrar — décadas de tratamento, de institucionalização e de exposição a antipsicóticos, todas variáveis que entram na interpretação do desempenho. E note que a prevalência em idosos está dentro da faixa relatada para populações mais jovens.
@@ -915,12 +818,15 @@ kicker: O efeito dos fármacos
 title: Antipsicóticos e o desempenho em testes
 ---
 
-<Grid :data="[['Evidência', 'O que foi encontrado', 'O que fazer com isso'], ['CATIE-AD — ensaio randomizado com 421 pacientes com doença de Alzheimer e psicose ou agitação (Vigen et al., 2011)', 'Olanzapina, quetiapina e risperidona associaram-se a piora cognitiva de magnitude equivalente a um ano de deterioração, frente a placebo, em 36 semanas', 'Em idoso com demência sob antipsicótico, parte do declínio observado entre duas avaliações pode ser do fármaco — registre dose e data de início'], ['Meta-análise em rede de 54 ensaios, 5.866 pacientes com transtornos psicóticos (Baldez et al., 2021)', 'O efeito varia muito entre fármacos: haloperidol ficou em último lugar em todos os domínios; clozapina teve pior desempenho em executivo e aprendizagem verbal', 'Não existe um efeito único de antipsicótico. Anote qual, não a classe'], ['Revisão sistemática de psicotrópicos em idosos (Chandramouleeshwaran et al., 2023)', 'Antipsicóticos e combinações de psicotrópicos associam-se a declínio cognitivo em idosos', 'Polifarmácia psicotrópica é variável de confusão maior que a maioria das que controlamos']]" head highlight="row:2" />
+<Grid :data="[['Evidência', 'O que foi encontrado', 'O que fazer com isso'], ['<strong>CATIE-AD</strong> — ensaio randomizado, 421 pacientes com doença de Alzheimer (Vigen, 2011)', 'Piora cognitiva equivalente a <strong>um ano</strong> de deterioração, em 36 semanas, frente a placebo', 'Parte do declínio entre duas avaliações pode ser do fármaco'], ['<strong>Meta-análise em rede</strong> — 54 ensaios, 5.866 pacientes (Baldez, 2021)', 'O efeito varia entre fármacos: haloperidol é o pior em todos os domínios', 'Anote qual antipsicótico, não a classe'], ['<strong>Revisão sistemática</strong> em idosos (Chandramouleeshwaran, 2023)', 'Polifarmácia psicotrópica associa-se a declínio cognitivo', 'Registre a lista inteira, não só o antipsicótico']]" head highlight="row:2" />
+
+<Callout tone="warn" icon="lucide:calendar-clock">
+Ao comparar duas avaliações, é preciso saber o que mudou na prescrição entre elas. Sem isso, a curva que se lê como progressão pode ser farmacológica.
+</Callout>
 
 <!--
-A linha destacada é o achado que mais surpreende, porque vem de um ensaio randomizado e não de estudo observacional. Isso não significa que o antipsicótico não deva ser prescrito — significa que o efeito cognitivo é um risco adicional a ser pesado, e que nós, ao comparar duas avaliações, temos de saber o que mudou na prescrição entre elas. Sem essa informação, a curva que interpretamos como progressão pode ser farmacológica.
+A linha destacada é o achado que mais surpreende, porque vem de um ensaio randomizado e não de estudo observacional: olanzapina, quetiapina e risperidona pioraram o desempenho frente a placebo. Isso não significa que o antipsicótico não deva ser prescrito — significa que o efeito cognitivo é um risco adicional a ser pesado. Na segunda linha, o ponto é que não existe "efeito de antipsicótico": clozapina teve o pior desempenho em executivo e aprendizagem verbal, haloperidol em todos os domínios. Registrar a classe não serve para nada; registre o fármaco, a dose e a data de início.
 -->
-
 ---
 layout: default
 kicker: Questão 4 · transtornos psicóticos
@@ -1011,58 +917,17 @@ A última linha das duas colunas é o eixo do bloco. Do lado esquerdo, a escala 
 -->
 
 ---
-layout: image
-side: right
-image: /gds-itens-somaticos.svg
-alt: Comparação entre os itens somáticos que a GDS deixou de fora e o que a
-  GDS-15 efetivamente pergunta
+layout: diagram
 kicker: Por que existe escala específica para o idoso
 title: O problema dos itens somáticos
+note: No idoso, insônia, apetite, peso e fadiga têm <em>várias causas simultâneas</em> —
+  um instrumento que os pontue produz falso-positivo sistemático nessa faixa etária.
 ---
 
-Inventários de depressão para adultos pontuam insônia, perda de apetite, perda de peso e fadiga.
-
-- No idoso, esses sintomas têm **várias causas simultâneas** — e quase nunca só o humor
-- Um instrumento que os pontue produz falso-positivo sistemático nessa faixa etária
-- A GDS foi construída com perguntas que **evitam** a esfera somática
-
-<Callout tone="warn" icon="lucide:eye">
-Dois itens sobreviveram assim mesmo: energia (item 13) e memória (item 10). São os dois a interpretar com mais cautela.
-</Callout>
+<Figure src="/gds-itens-somaticos.svg" alt="À esquerda, os sintomas somáticos que os inventários para adultos pontuam e a GDS deixou de fora; à direita, os quinze itens da GDS-15, com memória e energia destacados por ainda tangenciarem o somático" />
 
 <!--
-O item 10 é o mais interessante para nós: "acha que tem mais problemas de memória que outras pessoas?". Ele pontua igual em quem está deprimido e em quem tem déficit cognitivo verdadeiro. Numa amostra de memory clinic, esse item sozinho puxa o escore para cima e ajuda a explicar por que a acurácia da escala cai quando há comprometimento cognitivo — assunto de dois slides adiante.
--->
-
----
-layout: timeline
-kicker: As versões
-title: Da GDS-30 à GDS-15 — e às versões ainda mais curtas
-events:
-  - {
-      date: "1983",
-      title: "GDS-30",
-      desc: "Yesavage e colaboradores descrevem a escala original, com 30 itens, desenvolvida especificamente para rastreio de transtornos do humor em idosos"
-    }
-  - {
-      date: "1986",
-      title: "GDS-15",
-      desc: "Sheikh e Yesavage reduzem a escala aos itens de maior correlação com o diagnóstico, com sensibilidade, especificidade e confiabilidade adequadas"
-    }
-  - {
-      date: "1999",
-      title: "Validação brasileira",
-      desc: "Almeida e Almeida estudam a validade das versões curtas em 64 idosos de ambulatório psiquiátrico em São Paulo, contra critérios da CID-10 e do DSM-IV"
-    }
-  - {
-      date: "2005",
-      title: "Ambulatório geral",
-      desc: "Paradela, Lourenço e Veras replicam o estudo em 302 idosos de policlínica no Rio de Janeiro — o cenário mais próximo do serviço público brasileiro"
-    }
----
-
-<!--
-Sobre a GDS-4, que às vezes aparece como rastreio ultrabreve: Almeida e Almeida publicaram dois artigos em 1999, e é preciso distinguir. O de validade, no International Journal of Geriatric Psychiatry, traz os pontos de corte. O de confiabilidade, nos Arquivos de Neuro-Psiquiatria, testou o reteste em 48 a 72 horas e concluiu que as versões de 1 e de 4 itens são inconfiáveis para a prática clínica, enquanto as de 10 e 15 produzem resultados consistentes. Ou seja: a GDS-4 existe, mas não a use para decisão clínica individual.
+A coluna da esquerda é o que a escala se recusou a perguntar, e a decisão é de projeto, não omissão: no idoso esses sintomas quase nunca vêm só do humor. À direita, repare que o alvo é humor, autoavaliação e retraimento. Os dois itens em ocre sobreviveram assim mesmo e são os que exigem leitura crítica. O item 10 é o mais interessante para nós: "acha que tem mais problemas de memória que outras pessoas?". Ele pontua igual em quem está deprimido e em quem tem déficit cognitivo verdadeiro. Numa amostra de memory clinic esse item sozinho puxa o escore para cima e ajuda a explicar por que a acurácia da escala cai quando há comprometimento cognitivo — assunto de dois slides adiante.
 -->
 
 ---
@@ -1073,32 +938,32 @@ steps:
   - {
       icon: "lucide:user-check",
       title: "Escolha a forma de aplicação",
-      desc: "Autoaplicação exige leitura fluente e visão corrigida. Na dúvida, heteroaplique — na população que atendemos, a heteroaplicação é o padrão"
+      desc: "Autoaplicação exige leitura fluente e visão corrigida. Na dúvida,
+        heteroaplique — na população que atendemos, a heteroaplicação é o
+        padrão"
     }
   - {
       icon: "lucide:door-closed",
       title: "Aplique com o idoso sozinho",
-      desc: "Paradela et al. pediam que o acompanhante saísse da sala, justamente para evitar interferência e modificação das respostas"
+      desc: "Paradela et al. pediam que o acompanhante saísse da sala, justamente para
+        evitar interferência e modificação das respostas"
     }
   - {
       icon: "lucide:message-square",
       title: "Leia a pergunta como está escrita",
-      desc: "Se não for compreendida, repita mais devagar — sem interpretar nem parafrasear as palavras. Até três tentativas por item"
-    }
-  - {
-      icon: "lucide:timer",
-      title: "Reserve o tempo necessário",
-      desc: "⚠︎ verificar — não localizei fonte primária citável para o tempo médio de aplicação da GDS-15. Na prática, poucos minutos"
+      desc: "Se não for compreendida, repita mais devagar — sem interpretar nem
+        parafrasear as palavras. Até três tentativas por item"
     }
   - {
       icon: "lucide:calendar",
       title: "Ancore no período",
-      desc: "As perguntas se referem à última semana. Diga isso ao paciente antes de começar, e repita se ele derivar para o passado remoto"
+      desc: "As perguntas se referem à última semana. Diga isso ao paciente antes de
+        começar, e repita se ele derivar para o passado remoto"
     }
 ---
 
 <!--
-O segundo passo costuma ser ignorado e é o que mais contamina o resultado. Filho ou cuidador presente responde no lugar, corrige, minimiza ou dramatiza. Se não houver como afastar o acompanhante, registre isso no laudo como limitação da aplicação.
+O
 -->
 
 ---
@@ -1139,10 +1004,6 @@ title: A chave de pontuação
 ---
 
 <Grid :data="[['Itens', 'Redação', 'Pontua 1 ponto quando a resposta é'], ['1, 5, 7, 11, 12, 13, 14', 'Perguntas em sentido positivo — satisfação, bem-estar, alegria, valor de viver, energia, esperança', '<strong>NÃO</strong>'], ['2, 3, 4, 6, 8, 9, 10, 15', 'Perguntas em sentido negativo — abandono de atividades, vazio, aborrecimento, medo, desamparo, retraimento, queixa de memória, comparação', '<strong>SIM</strong>'], ['Total', 'Soma simples, sem pesos', 'Escore de 0 a 15']]" head highlight="row:4" />
-
-<Callout icon="lucide:printer">
-Na ficha impressa, a coluna sombreada é sempre a que pontua. Basta contar quantas marcações caíram nela.
-</Callout>
 
 <!--
 Chame atenção para o desenho da folha: a alternância entre itens de sentido positivo e negativo não é decorativa. Serve para quebrar o padrão de resposta automática — o idoso que responde "sim" a tudo produz um escore intermediário, não máximo, e o padrão fica visível para quem aplicou. Peça que confiram isso na folha antes de seguir.
@@ -1269,142 +1130,108 @@ Este é o slide mais aplicável da aula ao estágio deles. A pergunta "posso apl
 ---
 layout: statement
 kicker: Dinâmica
-title: Três vinhetas. Pontuem a GDS-15 na ficha, decidam a conduta e justifiquem em uma frase.
+title: Duas vinhetas. Pontuem a GDS-15 na ficha, decidam a conduta e justifiquem em uma frase.
 ---
 
 <!--
-Organize grupos de quatro a cinco. Quinze minutos para as três vinhetas, cinco minutos de discussão por vinheta no gabarito. Peça que anotem o escore na folha impressa, e não só mentalmente: a discussão fica muito melhor quando há um número escrito para defender. Avise que os três casos têm armadilhas diferentes.
+Organize grupos de quatro a cinco e entregue as duas folhas impressas. Vinte minutos para os dois casos, cinco minutos de discussão por caso. Peça que anotem o escore na folha, e não só mentalmente: a discussão fica muito melhor quando há um número escrito para defender. Avise que os dois casos têm armadilhas opostas — no primeiro a escala acerta e a dúvida é o que fazer com o resultado; no segundo a escala acerta em não pontuar, e a dúvida é se isso encerra a investigação.
+-->
+
+---
+layout: columns
+kicker: Vinheta 1 · o caso
+aside: "vinheta clínica"
+title: Dona Ivone, 71 anos, viúva há oito meses
+columns:
+  - title: "Quem é Dona Ivone"
+    items:
+      - "Nasceu na roça em Minas; veio para a capital aos 19 anos"
+      - "Três anos de escolaridade; lê com dificuldade, escreve o nome"
+      - "47 anos de casamento; três filhos vivos, um morto há 12 anos"
+      - "Trabalhou como doméstica; cuidou da mãe com Alzheimer por seis anos"
+      - "Ativa na igreja até o ano passado — grupo de oração e coral"
+  - title: "Os oito meses desde a viuvez"
+    items:
+      - "O marido morreu de infarto em casa, à noite, ao lado dela"
+      - "Parou a igreja no quarto mês; não sai de casa há três"
+      - "Acorda às 3h e não volta a dormir; perdeu 6 kg"
+      - "Diz «não sirvo mais para nada» e «se Deus me levasse, não reclamava»"
+      - "A filha relata perguntas repetidas e duas consultas esquecidas"
+  - title: "O que se observa na avaliação"
+    items:
+      - "Funções cognitivas preservadas para a idade e a escolaridade dela"
+      - "Vigil, orientada e colaborativa, com latência de resposta aumentada"
+      - "Responde «não sei» com frequência e acerta quando encorajada a tentar"
+      - "Exames clínicos recentes afastaram causa orgânica para o quadro"
+      - "Hidroclorotiazida e losartana; nenhum psicotrópico"
+---
+
+<!--
+A queixa que chega escrita na guia é "desânimo", mas a filha fala de memória — é o inverso da guia de novo, e eles já viram isso na primeira parte da aula. Não responda nada sobre luto enquanto pontuam: a pergunta "isso não é só luto?" é o centro da discussão do caso e o DSM-5 retirou a exclusão por luto justamente porque a distinção não se sustentava. Circule pelos grupos e observe se alguém está pontuando pelo sentido literal da resposta em vez de pela coluna que pontua: é o erro de correção mais comum.
 -->
 
 ---
 layout: default
-kicker: Vinheta 1
+kicker: Vinheta 1 · a ficha
 aside: "vinheta clínica"
-title: Dona Ivone, 71 anos, viúva há oito meses
+title: A GDS-15 de Dona Ivone
 ---
 
-Três anos de escolaridade, hipertensa, sem outras comorbidades. Encaminhada pela equipe da UBS por "desânimo". MEEM 27.
+Aplicada por entrevistadora treinada, com a filha fora da sala.
 
 <Grid :data="[['Item', 'Resposta', 'Item', 'Resposta'], ['1. Satisfeita com a vida?', 'Não', '9. Prefere ficar em casa?', 'Não'], ['2. Interrompeu atividades?', 'Sim', '10. Mais problemas de memória?', 'Não'], ['3. Acha a vida vazia?', 'Sim', '11. Maravilhoso estar viva?', 'Sim'], ['4. Aborrece-se com frequência?', 'Sim', '12. Vale a pena viver assim?', 'Sim'], ['5. De bem com a vida?', 'Sim', '13. Cheia de energia?', 'Não'], ['6. Teme que algo ruim aconteça?', 'Sim', '14. Situação tem solução?', 'Sim'], ['7. Alegre a maior parte do tempo?', 'Não', '15. Muita gente em situação melhor?', 'Sim'], ['8. Sente-se desamparada?', 'Sim', '', '']]" head />
 
 <!--
-Deixe que contem. Se algum grupo perguntar sobre o luto, não responda ainda — é exatamente o ponto do gabarito. Circule pelos grupos e observe se alguém está pontuando pelo sentido literal da resposta em vez de pela coluna que pontua; é o erro de correção mais comum.
+Gabarito: 9 pontos. Pontuam os itens 1, 2, 3, 4, 6, 7, 8, 13 e 15 — nove itens, um ponto cada. Rastreio positivo, bem acima do corte 5/6, na faixa de 6 a 10 que a ficha chama de indicativo leve. Repare com eles em dois pontos: o item 10 recebeu "Não" embora a filha traga queixa de memória — discrepância entre autorrelato e informante, que é achado, não erro; e a lentificação e os "não sei" que ela corrige quando encorajada são o padrão de falha de recuperação, não de armazenamento. Conduta: rastreio positivo exige entrevista diagnóstica, e a viuvez recente não a dispensa.
+-->
+
+---
+layout: columns
+kicker: Vinheta 2 · o caso
+aside: "vinheta clínica"
+title: Sr. Aparecido, 79 anos, DPOC e insuficiência cardíaca
+columns:
+  - title: "Quem é o Sr. Aparecido"
+    items:
+      - "Ex-metalúrgico; aposentou-se aos 58 pela doença pulmonar"
+      - "Oito anos de escolaridade; fumou 40 anos, parou há 12"
+      - "54 anos de casamento; dois filhos e quatro netos"
+      - "Tinha oficina no quintal — consertava rádios e motores"
+      - "Jogou futebol de várzea até os 60"
+  - title: "O que a pneumologia encaminha"
+    items:
+      - "Encaminhado após dizer à médica «não vale mais a pena»"
+      - "Dispneia aos mínimos esforços; depende de oxigênio quase o dia inteiro"
+      - "Duas internações por descompensação em doze meses"
+      - "Dorme sentado; acorda várias vezes com falta de ar"
+      - "Perdeu 5 kg — a nutricionista atribui à caquexia cardíaca"
+  - title: "O que se observa na sessão"
+    items:
+      - "Funções cognitivas preservadas; atento, colaborativo, com iniciativa"
+      - "Ri das piadas do neto e acompanha o campeonato"
+      - "Nega tristeza persistente, anedonia e desesperança"
+      - "Interrompe a testagem para tossir; falta de ar evidente em repouso"
+      - "Repete que «queria era respirar»"
+---
+
+<!--
+Este é o caso que testa se entenderam para que serve o desenho da escala. Deixe no ar a pergunta que o encaminhamento levanta: um homem que disse "não vale mais a pena" pode ter rastreio negativo? Pode — e é exatamente por isso que rastreio negativo não encerra investigação. Guarde para o fechamento a distinção entre desmoralização e episódio depressivo, e o fato de que uma frase dessas se investiga por entrevista, não por escore.
 -->
 
 ---
 layout: default
-kicker: Vinheta 2
+kicker: Vinheta 2 · a ficha
 aside: "vinheta clínica"
-title: Sr. Aparecido, 79 anos, DPOC e insuficiência cardíaca
+title: A GDS-15 do Sr. Aparecido
 ---
 
-Oito anos de escolaridade, casado, mora com a esposa. Encaminhado pela pneumologia por "possível depressão". Dispneia aos mínimos esforços. MEEM 28.
+Aplicada no ambulatório, com a esposa na sala de espera.
 
 <Grid :data="[['Item', 'Resposta', 'Item', 'Resposta'], ['1. Satisfeito com a vida?', 'Sim', '9. Prefere ficar em casa?', 'Sim'], ['2. Interrompeu atividades?', 'Sim', '10. Mais problemas de memória?', 'Não'], ['3. Acha a vida vazia?', 'Não', '11. Maravilhoso estar vivo?', 'Sim'], ['4. Aborrece-se com frequência?', 'Não', '12. Vale a pena viver assim?', 'Sim'], ['5. De bem com a vida?', 'Sim', '13. Cheio de energia?', 'Não'], ['6. Teme que algo ruim aconteça?', 'Não', '14. Situação tem solução?', 'Sim'], ['7. Alegre a maior parte do tempo?', 'Sim', '15. Muita gente em situação melhor?', 'Sim'], ['8. Sente-se desamparado?', 'Não', '', '']]" head />
 
 <!--
-Este é o caso que testa se entenderam para que serve o desenho da escala. O escore vai dar baixo, e a pergunta interessante é: o rastreio negativo encerra a investigação? Deixe a pergunta no ar até o gabarito.
+Gabarito: 4 pontos — abaixo do corte 5/6, rastreio negativo. O achado a explorar é qual item pontuou: 2 (interrompeu atividades), 9 (prefere ficar em casa), 13 (falta de energia) e 15 (comparação social). Três dos quatro são produzidos pela doença pulmonar e cardíaca, não pelo humor, e o 13 é justamente um dos dois itens ambíguos que vimos no slide dos itens somáticos. Ou seja: mesmo com a doença empurrando o escore para cima, a escala não pontuou — é o desenho funcionando. E ainda assim o caso não está resolvido, porque a frase do encaminhamento não aparece em nenhum item.
 -->
-
----
-layout: default
-kicker: Vinheta 3
-aside: "vinheta clínica"
-title: Dona Terezinha, 83 anos, transtorno neurocognitivo maior
----
-
-Dois anos de escolaridade, mora com a filha. MEEM 19, com diagnóstico de doença de Alzheimer há dois anos. A filha relata apatia, choro fácil e recusa alimentar. Heteroaplicação; em duas perguntas a resposta mudou quando repetida.
-
-<Grid :data="[['Item', 'Resposta', 'Item', 'Resposta'], ['1. Satisfeita com a vida?', 'Não', '9. Prefere ficar em casa?', 'Sim'], ['2. Interrompeu atividades?', 'Sim', '10. Mais problemas de memória?', 'Sim'], ['3. Acha a vida vazia?', 'Não sabe', '11. Maravilhoso estar viva?', 'Sim'], ['4. Aborrece-se com frequência?', 'Sim', '12. Vale a pena viver assim?', 'Sim'], ['5. De bem com a vida?', 'Sim', '13. Cheia de energia?', 'Não'], ['6. Teme que algo ruim aconteça?', 'Não', '14. Situação tem solução?', 'Não'], ['7. Alegre a maior parte do tempo?', 'Sim', '15. Muita gente em situação melhor?', 'Não sabe'], ['8. Sente-se desamparada?', 'Sim', '', '']]" head />
-
-<!--
-Aqui há dois itens sem resposta e duas respostas que mudaram na repetição. Alguns grupos vão inventar um valor para completar; é justamente o que não se deve fazer. Observe quem faz isso e traga no gabarito, sem constranger ninguém.
--->
-
----
-layout: columns
-kicker: Gabarito · vinheta 1
-title: Dona Ivone — escore <span class="accent2">8</span>
-columns:
-  - title: "O escore"
-    items:
-      - "Pontuam os itens 1, 2, 3, 4, 6, 7, 8 e 13"
-      - "Total 8 — acima do corte 5/6"
-      - "Rastreamento positivo"
-  - title: "A armadilha é o luto"
-    items:
-      - "Viúva há oito meses, com escore alto"
-      - "Muitos concluiriam: é luto, não é depressão"
-      - "O DSM-5 retirou a exclusão por luto que existia no DSM-IV-TR"
-      - "Luto e episódio depressivo maior podem coexistir"
-  - title: "Conduta"
-    items:
-      - "Encaminhar para avaliação diagnóstica"
-      - "Não descartar por causa da perda recente"
-      - "A GDS não tem item de ideação suicida — isso se pergunta na entrevista"
----
-
-<!--
-O último ponto é o mais importante da vinheta e vale para toda escala de rastreio: a GDS-15 não tem item de ideação suicida. Um escore alto não informa risco, e um escore baixo não o descarta. Risco se investiga perguntando diretamente, na entrevista — e isso é conteúdo de estágio supervisionado, não de escala.
--->
-
----
-layout: columns
-kicker: Gabarito · vinheta 2
-title: Sr. Aparecido — escore <span class="accent2">4</span>
-columns:
-  - title: "O escore"
-    items:
-      - "Pontuam os itens 2, 9, 13 e 15"
-      - "Total 4 — abaixo do corte 5/6"
-      - "Rastreamento negativo"
-  - title: "A escala funcionou como projetada"
-    items:
-      - "Abandono de atividades, retraimento e falta de energia têm explicação cardiorrespiratória"
-      - "Se o instrumento pontuasse sono, apetite e dispneia, ele atingiria o corte"
-      - "Seria falso-positivo por doença clínica"
-  - title: "Conduta"
-    items:
-      - "Rastreio negativo reduz a probabilidade; não a zera"
-      - "Devolver à pneumologia com o escore e com a ressalva"
-      - "Reavaliar se o quadro clínico mudar"
----
-
-<!--
-Retome aqui o quadro do bloco um sobre a relação entre depressão e doença clínico-cirúrgica. As duas direções valem: sintomas físicos de depressão mimetizam doença clínica, e sintomas de doença clínica mimetizam depressão. A GDS resolve o segundo problema, não o primeiro — é para isso que serve a entrevista.
--->
-
----
-layout: panels
-kicker: Gabarito · vinheta 3
-title: Dona Terezinha — escore <span class="accent2">7</span>, não interpretável
-panels:
-  - {
-      icon: "lucide:calculator",
-      title: "O escore",
-      items: ["Pontuam os itens 1, 2, 4, 8, 9, 10, 13 e 14", "Dois itens sem resposta; duas respostas mudaram na repetição", "Registre 7 pontos em 13 itens — e não invente o resto"]
-    }
-  - {
-      icon: "lucide:shuffle",
-      title: "Por que não é medida",
-      items: ["Resposta que muda quando a pergunta se repete não é medida", "O item 10 pontuou por déficit real, não por autoavaliação depressiva"]
-    }
-  - {
-      icon: "lucide:trending-down",
-      title: "A acurácia já era baixa",
-      items: ["Com MEEM 19, a GDS perde acurácia", "Burke et al. (1989): AUC de 0,66 na doença de Alzheimer leve — não diferente do acaso"]
-    }
-  - {
-      icon: "lucide:replace",
-      title: "Conduta",
-      items: ["Trocar de instrumento: Cornell Scale for Depression in Dementia", "Usa observação direta e informante — e a filha já trouxe apatia, choro e recusa alimentar"]
-    }
----
-
-<!--
-Feche a dinâmica com o ponto que atravessa as três vinhetas: em nenhuma delas o número decidiu a conduta sozinho. Na primeira, o contexto quase levou a descartar um positivo verdadeiro; na segunda, um negativo correto não encerrou a investigação; na terceira, o instrumento estava errado desde o início. É isso que separa aplicar uma escala de avaliar uma pessoa.
--->
-
 ---
 layout: default
 kicker: Questão 5 · GDS
@@ -1438,18 +1265,6 @@ title: Alternativa <span class="accent2">b</span>
 
 <!--
 A alternativa c é a que mais gente marca na prática profissional, não na prova — porque a ficha impressa mostra as três faixas em destaque e o ponto de corte não aparece nela. Peça que anotem o corte 5/6 na própria folha, agora, à caneta. É a intervenção mais útil que esta aula pode fazer no dia a dia deles.
--->
-
----
-layout: default
-kicker: Fechando
-title: As três perguntas do começo
----
-
-<Grid :data="[['A pergunta', 'O que a aula permite responder'], ['Quadros de início precoce comprometem mais a cognição que os de início tardio?', 'Não há consenso. Na esquizofrenia, Sachdev et al. (1999) e Palmer et al. (2003) não encontraram diferença entre início precoce e tardio. Na depressão e no bipolar, os dados divergem, e escolaridade, cronicidade e comorbidade confundem a comparação'], ['Os quadros tardios são manifestação precoce de processo demencial?', 'Em parte, e em uma parte dos casos. Depressão maior é fator de risco para demência vascular e para doença de Alzheimer; 33% dos casos ditos de pseudodemência converteram no seguimento. Mas a maioria não converte'], ['A neurobiologia do envelhecimento particulariza a apresentação neuropsicológica?', 'A hipótese com mais sustentação é a vascular: lesão de substância branca na alça frontoestriatal explica o perfil disexecutivo da depressão de início tardio. Fora dela, o campo permanece aberto']]" head />
-
-<!--
-Termine dizendo que "não há consenso" é uma resposta legítima e que reconhecê-la é parte do trabalho. O capítulo fecha exatamente assim: os estudos ainda são pouco conclusivos quanto à instalação tardia ou precoce, e deve-se repensar a noção de que esses quadros seriam apenas funcionais. Quem escreve laudo precisa saber onde a literatura é firme e onde ela não é — e escrever de acordo.
 -->
 
 ---
@@ -1534,5 +1349,5 @@ As entradas marcadas como "conforme citado em Nicolato e Alvarenga" são citaç�
 layout: end
 title: Até a próxima
 subtitle: "Aula 04 — Avaliação neuropsicológica do idoso."
-contact: Traga a ficha da GDS-15 preenchida das três vinhetas.
+contact: Traga a ficha da GDS-15 preenchida das duas vinhetas.
 ---

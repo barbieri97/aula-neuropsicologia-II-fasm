@@ -2,6 +2,7 @@
     "slidev.include": [
         "**/slides.md",
         "aulas/aula-01-conceitos-e-teorias-sobre-o-envelhecimento.md",
-        "aulas/aula-02-envelhecimento-normal.md"
+        "aulas/aula-02-envelhecimento-normal.md",
+        "aulas/aula-03-saude-mental-e-envelhecimento.md"
     ]
 }

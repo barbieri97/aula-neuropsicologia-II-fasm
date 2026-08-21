@@ -26,6 +26,52 @@ As três regras que mais quebram deck:
 
 `npm run lint` pega as três, com arquivo e linha. Rode antes de commitar.
 
+Uma quarta que não quebra, só sai errada: **`**negrito**` não funciona dentro do frontmatter.**
+Os `items:` de `columns`/`panels`, os `desc:` e os títulos são injetados com `v-html`, então o
+markdown aparece literal na tela — `**Conduta:**` sai com os asteriscos. Use `<strong>` e `<em>`.
+
+## Slides com figura
+
+O lint não pega nada disto — só o olho, num slide renderizado. A aula 03 chegou a ter cinco slides
+com os cinco defeitos ao mesmo tempo.
+
+**`layout: image` só comporta um corpo curto.** Parágrafo de abertura + três marcadores +
+`<Callout>` não cabem na meia-coluna: o texto transborda *para cima*, atravessa o título e o
+`<Callout>` cai fora do slide. Nada avisa — o Slidev não corta, só deixa vazar. Use `image` quando
+o texto for de duas ou três linhas. **Quando a figura é o assunto do slide — e o título costuma
+denunciar isso ("o fluxo tem três saídas", "a linha do tempo…") — o layout certo é `diagram` com
+um `<Figure>` no corpo**, o argumento em uma linha no `note:` e o resto nas notas do apresentador.
+
+**Desenhe o SVG na proporção do palco em que ele vai cair.** No `diagram` o palco é largo e baixo,
+perto de **2,8:1**; em `image` é quase quadrado. Um SVG de 960×620 jogado numa meia-coluna
+renderiza a ~430px de largura e o rótulo de 13px vira 6px na projeção. Como regra: um rótulo
+precisa de ~17px no viewBox para ser lido do fundo da sala, e o viewBox deve ter mais ou menos a
+largura em que a figura será exibida.
+
+**`font-family` sem aspas em SVG derruba a fonte inteira.** `font-family="Source Sans 3, Segoe UI,
+…"` é valor CSS inválido (o `3` sozinho não é identificador), e num atributo de apresentação do SVG
+o valor inválido invalida o atributo — o texto volta para a serifa padrão do navegador. Escreva
+sempre `font-family="'Source Sans 3','Segoe UI',system-ui,sans-serif"`.
+
+**Um SVG referenciado por `src` é um documento à parte** e não enxerga as `@font-face` do tema.
+Ele vai cair no fallback do sistema (Segoe UI no Windows, outra coisa no runner do CI), então deixe
+folga nas larguras de texto e não conte com a métrica do Source Sans.
+
+**Não repita na figura o que o slide vizinho já diz.** Foi a origem de metade do excesso: as quatro
+perguntas dentro do fluxograma eram as mesmas do `vs` anterior; a caixa de rodapé do SVG da GDS
+repetia o `<Callout>` do próprio slide. Figura que recapitula um slide anterior mostra só a forma
+do argumento — os nomes, não as descrições.
+
+Para conferir um slide sem abrir o navegador, exporte só ele em PNG e olhe:
+
+```bash
+node node_modules/@slidev/cli/bin/slidev.mjs export aulas/<aula>.md \
+  --format png --range 16-19 --output .tmp-export
+```
+
+Peça um intervalo com folga em volta do slide de interesse: intervalos curtos às vezes terminam
+sem gravar arquivo nenhum, e repetir com um intervalo maior resolve. Apague o diretório depois.
+
 ## Antes de mexer no tema
 
 O visual inteiro sai de [`theme/styles/tokens.css`](theme/styles/tokens.css) — é o único arquivo

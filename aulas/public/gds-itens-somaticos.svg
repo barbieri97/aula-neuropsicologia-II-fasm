@@ -1,63 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620" role="img" aria-label="Comparação entre os sintomas somáticos que os inventários de depressão para adultos investigam e o que a GDS-15 pergunta. À esquerda, sono, apetite, peso, dor, libido e queixas físicas — todos frequentes no envelhecimento normal e na doença clínica. À direita, os itens que a GDS-15 mantém: satisfação, vazio, tédio, medo, alegria, desamparo, retraimento, valor de viver, esperança e comparação social. Ao centro, os dois itens que a escala conservou apesar de ambíguos: energia e memória.">
-  <rect width="960" height="620" fill="#fdfdfb"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="À esquerda, os sintomas somáticos que os inventários de depressão para adultos pontuam e a GDS deixou de fora: insônia e hipersonia, apetite, peso, dor, libido, lentificação motora e queixas físicas difusas. À direita, os quinze itens da GDS-15, todos de resposta sim ou não, dirigidos ao humor, à autoavaliação e ao retraimento. Dois deles, falta de energia e problemas de memória, aparecem destacados por ainda tangenciarem a esfera somática.">
+  <rect width="1000" height="360" fill="#fdfdfb"/>
 
-  <g font-family="Source Sans 3, Segoe UI, system-ui, sans-serif">
+  <g font-family="'Source Sans 3','Segoe UI',system-ui,sans-serif">
 
-    <!-- Coluna esquerda -->
-    <text x="40" y="46" font-size="17" font-weight="700" fill="#8c2f2f">O que a GDS deixou de fora</text>
-    <text x="40" y="70" font-size="13.5" fill="#6b6b63">itens somáticos dos inventários para adultos</text>
-    <rect x="40" y="86" width="270" height="352" rx="4" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="2"/>
-    <g font-size="15" fill="#1b1b19">
-      <text x="64" y="124">Insônia e hipersonia</text>
-      <text x="64" y="164">Apetite</text>
-      <text x="64" y="204">Perda ou ganho de peso</text>
-      <text x="64" y="244">Dor</text>
-      <text x="64" y="284">Libido</text>
-      <text x="64" y="324">Lentificação motora</text>
-      <text x="64" y="364">Queixas físicas difusas</text>
+    <!-- O que ficou de fora -->
+    <text x="30" y="32" font-size="19" font-weight="700" fill="#8c2f2f">O que a GDS deixou de fora</text>
+    <text x="30" y="55" font-size="15.5" fill="#6b6b63">itens somáticos dos inventários para adultos</text>
+    <rect x="30" y="68" width="270" height="244" rx="4" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="2.5"/>
+    <g font-size="17" fill="#1b1b19">
+      <text x="52" y="100">Insônia e hipersonia</text>
+      <text x="52" y="130">Apetite</text>
+      <text x="52" y="160">Perda ou ganho de peso</text>
+      <text x="52" y="190">Dor</text>
+      <text x="52" y="220">Libido</text>
+      <text x="52" y="250">Lentificação motora</text>
+      <text x="52" y="280">Queixas físicas difusas</text>
     </g>
-    <line x1="64" y1="386" x2="286" y2="386" stroke="#8c2f2f" stroke-width="1"/>
-    <text x="64" y="410" font-size="13.5" fill="#8c2f2f" font-weight="600">frequentes no envelhecimento</text>
-    <text x="64" y="428" font-size="13.5" fill="#8c2f2f" font-weight="600">normal e na doença clínica</text>
 
-    <!-- Seta / explicação central -->
+    <!-- Retirados -->
+    <text x="340" y="172" text-anchor="middle" font-size="15.5" fill="#6b6b63">retirados</text>
     <g stroke="#1b1b19" stroke-width="2.5" fill="none" stroke-linecap="round">
-      <path d="M328 200 H392"/>
-      <path d="M380 190 l14 10 -14 10"/>
+      <path d="M312 190 H358"/>
+      <path d="M348 180 l12 10 -12 10"/>
     </g>
-    <text x="360" y="176" text-anchor="middle" font-size="13" fill="#4a4a45">retirados</text>
 
-    <!-- Coluna direita -->
-    <text x="412" y="46" font-size="17" font-weight="700" fill="#1d3e6e">O que a GDS-15 pergunta</text>
-    <text x="412" y="70" font-size="13.5" fill="#6b6b63">resposta dicotômica, sim ou não</text>
-    <rect x="412" y="86" width="508" height="352" rx="4" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="2"/>
-    <g font-size="15" fill="#1b1b19">
-      <text x="438" y="124">Satisfação com a vida</text>
-      <text x="438" y="158">Abandono de atividades</text>
-      <text x="438" y="192">Sensação de vazio</text>
-      <text x="438" y="226">Aborrecimento frequente</text>
-      <text x="438" y="260">Bem-estar na maior parte do tempo</text>
+    <!-- O que ficou -->
+    <text x="390" y="32" font-size="19" font-weight="700" fill="#1d3e6e">O que a GDS-15 pergunta</text>
+    <text x="390" y="55" font-size="15.5" fill="#6b6b63">quinze itens, resposta dicotômica — sim ou não</text>
+    <rect x="390" y="68" width="580" height="244" rx="4" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="2.5"/>
+    <g font-size="17" fill="#1b1b19">
+      <text x="412" y="98">Satisfação com a vida</text>
+      <text x="412" y="126">Abandono de atividades</text>
+      <text x="412" y="154">Sensação de vazio</text>
+      <text x="412" y="182">Aborrecimento frequente</text>
+      <text x="412" y="210">Bem-estar na maior parte do tempo</text>
+      <text x="412" y="238">Medo de que algo ruim aconteça</text>
+      <text x="412" y="266">Alegria</text>
+      <text x="412" y="294">Desamparo</text>
 
-      <text x="700" y="124">Medo de que algo ruim aconteça</text>
-      <text x="700" y="158">Alegria</text>
-      <text x="700" y="192">Desamparo</text>
-      <text x="700" y="226">Retraimento em casa</text>
-      <text x="700" y="260">Valor de estar vivo</text>
+      <text x="716" y="98">Retraimento em casa</text>
+      <text x="716" y="126" fill="#8a5a12" font-weight="700">Problemas de memória</text>
+      <text x="716" y="154">Valor de estar vivo</text>
+      <text x="716" y="182" fill="#8a5a12" font-weight="700">Falta de energia</text>
+      <text x="716" y="210">Vale a pena viver assim</text>
+      <text x="716" y="238">Esperança de solução</text>
+      <text x="716" y="266">Comparação com os outros</text>
     </g>
-    <line x1="438" y1="284" x2="894" y2="284" stroke="#b9c6da" stroke-width="1"/>
-    <g font-size="15" fill="#1b1b19">
-      <text x="438" y="316">Vale a pena viver assim</text>
-      <text x="438" y="350">Esperança de solução</text>
-      <text x="700" y="316">Comparação com os outros</text>
-    </g>
-    <text x="438" y="410" font-size="13.5" fill="#1d3e6e" font-weight="600">o alvo é o humor, a autoavaliação e o retraimento — não o corpo</text>
 
     <!-- Ressalva -->
-    <rect x="40" y="466" width="880" height="106" rx="4" fill="#f4ece0" stroke="#8a5a12" stroke-width="2"/>
-    <text x="66" y="500" font-size="16" font-weight="700" fill="#8a5a12">Dois itens que a GDS-15 conservou — e que exigem leitura crítica</text>
-    <g font-size="14.5" fill="#1b1b19">
-      <text x="66" y="530">Item 13 — &#8220;Sente-se cheio de energia?&#8221;: fadiga também vem de anemia, hipotireoidismo, insuficiência cardíaca e fármacos.</text>
-      <text x="66" y="556">Item 10 — &#8220;Tem mais problemas de memória que outras pessoas?&#8221;: pontua igual no deprimido e em quem tem déficit cognitivo real.</text>
-    </g>
+    <rect x="30" y="330" width="16" height="14" fill="#f4ece0" stroke="#8a5a12" stroke-width="2"/>
+    <text x="56" y="342" font-size="16" fill="#4a4a45">em ocre, os dois itens que ainda tangenciam o somático — memória (item 10) e energia (item 13)</text>
+
   </g>
 </svg>
