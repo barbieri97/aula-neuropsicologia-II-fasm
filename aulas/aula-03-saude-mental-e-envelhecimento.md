@@ -41,10 +41,6 @@ items:
     }
 ---
 
-<!--
-D
--->
-
 ---
 layout: section
 index: "01"
@@ -56,10 +52,8 @@ subtitle: Por que o mesmo diagnóstico não descreve o mesmo quadro
 ---
 layout: default
 kicker: As perguntas do capítulo
-title: Três perguntas que ficam abertas até o fim da aula
+title: Três perguntas sobre saúde mental no idoso.
 ---
-
-O capítulo de referência abre com perguntas que a literatura ainda não fechou. Guarde-as: voltamos a elas no último slide.
 
 <v-clicks>
 
@@ -70,7 +64,8 @@ O capítulo de referência abre com perguntas que a literatura ainda não fechou
 </v-clicks>
 
 <!--
-L
+- **Capítulo de referência** — Nicolato, R. e Alvarenga, J. (2010). Saúde mental e envelhecimento. In: Malloy-Diniz, Fuentes e Cosenza (orgs.), *Neuropsicologia do envelhecimento*. Porto Alegre: Artmed, p. 115-126.
+- As três perguntas são as que o capítulo deixa em aberto; voltam no fechamento da aula.
 -->
 
 ---
@@ -91,13 +86,16 @@ points:
 ---
 
 <!--
-I
+- **Sinal** — o que o examinador observa (lentificação, choro, discurso desorganizado).
+- **Sintoma** — o que o paciente relata (tristeza, desânimo, falta de prazer).
+- **Síndrome** — conjunto de sinais e sintomas que ocorrem juntos com regularidade suficiente para ser reconhecido; não implica causa única.
+- **Critério operacional** — regra explícita de contagem (quantos sintomas, por quanto tempo, com que prejuízo) que torna o diagnóstico reprodutível entre avaliadores diferentes.
 -->
 
 ---
 layout: feature
 kicker: O problema central da aula
-title: Por que o quadro no idoso <em>não</em> é o do adulto jovem
+title: Por que o quadro depressivo no idoso <em>não</em> é o do adulto jovem
 columns: 2
 features:
   - {
@@ -129,7 +127,10 @@ features:
 ---
 
 <!--
-Q
+- **Iatrogenia** — dano ou efeito adverso produzido pelo próprio cuidado em saúde (fármaco, procedimento ou conduta).
+- **Fármacos associados a quadro depressivo** — anti-hipertensivos (betabloqueadores, metildopa), antiparkinsonianos (levodopa), corticosteroides, benzodiazepínicos.
+- **Carga anticolinérgica** — soma do efeito antimuscarínico de todos os fármacos em uso: tricíclicos, anti-histamínicos de 1ª geração, antiespasmódicos urinários (oxibutinina), alguns antipsicóticos.
+- Gallo, J. J. e Rabins, P. V. (1999). *Depression without sadness*. American Family Physician, 60(3), 820-826.
 -->
 
 ---
@@ -143,7 +144,8 @@ note: Hipótese de demência no encaminhamento <em>não</em> dispensa investigar
 <Figure src="/filtros-diagnostico-idoso.svg" alt="Funil em quatro degraus: entre o quadro psiquiátrico que o idoso de fato tem e o que chega a ser diagnosticado há quatro filtros — apresentação atípica, comorbidade clínica, iatrogenia e subdiagnóstico" />
 
 <!--
-Uma frase por filtro, sem repetir o slide anterior: o ponto aqui é a forma do funil. Cada filtro retém parte dos casos, então a subestimação é cumulativa, não pontual — e o que sobra na ponta direita é justamente a base sobre a qual a literatura calcula prevalência. O idoso que chega à avaliação neuropsicológica já atravessou os quatro. Daí a conclusão prática do rodapé: em quase todo serviço a hipótese que chega escrita na guia é "investigar demência", e a nossa primeira tarefa é decidir se aquilo é humor. Vamos passar a segunda parte da aula exatamente nisso.
+- **Os quatro filtros** — apresentação atípica → comorbidade clínica → iatrogenia → subdiagnóstico. A perda de casos é cumulativa, e a prevalência publicada é calculada sobre o que sobra na ponta.
+- **Subdiagnóstico** — a depressão é o transtorno psiquiátrico mais prevalente no hospital geral e um dos menos identificados na atenção primária.
 -->
 
 ---
@@ -160,7 +162,7 @@ Procura o clínico com cansaço, insônia e dores difusas há três meses. Nega 
 - **d)** Sintomas somáticos em idosos são inespecíficos e não devem entrar na avaliação de humor
 
 <!--
-Dê noventa segundos. Peça voto por levantar de mão nas quatro alternativas antes de revelar — o valor pedagógico está na distribuição dos votos, não no acerto. A alternativa b costuma ser a segunda mais votada, e é exatamente o erro que a aula precisa desfazer.
+- **Gabarito: c** — é o filtro da comorbidade clínica.
 -->
 
 ---
@@ -178,7 +180,8 @@ title: Alternativa <span class="accent2">c</span>
 - **d)** inverte a lógica do rastreio: é por serem pouco específicos que existe uma escala que os evita — a GDS, na última parte
 
 <!--
-D
+- **Anedonia** — perda de interesse ou de prazer em atividades antes prazerosas.
+- O critério A do episódio depressivo maior se satisfaz com humor deprimido **ou** anedonia: negar tristeza não descarta o diagnóstico.
 -->
 
 ---
@@ -204,7 +207,10 @@ points:
 ---
 
 <!--
-O último ponto é o que interessa à disciplina e é onde o capítulo é explícito: déficits cognitivos constituem característica importante do quadro depressivo maior, sobretudo em atenção, memória e velocidade psicomotora, com referência ao trabalho de Beekman. Não estamos falando de um efeito colateral do sofrimento — estamos falando de parte da definição do quadro.
+- **Eutimia** — humor dentro da faixa normal, sem depressão nem elevação.
+- **Distimia (transtorno depressivo persistente)** — humor deprimido na maior parte do dia, na maioria dos dias, por pelo menos 2 anos, com menos sintomas que o episódio maior.
+- **Unipolar × bipolar** — a distinção é a presença, em algum momento da vida, de episódio maníaco ou hipomaníaco.
+- **Sintomas vegetativos** — sono, apetite, peso, energia e libido.
 -->
 
 ---
@@ -213,10 +219,6 @@ kicker: Primeiro quadro
 title: Depressão
 subtitle: O transtorno psiquiátrico mais prevalente em hospitais gerais e o mais subdiagnosticado na atenção primária.
 ---
-
-<!--
-Marque a virada de assunto e a ordem fixa que vamos seguir em cada quadro daqui em diante: caracterização, especificidades no idoso, alterações cognitivas. É a mesma sequência para o bipolar e para a esquizofrenia, e é assim que eles devem organizar o estudo.
--->
 
 ---
 layout: columns
@@ -245,7 +247,10 @@ columns:
 ---
 
 <!--
-Síntese parafraseada dos critérios do DSM-5-TR (conforme reproduzidos em Nursing: Mental Health and Community Concepts, NCBI Bookshelf, 2024). Chame atenção para os dois últimos sintomas da terceira coluna: são os dois que interessam diretamente a esta disciplina, e são os que o paciente idoso relata como "memória ruim". Não é memória: é atenção, iniciativa e decisão.
+- **DSM-5-TR** — *Diagnostic and Statistical Manual of Mental Disorders*, 5ª edição, texto revisado (APA, 2022). Aqui em síntese parafraseada; a redação oficial é da APA.
+- **Retardo psicomotor** — lentificação de fala, movimento e reação **observável** pelo examinador, não apenas relatada.
+- **Hipersonia** — sono noturno prolongado ou sonolência diurna excessiva.
+- **Contagem** — são 9 sintomas; exigem-se 5 ou mais em 2 semanas, incluindo humor deprimido ou anedonia.
 -->
 
 ---
@@ -257,7 +262,8 @@ title: Os critérios que fecham o diagnóstico
 <Grid :data="[['Critério', 'O que exige', 'Por que importa no idoso'], ['Prejuízo', 'Sofrimento clinicamente significativo ou prejuízo social, ocupacional ou funcional', 'Aposentadoria e viuvez reduzem as demandas externas — o prejuízo fica menos visível'], ['Exclusão orgânica', 'Não atribuível a substância ou a outra condição médica', 'É o critério mais trabalhoso na geriatria: hipotireoidismo, fármacos, anemia, neoplasia'], ['Exclusão de mania', 'Nunca houve episódio maníaco ou hipomaníaco', 'Muda o tratamento inteiro: antidepressivo isolado no bipolar arrisca virada']]" head highlight="row:5" />
 
 <!--
-A
+- **Virada (*switch*) maníaca** — desencadeamento de episódio maníaco ou hipomaníaco por antidepressivo usado sem estabilizador do humor.
+- **Exclusão orgânica no idoso** — investigação mínima: TSH e T4 livre, hemograma, vitamina B12, função renal e hepática, cálcio, glicemia, e revisão de toda a prescrição em uso.
 -->
 
 ---
@@ -286,7 +292,11 @@ chart:
 ---
 
 <!--
-Um dado só: a barra cresce conforme a definição de caso afrouxa, não conforme a população piora. Peça que reparem na distância entre a primeira e a última barra — vinte vezes, na mesma faixa etária. Quando alguém citar "a prevalência de depressão no idoso", a primeira pergunta é qual instrumento e qual critério. Esse raciocínio vai reaparecer inteiro no bloco da GDS.
+- **Depressão maior** — caso que fecha os critérios diagnósticos por entrevista clínica.
+- **Depressão menor** — 2 a 5 sintomas, com prejuízo, sem fechar critério. Não é categoria oficial do DSM-5-TR.
+- **Sintomatologia depressiva significativa** — escore acima do ponto de corte de uma escala de rastreio, sem entrevista diagnóstica.
+- **GHQ-12** — *General Health Questionnaire*, versão de 12 itens; instrumento de rastreio usado no estudo de Bambuí.
+- A prevalência varia cerca de 20× entre a definição mais estrita (1,8%) e a mais frouxa (38,5%) na mesma faixa etária.
 -->
 
 ---
@@ -317,7 +327,9 @@ panels:
 ---
 
 <!--
-O terceiro painel é o que mais muda conduta. Os conceitos de depressão menor e subsindrômica não são oficialmente aceitos como categorias diagnósticas, mas descrevem a maior parte do que encontramos: o idoso que sofre, funciona pior e não fecha critério. Barcelos-Ferreira encontrou 26% de sintomatologia significativa contra 7% de depressão maior — quase quatro vezes mais gente na zona cinzenta do que na categoria fechada.
+- **Quadro subsindrômico** — sintomas com prejuízo funcional que não atingem o número ou a duração exigidos pelo critério.
+- Barcelos-Ferreira et al. (2010): 26% de sintomatologia significativa contra 7% de depressão maior — cerca de 4× mais idosos na zona cinzenta do que na categoria fechada.
+- **Relação bidirecional** — deprimidos têm mais coronariopatia, e coronariopatas deprimidos no pós-infarto têm maior mortalidade.
 -->
 
 ---
@@ -337,7 +349,10 @@ A lesão não está no córtex: está na fiação que liga o pré-frontal ao est
 </Callout>
 
 <!--
-Os três marcadores são o que sustenta o conceito: achado de imagem, perfil cognitivo e ausência de carga familiar. Depois de enunciá-los, passe para a figura — ela mostra onde exatamente a lesão age.
+- **Depressão vascular** — hipótese de Alexopoulos et al. (1997): quadro depressivo geriátrico associado a doença isquêmica subcortical silenciosa.
+- **Doença de pequenos vasos** — arteriolosclerose das arteríolas cerebrais profundas, que lesa a substância branca subcortical e periventricular.
+- **Início tardio** — primeiro episódio depressivo após os 60 anos (convenção mais usada; parte dos estudos adota 65).
+- **Perfil disexecutivo** — lentificação, perda de iniciativa, prejuízo de planejamento e de flexibilidade, com armazenamento de memória relativamente preservado.
 -->
 
 ---
@@ -352,7 +367,9 @@ note: A doença de pequenos vasos interrompe o circuito em pontos que a atrofia
 <Figure src="/depressao-vascular-circuito.svg" alt="A alça frontoestriatal desenhada como um circuito fechado — pré-frontal dorsolateral, caudado, globo pálido e tálamo, com o retorno ao pré-frontal — e marcas de hiperintensidade de substância branca sobre as conexões entre as estruturas" />
 
 <!--
-hiperintensidades da substância branca = são áreas brilhantes ou "manchas brancas" vistas em exames de ressonância magnética (nas sequências T2 e FLAIR). Elas indicam alterações nos tecidos cerebrais causadas por acúmulo de líquido, pequenas cicatrizes (gliose), perda de mielina (desmielinização) ou alterações vasculares
+- **Hiperintensidades de substância branca** — áreas de sinal brilhante nas sequências T2 e FLAIR da ressonância magnética. Indicam alteração tecidual por acúmulo de líquido, gliose (cicatriz glial), desmielinização ou origem vascular.
+- **FLAIR** — *Fluid-Attenuated Inversion Recovery*: sequência de RM que suprime o sinal do líquor e realça essas lesões.
+- **Alça (circuito) frontoestriatal** — pré-frontal dorsolateral → caudado → globo pálido → tálamo → de volta ao pré-frontal. É a via que sustenta iniciativa, planejamento e velocidade de processamento.
 -->
 
 ---
@@ -385,7 +402,10 @@ columns:
 ---
 
 <!--
-A
+- **CAMDEX** — *Cambridge Mental Disorders of the Elderly Examination*; entrevista diagnóstica com seção cognitiva própria (CAMCOG).
+- **Memória episódica** — memória de eventos situados no tempo e no espaço.
+- **Codificação × recuperação** — na depressão o material é registrado de forma pobre e mal acessado; pista e reconhecimento recuperam parte dele.
+- **Erro de omissão** — deixar de responder ou responder «não sei», por oposição ao erro de comissão (responder errado).
 -->
 
 ---
@@ -402,7 +422,7 @@ Ressonância indica diminuição de substância branca. Encaminhada para avalia�
 - **d)** Comprometimento global e progressivo, o que confirmaria o diagnóstico de pseudodemência
 
 <!--
-Deixe que discutam em duplas por dois minutos antes de votar. A alternativa d é a que mais interessa: quem a marcar está tratando "pseudodemência" como categoria diagnóstica, que é exatamente o que os três próximos slides vão desmontar.
+- **Gabarito: b**
 -->
 
 ---
@@ -420,7 +440,8 @@ title: Alternativa <span class="accent2">b</span>
 - **d)** trata "pseudodemência" como diagnóstico e erra o curso: quadro depressivo não é progressivo por definição
 
 <!--
-Use a alternativa a como ponte: a diferença entre falha de recuperação e falha de armazenamento é o mesmo conceito que eles viram na aula 02, agora aplicado ao diferencial mais importante da geriatria. Faça a ponte explicitamente — reforça a aula anterior e prepara o próximo slide.
+- **Armazenamento × recuperação** — falha de armazenamento não melhora com pista nem no reconhecimento (perfil amnéstico da doença de Alzheimer); falha de recuperação melhora (perfil da depressão e das síndromes frontais).
+- **Pseudodemência** — termo histórico para o quadro depressivo que simula demência. Não é categoria diagnóstica do DSM-5-TR e o termo é hoje desaconselhado, porque parte desses casos evolui para demência (Brodaty e Connors, 2020).
 -->
 
 ---
@@ -449,7 +470,9 @@ right:
 ---
 
 <!--
-P
+- **Transtorno neurocognitivo maior (TNC maior)** — denominação do DSM-5 para o que o DSM-IV chamava demência.
+- **Confabulação** — resposta plausível mas falsa, sem intenção de enganar, que preenche uma lacuna de memória.
+- **Anosognosia** — desconhecimento do próprio déficit; frequente no TNC maior e raro na depressão.
 -->
 
 ---
@@ -464,7 +487,8 @@ note: O tratamento adequado do humor é a única prova diagnóstica disponível 
 <Figure src="/fluxo-depressao-tnc.svg" alt="Diante de queixa cognitiva no idoso o fluxo abre em três desfechos: quadro depressivo provável, os dois quadros ao mesmo tempo, e transtorno neurocognitivo provável" />
 
 <!--
-Os discriminadores da caixa do meio são os do slide anterior — não os repita, aponte para eles. O que este slide acrescenta é a terceira saída: o desfecho do meio é o mais frequente na clínica geriátrica, e é justamente o que um fluxo de duas saídas obriga a arredondar para um lado. Marque o intervalo de reavaliação como conduta concreta e defensável em laudo: Alexopoulos e colaboradores (2002) acompanharam por três anos pacientes deprimidos com sintomas demenciais aparentemente reversíveis, e o risco de demência irreversível foi quase cinco vezes maior entre eles do que entre deprimidos sem sintomas cognitivos. Reavaliação em 6 a 12 semanas não é protelação nem excesso de zelo: é o desenho que separa reversível de irreversível.
+- Alexopoulos et al. (2002): idosos deprimidos com sintomas demenciais aparentemente reversíveis, seguidos por cerca de 3 anos, tiveram risco de demência irreversível quase 5× maior que o de deprimidos sem sintomas cognitivos.
+- **Conduta de referência** — tratar o humor e reavaliar a cognição em 6 a 12 semanas. Quem não recupera desempenho depois da remissão do humor tem, provavelmente, os dois quadros.
 -->
 
 ---
@@ -473,10 +497,6 @@ kicker: Segundo quadro
 title: Transtorno bipolar
 subtitle: Uma patologia espectral, hoje reconhecida em uma faixa etária em que por muito tempo se supôs que não existisse.
 ---
-
-<!--
-Segunda virada. Diga de saída que a literatura sobre bipolar no idoso é bem mais escassa e mais controversa do que a de depressão — e que isso vai aparecer na quantidade de "não há consenso" dos próximos slides. Não é lacuna da aula: é o estado do campo.
--->
 
 ---
 layout: columns
@@ -507,7 +527,11 @@ columns:
 ---
 
 <!--
-Síntese parafraseada do DSM-5-TR conforme Jain e Mitra (StatPearls, 2023). Destaque a mudança do DSM-IV para o DSM-5 no critério nuclear: antes bastava a alteração de humor; agora é exigido também aumento anormal e persistente de atividade ou energia. Isso reduz falso-positivo em idosos irritáveis por dor, insônia ou delirium — e é uma mudança que favorece a nossa população. Bipolar tipo I exige ao menos um episódio maníaco; tipo II exige hipomania mais episódio depressivo, e nenhum episódio maníaco.
+- **DSM-IV → DSM-5** — o critério nuclear passou a exigir, além da alteração de humor, aumento anormal e persistente de atividade ou energia. Isso reduz falso-positivo em idosos irritáveis por dor, insônia ou delirium.
+- **Pressão para falar** — fala acelerada, contínua, difícil de interromper.
+- **Fuga de ideias** — sucessão rápida de ideias com ligações frouxas, mas ainda rastreáveis (difere do descarrilamento psicótico).
+- **Grandiosidade** — autoestima inflada, com superestimação de capacidades, posses ou projetos.
+- **Tipo I** — exige ao menos um episódio maníaco. **Tipo II** — hipomania mais episódio depressivo maior, sem nenhum episódio maníaco.
 -->
 
 ---
@@ -517,30 +541,27 @@ title: O transtorno bipolar depois dos 60
 columns: 3
 stats:
   - {
-      value: "1,1",
-      unit: "%",
-      label: "de prevalência de transtorno bipolar I em pessoas com mais de 64 anos, em amostra de mais de 8 mil idosos norte-americanos (NESARC)",
-      icon: "lucide:users",
-      tone: "info"
-    }
-  - {
       value: "17",
       unit: " anos",
-      label: "de latência entre o primeiro episódio depressivo e o primeiro de mania nos idosos — contra 3 anos nos jovens (Laks, 2009)",
+      label: "de latência entre o primeiro episódio depressivo e o primeiro de mania
+        nos idosos — contra 3 anos nos jovens (Laks, 2009)",
       icon: "lucide:hourglass",
       tone: "warn"
     }
   - {
       value: "2",
       unit: "×",
-      label: "mais chance de evoluir para demência do que pacientes com outras doenças crônicas (Kessing e Nilsson, 2003)",
+      label: "mais chance de evoluir para demência do que pacientes com outras doenças
+        crônicas (Kessing e Nilsson, 2003)",
       icon: "lucide:trending-up",
       tone: "bad"
     }
 ---
 
 <!--
-O número do meio é o mais útil clinicamente. Dezessete anos de latência significa que um idoso que abre mania aos 70 pode ter tido o primeiro episódio depressivo aos 53 — e passou quase duas décadas tratado como unipolar. Quando encontrarmos história de depressão recorrente de longa data em um idoso que agora está irritável e hiperativo, a hipótese de virada precisa estar na mesa antes de pensarmos em quadro demencial.
+- **NESARC** — *National Epidemiologic Survey on Alcohol and Related Conditions* (EUA); a estimativa de 1,1% vem de amostra de mais de 8 mil pessoas com mais de 64 anos.
+- **Latência** — intervalo entre o primeiro episódio depressivo e o primeiro episódio de mania: cerca de 17 anos no idoso contra 3 anos no jovem (Laks, 2009). Quem abre mania aos 70 pode ter tido o primeiro episódio depressivo aos 53.
+- Kessing e Nilsson (2003): risco de evoluir para demência cerca de 2× o de pacientes com outras doenças crônicas.
 -->
 
 ---
@@ -571,7 +592,9 @@ panels:
 ---
 
 <!--
-O terceiro painel corrige uma crença difundida. Há muitos estudos associando mania tardia a etiologia orgânica quase inexoravelmente; Almeida e Fenner argumentam que, se a associação fosse tão forte, a mania em idosos seria muito mais frequente do que é. A leitura correta é intermediária: descartar causa orgânica por neuroimagem, exames bioquímicos e avaliação neuropsicológica, sem assumir que ela está sempre lá.
+- **Sintomas mistos** — sintomas depressivos e maníacos no mesmo episódio; no DSM-5 são um especificador («com características mistas»), não um episódio à parte.
+- Almeida e Fenner (2002): a associação entre mania tardia e doença cerebrovascular é mais fraca do que se supunha — se fosse tão forte, a mania no idoso seria muito mais frequente do que é. Conduta: descartar causa orgânica por neuroimagem, exames bioquímicos e avaliação neuropsicológica, sem assumir que ela está sempre presente.
+- **Deficiência de B12** — cursa com quadro afetivo, psicótico ou cognitivo; a dosagem sérica é exame de rotina no diferencial.
 -->
 
 ---
@@ -597,7 +620,11 @@ columns:
 ---
 
 <!--
-A ordem das colunas é a ordem do tamanho do efeito, e a terceira é a que mais muda conduta imediata: nenhum teste detecta carga anticolinérgica sozinho, ela sai da anamnese. Entram na conta tricíclicos, anti-histamínicos, antiespasmódicos urinários e alguns antipsicóticos — peça a lista com as caixas, não de memória. Insista na primeira coluna: Gildengers e colaboradores (2004) mostram que a maioria dos idosos bipolares eutímicos exibe comprometimento — eutimia é critério de humor, não prognóstico cognitivo. E desfaça o reflexo da segunda coluna: o efeito do lítio é pequeno e circunscrito, não serve para explicar um perfil francamente rebaixado. Se o desempenho despencou, procure outra coisa — provavelmente a terceira coluna, que é a única invisível ao teste.
+- **TE (tamanho de efeito)** — *d* de Cohen: ≈ 0,2 pequeno, ≈ 0,5 médio, ≈ 0,8 grande.
+- **OR (*odds ratio*)** — razão de chances; OR 1,45 significa 45% mais chance do desfecho.
+- **MEEM** — Mini-Exame do Estado Mental. **FAB** — *Frontal Assessment Battery*. **RBANS** — *Repeatable Battery for the Assessment of Neuropsychological Status*.
+- **Litemia** — concentração sérica de lítio; faixa terapêutica usual de 0,6 a 1,2 mEq/L, com alvo mais baixo no idoso. O uso de lítio exige monitorar ainda TSH e função renal.
+- **Carga anticolinérgica** — nenhum teste a detecta; ela sai da anamnese medicamentosa, feita com as caixas em mãos e não de memória.
 -->
 ---
 layout: default
@@ -611,7 +638,7 @@ title: Sobre o transtorno bipolar no idoso, assinale a alternativa correta
 - **d)** Diante de queixa cognitiva em paciente em uso de lítio, a conduta é suspender o fármaco, por ser a causa mais provável
 
 <!--
-Esta é a questão mais difícil das cinco, porque as quatro alternativas circulam como verdadeiras na prática. Dê dois minutos e peça que justifiquem a escolha em uma frase antes de votar.
+- **Gabarito: c**
 -->
 
 ---
@@ -627,10 +654,6 @@ title: Alternativa <span class="accent2">c</span>
 - **a)** é a crença que Almeida e Fenner (2002) desfizeram: se a associação fosse tão forte, a mania em idosos seria bem mais frequente
 - **b)** contraria Martino et al. (2008): mesmo em eutimia há lentificação e prejuízo de memória verbal e de funções executivas
 - **d)** o efeito do lítio é pequeno e circunscrito (Wingo et al., 2009). Verifique antes litemia, função tireoidiana e o humor
-
-<!--
-S
--->
 
 ---
 layout: section
@@ -656,9 +679,13 @@ points:
 ---
 
 <!--
-**Avolição** = perda total de motivação para iniciar ou terminar tarefas
-
-Alogia = pobreza da fala e do pensamento, com respostas curtas e vazias
+- **Delírio** — crença falsa, fixa, não corrigível pela evidência e não compartilhada pelo grupo cultural do paciente.
+- **Alucinação** — percepção sem objeto, vívida e involuntária, com força de percepção real; na esquizofrenia é mais frequentemente auditiva.
+- **Discurso desorganizado** — descarrilamento (mudança de assunto sem nexo), tangencialidade, incoerência.
+- **Catatonia** — alteração psicomotora grave: imobilidade, mutismo, negativismo, posturas mantidas ou agitação sem propósito.
+- **Avolição (avolia)** — perda da motivação para iniciar e manter atividades dirigidas a um objetivo.
+- **Alogia** — pobreza da fala e do conteúdo do pensamento, com respostas curtas e vazias.
+- **Psicose secundária** — decorrente de condição médica, substância ou quadro neurocognitivo. É a maior parte das psicoses no idoso.
 -->
 
 ---
@@ -667,10 +694,6 @@ kicker: O quadro do bloco
 title: Esquizofrenia
 subtitle:
 ---
-
-<!--
-A
--->
 
 ---
 layout: columns
@@ -703,7 +726,11 @@ columns:
 ---
 
 <!--
-Síntese parafraseada do DSM-5-TR conforme Hany e Rizvi (StatPearls, 2024). Leia os cinco da primeira coluna em voz alta e marque a assimetria: os três primeiros são sintomas psicóticos positivos e qualquer diagnóstico precisa de pelo menos um deles — não se fecha esquizofrenia só com desorganização motora e sintomas negativos. Os dois últimos são justamente os que mais nos interessam na avaliação, porque avolia e embotamento se confundem com apatia de quadro depressivo e com a lentificação do idoso. Avise ainda que o capítulo de referência reproduz o Quadro 6.4 com os critérios do DSM-IV-TR, e a turma vai ler aquele quadro: diga explicitamente onde o livro está desatualizado — os subtipos saíram porque não tinham estabilidade ao longo do tempo nem valor preditivo de resposta ao tratamento.
+- **Fase prodrômica** — período de sintomas atenuados e retraimento que antecede a fase ativa.
+- **Fase residual** — período posterior à fase ativa, em geral com predomínio de sintomas negativos.
+- **Descarrilamento** — perda do fio condutor entre uma frase e a seguinte.
+- **Transtorno esquizoafetivo** — episódio de humor concomitante à fase ativa, com pelo menos 2 semanas de delírio ou alucinação **sem** sintomas de humor proeminentes.
+- **Subtipos** — paranoide, desorganizado, catatônico, indiferenciado e residual foram eliminados no DSM-5, por não terem estabilidade ao longo do tempo nem valor preditivo de resposta ao tratamento. O Quadro 6.4 do capítulo de referência reproduz o DSM-IV-TR e está desatualizado nesse ponto.
 -->
 
 ---
@@ -717,13 +744,11 @@ note: Os cortes são convenção operacional, não fronteira biológica. Servem 
 <Figure src="/linha-tempo-inicio.svg" alt="Linha do tempo da idade de início da esquizofrenia, do transtorno bipolar, da depressão e do transtorno neurocognitivo, com os cortes dos 40 e dos 60 anos e a faixa em que os quatro se sobrepõem" />
 
 <!--
-Leia os dois cortes na figura: esquizofrenia de início tardio depois dos 40, psicose esquizofreniforme de início muito tardio depois dos 60 — o consenso de Howard, Rabins, Seeman e Jeste (2000). Bleuler (1978) já dividia em precoce e tardio com corte aos 40, então o corte dos 40 não é novo; o dos 60 é. Mas o que a figura foi feita para mostrar é a faixa sombreada: dos 60 em diante os quatro quadros convivem, e é aí que o diferencial deixa de ser exercício acadêmico. Um paciente de 68 anos com delírio persecutório pode estar abrindo psicose muito tardia, pode estar no pródromo de uma demência, pode ter mania com sintomas psicóticos ou depressão psicótica. Os quatro caminhos levam a condutas diferentes.
--->
-
-
-
-<!--
-O contraste entre a primeira e a segunda barra é o dado a fixar: a maior parte dos idosos com esquizofrenia envelheceu com a doença, não a adquiriu tarde. Isso muda o que esperamos encontrar — décadas de tratamento, de institucionalização e de exposição a antipsicóticos, todas variáveis que entram na interpretação do desempenho. E note que a prevalência em idosos está dentro da faixa relatada para populações mais jovens.
+- **Início precoce** — antes dos 40 anos.
+- **Esquizofrenia de início tardio** — primeiros sintomas entre 40 e 60 anos.
+- **Psicose esquizofreniforme de início muito tardio** — primeiros sintomas após os 60 anos. Os dois termos vêm do consenso internacional de Howard, Rabins, Seeman e Jeste (2000).
+- Bleuler (1978) já usava o corte dos 40 anos; o corte dos 60 é do consenso de 2000.
+- **Parafrenia tardia** — nome antigo dos quadros psicóticos de início na velhice, abandonado pelo mesmo consenso.
 -->
 
 ---
@@ -754,7 +779,10 @@ panels:
 ---
 
 <!--
-O terceiro painel merece um comentário: os fatores associados são majoritariamente sociais, não biológicos. Isolamento e privação sensorial aparecem de forma consistente na literatura de psicose muito tardia. Isso tem consequência prática direta — parte do manejo é social, não farmacológico, e o relatório neuropsicológico pode e deve registrar essas condições.
+- **Síndrome de Ekbom (delírio de parasitose)** — convicção de estar infestado por parasitas na pele, com sensações táteis correspondentes; associa-se com frequência a doença clínica, deficiência vitamínica ou uso de substância.
+- **Neurossífilis** — comprometimento do sistema nervoso central pelo *Treponema pallidum*; rastreio por VDRL e confirmação por FTA-ABS.
+- **Neurocisticercose** — infecção do SNC pela larva da *Taenia solium*; causa frequente de crise epiléptica e de psicose no Brasil.
+- **Privação sensorial** — perda auditiva e visual não corrigidas estão entre os fatores mais consistentes na psicose de início muito tardio. Parte do manejo é sensorial e social, não farmacológica.
 -->
 
 ---
@@ -782,7 +810,11 @@ columns:
 ---
 
 <!--
-Esta é a conclusão que mais surpreende a turma: a esquizofrenia crônica compromete a cognição, mas o desempenho não desaba com a idade como desabaria numa demência. A implicação prática é sobre a linha de base — para interpretar o desempenho de um idoso com esquizofrenia de longa data, precisamos saber como ele funcionava antes, e não comparar ao normativo geral e concluir demência.
+- **Perfil estático** — o comprometimento existe e é estável ao longo do seguimento; não há a deterioração progressiva da neurodegeneração.
+- **WAIS-R** — *Wechsler Adult Intelligence Scale*, revisada. **NART** — *National Adult Reading Test*, estimativa do funcionamento intelectual pré-mórbido. **Rivermead** — *Rivermead Behavioural Memory Test*.
+- **Cognição social** — reconhecimento de emoções, teoria da mente e percepção social.
+- **Hipótese do neurodesenvolvimento** — o déficit precede o primeiro surto e decorre de alteração do desenvolvimento cerebral, não de processo degenerativo (Heyman e Murray, 1992).
+- **Consequência prática** — o desempenho se interpreta contra a linha de base do próprio paciente, não apenas contra o normativo geral.
 -->
 
 ---
@@ -809,7 +841,9 @@ right:
 ---
 
 <!--
-Lagodka e Robert (2009), em revisão, encontraram que psicose tardia e psicose muito tardia não diferem entre si em termos neuropsicológicos, mas diferem da doença de Alzheimer: a psicose tardia cursa com mais alteração em memória de curto prazo, e a doença de Alzheimer com mais alteração na evocação tardia. Acrescente a ressalva: uma parte dos pacientes com psicose tardia evoluiu para demência ao longo de dez anos de observação, o que mantém a questão aberta.
+- Lagodka e Robert (2009), revisão: psicose de início tardio e de início muito tardio não diferem entre si no perfil neuropsicológico, mas diferem da doença de Alzheimer — a psicose tardia cursa com mais alteração em memória de curto prazo, e a doença de Alzheimer, com mais alteração na evocação tardia.
+- Ressalva do mesmo trabalho: parte dos pacientes com psicose tardia evoluiu para demência ao longo de dez anos de observação.
+- **Delírio de roubo e de intrusão** — conteúdo típico do TNC maior (objetos escondidos, pessoas dentro de casa); pouco estruturado e mutável.
 -->
 
 ---
@@ -825,7 +859,10 @@ Ao comparar duas avaliações, é preciso saber o que mudou na prescrição entr
 </Callout>
 
 <!--
-A linha destacada é o achado que mais surpreende, porque vem de um ensaio randomizado e não de estudo observacional: olanzapina, quetiapina e risperidona pioraram o desempenho frente a placebo. Isso não significa que o antipsicótico não deva ser prescrito — significa que o efeito cognitivo é um risco adicional a ser pesado. Na segunda linha, o ponto é que não existe "efeito de antipsicótico": clozapina teve o pior desempenho em executivo e aprendizagem verbal, haloperidol em todos os domínios. Registrar a classe não serve para nada; registre o fármaco, a dose e a data de início.
+- **CATIE-AD** — *Clinical Antipsychotic Trials of Intervention Effectiveness — Alzheimer's Disease*: ensaio randomizado com 421 pacientes, comparando olanzapina, quetiapina e risperidona a placebo por 36 semanas (Vigen et al., 2011).
+- **Meta-análise em rede** — compara indiretamente fármacos que nunca foram testados entre si, usando o comparador comum dos ensaios. Baldez et al. (2021): 54 ensaios, 5.866 pacientes; haloperidol com o pior desempenho em todos os domínios e clozapina com o pior em executivo e aprendizagem verbal.
+- **Polifarmácia psicotrópica** — uso simultâneo de dois ou mais psicotrópicos.
+- **Registro mínimo no laudo** — fármaco, dose e data de início; a classe não basta.
 -->
 ---
 layout: default
@@ -841,7 +878,7 @@ Há oito meses desenvolveu delírio persecutório estruturado envolvendo os vizi
 - **d)** Antipsicóticos não interferem no desempenho em testes, então a avaliação pode ser feita a qualquer momento
 
 <!--
-Dê noventa segundos. Antes de revelar, pergunte quem marcou b — é a resposta mais defensável entre as erradas, e discutir por que ela é insuficiente vale mais que anunciar a certa.
+- **Gabarito: a**
 -->
 
 ---
@@ -859,7 +896,7 @@ title: Alternativa <span class="accent2">a</span>
 - **d)** contraria o CATIE-AD e a meta-análise de Baldez: o efeito existe, varia por fármaco e precisa ser registrado no laudo
 
 <!--
-Feche o bloco com a conduta: nesse caso o pedido de avaliação neuropsicológica não é para "confirmar demência" — é para estabelecer linha de base. Sem linha de base, a reavaliação daqui a um ano não tem com o que comparar, e a pergunta sobre progressão fica sem resposta.
+- **Linha de base** — primeira avaliação, feita para servir de referência às reavaliações posteriores. Sem ela, a pergunta sobre progressão não tem como ser respondida.
 -->
 
 ---
@@ -878,15 +915,16 @@ definition: Instrumento de <em>rastreio</em> de sintomas depressivos em idosos,
   com resposta dicotômica e itens formulados para evitar a esfera das queixas
   somáticas.
 points:
-  - "Descrita por Yesavage et al. (1983), com 30 itens"
-  - "A versão de 15 itens foi elaborada por Sheikh e Yesavage (1986) a partir dos itens que mais se correlacionavam com o diagnóstico"
   - "Perguntas fáceis de entender, pouca variação nas respostas possíveis"
   - "Pode ser autoaplicada ou aplicada por entrevistador treinado"
-  - "Uso livre — o que permite reproduzi-la na ficha impressa que vocês vão usar hoje"
+  - "Uso livre"
 ---
 
 <!--
-Distribua a ficha impressa agora, antes de detalhar. Deixe que folheiem enquanto você fala: eles vão acompanhar melhor a discussão dos itens com o papel na mão. Avise que a dinâmica no fim da aula usa essa mesma folha.
+- **GDS** — *Geriatric Depression Scale*, ou Escala de Depressão Geriátrica.
+- **Versões** — 30 itens (Yesavage et al., 1983) e 15 itens (Sheikh e Yesavage, 1986), a mais usada. Existem versões de 10, 4 e 1 item; Almeida e Almeida (1999b) consideraram as de 4 e 1 item inconfiáveis no teste-reteste.
+- **Resposta dicotômica** — sim ou não, sem gradação de intensidade.
+- **Uso livre** — a escala é de domínio público, o que permite reproduzi-la na ficha impressa.
 -->
 
 ---
@@ -913,7 +951,9 @@ right:
 ---
 
 <!--
-A última linha das duas colunas é o eixo do bloco. Do lado esquerdo, a escala entrega uma probabilidade, não um diagnóstico; do lado direito, a ausência de itens somáticos é escolha de projeto, não omissão. Os dois pontos voltam nos slides de interpretação e de limites.
+- **Rastreio (*screening*)** — identifica quem tem maior probabilidade de ter a condição, para encaminhar à avaliação diagnóstica. Não estabelece diagnóstico.
+- **Valor preditivo positivo** — proporção dos positivos no rastreio que de fato têm a condição. Depende da prevalência no serviço, e não só da escala.
+- A ausência de itens somáticos é decisão de projeto da escala, não omissão.
 -->
 
 ---
@@ -927,7 +967,9 @@ note: No idoso, insônia, apetite, peso e fadiga têm <em>várias causas simult�
 <Figure src="/gds-itens-somaticos.svg" alt="À esquerda, os sintomas somáticos que os inventários para adultos pontuam e a GDS deixou de fora; à direita, os quinze itens da GDS-15, com memória e energia destacados por ainda tangenciarem o somático" />
 
 <!--
-A coluna da esquerda é o que a escala se recusou a perguntar, e a decisão é de projeto, não omissão: no idoso esses sintomas quase nunca vêm só do humor. À direita, repare que o alvo é humor, autoavaliação e retraimento. Os dois itens em ocre sobreviveram assim mesmo e são os que exigem leitura crítica. O item 10 é o mais interessante para nós: "acha que tem mais problemas de memória que outras pessoas?". Ele pontua igual em quem está deprimido e em quem tem déficit cognitivo verdadeiro. Numa amostra de memory clinic esse item sozinho puxa o escore para cima e ajuda a explicar por que a acurácia da escala cai quando há comprometimento cognitivo — assunto de dois slides adiante.
+- **Item 10** — «Você acha que tem mais problemas de memória do que a maioria das pessoas?». Pontua igual em quem está deprimido e em quem tem déficit cognitivo verdadeiro; em amostra de *memory clinic*, infla o escore.
+- **Item 13** — «Você se sente cheio de energia?». O outro item que tangencia o somático.
+- **Sintomas somáticos deixados de fora** — sono, apetite, peso, fadiga, dor e queixas físicas em geral.
 -->
 
 ---
@@ -963,7 +1005,11 @@ steps:
 ---
 
 <!--
-O
+- **Heteroaplicação** — o entrevistador lê os itens e registra as respostas. É o padrão quando há baixa escolaridade, déficit visual ou dúvida sobre a leitura.
+- **Autoaplicação** — exige leitura fluente e visão corrigida.
+- **Ancoragem temporal** — todos os itens se referem à última semana.
+- **Regra de repetição** — repetir o item mais devagar, sem parafrasear nem interpretar; até três tentativas.
+- Paradela, Lourenço e Veras (2005) aplicaram com o acompanhante fora da sala.
 -->
 
 ---
@@ -994,7 +1040,10 @@ panels:
 ---
 
 <!--
-No estudo de Paradela, um único idoso recusou-se a responder a uma pergunta e foi excluído da amostra — mas recebeu consulta médica e os encaminhamentos necessários. Vale o comentário ético: rastreio incompleto não anula a responsabilidade clínica de quem aplicou. Se o idoso não terminou a escala mas disse algo preocupante no meio dela, isso vai para o relatório.
+- **Critérios de exclusão dos estudos de validação** — Almeida e Almeida excluíram MEEM abaixo de 10; Paradela et al. (2005) excluíram déficit sensorial não corrigido e estágios avançados de distúrbio cognitivo.
+- **Afasia** — perda ou alteração da linguagem por lesão cerebral; inviabiliza o autorrelato verbal.
+- **Delirium (quadro confusional agudo)** — alteração flutuante da atenção e da consciência, de instalação aguda; contraindica a aplicação enquanto durar.
+- **Item omitido** — não se infere resposta nem se preenche pelo avaliador. Registre quantos itens ficaram sem resposta: escore incompleto perde comparabilidade com o ponto de corte.
 -->
 
 ---
@@ -1006,7 +1055,10 @@ title: A chave de pontuação
 <Grid :data="[['Itens', 'Redação', 'Pontua 1 ponto quando a resposta é'], ['1, 5, 7, 11, 12, 13, 14', 'Perguntas em sentido positivo — satisfação, bem-estar, alegria, valor de viver, energia, esperança', '<strong>NÃO</strong>'], ['2, 3, 4, 6, 8, 9, 10, 15', 'Perguntas em sentido negativo — abandono de atividades, vazio, aborrecimento, medo, desamparo, retraimento, queixa de memória, comparação', '<strong>SIM</strong>'], ['Total', 'Soma simples, sem pesos', 'Escore de 0 a 15']]" head highlight="row:4" />
 
 <!--
-Chame atenção para o desenho da folha: a alternância entre itens de sentido positivo e negativo não é decorativa. Serve para quebrar o padrão de resposta automática — o idoso que responde "sim" a tudo produz um escore intermediário, não máximo, e o padrão fica visível para quem aplicou. Peça que confiram isso na folha antes de seguir.
+- **Pontuam com NÃO** — itens 1, 5, 7, 11, 12, 13 e 14 (7 itens, redigidos em sentido positivo).
+- **Pontuam com SIM** — itens 2, 3, 4, 6, 8, 9, 10 e 15 (8 itens, redigidos em sentido negativo).
+- Soma simples, sem pesos; escore de 0 a 15.
+- **Por que a redação alterna** — para quebrar o padrão de resposta automática: quem responde «sim» a tudo obtém 8, escore intermediário, e o padrão fica visível na folha.
 -->
 
 ---
@@ -1016,30 +1068,37 @@ title: O ponto de corte
 columns: 3
 stats:
   - {
-      value: "5/6",
+      value: "6",
       unit: "",
-      label: "o ponto de corte adotado: escore de 6 ou mais é rastreamento positivo (Paradela, Lourenço e Veras, 2005)",
+      label: "o ponto de corte adotado: escore de 6 ou mais é rastreamento positivo
+        (Paradela, Lourenço e Veras, 2005)",
       icon: "lucide:scissors",
       tone: "info"
     }
   - {
       value: "0,85",
       unit: "",
-      label: "área sob a curva ROC nesse ponto de corte, IC 95% de 0,79 a 0,91, em 302 idosos de ambulatório geral no Rio de Janeiro",
+      label: "área sob a curva ROC nesse ponto de corte, IC 95% de 0,79 a 0,91, em 302
+        idosos de ambulatório geral no Rio de Janeiro",
       icon: "lucide:chart-line",
       tone: "good"
     }
   - {
       value: "16,9",
       unit: "%",
-      label: "de transtorno de humor naquela amostra: 5,3% de depressão maior e 11,6% de distimia, por entrevista estruturada",
+      label: "de transtorno de humor naquela amostra: 5,3% de depressão maior e 11,6%
+        de distimia, por entrevista estruturada",
       icon: "lucide:users",
       tone: "warn"
     }
 ---
 
 <!--
-Diga por que 5/6 e não 6/7. No estudo de Paradela, o melhor equilíbrio entre sensibilidade e especificidade estava em 6/7 — e mesmo assim os autores recomendaram 5/6, privilegiando sensibilidade. A justificativa é de organização de serviço: em sistema hierarquizado, é preferível que mais portadores da condição avancem para o nível especializado, ainda que ao custo de alguns falso-positivos. O ponto de corte é decisão clínica e de serviço, não propriedade fixa da escala.
+- **ROC** — *Receiver Operating Characteristic*: curva que cruza sensibilidade e 1 − especificidade em cada ponto de corte possível.
+- **AUC (área sob a curva)** — 0,5 equivale ao acaso e 1,0 à discriminação perfeita. Aqui, 0,85 (IC 95% de 0,79 a 0,91).
+- **IC 95%** — intervalo de confiança de 95%.
+- **Por que 5/6 e não 6/7** — o melhor equilíbrio entre sensibilidade e especificidade estava em 6/7, mas os autores recomendaram 5/6 para privilegiar a sensibilidade: em sistema hierarquizado, é preferível encaminhar mais casos ao nível especializado do que perder portadores da condição.
+- Amostra: 302 idosos de ambulatório geral no Rio de Janeiro, dos quais 16,9% com transtorno de humor (5,3% depressão maior e 11,6% distimia).
 -->
 
 ---
@@ -1062,7 +1121,10 @@ chart:
 ---
 
 <!--
-As duas linhas se cruzam: toda sensibilidade ganha é especificidade perdida. Peça que decidam, em voz alta, qual corte usariam numa UBS e qual usariam num ambulatório de neuropsicologia com fila de espera de seis meses — e que justifiquem. Não há resposta certa; há decisão explicitada. É isso que precisa constar no laudo.
+- **Sensibilidade** — proporção de quem tem a condição que o teste identifica (menos falso-negativo).
+- **Especificidade** — proporção de quem não tem a condição que o teste libera (menos falso-positivo).
+- Paradela, Lourenço e Veras (2005), Tabela 2 — corte 4/5: 86,5 e 63,3; corte 5/6: 81,1 e 71,1; corte 6/7: 73,0 e 78,3.
+- **SCID-I** — *Structured Clinical Interview for DSM-IV Axis I Disorders*; entrevista que serviu de padrão de referência, cega ao resultado da escala.
 -->
 
 ---
@@ -1073,58 +1135,46 @@ panels:
   - {
       icon: "lucide:file-x",
       title: "Não é instrumento diagnóstico",
-      items: ["Escore acima do corte indica investigar, não diagnosticar", "O diagnóstico exige entrevista clínica contra critérios", "Nos estudos de validação, o padrão de referência é sempre a entrevista"]
+      items:
+        [
+          "Escore acima do corte indica investigar, não diagnosticar",
+          "O diagnóstico exige entrevista clínica contra critérios",
+          "Nos estudos de validação, o padrão de referência é sempre a
+            entrevista"
+        ]
     }
   - {
       icon: "lucide:trending-down",
       title: "A acurácia é boa, mas não é alta",
-      items: ["Meta-análise de 31 estudos, 8.897 idosos: sensibilidade 0,80 e especificidade 0,79, AUC 0,89 (Park, 2020)", "Um em cada cinco casos escapa"]
+      items:
+        [
+          "Meta-análise de 31 estudos, 8.897 idosos: sensibilidade 0,80 e
+            especificidade 0,79, AUC 0,89 (Park, 2020)",
+          "Um em cada cinco casos escapa"
+        ]
     }
   - {
       icon: "lucide:brain",
       title: "Cai com déficit cognitivo",
-      items: ["A mesma meta-análise: sensibilidade e especificidade menores em idosos com comprometimento cognitivo", "Burke et al. (1989): na doença de Alzheimer leve, AUC de 0,66 — não diferente do acaso"]
+      items:
+        [
+          "A mesma meta-análise: sensibilidade e especificidade menores em
+            idosos com comprometimento cognitivo",
+          "Burke et al. (1989): na doença de Alzheimer leve, AUC de 0,66 — não
+            diferente do acaso"
+        ]
     }
   - {
       icon: "lucide:ruler",
       title: "Não é medida de gravidade",
-      items: ["A faixa impressa na ficha (0–5, 6–10, 11–15) é convenção de uso", "⚠︎ verificar: não localizei estudo de validação brasileiro para essa graduação em três faixas"]
+      items: [ "A faixa impressa na ficha (0–5, 6–10, 11–15) é convenção de uso" ]
     }
 ---
 
 <!--
-O último painel exige honestidade com a turma. A ficha que circula no Brasil traz a interpretação em três faixas, e é assim que muita gente usa. Mas o que os estudos de validação testaram foi o ponto de corte binário, não a graduação. Ensine a usar o corte para decidir conduta e a tratar a faixa como descrição aproximada da intensidade — nunca como estadiamento.
--->
-
----
-layout: steps
-kicker: Limites
-title: Quando o idoso tem comprometimento cognitivo
-steps:
-  - {
-      icon: "lucide:gauge",
-      title: "Grau leve a moderado: pode aplicar",
-      desc: "Estudo com 24.674 idosos americanos não encontrou viés relevante da GDS-15 nos grupos com comprometimento questionável, leve ou moderado (Bennett et al., 2024)"
-    }
-  - {
-      icon: "lucide:octagon-x",
-      title: "Grau grave: não use",
-      desc: "No mesmo estudo, o grupo com comprometimento grave respondeu de forma inconsistente, com viés de tamanho de efeito pequeno a médio"
-    }
-  - {
-      icon: "lucide:users",
-      title: "Troque de instrumento",
-      desc: "Na demência, a Cornell Scale for Depression in Dementia é a escala com mais evidência: combina observação direta e entrevista com informante (Goodarzi et al., 2017; Atchison et al., 2024)"
-    }
-  - {
-      icon: "lucide:notebook-pen",
-      title: "Registre o que sustentou a escolha",
-      desc: "Escreva no laudo o instrumento usado, o motivo da escolha e o grau de comprometimento cognitivo do avaliado. É isso que torna o escore interpretável por quem ler depois"
-    }
----
-
-<!--
-Este é o slide mais aplicável da aula ao estágio deles. A pergunta "posso aplicar a GDS neste paciente?" tem resposta operacional: até comprometimento moderado, sim, com cautela na leitura do item 10; em comprometimento grave, não — vá para a Cornell, que não depende do autorrelato. E em qualquer caso, o laudo diz por quê.
+- Park (2020), meta-análise de 31 estudos e 8.897 idosos: sensibilidade 0,80, especificidade 0,79 e AUC 0,89 — cerca de um em cada cinco casos escapa.
+- Burke et al. (1989): na doença de Alzheimer leve, AUC de 0,66 — desempenho próximo ao acaso.
+- **As três faixas impressas na ficha (0-5, 6-10, 11-15)** — convenção de uso, não estadiamento. Os estudos de validação testaram o ponto de corte binário, não a graduação.
 -->
 
 ---
@@ -1132,10 +1182,6 @@ layout: statement
 kicker: Dinâmica
 title: Duas vinhetas. Pontuem a GDS-15 na ficha, decidam a conduta e justifiquem em uma frase.
 ---
-
-<!--
-Organize grupos de quatro a cinco e entregue as duas folhas impressas. Vinte minutos para os dois casos, cinco minutos de discussão por caso. Peça que anotem o escore na folha, e não só mentalmente: a discussão fica muito melhor quando há um número escrito para defender. Avise que os dois casos têm armadilhas opostas — no primeiro a escala acerta e a dúvida é o que fazer com o resultado; no segundo a escala acerta em não pontuar, e a dúvida é se isso encerra a investigação.
--->
 
 ---
 layout: columns
@@ -1167,7 +1213,9 @@ columns:
 ---
 
 <!--
-A queixa que chega escrita na guia é "desânimo", mas a filha fala de memória — é o inverso da guia de novo, e eles já viram isso na primeira parte da aula. Não responda nada sobre luto enquanto pontuam: a pergunta "isso não é só luto?" é o centro da discussão do caso e o DSM-5 retirou a exclusão por luto justamente porque a distinção não se sustentava. Circule pelos grupos e observe se alguém está pontuando pelo sentido literal da resposta em vez de pela coluna que pontua: é o erro de correção mais comum.
+- **Luto e depressão** — o DSM-5 retirou a exclusão por luto que existia no DSM-IV: perda recente não impede o diagnóstico de episódio depressivo maior.
+- **Transtorno de luto prolongado** — categoria acrescentada no DSM-5-TR: luto persistente e incapacitante por mais de 12 meses no adulto.
+- **Ideação passiva de morte** — «se Deus me levasse, não reclamava» pontua como pensamento recorrente de morte e exige investigar ativamente plano e intenção.
 -->
 
 ---
@@ -1182,7 +1230,9 @@ Aplicada por entrevistadora treinada, com a filha fora da sala.
 <Grid :data="[['Item', 'Resposta', 'Item', 'Resposta'], ['1. Satisfeita com a vida?', 'Não', '9. Prefere ficar em casa?', 'Não'], ['2. Interrompeu atividades?', 'Sim', '10. Mais problemas de memória?', 'Não'], ['3. Acha a vida vazia?', 'Sim', '11. Maravilhoso estar viva?', 'Sim'], ['4. Aborrece-se com frequência?', 'Sim', '12. Vale a pena viver assim?', 'Sim'], ['5. De bem com a vida?', 'Sim', '13. Cheia de energia?', 'Não'], ['6. Teme que algo ruim aconteça?', 'Sim', '14. Situação tem solução?', 'Sim'], ['7. Alegre a maior parte do tempo?', 'Não', '15. Muita gente em situação melhor?', 'Sim'], ['8. Sente-se desamparada?', 'Sim', '', '']]" head />
 
 <!--
-Gabarito: 9 pontos. Pontuam os itens 1, 2, 3, 4, 6, 7, 8, 13 e 15 — nove itens, um ponto cada. Rastreio positivo, bem acima do corte 5/6, na faixa de 6 a 10 que a ficha chama de indicativo leve. Repare com eles em dois pontos: o item 10 recebeu "Não" embora a filha traga queixa de memória — discrepância entre autorrelato e informante, que é achado, não erro; e a lentificação e os "não sei" que ela corrige quando encorajada são o padrão de falha de recuperação, não de armazenamento. Conduta: rastreio positivo exige entrevista diagnóstica, e a viuvez recente não a dispensa.
+- **Gabarito: 9 pontos.** Pontuam os itens 1, 2, 3, 4, 6, 7, 8, 13 e 15 — um ponto cada.
+- Rastreio positivo pelo corte 5/6, na faixa de 6 a 10 impressa na ficha.
+- **Discrepância a registrar** — o item 10 recebeu «Não» embora a filha traga queixa de memória. Divergência entre autorrelato e informante é achado clínico, não erro de aplicação.
 -->
 
 ---
@@ -1215,7 +1265,10 @@ columns:
 ---
 
 <!--
-Este é o caso que testa se entenderam para que serve o desenho da escala. Deixe no ar a pergunta que o encaminhamento levanta: um homem que disse "não vale mais a pena" pode ter rastreio negativo? Pode — e é exatamente por isso que rastreio negativo não encerra investigação. Guarde para o fechamento a distinção entre desmoralização e episódio depressivo, e o fato de que uma frase dessas se investiga por entrevista, não por escore.
+- **DPOC** — doença pulmonar obstrutiva crônica.
+- **Caquexia cardíaca** — perda involuntária de peso e de massa magra na insuficiência cardíaca avançada.
+- **mMRC** — escala de dispneia do *Medical Research Council* modificada, de 0 a 4; o grau 4 corresponde à dispneia que impede sair de casa ou que surge ao vestir-se.
+- **Desmoralização** — desânimo, impotência e perda de sentido diante de uma situação concreta, com capacidade de sentir prazer preservada. Distingue-se do episódio depressivo, em que há anedonia e humor deprimido persistentes.
 -->
 
 ---
@@ -1230,7 +1283,9 @@ Aplicada no ambulatório, com a esposa na sala de espera.
 <Grid :data="[['Item', 'Resposta', 'Item', 'Resposta'], ['1. Satisfeito com a vida?', 'Sim', '9. Prefere ficar em casa?', 'Sim'], ['2. Interrompeu atividades?', 'Sim', '10. Mais problemas de memória?', 'Não'], ['3. Acha a vida vazia?', 'Não', '11. Maravilhoso estar vivo?', 'Sim'], ['4. Aborrece-se com frequência?', 'Não', '12. Vale a pena viver assim?', 'Sim'], ['5. De bem com a vida?', 'Sim', '13. Cheio de energia?', 'Não'], ['6. Teme que algo ruim aconteça?', 'Não', '14. Situação tem solução?', 'Sim'], ['7. Alegre a maior parte do tempo?', 'Sim', '15. Muita gente em situação melhor?', 'Sim'], ['8. Sente-se desamparado?', 'Não', '', '']]" head />
 
 <!--
-Gabarito: 4 pontos — abaixo do corte 5/6, rastreio negativo. O achado a explorar é qual item pontuou: 2 (interrompeu atividades), 9 (prefere ficar em casa), 13 (falta de energia) e 15 (comparação social). Três dos quatro são produzidos pela doença pulmonar e cardíaca, não pelo humor, e o 13 é justamente um dos dois itens ambíguos que vimos no slide dos itens somáticos. Ou seja: mesmo com a doença empurrando o escore para cima, a escala não pontuou — é o desenho funcionando. E ainda assim o caso não está resolvido, porque a frase do encaminhamento não aparece em nenhum item.
+- **Gabarito: 4 pontos.** Pontuam os itens 2 (interrompeu atividades), 9 (prefere ficar em casa), 13 (falta de energia) e 15 (comparação social).
+- Abaixo do corte 5/6: rastreio negativo. Três dos quatro itens que pontuaram são produzidos pela doença pulmonar e cardíaca, não pelo humor — e o 13 é um dos dois itens que tangenciam o somático.
+- **Rastreio negativo não encerra investigação** — a frase que motivou o encaminhamento («não vale mais a pena») não aparece em nenhum item da escala.
 -->
 ---
 layout: default
@@ -1246,7 +1301,7 @@ Obtém 8 pontos na GDS-15, aplicada por entrevistador treinado, com o acompanhan
 - **d)** A escala não pode ser usada, pois o MEEM de 26 indica comprometimento cognitivo incompatível com autorrelato
 
 <!--
-Última questão da noite. Sessenta segundos. É a mais direta das cinco de propósito — serve para verificar se o essencial do bloco ficou, não para diferenciar quem estudou mais.
+- **Gabarito: b**
 -->
 
 ---
@@ -1264,90 +1319,111 @@ title: Alternativa <span class="accent2">b</span>
 - **d)** interpreta mal o MEEM: 26 com quatro anos de escolaridade não impede a aplicação, e déficit leve a moderado tampouco impede
 
 <!--
-A alternativa c é a que mais gente marca na prática profissional, não na prova — porque a ficha impressa mostra as três faixas em destaque e o ponto de corte não aparece nela. Peça que anotem o corte 5/6 na própria folha, agora, à caneta. É a intervenção mais útil que esta aula pode fazer no dia a dia deles.
+- **Corte validado no Brasil: 5/6** — escore de 6 ou mais é rastreio positivo (Paradela, Lourenço e Veras, 2005). As faixas 0-5, 6-10 e 11-15 impressas na ficha são convenção de uso e não substituem o corte.
+- **MEEM e escolaridade** — o ponto de corte do MEEM varia conforme a escolaridade; 26 pontos com quatro anos de estudo não indica comprometimento e não impede a aplicação da GDS.
 -->
 
 ---
 layout: reference
-kicker: Referências · 1 de 2
-title: Base e transtornos de humor
+kicker: Referências · 1 de 4
+title: Base, epidemiologia e curso da depressão
 groups:
   - title: "Base primária"
     items:
-      - { term: "Nicolato, R. e Alvarenga, J. (2010)", desc: "Saúde mental e envelhecimento. In: Malloy-Diniz, L. F., Fuentes, D. e Cosenza, R. M. (orgs.). Neuropsicologia do envelhecimento: uma abordagem multidimensional. Porto Alegre: Artmed, p. 115-126" }
-      - { term: "American Psychiatric Association (2022)", desc: "Diagnostic and Statistical Manual of Mental Disorders, 5th ed., Text Revision (DSM-5-TR). Critérios parafraseados a partir de NCBI Bookshelf NBK617010 (2024), Jain e Mitra (NBK558998, 2023) e Hany e Rizvi (NBK539864, 2024)" }
+      - { term: "Nicolato e Alvarenga (2010)", desc: "Saúde mental e envelhecimento. In: Malloy-Diniz, L. F., Fuentes, D. e Cosenza, R. M. (orgs.). Neuropsicologia do envelhecimento: uma abordagem multidimensional. Porto Alegre: Artmed, p. 115-126" }
+      - { term: "APA (2022)", desc: "Diagnostic and Statistical Manual of Mental Disorders, 5th ed., Text Revision (DSM-5-TR). Critérios parafraseados a partir de NCBI Bookshelf NBK617010 (2024), Jain e Mitra (NBK558998, 2023) e Hany e Rizvi (NBK539864, 2024)" }
   - title: "Epidemiologia da depressão"
     items:
-      - { term: "Beekman, A. T., Copeland, J. R. e Prince, M. J. (1999)", desc: "Review of community prevalence of depression in later life. British Journal of Psychiatry, 174, 307-311" }
-      - { term: "Barcelos-Ferreira, R. et al. (2010)", desc: "Depressive morbidity and gender in community-dwelling Brazilian elderly: systematic review and meta-analysis. International Psychogeriatrics, 22(5), 712-726" }
-      - { term: "Castro-Costa, E. et al. (2008)", desc: "Factors associated with depressive symptoms measured by the 12-item General Health Questionnaire in community-dwelling older adults (Bambuí Health Aging Study). Revista Brasileira de Psiquiatria, 30(2), 104-109" }
-  - title: "Depressão, curso e diferencial"
+      - { term: "Beekman et al. (1999)", desc: "Review of community prevalence of depression in later life. British Journal of Psychiatry, 174, 307-311" }
+      - { term: "Barcelos-Ferreira et al. (2010)", desc: "Depressive morbidity and gender in community-dwelling Brazilian elderly: systematic review and meta-analysis. International Psychogeriatrics, 22(5), 712-726" }
+      - { term: "Castro-Costa et al. (2008)", desc: "Factors associated with depressive symptoms measured by the 12-item General Health Questionnaire in community-dwelling older adults (Bambuí Health Aging Study). Revista Brasileira de Psiquiatria, 30(2), 104-109" }
+  - title: "Quadro e curso da depressão"
     items:
-      - { term: "Alexopoulos, G. S. et al. (1997)", desc: "Clinically defined vascular depression. American Journal of Psychiatry, 154(4), 562-565" }
-      - { term: "Alexopoulos, G. S. (2005)", desc: "Depression in the elderly. Lancet, 365(9475), 1961-1970" }
-      - { term: "Gallo, J. J. e Rabins, P. V. (1999)", desc: "Depression without sadness: alternative presentations of depression in late life. American Family Physician, 60(3), 820-826" }
-      - { term: "Vilalta-Franch, J. et al. (2012)", desc: "Comprometimento frontal em depressão maior aferido pela CAMDEX, conforme citado em Nicolato e Alvarenga (2010)" }
-      - { term: "Dotson, V. M., Beydoun, M. A. e Zonderman, A. B. (2010)", desc: "Recurrent depressive symptoms and the incidence of dementia and mild cognitive impairment. Neurology, 75(1), 27-34" }
-      - { term: "Connors, M. H. et al. (2018)", desc: "Longitudinal outcomes of patients with pseudodementia: a systematic review. Psychological Medicine, 48(5), 1-11" }
-      - { term: "Sáez-Fonseca, J. A. et al. (2007)", desc: "Long-term outcome of depressive pseudodementia in the elderly. European Psychiatry, 22, S1-S2" }
-      - { term: "Mukku, S. et al. (2021)", desc: "Geriatric depression and cognitive impairment — an update. Indian Journal of Psychological Medicine, 43(4), 286-293" }
-      - { term: "Brodaty, H. e Connors, M. H. (2020)", desc: "Pseudodementia, pseudo-pseudodementia, and pseudodepression. Alzheimer's & Dementia: DADM, 12(1), e12027" }
-  - title: "Transtorno bipolar e fármacos"
-    items:
-      - { term: "Laks, J. (2009)", desc: "Diferenças clínicas do transtorno bipolar no idoso, conforme citado em Nicolato e Alvarenga (2010)" }
-      - { term: "Almeida, O. P. e Fenner, S. (2002)", desc: "Bipolar disorder: similarities and differences between patients with illness onset before and after 65 years of age. International Psychogeriatrics, 14(3), 311-322" }
-      - { term: "Martino, D. J. et al. (2008)", desc: "Comprometimento de memória verbal e de funções executivas em idosos bipolares eutímicos, conforme citado em Nicolato e Alvarenga (2010)" }
-      - { term: "Kessing, L. V. e Nilsson, F. M. (2003)", desc: "Increased risk of developing dementia in patients with major affective disorders, conforme citado em Nicolato e Alvarenga (2010)" }
-      - { term: "Wingo, A. P. et al. (2009)", desc: "Effects of lithium on cognitive performance: a meta-analysis. Journal of Clinical Psychiatry, 70(11), 1588-1597" }
-      - { term: "Ruxton, K., Woodman, R. J. e Mangoni, A. A. (2015)", desc: "Drugs with anticholinergic effects and cognitive impairment, falls and all-cause mortality in older adults: a systematic review and meta-analysis. British Journal of Clinical Pharmacology, 80(2), 209-220" }
-      - { term: "Taylor-Rowan, M. et al. (2022)", desc: "Anticholinergic burden for prediction of cognitive decline or neuropsychiatric symptoms in older adults with mild cognitive impairment or dementia. Cochrane Database of Systematic Reviews, 8, CD015196" }
+      - { term: "Alexopoulos et al. (1997)", desc: "Clinically defined vascular depression. American Journal of Psychiatry, 154(4), 562-565" }
+      - { term: "Alexopoulos (2005)", desc: "Depression in the elderly. Lancet, 365(9475), 1961-1970" }
+      - { term: "Gallo e Rabins (1999)", desc: "Depression without sadness: alternative presentations of depression in late life. American Family Physician, 60(3), 820-826" }
+      - { term: "Vilalta-Franch et al. (2012)", desc: "Comprometimento frontal em depressão maior aferido pela CAMDEX, conforme citado em Nicolato e Alvarenga (2010)" }
 ---
-
-<!--
-Diga que a bibliografia está publicada junto com o deck e que o PDF baixável traz estas duas páginas. Para a prova, o que cai é o capítulo; o resto está aqui para quem for escrever trabalho de conclusão sobre o tema.
--->
 
 ---
 layout: reference
-kicker: Referências · 2 de 2
-title: Transtornos psicóticos e a Escala de Depressão Geriátrica
+kicker: Referências · 2 de 4
+title: Depressão e demência, transtorno bipolar e fármacos
 groups:
-  - title: "Transtornos psicóticos"
+  - title: "Depressão e demência"
     items:
-      - { term: "Howard, R., Rabins, P. V., Seeman, M. V. e Jeste, D. V. (2000)", desc: "Late-onset schizophrenia and very-late-onset schizophrenia-like psychosis: an international consensus. American Journal of Psychiatry, 157(2), 172-178" }
-      - { term: "Meesters, P. D. et al. (2010)", desc: "Schizophrenia spectrum disorders in later life: prevalence and distribution of age at onset and sex in a Dutch catchment area. American Journal of Geriatric Psychiatry, 20(1), 18-28" }
-      - { term: "Stafford, J. et al. (2017)", desc: "The incidence of very late-onset psychotic disorders: a systematic review and meta-analysis, 1960-2016. Psychological Medicine, 48(11), 1775-1786" }
-      - { term: "Stafford, J. et al. (2018)", desc: "The incidence of nonaffective, nonorganic psychotic disorders in older people: a population-based cohort study of 3 million people in Sweden. Schizophrenia Bulletin, 45(5), 1152-1160" }
-      - { term: "Almeida, O. P. et al. (1995)", desc: "Clinical and cognitive diversity of psychotic states arising in late life (late paraphrenia). Psychological Medicine, 25(4), 699-714" }
-      - { term: "Palmer, B. W. et al. (2003)", desc: "Comparação neuropsicológica entre cinco grupos de idosos com psicose e demência, conforme citado em Nicolato e Alvarenga (2010)" }
-      - { term: "Bleuler, M. (1978)", desc: "The schizophrenic disorders: long-term patient and family studies. New Haven: Yale University Press — origem da divisão entre início precoce e tardio, com corte aos 40 anos" }
-      - { term: "Mocker, Riordan e Sharma (1997)", desc: "Ausência de deterioração cognitiva associada à faixa etária na esquizofrenia, aferida por WAIS-R, NART e Rivermead, conforme citado em Nicolato e Alvarenga (2010)" }
-      - { term: "Sachdev, P., Brodaty, H., Rose, N. e Cathcart, S. (1999)", desc: "Comparação entre esquizofrenia de início tardio, de início precoce e voluntários saudáveis, conforme citado em Nicolato e Alvarenga (2010)" }
-      - { term: "Harvey, P. D. (2001)", desc: "Seguimento de 30 meses mostrando que o declínio cognitivo da esquizofrenia crônica difere do da doença de Alzheimer, conforme citado em Nicolato e Alvarenga (2010)" }
-      - { term: "Vigen, C. L. P. et al. (2011)", desc: "Cognitive effects of atypical antipsychotic medications in patients with Alzheimer's disease: outcomes from CATIE-AD. American Journal of Psychiatry, 168(8), 831-839" }
-      - { term: "Baldez, D. P. et al. (2021)", desc: "The effect of antipsychotics on the cognitive performance of individuals with psychotic disorders: network meta-analyses of randomized controlled trials. Neuroscience and Biobehavioral Reviews, 126, 265-275" }
-      - { term: "Chandramouleeshwaran, S. et al. (2023)", desc: "Impact of psychotropic medications on cognition among older adults: a systematic review. International Psychogeriatrics, 35(11), 1-16" }
-  - title: "A Escala de Depressão Geriátrica"
+      - { term: "Dotson et al. (2010)", desc: "Recurrent depressive symptoms and the incidence of dementia and mild cognitive impairment. Neurology, 75(1), 27-34" }
+      - { term: "Connors et al. (2018)", desc: "Longitudinal outcomes of patients with pseudodementia: a systematic review. Psychological Medicine, 48(5), 1-11" }
+      - { term: "Sáez-Fonseca et al. (2007)", desc: "Long-term outcome of depressive pseudodementia in the elderly. European Psychiatry, 22, S1-S2" }
+      - { term: "Mukku et al. (2021)", desc: "Geriatric depression and cognitive impairment — an update. Indian Journal of Psychological Medicine, 43(4), 286-293" }
+      - { term: "Brodaty e Connors (2020)", desc: "Pseudodementia, pseudo-pseudodementia, and pseudodepression. Alzheimer's &amp; Dementia: DADM, 12(1), e12027" }
+  - title: "Transtorno bipolar no idoso"
     items:
-      - { term: "Yesavage, J. A. et al. (1983)", desc: "Development and validation of a geriatric depression screening scale: a preliminary report. Journal of Psychiatric Research, 17(1), 37-49" }
-      - { term: "Sheikh, J. I. e Yesavage, J. A. (1986)", desc: "Geriatric Depression Scale (GDS): recent evidence and development of a shorter version. Clinical Gerontologist, 5, 165-173" }
-      - { term: "Almeida, O. P. e Almeida, S. A. (1999a)", desc: "Short versions of the geriatric depression scale: a study of their validity for the diagnosis of a major depressive episode according to ICD-10 and DSM-IV. International Journal of Geriatric Psychiatry, 14(10), 858-865 — é o estudo dos pontos de corte" }
-      - { term: "Almeida, O. P. e Almeida, S. A. (1999b)", desc: "Confiabilidade da versão brasileira da escala de depressão em geriatria (GDS) versão reduzida. Arquivos de Neuro-Psiquiatria, 57(2B), 421-426 — é o estudo de teste-reteste, que considerou as versões de 1 e 4 itens inconfiáveis" }
-      - { term: "Paradela, E. M. P., Lourenço, R. A. e Veras, R. P. (2005)", desc: "Validação da escala de depressão geriátrica em um ambulatório geral. Revista de Saúde Pública, 39(6), 918-923" }
-      - { term: "Park, S.-H. (2020)", desc: "Performance of the Geriatric Depression Scale-15 with older adults aged over 65 years: an updated review 2000-2019. Clinical Gerontologist, 44(2), 83-96" }
-      - { term: "Burke, W. J. et al. (1989)", desc: "Use of the Geriatric Depression Scale in dementia of the Alzheimer type. Journal of the American Geriatrics Society, 37(9), 856-860" }
-      - { term: "Bennett, A. V. et al. (2024)", desc: "Mild to moderate cognitive impairment does not bias the Geriatric Depression Scale in a large U.S. sample of older adults. Quality of Life Research, 33, 2437-2449" }
-      - { term: "Goodarzi, Z. et al. (2017)", desc: "Depression case finding in individuals with dementia: a systematic review and meta-analysis. Journal of the American Geriatrics Society, 65(5), 937-948" }
-      - { term: "Atchison, K. et al. (2024)", desc: "Depression detection in dementia: a diagnostic accuracy systematic review and meta-analysis update. Health Science Reports, 7(7), e2249" }
+      - { term: "Laks (2009)", desc: "Diferenças clínicas do transtorno bipolar no idoso, conforme citado em Nicolato e Alvarenga (2010)" }
+      - { term: "Almeida e Fenner (2002)", desc: "Bipolar disorder: similarities and differences between patients with illness onset before and after 65 years of age. International Psychogeriatrics, 14(3), 311-322" }
+      - { term: "Martino et al. (2008)", desc: "Comprometimento de memória verbal e de funções executivas em idosos bipolares eutímicos, conforme citado em Nicolato e Alvarenga (2010)" }
+      - { term: "Kessing e Nilsson (2003)", desc: "Increased risk of developing dementia in patients with major affective disorders, conforme citado em Nicolato e Alvarenga (2010)" }
+  - title: "Fármacos e cognição"
+    items:
+      - { term: "Wingo et al. (2009)", desc: "Effects of lithium on cognitive performance: a meta-analysis. Journal of Clinical Psychiatry, 70(11), 1588-1597" }
+      - { term: "Ruxton et al. (2015)", desc: "Drugs with anticholinergic effects and cognitive impairment, falls and all-cause mortality in older adults: a systematic review and meta-analysis. British Journal of Clinical Pharmacology, 80(2), 209-220" }
+      - { term: "Taylor-Rowan et al. (2022)", desc: "Anticholinergic burden for prediction of cognitive decline or neuropsychiatric symptoms in older adults with mild cognitive impairment or dementia. Cochrane Database of Systematic Reviews, 8, CD015196" }
+---
+
+---
+layout: reference
+kicker: Referências · 3 de 4
+title: Transtornos psicóticos de início tardio
+groups:
+  - title: "Definição e epidemiologia"
+    items:
+      - { term: "Bleuler (1978)", desc: "The schizophrenic disorders: long-term patient and family studies. New Haven: Yale University Press — origem da divisão entre início precoce e tardio, com corte aos 40 anos" }
+      - { term: "Howard et al. (2000)", desc: "Late-onset schizophrenia and very-late-onset schizophrenia-like psychosis: an international consensus. American Journal of Psychiatry, 157(2), 172-178" }
+      - { term: "Almeida et al. (1995)", desc: "Clinical and cognitive diversity of psychotic states arising in late life (late paraphrenia). Psychological Medicine, 25(4), 699-714" }
+      - { term: "Meesters et al. (2010)", desc: "Schizophrenia spectrum disorders in later life: prevalence and distribution of age at onset and sex in a Dutch catchment area. American Journal of Geriatric Psychiatry, 20(1), 18-28" }
+      - { term: "Stafford et al. (2017)", desc: "The incidence of very late-onset psychotic disorders: a systematic review and meta-analysis, 1960-2016. Psychological Medicine, 48(11), 1775-1786" }
+      - { term: "Stafford et al. (2018)", desc: "The incidence of nonaffective, nonorganic psychotic disorders in older people: a population-based cohort study of 3 million people in Sweden. Schizophrenia Bulletin, 45(5), 1152-1160" }
+  - title: "Cognição na esquizofrenia"
+    items:
+      - { term: "Mocker et al. (1997)", desc: "Ausência de deterioração cognitiva associada à faixa etária na esquizofrenia, aferida por WAIS-R, NART e Rivermead, conforme citado em Nicolato e Alvarenga (2010)" }
+      - { term: "Sachdev et al. (1999)", desc: "Comparação entre esquizofrenia de início tardio, de início precoce e voluntários saudáveis, conforme citado em Nicolato e Alvarenga (2010)" }
+      - { term: "Harvey (2001)", desc: "Seguimento de 30 meses mostrando que o declínio cognitivo da esquizofrenia crônica difere do da doença de Alzheimer, conforme citado em Nicolato e Alvarenga (2010)" }
+      - { term: "Palmer et al. (2003)", desc: "Comparação neuropsicológica entre cinco grupos de idosos com psicose e demência, conforme citado em Nicolato e Alvarenga (2010)" }
+  - title: "Antipsicóticos e cognição"
+    items:
+      - { term: "Vigen et al. (2011)", desc: "Cognitive effects of atypical antipsychotic medications in patients with Alzheimer's disease: outcomes from CATIE-AD. American Journal of Psychiatry, 168(8), 831-839" }
+      - { term: "Baldez et al. (2021)", desc: "The effect of antipsychotics on the cognitive performance of individuals with psychotic disorders: network meta-analyses of randomized controlled trials. Neuroscience and Biobehavioral Reviews, 126, 265-275" }
+      - { term: "Chandramouleeshwaran et al. (2023)", desc: "Impact of psychotropic medications on cognition among older adults: a systematic review. International Psychogeriatrics, 35(11), 1-16" }
+---
+
+---
+layout: reference
+kicker: Referências · 4 de 4
+title: A Escala de Depressão Geriátrica
+groups:
+  - title: "Origem e validação"
+    items:
+      - { term: "Yesavage et al. (1983)", desc: "Development and validation of a geriatric depression screening scale: a preliminary report. Journal of Psychiatric Research, 17(1), 37-49" }
+      - { term: "Sheikh e Yesavage (1986)", desc: "Geriatric Depression Scale (GDS): recent evidence and development of a shorter version. Clinical Gerontologist, 5, 165-173" }
+      - { term: "Almeida e Almeida (1999a)", desc: "Short versions of the geriatric depression scale: a study of their validity for the diagnosis of a major depressive episode according to ICD-10 and DSM-IV. International Journal of Geriatric Psychiatry, 14(10), 858-865 — é o estudo dos pontos de corte" }
+      - { term: "Almeida e Almeida (1999b)", desc: "Confiabilidade da versão brasileira da escala de depressão em geriatria (GDS) versão reduzida. Arquivos de Neuro-Psiquiatria, 57(2B), 421-426 — é o estudo de teste-reteste, que considerou as versões de 1 e 4 itens inconfiáveis" }
+      - { term: "Paradela et al. (2005)", desc: "Validação da escala de depressão geriátrica em um ambulatório geral. Revista de Saúde Pública, 39(6), 918-923" }
+  - title: "Desempenho e uso na demência"
+    items:
+      - { term: "Park (2020)", desc: "Performance of the Geriatric Depression Scale-15 with older adults aged over 65 years: an updated review 2000-2019. Clinical Gerontologist, 44(2), 83-96" }
+      - { term: "Burke et al. (1989)", desc: "Use of the Geriatric Depression Scale in dementia of the Alzheimer type. Journal of the American Geriatrics Society, 37(9), 856-860" }
+      - { term: "Bennett et al. (2024)", desc: "Mild to moderate cognitive impairment does not bias the Geriatric Depression Scale in a large U.S. sample of older adults. Quality of Life Research, 33, 2437-2449" }
+      - { term: "Goodarzi et al. (2017)", desc: "Depression case finding in individuals with dementia: a systematic review and meta-analysis. Journal of the American Geriatrics Society, 65(5), 937-948" }
+      - { term: "Atchison et al. (2024)", desc: "Depression detection in dementia: a diagnostic accuracy systematic review and meta-analysis update. Health Science Reports, 7(7), e2249" }
 ---
 
 <!--
-As entradas marcadas como "conforme citado em Nicolato e Alvarenga" são citações de segunda mão: o capítulo as referencia, eu não tive acesso ao original. Diga isso à turma — é exatamente o cuidado de citação que vocês vão cobrar deles no TCC.
+- **«Conforme citado em Nicolato e Alvarenga (2010)»** — citação de segunda mão: o original não foi consultado diretamente. Pela ABNT NBR 10520, esses casos se registram com a expressão *apud*.
+- **A chave em monoespaçado** é a forma de citação (autor e ano); a referência completa está ao lado.
 -->
 
 ---
 layout: end
 title: Até a próxima
-subtitle: "Aula 04 — Avaliação neuropsicológica do idoso."
-contact: Traga a ficha da GDS-15 preenchida das duas vinhetas.
+subtitle: "Aula 04 — Memória e envelhecimento"
 ---
