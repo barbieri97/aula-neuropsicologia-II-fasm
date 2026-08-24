@@ -552,35 +552,46 @@
 
 /* -------------------------------------------------------------- reference
    Termo à esquerda, descrição à direita. Com vários grupos, duas colunas —
-   é uma folha de consulta, e folha de consulta se lê varrendo. */
+   é uma folha de consulta, e folha de consulta se lê varrendo.
+
+   As duas colunas são GRID, não `columns`. Multi-coluna fragmenta o que está
+   dentro dela, e o que está dentro aqui é um `dl` em grid: as linhas do dl
+   caem em colunas diferentes das do termo e a folha vira sopa de letrinhas.
+   Grid não fragmenta — cada grupo fica inteiro na sua célula. */
 
 .l-reference.grouped {
-  columns: 2;
+  display: grid;
+  grid-template-columns: repeat(var(--ref-cols, 2), minmax(0, 1fr));
   column-gap: var(--gap-lg);
+  align-items: start;
 }
 
 .ref-group {
-  break-inside: avoid;
-  margin-bottom: 1.1rem;
+  margin-bottom: calc(1.1rem * var(--ref-ratio, 1));
 }
 
 .ref-group-title {
-  font-size: var(--fs-caption);
+  font-size: calc(var(--fs-caption) * max(var(--ref-ratio, 1), 0.78));
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
-  margin: 0 0 0.5rem;
+  margin: 0 0 calc(0.5rem * var(--ref-ratio, 1));
   padding-bottom: 0.3rem;
   border-bottom: 1px solid var(--line);
 }
 
 .ref-list {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 0.35rem 0.9rem;
+  /* `fit-content` e não `auto`: com termos curtos (uma sigla, uma palavra) a
+     coluna continua colando no texto, como `auto` faria; com termo longo — uma
+     referência bibliográfica inteira — ela para de crescer em 38% e a descrição
+     sobra com largura de sobra em vez de sair uma palavra por linha. */
+  grid-template-columns: fit-content(38%) minmax(0, 1fr);
+  gap: calc(0.35rem * var(--ref-ratio, 1)) calc(0.9rem * var(--ref-ratio, 1));
   margin: 0;
-  font-size: var(--fs-small);
+  /* O corpo acompanha a densidade da folha — o layout calcula a razão. */
+  font-size: calc(var(--fs-small) * var(--ref-ratio, 1));
   line-height: 1.4;
 }
 
@@ -589,12 +600,33 @@
   font-size: 0.88em;
   color: var(--accent);
   font-weight: 600;
-  white-space: nowrap;
+  overflow-wrap: break-word;
 }
 
 .ref-desc {
   margin: 0;
   color: var(--ink-2);
+}
+
+/* Folha densa — na prática, a bibliografia. A chave perde a coluna própria e
+   passa a correr junto da referência: guardar duas palavras custava 38% da
+   largura, e a descrição pagava a conta em altura. Com a chave flutuando, o
+   texto contorna e a folha ganha cerca de um terço de área útil, que é a
+   diferença entre caber em corpo legível e descer ao piso do <Fit>. */
+
+.l-reference.flowing .ref-list {
+  display: block;
+}
+
+.l-reference.flowing .ref-term {
+  float: left;
+  clear: left; /* chave curta com descrição curta não puxa a próxima para o lado */
+  max-width: 45%;
+  margin-right: 0.5em;
+}
+
+.l-reference.flowing .ref-desc {
+  margin: 0 0 calc(0.45rem * var(--ref-ratio, 1));
 }
 
 /* --------------------------------------------------------------- timeline
