@@ -144,8 +144,7 @@ note: Hipótese de demência no encaminhamento <em>não</em> dispensa investigar
 <Figure src="/filtros-diagnostico-idoso.svg" alt="Funil em quatro degraus: entre o quadro psiquiátrico que o idoso de fato tem e o que chega a ser diagnosticado há quatro filtros — apresentação atípica, comorbidade clínica, iatrogenia e subdiagnóstico" />
 
 <!--
-- **Os quatro filtros** — apresentação atípica → comorbidade clínica → iatrogenia → subdiagnóstico. A perda de casos é cumulativa, e a prevalência publicada é calculada sobre o que sobra na ponta.
-- **Subdiagnóstico** — a depressão é o transtorno psiquiátrico mais prevalente no hospital geral e um dos menos identificados na atenção primária.
+- **Iatrogenia:** qualquer efeito adverso, dano ou alteração patológica no estado de saúde de um paciente causado por uma intervenção médica ou tratamento de saúde
 -->
 
 ---
@@ -239,11 +238,10 @@ columns:
       - "Agitação ou retardo psicomotor observáveis"
       - "Fadiga ou perda de energia"
       - "Sentimento de inutilidade ou culpa excessiva"
-  - title: "E ainda"
+  - title: "continuação"
     items:
       - "Capacidade diminuída de pensar, concentrar-se ou decidir"
       - "Pensamentos recorrentes de morte, ideação ou plano suicida"
-      - "Síntese parafraseada do DSM-5-TR — a redação oficial é da APA"
 ---
 
 <!--
@@ -1180,7 +1178,8 @@ panels:
 ---
 layout: statement
 kicker: Dinâmica
-title: Duas vinhetas. Pontuem a GDS-15 na ficha, decidam a conduta e justifiquem em uma frase.
+title: Duas vinhetas. Pontuem a GDS-15 na ficha, decidam a conduta e justifiquem
+  em um parágrafo.
 ---
 
 ---
@@ -1425,5 +1424,5 @@ groups:
 ---
 layout: end
 title: Até a próxima
-subtitle: "Aula 04 — Memória e envelhecimento"
+subtitle: "Aula 04 — transtornos neurocognitivos"
 ---
