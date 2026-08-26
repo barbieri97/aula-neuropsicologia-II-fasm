@@ -139,6 +139,20 @@ como **workspace npm** no `package.json`: o npm cria o link `node_modules/slidev
 daí um deck em `aulas/` o resolve exatamente como resolveria um tema publicado no registro. Deck em
 subpasta funciona com o tema, mas não funcionaria com layouts locais colocados na raiz.
 
+### O caminho absoluto e a `--base`
+
+Escreva os caminhos com `/` na frente (`/figura.svg`) — o `public/` do deck é servido na raiz da
+base dele. Mas atenção a **quem** resolve esse caminho: o Vite reescreve `/figura.svg` com a
+`--base` do build só quando ele está **estático no template** (`<img src="/figura.svg">`). Chegando
+como *prop* — `<Figure src="/figura.svg" />`, `image:` no frontmatter — o caminho é só uma string
+em tempo de execução, e o Vite não a toca. Local, com base `/`, não dá diferença; no GitHub Pages,
+onde cada aula é servida de `/<repo>/<aula>/`, o navegador pede o arquivo na raiz do domínio e leva
+404 — a figura some **só no site publicado**.
+
+Por isso todo caminho de asset do tema passa por [`theme/utils/asset.js`](theme/utils/asset.js),
+que prefixa `import.meta.env.BASE_URL`. Componente ou layout novo que aceite caminho de arquivo
+(`src`, `image`, `photo`, `bg`, `video`, `iframe`) precisa chamar `assetUrl()` — senão repete o bug.
+
 ## Build e deploy
 
 `scripts/build-site.mjs` roda um `slidev build` **por aula** (cada uma precisa do seu próprio

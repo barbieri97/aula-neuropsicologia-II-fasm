@@ -2,6 +2,7 @@
 // Retrato + nome + papel. Num deck de aula o uso natural é atribuir uma teoria
 // a quem a formulou (Baltes, Erikson, Neugarten) sem gastar um slide nisso.
 import { computed } from 'vue'
+import { assetUrl } from '../utils/asset.js'
 
 const props = defineProps({
   name: { type: String, required: true },
@@ -22,7 +23,7 @@ const initials = computed(() => props.name
 
 <template>
   <div class="person">
-    <img v-if="photo" class="person-photo" :src="photo" :alt="name" >
+    <img v-if="photo" class="person-photo" :src="assetUrl(photo)" :alt="name" >
     <span v-else class="person-photo person-initials" aria-hidden="true">{{ initials }}</span>
     <span class="person-text">
       <span class="person-name">{{ name }}</span>

@@ -140,3 +140,10 @@ Detalhe que costuma quebrar deck em subpasta: o Slidev trata a **pasta do arquiv
 do projeto (`root`/`publicDir` do Vite). Por isso as **imagens vão em `aulas/public/`** e referências
 a elas nos slides usam caminho absoluto (`/foto.png`). O tema, por ser um pacote npm, é resolvido
 subindo até o `node_modules/` da raiz — e por isso funciona normalmente com os decks em `aulas/`.
+
+Segunda parte do mesmo detalhe: esse caminho absoluto precisa ganhar a `--base` na hora de virar
+URL. O Vite faz isso sozinho quando o caminho está estático no template, mas **não** quando ele
+chega como prop de componente (`<Figure src="/foto.png" />`) ou pelo frontmatter (`image:`) — ali é
+só uma string em tempo de execução. Local, com base `/`, dá no mesmo; publicado em
+`/<repo>/<aula>/`, viraria 404. Por isso o tema resolve todo caminho de asset por
+`theme/utils/asset.js`, que prefixa `import.meta.env.BASE_URL`.

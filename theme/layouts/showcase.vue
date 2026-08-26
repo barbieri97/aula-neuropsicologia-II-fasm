@@ -3,6 +3,7 @@
 // na proporção fixa 43/57. Diferente de `image`, aqui a imagem é o assunto e o
 // texto é a legenda dela.
 import { useSlideContext } from '@slidev/client'
+import { assetUrl } from '../utils/asset.js'
 const { $frontmatter: fm } = useSlideContext()
 </script>
 
@@ -20,7 +21,7 @@ const { $frontmatter: fm } = useSlideContext()
         </Fit>
       </Reveal>
       <div class="showcase-media">
-        <img :src="fm.image" :alt="fm.alt ?? fm.title ?? ''" >
+        <img :src="assetUrl(fm.image)" :alt="fm.alt ?? fm.title ?? ''" >
       </div>
     </div>
   </div>

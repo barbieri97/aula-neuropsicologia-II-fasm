@@ -13,7 +13,7 @@
 // lá, e o lint e a documentação passam a conhecê-lo juntos.
 //
 // Saída: erros fazem sair com código 1 (o build para); avisos só aparecem.
-import { readFileSync } from 'node:fs'
+import { globSync, readFileSync } from 'node:fs'
 import { relative, resolve } from 'node:path'
 import { parse } from '@slidev/parser'
 
@@ -42,7 +42,11 @@ const TONES = new Set(['accent', 'good', 'warn', 'bad', 'info', 'muted'])
 const MAX_BULLETS = 7
 const MAX_BULLET_CHARS = 140
 
-const files = process.argv.slice(2)
+// O `npm run lint` passa `aulas/*.md`, e no Windows nem o cmd nem o PowerShell expandem glob —
+// o padrão chegaria aqui literal e o lint acusaria "não deu para ler o deck". Expandimos nós.
+const files = process.argv.slice(2).flatMap((arg) => (
+  arg.includes('*') ? [...globSync(arg)].sort() : [arg]
+))
 if (!files.length) {
   console.error('uso: fasm-lint <arquivo.md> [...]')
   process.exit(2)

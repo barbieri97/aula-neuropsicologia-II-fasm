@@ -8,6 +8,7 @@
 // escolheu, o que é uma aposta ruim numa sala de aula.
 import { computed } from 'vue'
 import { useSlideContext } from '@slidev/client'
+import { assetUrl } from '../utils/asset.js'
 
 const KINDS = ['mesh', 'aurora', 'grain', 'dots', 'grid']
 
@@ -22,7 +23,7 @@ const isImage = computed(() => typeof bg.value === 'string' && !KINDS.includes(b
     v-if="bg"
     class="slide-bg"
     :class="isImage ? 'bg-image' : `bg-${bg}`"
-    :style="isImage ? { backgroundImage: `url(${bg})` } : null"
+    :style="isImage ? { backgroundImage: `url(${assetUrl(bg)})` } : null"
     aria-hidden="true"
   />
 </template>

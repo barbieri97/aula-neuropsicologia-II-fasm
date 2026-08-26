@@ -1,6 +1,7 @@
 <script setup>
 // Imagem (ou diagrama no slot) com legenda e crédito. A legenda é parte do
 // argumento — numa aula, a figura sem legenda vira enfeite.
+import { assetUrl } from '../utils/asset.js'
 defineProps({
   src: { type: String, default: '' },
   alt: { type: String, default: '' },
@@ -12,7 +13,7 @@ defineProps({
 <template>
   <figure class="figure">
     <div class="figure-media">
-      <img v-if="src" :src="src" :alt="alt || caption" >
+      <img v-if="src" :src="assetUrl(src)" :alt="alt || caption" >
       <slot v-else />
     </div>
     <figcaption v-if="caption || credit" class="figure-caption">

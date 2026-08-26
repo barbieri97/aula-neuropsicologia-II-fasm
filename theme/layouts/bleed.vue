@@ -6,6 +6,7 @@
 // `duotone` (padrão ligado) dessatura a imagem e a puxa para o azul do tema, o
 // que resolve de uma vez o ruído de uma foto colorida atrás de texto.
 import { useSlideContext } from '@slidev/client'
+import { assetUrl } from '../utils/asset.js'
 const { $frontmatter: fm } = useSlideContext()
 </script>
 
@@ -14,7 +15,7 @@ const { $frontmatter: fm } = useSlideContext()
     <div
       class="bleed-image"
       :class="{ duotone: fm.duotone !== false }"
-      :style="{ backgroundImage: `url(${fm.image})` }"
+      :style="{ backgroundImage: `url(${assetUrl(fm.image)})` }"
       aria-hidden="true"
     />
     <div class="bleed-veil" aria-hidden="true" />
