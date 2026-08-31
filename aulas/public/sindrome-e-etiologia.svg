@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 291" width="860" height="291" role="img" aria-label="A síndrome de transtorno neurocognitivo no centro e as etiologias possíveis em ramos, com o par provável e possível">
+  <style>
+    .cx  { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 20px; fill: #fdfdfb; }
+    .cxs { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 14px; fill: #b9c6da; }
+    .rot { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 16px; fill: #1d3e6e; }
+    .sub { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #4a4a45; }
+    .chip{ font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #1d3e6e; }
+  </style>
+
+  <!-- o tronco: primeiro a síndrome -->
+  <rect x="10" y="91" width="216" height="94" fill="#1d3e6e"/>
+  <text class="cx"  x="118" y="127" text-anchor="middle">Síndrome</text>
+  <text class="cxs" x="118" y="155" text-anchor="middle">TNC leve ou TNC maior</text>
+  <text class="cxs" x="118" y="173" text-anchor="middle">critérios A a D</text>
+
+  <path d="M 226 138 L 282 138" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 282 23 L 282 253" stroke="#8a5a12" stroke-width="2.5"/>
+
+  <!-- os ramos: só depois a causa.
+       As caixas vão de x=316 a x=600 (284 de largura) e o texto começa em 330,
+       o que deixa 256px de medida útil: cabe a linha mais longa ("Degeneração
+       frontotemporal") em 16px sem encostar na borda direita. -->
+  <g>
+    <path d="M 282 23 L 316 23" stroke="#8a5a12" stroke-width="1.5"/>
+    <rect x="316" y="6" width="284" height="34" fill="#e7ecf3" stroke="#bfbeb3"/>
+    <text class="rot" x="330" y="28">Doença de Alzheimer</text>
+
+    <path d="M 282 69 L 316 69" stroke="#8a5a12" stroke-width="1.5"/>
+    <rect x="316" y="52" width="284" height="34" fill="#e7ecf3" stroke="#bfbeb3"/>
+    <text class="rot" x="330" y="74">Doença vascular</text>
+
+    <path d="M 282 115 L 316 115" stroke="#8a5a12" stroke-width="1.5"/>
+    <rect x="316" y="98" width="284" height="34" fill="#e7ecf3" stroke="#bfbeb3"/>
+    <text class="rot" x="330" y="120">Degeneração frontotemporal</text>
+
+    <path d="M 282 161 L 316 161" stroke="#8a5a12" stroke-width="1.5"/>
+    <rect x="316" y="144" width="284" height="34" fill="#e7ecf3" stroke="#bfbeb3"/>
+    <text class="rot" x="330" y="166">Doença com corpos de Lewy</text>
+
+    <path d="M 282 207 L 316 207" stroke="#8a5a12" stroke-width="1.5"/>
+    <rect x="316" y="190" width="284" height="34" fill="#e7ecf3" stroke="#bfbeb3"/>
+    <text class="rot" x="330" y="212">Doença do príon</text>
+
+    <path d="M 282 253 L 316 253" stroke="#8a5a12" stroke-width="1.5"/>
+    <rect x="316" y="236" width="284" height="34" fill="#edece4" stroke="#bfbeb3"/>
+    <text class="rot" x="330" y="258">Parkinson · TCE · HIV · outras</text>
+  </g>
+
+  <!-- e o grau de certeza.
+       As duas fichas ganharam 8px de altura e param em 850: a terceira linha
+       ("sem confirmação") cabia por 8px no desenho antigo e vazava assim que a
+       fonte de sistema mudava de métrica. -->
+  <path d="M 600 23 L 630 23 L 630 253 L 600 253" fill="none" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 630 138 L 654 138" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 662 138 l -9 -6 v 12 z" fill="#8a5a12"/>
+
+  <rect x="667" y="53" width="183" height="80" fill="#e5eee9" stroke="#2c6047" stroke-width="1.5"/>
+  <text class="chip" x="758" y="81" text-anchor="middle">provável</text>
+  <text class="sub"  x="758" y="103" text-anchor="middle">genética, imagem</text>
+  <text class="sub"  x="758" y="121" text-anchor="middle">ou perfil típico</text>
+
+  <rect x="667" y="143" width="183" height="80" fill="#f4ece0" stroke="#8a5a12" stroke-width="1.5"/>
+  <text class="chip" x="758" y="171" text-anchor="middle">possível</text>
+  <text class="sub"  x="758" y="193" text-anchor="middle">clínica compatível,</text>
+  <text class="sub"  x="758" y="211" text-anchor="middle">sem confirmação</text>
+</svg>

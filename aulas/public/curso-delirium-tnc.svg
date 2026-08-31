@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="À esquerda o delirium oscilando ao longo de um único dia; à direita o transtorno neurocognitivo declinando ao longo de anos">
+  <rect width="1000" height="360" fill="#fdfdfb"/>
+
+  <g font-family="'Source Sans 3','Segoe UI',system-ui,sans-serif">
+
+    <!-- delirium -->
+    <text x="24" y="34" font-size="26" font-weight="700" fill="#8c2f2f">Delirium</text>
+    <text x="24" y="60" font-size="19" fill="#6b6b63">horas a dias &#183; oscila dentro do mesmo dia</text>
+
+    <!-- nível basal: a referência contra a qual a oscilação se lê -->
+    <line x1="46" y1="104" x2="466" y2="104" stroke="#bfbeb3" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="466" y="96" font-size="17" fill="#6b6b63" text-anchor="end">nível basal</text>
+
+    <!-- a curva: sobe ao basal e despenca, várias vezes no mesmo dia -->
+    <polyline points="52,108 92,232 128,116 170,258 212,110 252,244 292,120 334,262 374,126 416,236 460,132"
+              fill="none" stroke="#8c2f2f" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <line x1="46" y1="284" x2="466" y2="284" stroke="#bfbeb3" stroke-width="2"/>
+    <g font-size="17" fill="#6b6b63" text-anchor="middle">
+      <text x="110" y="308">manhã</text>
+      <text x="215" y="308">tarde</text>
+      <text x="320" y="308">noite</text>
+      <text x="425" y="308">madrugada</text>
+    </g>
+    <text x="24" y="344" font-size="18" fill="#1b1b19">Um único dia</text>
+
+    <!-- TNC -->
+    <line x1="500" y1="20" x2="500" y2="340" stroke="#dcdbd3" stroke-width="2"/>
+
+    <text x="534" y="34" font-size="26" font-weight="700" fill="#1d3e6e">Transtorno neurocognitivo</text>
+    <text x="534" y="60" font-size="19" fill="#6b6b63">meses a anos &#183; declínio contínuo</text>
+
+    <line x1="556" y1="104" x2="976" y2="104" stroke="#bfbeb3" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="976" y="96" font-size="17" fill="#6b6b63" text-anchor="end">nível prévio</text>
+
+    <polyline points="562,110 610,120 658,134 706,152 754,174 802,198 850,220 898,240 962,256"
+              fill="none" stroke="#1d3e6e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <line x1="556" y1="284" x2="976" y2="284" stroke="#bfbeb3" stroke-width="2"/>
+    <g font-size="17" fill="#6b6b63" text-anchor="middle">
+      <text x="610" y="308">ano 1</text>
+      <text x="754" y="308">ano 3</text>
+      <text x="898" y="308">ano 5</text>
+    </g>
+    <text x="534" y="344" font-size="18" fill="#1b1b19">Vários anos</text>
+
+  </g>
+</svg>
