@@ -1,8 +1,8 @@
 ---
 theme: slidev-theme-fasm
 title: "Transtornos neurocognitivos"
-info: Conceito, critérios diagnósticos, etiologias, domínios cognitivos e o
-  lugar da avaliação neuropsicológica
+info: Conceito, critérios diagnósticos, etiologias, domínios cognitivos, o
+  lugar da avaliação neuropsicológica e a aplicação do MEEM
 date: "2026-09-01"
 author: FASM · Neuropsicologia II
 # Gera o PDF no build (via playwright-chromium) e liga o botão de download no deck.
@@ -26,7 +26,7 @@ subtitle: Alterações na cognição e na funcionalidade — o que o DSM-5 pede,
 ---
 layout: agenda
 kicker: Aula 04 · o caminho de hoje
-title: Cinco blocos
+title: Seis blocos
 items:
   - {
       topic: "Conceito e classificação",
@@ -48,11 +48,16 @@ items:
       topic: "Avaliação neuropsicológica",
       desc: "cognição e funcionalidade: as duas metades do critério"
     }
+  - {
+      topic: "O Mini-Exame do Estado Mental",
+      desc: "aplicação, correção e limites — com estudo de caso em grupo"
+    }
 ---
 
 <!--
-Os cinco blocos reaparecem adiante como slides de seção, numerados de 01 a 05. A trilha de
+Os seis blocos reaparecem adiante como slides de seção, numerados de 01 a 06. A trilha de
 progresso no topo dos slides mostra em qual deles a turma está.
+- O bloco 6 fecha com a dinâmica: duas fichas de MEEM para corrigir e discutir em grupo.
 -->
 
 ---
@@ -1024,6 +1029,243 @@ steps:
 - A sequência **não é obrigatória nem de mão única**: um achado da história muda a hipótese e faz o caminho voltar atrás.
 - **Nível prévio de desempenho** — o critério A do DSM-5 pede comparação com ele, não com a média da população. Escolaridade e ocupação são as estimativas de que se dispõe na prática.
 - **Comorbidade** — outra condição presente ao mesmo tempo.
+-->
+
+---
+layout: section
+index: "06"
+kicker: Parte seis
+title: O Mini-Exame do Estado Mental
+subtitle: O rastreio cognitivo mais usado do mundo — como se aplica, como se
+  corrige e o que ele não responde
+---
+
+---
+layout: define
+kicker: O instrumento
+term: Mini-Exame do Estado Mental
+definition: Rastreio cognitivo breve, de <em>0 a 30 pontos</em>, aplicado em 5 a
+  10 minutos com papel, caneta e um treinamento mínimo.
+points:
+  - "Criado por <strong>Folstein et al. (1975)</strong>; trazido ao Brasil por
+    <strong>Bertolucci et al. (1994)</strong>"
+  - "A versão de referência aqui é a de <strong>Brucki et al. (2003)</strong> —
+    adaptada à nossa população e sensível à escolaridade"
+  - "<strong>Não é teste diagnóstico de demência.</strong> Rastreia: diz que algo
+    merece ser investigado, não o que é"
+---
+
+<!--
+- **Rastreio** (*screening*) — instrumento breve que separa quem precisa de investigação de quem não precisa. Alta sensibilidade, baixa especificidade: erra para o lado de investigar demais.
+- Serve também para **estadiar** a demência já diagnosticada, **acompanhar** resposta a tratamento e compor baterias como o CERAD.
+- Padronização usada nesta aula: Instituto de Neurologia de Curitiba (SEDDICC/ADEMEC), versão 1, outubro de 2015, construída sobre Brucki et al. (2003).
+- Bertolucci foi quem mostrou, em 1994, que **escolaridade** muda o escore de gente sem doença nenhuma — é a origem dos cortes por faixa que veremos adiante.
+-->
+
+---
+layout: default
+kicker: A aplicação · a estrutura
+title: Trinta pontos, sete domínios
+---
+
+<Grid head :data="[
+  ['Bloco', 'O que se pede', 'Pontos'],
+  ['Orientação temporal', 'dia da semana, dia do mês, mês, ano, hora aproximada', '5'],
+  ['Orientação espacial', 'local específico, local geral, bairro, cidade, estado', '5'],
+  ['Memória imediata', 'repetir três palavras — <b>pente, rua, azul</b>', '3'],
+  ['Atenção e cálculo', '100 − 7, cinco vezes seguidas', '5'],
+  ['Evocação', 'as mesmas três palavras, <b>sem dica</b>', '3'],
+  ['Linguagem e praxia', 'nomear 2 · repetir 1 · comando 3 · ler 1 · escrever 1 · copiar 1', '9'],
+]" />
+
+<!--
+- **Total: 30.** Zero é o pior desempenho possível; 30, o melhor.
+- Os **9 pontos de linguagem** se abrem em: nomeação de dois objetos (relógio e caneta), repetição de "nem aqui, nem ali, nem lá", comando de três estágios, leitura com execução ("FECHE OS OLHOS"), escrita de uma frase e cópia dos pentágonos.
+- O último ponto — a **cópia dos pentágonos** — é o único item de **praxia construtiva** do teste. A padronização do INC o descreve assim, embora a folha de protocolo o some dentro de "linguagem".
+- Compare com os **seis domínios do DSM-5** do bloco 4: o MEEM não tem nenhum item de **cognição social** e quase nada de **função executiva**. Volte a este ponto no slide dos limites.
+-->
+
+---
+layout: steps
+kicker: A aplicação · as regras que mudam o escore
+title: Seis coisas que decidem o ponto
+steps:
+  - {
+      icon: "lucide:ear",
+      title: "Rastreie o sensorial antes de começar",
+      desc: "Déficit visual, auditivo, motor ou de compreensão vira erro cognitivo
+        no papel se ninguém checar"
+    }
+  - {
+      icon: "lucide:timer",
+      title: "Cada tarefa tem um tempo",
+      desc: "10 segundos na maioria; 30 na memória imediata, no cálculo, no comando
+        e na frase; 1 minuto na cópia"
+    }
+  - {
+      icon: "lucide:repeat",
+      title: "Memória imediata: pontua só a primeira tentativa",
+      desc: "Você pode repetir as palavras até três vezes para ele aprender — mas o
+        ponto é da primeira"
+    }
+  - {
+      icon: "lucide:calculator",
+      title: "Atenção e cálculo: só o 100 − 7",
+      desc: "Brucki retirou a alternativa de soletrar MUNDO ao contrário — soletrar
+        não é hábito nosso e pesa mais na baixa escolaridade"
+    }
+  - {
+      icon: "lucide:search",
+      title: "Evocação: nenhuma dica",
+      desc: "Se você der pista, deixou de medir evocação livre — e perdeu justamente
+        a informação que separa os perfis"
+    }
+  - {
+      icon: "lucide:accessibility",
+      title: "Adaptou? Anote",
+      desc: "Adaptação por deficiência física é legítima, mas precisa ficar
+        registrada, ou o reteste não é comparável"
+    }
+---
+
+<!--
+- **Ordem dos itens** — memória imediata vem antes de atenção e cálculo justamente para que o cálculo funcione como intervalo de interferência antes da evocação.
+- **Cálculo** — se ele esquecer de quanto subtrair, pode ser lembrado **uma vez por série**. Erro no meio: corrija e siga a sequência correta a partir do número certo. Autocorreção espontânea conta como acerto.
+- **Comando de três estágios** — um ponto por etapa. Não dê dica se ele pedir ajuda no meio. Exige linguagem, atenção, memória e praxia ao mesmo tempo.
+- **Leitura** — só pontua se **executar** o comando. Ler em voz alta e não fechar os olhos vale zero.
+- **Frase** — ignore ortografia e gramática. Basta ter sentido: "Estou feliz" pontua.
+- **Cópia** — só pontua com dois pentágonos de cinco ângulos cada e interseção formando um quadrilátero. Tremor e linha sinuosa são aceitos.
+- **Reteste** — se o escore anterior foi maior que 19, troque as palavras por *maçã, centavo, tábua* para evitar efeito de aprendizagem.
+-->
+
+---
+layout: default
+kicker: A correção · o passo que mais se erra
+title: O ponto de corte muda com a escolaridade
+---
+
+<Grid head highlight="col:2" :data="[
+  ['Escolaridade', 'Ponto de corte'],
+  ['Analfabetos', '20'],
+  ['1 a 4 anos de estudo', '25'],
+  ['5 a 8 anos de estudo', '26,5'],
+  ['9 a 11 anos de estudo', '28'],
+  ['Mais de 11 anos de estudo', '29'],
+]" />
+
+<Callout tone="warn" icon="lucide:triangle-alert">
+Corrigir é somar <strong>e</strong> comparar com a faixa certa. Um 26 é rastreio
+<strong>negativo</strong> para quem tem quatro anos de escola e <strong>positivo</strong> para
+quem tem faculdade.
+</Callout>
+
+<!--
+- Fonte: **Brucki et al., 2003** — cinco faixas educacionais, para reduzir falso-positivo na baixa escolaridade e falso-negativo na alta.
+- A padronização do INC tabula **26** para a faixa de 5 a 8 anos; a folha do protocolo traz **26,5**, que é o valor do artigo original. Use 26,5 e registre qual usou.
+- O corte clássico e único de **24** (Folstein; Almeida, 1998) ainda aparece muito: sensibilidade 84% e especificidade 60% em escolarizados. É o que produz o erro que este slide combate.
+- **Abaixo do corte não é diagnóstico** — é indicação de avaliação. Acima do corte também não exclui: veja o próximo slide.
+-->
+
+---
+layout: columns
+kicker: A correção · dois cálculos que aparecem na prática
+title: Quando o escore bruto não serve como está
+columns:
+  - {
+      title: "Item que não pôde ser feito",
+      items: [
+        "Cegueira, por exemplo, inviabiliza <strong>leitura</strong>, <strong>escrita</strong> e <strong>cópia</strong> — 3 pontos",
+        "Ajuste: <strong>(escore × 30) ÷ (30 − itens não realizados)</strong>",
+        "15 pontos com 3 itens fora → (15 × 30) ÷ 27 = 16,7 → <strong>17</strong>",
+        "Sem o ajuste, a deficiência vira déficit cognitivo no papel"
+      ]
+    }
+  - {
+      title: "Velocidade de progressão",
+      items: [
+        "<strong>(30 − MEEM inicial) ÷ anos de doença</strong>",
+        "MEEM 20 e 3 anos de história → 10 ÷ 3 = <strong>3,3 pontos/ano</strong>",
+        "Menos de 2/ano lenta · 2 a 4 intermediária · mais de 5 rápida",
+        "Na doença de Alzheimer espera-se cerca de <strong>3 pontos por ano</strong>"
+      ]
+    }
+---
+
+<!--
+- O ajuste por item não realizado vem de **Molloy (2014)**; a fórmula de progressão, de **Doody et al. (2010)**, com as faixas de Tombaugh (1992), Reisberg (1982) e Maia et al. (2006).
+- O declínio médio de ~3 pontos/ano na doença de Alzheimer vem da metanálise de **Han et al. (2000)**.
+- Duas leituras práticas: um paciente que perde 6 pontos em um ano merece revisão do diagnóstico; um que não perde nada em três anos também.
+- **Estadiamento** (quando a demência já está diagnosticada): 20 a 26 fase leve, 10 a 19 moderada, abaixo de 10 grave. Não use isso para diagnosticar — só para acompanhar.
+-->
+
+---
+layout: default
+kicker: Os limites
+title: O que um 30 não garante, e o que um 18 não diz
+---
+
+<Grid head :data="[
+  ['O limite', 'Como ele aparece na clínica'],
+  ['Efeito solo', 'na demência grave o escore chega a zero e para de cair — deixa de servir para acompanhar'],
+  ['Efeito teto', 'no TNC leve com alta escolaridade o resultado pode vir <b>completamente normal</b>'],
+  ['Domínios ausentes', 'não avalia abstração, julgamento, cognição social — e quase não toca a função executiva'],
+  ['Peso da escolaridade', 'e da cultura, e do letramento: por isso os cinco cortes, e ainda assim sobra viés'],
+  ['Não separa mecanismos', 'um ponto perdido na evocação não diz se faltou atenção, registro ou busca'],
+]" />
+
+<Callout tone="accent" icon="lucide:git-branch">
+É o mesmo argumento do bloco 5: o MEEM entrega <strong>um número</strong>. As quatro perguntas
+por trás dele continuam sendo trabalho da avaliação neuropsicológica.
+</Callout>
+
+<!--
+- **Efeito solo** (*floor effect*) — o instrumento não tem itens fáceis o bastante para diferenciar quem já está muito comprometido.
+- **Efeito teto** — o oposto: um professor universitário com CCL inicial acerta os 30 itens e passa batido. Foi exatamente por isso que se criaram instrumentos como o **MoCA**, mais sensível ao CCL e à disfunção executiva.
+- O MEEM **não substitui** a entrevista com informante: o critério B — funcionalidade — não tem item nenhum aqui dentro.
+- Retome o slide "O escore caiu. Por qual caminho?": um 18 pode vir de amnésia, de desatenção, de anomia ou de lentificação. O MEEM não distingue.
+-->
+
+---
+layout: statement
+kicker: Dinâmica em grupo
+title: Duas vinhetas. Corrijam o MEEM, comparem com o corte <em>certo</em> e
+  digam qual critério decide o nível.
+---
+
+Em grupos de quatro ou cinco. Cada grupo recebe **uma** das duas fichas, soma o MEEM, busca o
+ponto de corte da escolaridade daquele paciente e escreve o parágrafo de conclusão.
+
+<Tags :items="['1 · some os 30 pontos', '2 · ache o corte da faixa', '3 · há TNC?', '4 · leve ou maior?', '5 · qual critério decidiu?']" />
+
+<!--
+GABARITO — para você, não para eles.
+
+**Vinheta 1 · Dona Terezinha, 78 anos, 3 anos de estudo.**
+MEEM = **18/30**. Faixa de 1 a 4 anos → corte **25**. Sete pontos abaixo.
+Parciais: orientação temporal 3, espacial 4, memória imediata 3, cálculo 2, evocação 0,
+nomeação 2, repetição 1, comando 2, leitura 0, escrita 1, cópia 0.
+Funcionalidade **perdida**: a filha assumiu as contas, a medicação e a cozinha; episódio de
+desorientação na rua. Ela própria não reconhece a dificuldade (anosognosia).
+→ **TNC maior.** O que decide não é o 18: é o **critério B**.
+
+**Vinheta 2 · Sr. Wilson, 73 anos, mestrado.**
+MEEM = **27/30**. Faixa acima de 11 anos → corte **29**. Dois pontos abaixo.
+Parciais: orientação temporal 4, espacial 5, memória imediata 3, cálculo 5, evocação 1,
+nomeação 2, repetição 1, comando 3, leitura 1, escrita 1, cópia 1.
+Perfil **amnéstico**: perde só na evocação, com atenção e cálculo intactos.
+Funcionalidade **preservada com esforço**: escreve a aula inteira onde antes improvisava,
+confere a agenda duas vezes, mas dirige, administra o dinheiro e não errou dose nem compromisso.
+→ **TNC leve (CCL).** É ele quem se queixa; a esposa minimiza — o inverso da vinheta 1.
+
+O CONTRASTE QUE INTERESSA
+- 27 "parece" ótimo e **está abaixo do corte**; 18 e 27 estão os dois abaixo, e mesmo assim os
+  níveis são diferentes. Quem corrigir pelo velho corte único de 24 erra o Sr. Wilson.
+- Nenhum dos dois nível se decidiu pelo escore. Decidiu-se pela **independência nas AIVD** —
+  exatamente o slide "Maior e leve: o que muda é o B".
+- Se algum grupo fechar etiologia, lembre: a vinheta não traz neuroimagem nem marcador. Dá para
+  levantar hipótese (o perfil amnéstico sugere Alzheimer), não para cravar subtipo.
+
+As fichas estão em `referencias/aula-04/`.
 -->
 
 ---
