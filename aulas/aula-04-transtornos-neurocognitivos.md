@@ -253,19 +253,12 @@ funcionalidade — e ela não sai da tabela normativa.
 ---
 layout: diagram
 kicker: Bloco 2 · em uma figura
-title: Uma linha, não três caixas
+title: Uma régua, não três caixas
 note: O corte entre uma faixa e a seguinte é uma <em>convenção clínica</em> —
   existe porque a conduta muda, não porque a natureza mude ali.
-highlight: ["Leve"]
 ---
 
-```mermaid
-flowchart LR
-  Tipica["Cognição típica"]
-  --> CCS["Comprometimento<br/>cognitivo subjetivo"]
-  --> Leve["TNC leve"]
-  --> Maior["TNC maior"]
-```
+<Figure src="/continuo-cognicao-tnc.svg" caption="O comprometimento é um gradiente único; as quatro faixas são cortes de conduta sobre a mesma linha, não categorias distintas." />
 
 <!--
 - O **comprometimento cognitivo subjetivo** não é categoria do DSM-5; entra aqui porque é o que costuma chegar primeiro ao consultório. O próximo slide o define.
@@ -1232,7 +1225,7 @@ title: Duas vinhetas. Corrijam o MEEM, comparem com o corte <em>certo</em> e
   digam qual critério decide o nível.
 ---
 
-Em grupos de quatro ou cinco. Cada grupo recebe **uma** das duas fichas, soma o MEEM, busca o
+Cada grupo recebe **uma** das duas fichas, soma o MEEM, busca o
 ponto de corte da escolaridade daquele paciente e escreve o parágrafo de conclusão.
 
 <Tags :items="['1 · some os 30 pontos', '2 · ache o corte da faixa', '3 · há TNC?', '4 · leve ou maior?', '5 · qual critério decidiu?']" />
@@ -1293,20 +1286,6 @@ panels:
         isso.</strong>"
     }
 ---
-
----
-layout: diagram
-kicker: Fim
-title: O que acham que a gente faz, e o que a gente faz
-note: O bloco 5 é <em>investigativo</em> — a pergunta não é qual o escore, é por
-  qual caminho ele chegou ali.
----
-
-<Figure src="/oqueachamoquee.jpg" alt="À esquerda, a imagem que se faz do neuropsicólogo aplicando testes; à direita, o trabalho de cruzar evidências como numa investigação" />
-
-<!--
-- Fecho leve, mas o ponto é sério: o trabalho do bloco 5 é **investigativo**, não de aplicar e somar.
--->
 
 ---
 layout: reference

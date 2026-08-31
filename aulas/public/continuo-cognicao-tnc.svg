@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Régua contínua da cognição típica até o TNC maior. Não são quatro categorias separadas, mas um gradiente único de comprometimento: cognição típica, comprometimento cognitivo subjetivo, TNC leve e TNC maior são faixas cortadas por convenção clínica sobre a mesma linha, com o TNC leve em destaque.">
+  <rect width="1000" height="360" fill="#fdfdfb"/>
+
+  <defs>
+    <linearGradient id="ruler-grad" gradientUnits="userSpaceOnUse" x1="70" y1="0" x2="930" y2="0">
+      <stop offset="0%" stop-color="#2c6047"/>
+      <stop offset="50%" stop-color="#8a5a12"/>
+      <stop offset="100%" stop-color="#8c2f2f"/>
+    </linearGradient>
+  </defs>
+
+  <g font-family="'Source Sans 3','Segoe UI',system-ui,sans-serif">
+
+    <!-- extremidades: o que a régua representa -->
+    <text x="40" y="102" font-size="15" font-style="italic" fill="#6b6b63">cognição preservada</text>
+    <text x="960" y="102" text-anchor="end" font-size="15" font-style="italic" fill="#6b6b63">cognição prejudicada</text>
+
+    <!-- a régua: uma faixa só, em gradiente, com pontas em seta -->
+    <path d="M40,182 L70,140 L930,140 L960,182 L930,224 L70,224 Z" fill="url(#ruler-grad)"/>
+
+    <!-- cortes de convenção clínica -->
+    <g stroke="#fdfdfb" stroke-width="2" stroke-dasharray="6 5" opacity="0.85">
+      <path d="M328,125 V239"/>
+      <path d="M457,125 V239"/>
+      <path d="M629,125 V239"/>
+    </g>
+
+    <!-- marcador sobre a faixa acesa -->
+    <path d="M543,98 L555,122 L531,122 Z" fill="#1d3e6e"/>
+
+    <!-- rótulos das faixas -->
+    <text x="199" y="264" text-anchor="middle" font-size="17" font-weight="600" fill="#4a4a45">Cognição típica</text>
+
+    <text x="392" y="256" text-anchor="middle" font-size="15" fill="#4a4a45">Comprometimento</text>
+    <text x="392" y="275" text-anchor="middle" font-size="15" fill="#4a4a45">cognitivo subjetivo</text>
+
+    <text x="543" y="264" text-anchor="middle" font-size="18.5" font-weight="700" fill="#1d3e6e">TNC leve</text>
+
+    <text x="779" y="264" text-anchor="middle" font-size="17" font-weight="600" fill="#4a4a45">TNC maior</text>
+
+    <text x="500" y="308" text-anchor="middle" font-size="15" fill="#6b6b63">grau de comprometimento cognitivo — a faixa acesa é onde a avaliação neuropsicológica mais muda a conduta</text>
+
+  </g>
+</svg>
