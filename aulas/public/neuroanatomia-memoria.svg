@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Corte esquemático do encéfalo em vista lateral, com cinco estruturas numeradas — hipocampo, amígdala, estriado, cerebelo e córtex pré-frontal — e a lista do tipo de memória que cada uma sustenta">
+  <style>
+    .bad { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #fdfdfb; font-weight: 700; }
+    .est { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 18px; fill: #1d3e6e; }
+    .fun { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 16px; fill: #4a4a45; }
+    .ori { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #6b6b63; letter-spacing: 0.1em; }
+  </style>
+
+  <!-- silhueta do encéfalo, vista lateral esquerda, anterior à esquerda -->
+  <path d="M 55 200 C 50 120, 130 55, 240 52 C 350 49, 445 85, 468 150 C 484 196, 462 232, 420 246 L 175 252 C 100 254, 60 232, 55 200 Z"
+        fill="#f5f4ee" stroke="#bfbeb3" stroke-width="2"/>
+  <!-- tronco encefálico -->
+  <path d="M 330 250 C 338 286, 354 306, 364 324 L 396 316 C 380 292, 370 268, 368 248 Z"
+        fill="#edece4" stroke="#bfbeb3" stroke-width="1.5"/>
+  <!-- cerebelo -->
+  <ellipse cx="436" cy="272" rx="64" ry="42" fill="#edece4" stroke="#6b6b63" stroke-width="2"/>
+
+  <!-- 5 · córtex pré-frontal -->
+  <path d="M 55 200 C 50 128, 112 66, 194 55 L 194 251 L 175 252 C 100 254, 60 232, 55 200 Z"
+        fill="#5b4a7a" opacity="0.22"/>
+  <path d="M 194 55 L 194 251" stroke="#5b4a7a" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- 3 · estriado -->
+  <ellipse cx="272" cy="150" rx="60" ry="27" fill="#2c6047" opacity="0.6" transform="rotate(-18 272 150)"/>
+  <!-- 1 · hipocampo -->
+  <path d="M 240 214 C 260 234, 300 238, 332 221 C 348 212, 356 200, 351 191 C 339 208, 313 217, 288 215 C 266 213, 249 206, 240 199 Z"
+        fill="#1d3e6e"/>
+  <!-- 2 · amígdala -->
+  <circle cx="221" cy="211" r="21" fill="#9a5b2d"/>
+
+  <!-- as insígnias numeradas -->
+  <g>
+    <circle cx="299" cy="222" r="16" fill="#1d3e6e" stroke="#fdfdfb" stroke-width="2"/>
+    <text class="bad" x="299" y="228" text-anchor="middle">1</text>
+    <circle cx="221" cy="211" r="16" fill="#9a5b2d" stroke="#fdfdfb" stroke-width="2"/>
+    <text class="bad" x="221" y="217" text-anchor="middle">2</text>
+    <circle cx="272" cy="150" r="16" fill="#2c6047" stroke="#fdfdfb" stroke-width="2"/>
+    <text class="bad" x="272" y="156" text-anchor="middle">3</text>
+    <circle cx="436" cy="272" r="16" fill="#6b6b63" stroke="#fdfdfb" stroke-width="2"/>
+    <text class="bad" x="436" y="278" text-anchor="middle">4</text>
+    <circle cx="116" cy="150" r="16" fill="#5b4a7a" stroke="#fdfdfb" stroke-width="2"/>
+    <text class="bad" x="116" y="156" text-anchor="middle">5</text>
+  </g>
+
+  <text class="ori" x="55" y="344">ANTERIOR</text>
+  <text class="ori" x="500" y="344" text-anchor="end">POSTERIOR</text>
+  <line x1="150" y1="339" x2="430" y2="339" stroke="#dcdbd3" stroke-width="1.5"/>
+
+  <!-- a legenda -->
+  <line x1="560" y1="20" x2="560" y2="340" stroke="#dcdbd3" stroke-width="1.5"/>
+
+  <g>
+    <circle cx="608" cy="46" r="15" fill="#1d3e6e"/>
+    <text class="bad" x="608" y="52" text-anchor="middle">1</text>
+    <text class="est" x="636" y="42">Hipocampo e lobo temporal medial</text>
+    <text class="fun" x="636" y="66">memórias declarativas novas</text>
+  </g>
+  <g>
+    <circle cx="608" cy="108" r="15" fill="#9a5b2d"/>
+    <text class="bad" x="608" y="114" text-anchor="middle">2</text>
+    <text class="est" x="636" y="104">Amígdala</text>
+    <text class="fun" x="636" y="128">a carga emocional da lembrança</text>
+  </g>
+  <g>
+    <circle cx="608" cy="170" r="15" fill="#2c6047"/>
+    <text class="bad" x="608" y="176" text-anchor="middle">3</text>
+    <text class="est" x="636" y="166">Estriado</text>
+    <text class="fun" x="636" y="190">hábitos e habilidades motoras</text>
+  </g>
+  <g>
+    <circle cx="608" cy="232" r="15" fill="#6b6b63"/>
+    <text class="bad" x="608" y="238" text-anchor="middle">4</text>
+    <text class="est" x="636" y="228">Cerebelo</text>
+    <text class="fun" x="636" y="252">condicionamento motor</text>
+  </g>
+  <g>
+    <circle cx="608" cy="294" r="15" fill="#5b4a7a"/>
+    <text class="bad" x="608" y="300" text-anchor="middle">5</text>
+    <text class="est" x="636" y="290">Córtex pré-frontal</text>
+    <text class="fun" x="636" y="314">memória operacional e busca estratégica</text>
+  </g>
+</svg>

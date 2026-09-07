@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Os quatro processos da memória em cadeia — aquisição, consolidação, armazenamento e evocação — e, sob cada um, o sinal clínico de que foi ali que a falha aconteceu">
+  <style>
+    .num { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #b9c6da; letter-spacing: 0.12em; }
+    .pro { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 20px; fill: #fdfdfb; }
+    .fai { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #8c2f2f; letter-spacing: 0.12em; }
+    .sin { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #4a4a45; }
+  </style>
+
+  <!-- a cadeia -->
+  <g>
+    <rect x="10" y="30" width="216" height="88" fill="#1d3e6e"/>
+    <text class="num" x="26" y="56">01</text>
+    <text class="pro" x="26" y="88">Aquisição</text>
+    <text class="num" x="26" y="108">codificação</text>
+  </g>
+  <path d="M 226 74 L 250 74" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 258 74 l -10 -7 v 14 z" fill="#8a5a12"/>
+
+  <g>
+    <rect x="262" y="30" width="216" height="88" fill="#1d3e6e"/>
+    <text class="num" x="278" y="56">02</text>
+    <text class="pro" x="278" y="88">Consolidação</text>
+    <text class="num" x="278" y="108">minutos a anos</text>
+  </g>
+  <path d="M 478 74 L 502 74" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 510 74 l -10 -7 v 14 z" fill="#8a5a12"/>
+
+  <g>
+    <rect x="514" y="30" width="216" height="88" fill="#1d3e6e"/>
+    <text class="num" x="530" y="56">03</text>
+    <text class="pro" x="530" y="88">Armazenamento</text>
+    <text class="num" x="530" y="108">o traço se mantém</text>
+  </g>
+  <path d="M 730 74 L 754 74" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 762 74 l -10 -7 v 14 z" fill="#8a5a12"/>
+
+  <g>
+    <rect x="766" y="30" width="216" height="88" fill="#1d3e6e"/>
+    <text class="num" x="782" y="56">04</text>
+    <text class="pro" x="782" y="88">Evocação</text>
+    <text class="num" x="782" y="108">a busca do traço</text>
+  </g>
+
+  <!-- faixa: onde a falha aparece -->
+  <text class="fai" x="10" y="168">SE FALHAR AQUI, O QUE SE VÊ NO TESTE</text>
+  <line x1="10" y1="180" x2="982" y2="180" stroke="#bfbeb3" stroke-width="1.5"/>
+
+  <g>
+    <rect x="10" y="196" width="216" height="128" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="1.5"/>
+    <text class="sin" x="26" y="228">A repetição</text>
+    <text class="sin" x="26" y="252">imediata já</text>
+    <text class="sin" x="26" y="276">falha: nada</text>
+    <text class="sin" x="26" y="300">chegou a entrar</text>
+  </g>
+
+  <g>
+    <rect x="262" y="196" width="216" height="128" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="1.5"/>
+    <text class="sin" x="278" y="228">Repete bem e</text>
+    <text class="sin" x="278" y="252">perde tudo</text>
+    <text class="sin" x="278" y="276">depois de meia</text>
+    <text class="sin" x="278" y="300">hora</text>
+  </g>
+
+  <g>
+    <rect x="514" y="196" width="216" height="128" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="1.5"/>
+    <text class="sin" x="530" y="228">Nem a pista</text>
+    <text class="sin" x="530" y="252">nem o</text>
+    <text class="sin" x="530" y="276">reconhecimento</text>
+    <text class="sin" x="530" y="300">trazem de volta</text>
+  </g>
+
+  <g>
+    <rect x="766" y="196" width="216" height="128" fill="#f4ece0" stroke="#8a5a12" stroke-width="1.5"/>
+    <text class="sin" x="782" y="228">A pista e o</text>
+    <text class="sin" x="782" y="252">reconhecimento</text>
+    <text class="sin" x="782" y="276">recuperam: o</text>
+    <text class="sin" x="782" y="300">traço está lá</text>
+  </g>
+</svg>

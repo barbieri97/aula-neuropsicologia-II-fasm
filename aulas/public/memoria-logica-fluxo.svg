@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="A linha do tempo da Memória Lógica: evocação imediata das duas histórias, um intervalo de vinte e cinco a trinta e cinco minutos e a evocação tardia com reconhecimento, e o que cada fase mede">
+  <style>
+    .fase{ font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 20px; fill: #1d3e6e; }
+    .det { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #4a4a45; }
+    .int { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 20px; fill: #8a5a12; }
+    .med { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #6b6b63; }
+    .tag { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #6b6b63; letter-spacing: 0.12em; }
+  </style>
+
+  <!-- fase I -->
+  <rect x="10" y="30" width="330" height="164" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="1.5"/>
+  <text class="fase" x="30" y="66">Evocação imediata</text>
+  <text class="det"  x="30" y="102">Lê a história A em voz alta,</text>
+  <text class="det"  x="30" y="128">pede a lembrança na hora.</text>
+  <text class="det"  x="30" y="164">Depois o mesmo com a B.</text>
+
+  <path d="M 340 112 L 366 112" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 374 112 l -10 -7 v 14 z" fill="#8a5a12"/>
+
+  <!-- intervalo -->
+  <rect x="378" y="30" width="222" height="164" fill="#f4ece0" stroke="#8a5a12" stroke-width="1.5" stroke-dasharray="7 4"/>
+  <text class="int" x="489" y="82"  text-anchor="middle">Intervalo</text>
+  <text class="int" x="489" y="110" text-anchor="middle">25 a 35 min</text>
+  <text class="det" x="489" y="150" text-anchor="middle">preenchido com</text>
+  <text class="det" x="489" y="174" text-anchor="middle">tarefas não verbais</text>
+
+  <path d="M 600 112 L 626 112" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 634 112 l -10 -7 v 14 z" fill="#8a5a12"/>
+
+  <!-- fase II -->
+  <rect x="638" y="30" width="350" height="164" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="1.5"/>
+  <text class="fase" x="658" y="66">Evocação tardia</text>
+  <text class="det"  x="658" y="102">As duas histórias de novo,</text>
+  <text class="det"  x="658" y="128">sem relê-las.</text>
+  <text class="det"  x="658" y="164">Em seguida, reconhecimento.</text>
+
+  <!-- o que cada fase mede -->
+  <text class="tag" x="10" y="246">O QUE CADA FASE MEDE</text>
+  <line x1="10" y1="258" x2="988" y2="258" stroke="#bfbeb3" stroke-width="1.5"/>
+
+  <text class="med" x="30"  y="292">quanto entrou —</text>
+  <text class="med" x="30"  y="316">codificação</text>
+
+  <text class="med" x="489" y="292" text-anchor="middle">é ele que separa</text>
+  <text class="med" x="489" y="316" text-anchor="middle">entrar de ficar</text>
+
+  <text class="med" x="988" y="292" text-anchor="end">quanto ficou — e se o que falta</text>
+  <text class="med" x="988" y="316" text-anchor="end">é o traço ou só a busca</text>
+</svg>
