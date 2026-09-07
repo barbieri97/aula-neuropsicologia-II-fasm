@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="A memória de longo prazo dividida em declarativa (episódica e semântica) e não declarativa (procedimental, priming, condicionamento e aprendizagem não associativa), cada ramo com a estrutura cerebral que o sustenta">
+  <style>
+    .raiz { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 20px; fill: #fdfdfb; }
+    .ramo { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 19px; fill: #1d3e6e; }
+    .ramos{ font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 16px; fill: #4a4a45; }
+    .folha{ font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 18px; fill: #1d3e6e; }
+    .estr { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 16px; fill: #6b6b63; }
+  </style>
+
+  <!-- raiz -->
+  <rect x="8" y="127" width="196" height="80" fill="#1d3e6e"/>
+  <text class="raiz" x="106" y="160" text-anchor="middle">Memória</text>
+  <text class="raiz" x="106" y="186" text-anchor="middle">de longo prazo</text>
+
+  <!-- tronco -->
+  <path d="M 204 167 L 232 167" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 232 80 L 232 254" stroke="#8a5a12" stroke-width="2.5"/>
+
+  <!-- ramo declarativo -->
+  <path d="M 232 80 L 262 80" stroke="#8a5a12" stroke-width="2"/>
+  <rect x="262" y="48" width="204" height="64" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="1.5"/>
+  <text class="ramo"  x="276" y="76">Declarativa</text>
+  <text class="ramos" x="276" y="99">explícita, consciente</text>
+
+  <path d="M 466 80 L 486 80" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 486 58 L 486 102" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 486 58 L 500 58" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 486 102 L 500 102" stroke="#bfbeb3" stroke-width="1.5"/>
+
+  <rect x="500" y="40" width="488" height="36" fill="#fdfdfb" stroke="#bfbeb3"/>
+  <text class="folha" x="514" y="64">Episódica</text>
+  <text class="estr"  x="974" y="64" text-anchor="end">hipocampo · lobo temporal medial</text>
+
+  <rect x="500" y="84" width="488" height="36" fill="#fdfdfb" stroke="#bfbeb3"/>
+  <text class="folha" x="514" y="108">Semântica</text>
+  <text class="estr"  x="974" y="108" text-anchor="end">córtex temporal lateral</text>
+
+  <!-- ramo não declarativo -->
+  <path d="M 232 254 L 262 254" stroke="#8a5a12" stroke-width="2"/>
+  <rect x="262" y="222" width="204" height="64" fill="#f4ece0" stroke="#8a5a12" stroke-width="1.5"/>
+  <text class="ramo"  x="276" y="250">Não declarativa</text>
+  <text class="ramos" x="276" y="273">implícita, sem acesso</text>
+
+  <path d="M 466 254 L 486 254" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 486 188 L 486 320" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 486 188 L 500 188" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 486 232 L 500 232" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 486 276 L 500 276" stroke="#bfbeb3" stroke-width="1.5"/>
+  <path d="M 486 320 L 500 320" stroke="#bfbeb3" stroke-width="1.5"/>
+
+  <rect x="500" y="170" width="488" height="36" fill="#fdfdfb" stroke="#bfbeb3"/>
+  <text class="folha" x="514" y="194">Procedimental</text>
+  <text class="estr"  x="974" y="194" text-anchor="end">estriado</text>
+
+  <rect x="500" y="214" width="488" height="36" fill="#fdfdfb" stroke="#bfbeb3"/>
+  <text class="folha" x="514" y="238">Pré-ativação (priming)</text>
+  <text class="estr"  x="974" y="238" text-anchor="end">neocórtex</text>
+
+  <rect x="500" y="258" width="488" height="36" fill="#fdfdfb" stroke="#bfbeb3"/>
+  <text class="folha" x="514" y="282">Condicionamento</text>
+  <text class="estr"  x="974" y="282" text-anchor="end">amígdala · cerebelo</text>
+
+  <rect x="500" y="302" width="488" height="36" fill="#fdfdfb" stroke="#bfbeb3"/>
+  <text class="folha" x="514" y="326">Não associativa</text>
+  <text class="estr"  x="974" y="326" text-anchor="end">vias reflexas</text>
+</svg>

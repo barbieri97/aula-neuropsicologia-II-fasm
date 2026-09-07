@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Os subtipos de memória distribuídos entre um extremo mantido e um extremo rebaixado no envelhecimento, com a memória prospectiva ainda em estudo">
+  <style>
+    .chip{ font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 19px; }
+    .pol { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 16px; letter-spacing: 0.12em; }
+    .leg { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 16px; fill: #6b6b63; }
+  </style>
+
+  <!-- o eixo -->
+  <line x1="52" y1="190" x2="948" y2="190" stroke="#bfbeb3" stroke-width="2.5"/>
+  <path d="M 34 190 l 16 -9 v 18 z" fill="#2c6047"/>
+  <path d="M 966 190 l -16 -9 v 18 z" fill="#8c2f2f"/>
+  <text class="pol" x="34"  y="176" fill="#2c6047">MANTIDA</text>
+  <text class="pol" x="966" y="176" fill="#8c2f2f" text-anchor="end">REBAIXADA</text>
+
+  <!-- mantidas -->
+  <g stroke="#2c6047" stroke-width="1.5" stroke-dasharray="4 4">
+    <line x1="176" y1="94"  x2="176" y2="184"/>
+    <line x1="316" y1="150" x2="316" y2="184"/>
+    <line x1="248" y1="196" x2="248" y2="222"/>
+  </g>
+  <rect x="42" y="50" width="268" height="44" rx="3" fill="#e5eee9" stroke="#2c6047" stroke-width="1.5"/>
+  <text class="chip" x="176" y="79" text-anchor="middle" fill="#2c6047">Memória semântica</text>
+
+  <rect x="182" y="106" width="268" height="44" rx="3" fill="#e5eee9" stroke="#2c6047" stroke-width="1.5"/>
+  <text class="chip" x="316" y="135" text-anchor="middle" fill="#2c6047">Memória implícita</text>
+
+  <rect x="106" y="222" width="284" height="44" rx="3" fill="#e5eee9" stroke="#2c6047" stroke-width="1.5"/>
+  <text class="chip" x="248" y="251" text-anchor="middle" fill="#2c6047">Memória de curto prazo</text>
+
+  <!-- rebaixadas -->
+  <g stroke="#8c2f2f" stroke-width="1.5" stroke-dasharray="4 4">
+    <line x1="778" y1="94"  x2="778" y2="184"/>
+    <line x1="702" y1="150" x2="702" y2="184"/>
+  </g>
+  <rect x="596" y="50" width="364" height="44" rx="3" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="1.5"/>
+  <text class="chip" x="778" y="79" text-anchor="middle" fill="#8c2f2f">Episódica de longo prazo</text>
+
+  <rect x="558" y="106" width="288" height="44" rx="3" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="1.5"/>
+  <text class="chip" x="702" y="135" text-anchor="middle" fill="#8c2f2f">Memória operacional</text>
+
+  <!-- em estudo -->
+  <line x1="754" y1="196" x2="754" y2="222" stroke="#6b6b63" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="612" y="222" width="284" height="44" rx="3" fill="#f5f4ee" stroke="#6b6b63" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text class="chip" x="754" y="251" text-anchor="middle" fill="#6b6b63">Memória prospectiva  ?</text>
+
+  <text class="leg" x="42"  y="330">? — condição ainda em estudo.</text>
+</svg>

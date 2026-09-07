@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="As três fases do processamento da memória em cadeia — codificação, armazenamento e recuperação — e sob cada uma o sinal clínico de que a falha aconteceu ali">
+  <style>
+    .num { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #b9c6da; letter-spacing: 0.12em; }
+    .pro { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 22px; fill: #fdfdfb; }
+    .fai { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #8c2f2f; letter-spacing: 0.12em; }
+    .sin { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 18px; fill: #4a4a45; }
+  </style>
+
+  <!-- a cadeia -->
+  <g>
+    <rect x="10" y="30" width="300" height="92" fill="#1d3e6e"/>
+    <text class="num" x="28" y="58">01</text>
+    <text class="pro" x="28" y="92">Codificação</text>
+    <text class="num" x="28" y="112">a informação entra</text>
+  </g>
+  <path d="M 310 76 L 336 76" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 346 76 l -11 -7 v 14 z" fill="#8a5a12"/>
+
+  <g>
+    <rect x="350" y="30" width="300" height="92" fill="#1d3e6e"/>
+    <text class="num" x="368" y="58">02</text>
+    <text class="pro" x="368" y="92">Armazenamento</text>
+    <text class="num" x="368" y="112">o traço se mantém</text>
+  </g>
+  <path d="M 650 76 L 676 76" stroke="#8a5a12" stroke-width="2.5"/>
+  <path d="M 686 76 l -11 -7 v 14 z" fill="#8a5a12"/>
+
+  <g>
+    <rect x="690" y="30" width="300" height="92" fill="#1d3e6e"/>
+    <text class="num" x="708" y="58">03</text>
+    <text class="pro" x="708" y="92">Recuperação</text>
+    <text class="num" x="708" y="112">a busca do traço</text>
+  </g>
+
+  <!-- faixa: onde a falha aparece -->
+  <text class="fai" x="10" y="172">SE FALHAR AQUI, O QUE SE VÊ NO TESTE</text>
+  <line x1="10" y1="184" x2="990" y2="184" stroke="#bfbeb3" stroke-width="1.5"/>
+
+  <g>
+    <rect x="10" y="200" width="300" height="128" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="1.5"/>
+    <text class="sin" x="28" y="236">A repetição imediata</text>
+    <text class="sin" x="28" y="262">já falha: nada</text>
+    <text class="sin" x="28" y="288">chegou a entrar</text>
+  </g>
+
+  <g>
+    <rect x="350" y="200" width="300" height="128" fill="#f5e7e7" stroke="#8c2f2f" stroke-width="1.5"/>
+    <text class="sin" x="368" y="236">Repete bem e perde</text>
+    <text class="sin" x="368" y="262">no intervalo — nem a</text>
+    <text class="sin" x="368" y="288">pista traz de volta</text>
+  </g>
+
+  <g>
+    <rect x="690" y="200" width="300" height="128" fill="#f4ece0" stroke="#8a5a12" stroke-width="1.5"/>
+    <text class="sin" x="708" y="236">A pista e o</text>
+    <text class="sin" x="708" y="262">reconhecimento</text>
+    <text class="sin" x="708" y="288">recuperam: está lá</text>
+  </g>
+</svg>

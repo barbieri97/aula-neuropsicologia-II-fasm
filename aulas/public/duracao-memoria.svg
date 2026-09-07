@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Três janelas de duração da memória ao longo de um eixo de tempo: sensorial em milissegundos, curto prazo e operacional em segundos, longo prazo de minutos a décadas">
+  <style>
+    .tit { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 20px; fill: #1d3e6e; }
+    .cap { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #4a4a45; }
+    .tmp { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #6b6b63; }
+    .eix { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 16px; fill: #6b6b63; }
+  </style>
+
+  <!-- as três janelas -->
+  <rect x="12" y="46" width="216" height="150" fill="#edece4" stroke="#bfbeb3"/>
+  <text class="tit" x="120" y="86"  text-anchor="middle">Sensorial</text>
+  <text class="cap" x="120" y="126" text-anchor="middle">todo o campo</text>
+  <text class="cap" x="120" y="148" text-anchor="middle">que chegou</text>
+  <text class="cap" x="120" y="176" text-anchor="middle">ao receptor</text>
+
+  <rect x="252" y="46" width="286" height="150" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="1.5"/>
+  <text class="tit" x="395" y="86"  text-anchor="middle">Curto prazo</text>
+  <text class="tit" x="395" y="110" text-anchor="middle">e operacional</text>
+  <text class="cap" x="395" y="148" text-anchor="middle">7 ± 2 itens,</text>
+  <text class="cap" x="395" y="176" text-anchor="middle">e só enquanto se repete</text>
+
+  <rect x="562" y="46" width="426" height="150" fill="#e5eee9" stroke="#2c6047" stroke-width="1.5"/>
+  <text class="tit" x="775" y="86"  text-anchor="middle">Longo prazo</text>
+  <text class="cap" x="775" y="126" text-anchor="middle">sem limite conhecido</text>
+  <text class="cap" x="775" y="154" text-anchor="middle">de capacidade</text>
+  <text class="cap" x="775" y="182" text-anchor="middle">nem de duração</text>
+
+  <!-- eixo de tempo -->
+  <line x1="12" y1="250" x2="964" y2="250" stroke="#bfbeb3" stroke-width="2"/>
+  <path d="M 976 250 l -14 -8 v 16 z" fill="#bfbeb3"/>
+  <g stroke="#bfbeb3" stroke-width="2">
+    <line x1="120" y1="243" x2="120" y2="257"/>
+    <line x1="395" y1="243" x2="395" y2="257"/>
+    <line x1="775" y1="243" x2="775" y2="257"/>
+  </g>
+  <line x1="120" y1="196" x2="120" y2="243" stroke="#bfbeb3" stroke-dasharray="4 4"/>
+  <line x1="395" y1="196" x2="395" y2="243" stroke="#1d3e6e" stroke-dasharray="4 4"/>
+  <line x1="775" y1="196" x2="775" y2="243" stroke="#2c6047" stroke-dasharray="4 4"/>
+
+  <text class="tmp" x="120" y="282" text-anchor="middle">250 a 500 ms</text>
+  <text class="tmp" x="395" y="282" text-anchor="middle">segundos a um minuto</text>
+  <text class="tmp" x="775" y="282" text-anchor="middle">minutos, anos, décadas</text>
+
+  <text class="eix" x="12"  y="322">quanto tempo a informação fica disponível</text>
+  <text class="eix" x="964" y="322" text-anchor="end">tempo</text>
+</svg>
