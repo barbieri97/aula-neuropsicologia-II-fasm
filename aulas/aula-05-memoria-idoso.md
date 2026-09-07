@@ -192,22 +192,7 @@ points:
 - Na prática clínica: dígitos na ordem direta = curto prazo; ordem inversa e sequenciamento = operacional.
 -->
 
----
-layout: diagram
-kicker: O modelo, por dentro
-title: Uma central e três subsistemas
-note: A <em>central executiva</em> é o gargalo — tem capacidade limitada, e é ela
-  que decide para onde a atenção vai. Segundo Baddeley (2012).
----
 
-<Figure src="/modelo-baddeley.svg" alt="A central executiva no topo controlando alça fonológica, buffer episódico e esboço visuoespacial, e abaixo de cada um o sistema de longo prazo correspondente" />
-
-<!--
-- **Alça fonológica** — mantém e recicla informação fonética por poucos segundos, através da alça articulatória (a repetição subvocal).
-- **Esboço visuoespacial** — o mesmo, para imagem e posição no espaço.
-- **Buffer episódico** — acrescentado depois; é onde os códigos de modalidades diferentes se juntam num episódio único e ganham ligação com a memória de longo prazo.
-- Guarde a **central executiva**: no bloco 2 ela reaparece como a peça cuja eficiência cai com a idade, por redução do funcionamento do lobo frontal.
--->
 
 ---
 layout: default
@@ -221,7 +206,7 @@ sessão nega ter feito o exercício antes. O que o achado demonstra?
 <v-clicks>
 
 - **A.** Que a amnésia é fingida: houve aprendizagem, logo houve memória consciente
-- **B.** Que a memória de procedimento não depende do lobo temporal medial
+- **B.** Que a memória de procedimento não depende da episódica
 - **C.** Que a memória semântica dele está preservada
 - **D.** Que a lesão poupou o hipocampo de um dos lados
 
@@ -297,30 +282,6 @@ note: "Esta figura é o método do bloco 3 inteiro: o padrão de erro localiza o
 - Leia a figura da esquerda para a direita como um algoritmo: a repetição imediata testa a **codificação**; o intervalo põe à prova o **armazenamento**; a pista e o reconhecimento testam a **recuperação**.
 - O par mais confundido é o das duas últimas caixas. **Armazenamento**: nem a pista recupera, porque não há traço. **Recuperação**: a pista recupera, porque o traço está lá e só a busca falhou.
 - Este é o argumento inteiro do slide da evocação com dica, que volta no bloco 3.
--->
-
----
-layout: define
-kicker: Dentro do armazenamento
-term: Consolidação
-definition: "<strong>Não é uma quarta fase</strong>: é o mecanismo que faz o
-  armazenamento durar — a estabilização progressiva do traço depois de
-  codificado."
-points:
-  - "<strong>Sináptica</strong>: minutos a horas, local, e acontece em toda
-    estrutura que aprende"
-  - "<strong>Sistêmica</strong>: meses a anos; o traço vai deixando de depender
-    do hipocampo e passa a se sustentar no neocórtex"
-  - "Reativar uma memória volta a torná-la lábil: ela precisa ser
-    <em>reconsolidada</em> (Dudai, 2004; 2012)"
----
-
-<!--
-- Este slide existe porque é a consolidação que dá sentido ao **intervalo de 30 minutos** da Memória Lógica, no bloco 3. Sem ela, o intervalo pareceria arbitrário.
-- Mas ela **não** entra na conta das fases: o capítulo de referência trabalha com três — codificação, armazenamento e recuperação — e a consolidação é o que acontece dentro da segunda.
-- A consolidação sistêmica explica a **amnésia retrógrada com gradiente temporal**: na lesão hipocampal, as memórias antigas resistem e as recentes se perdem, porque as antigas já migraram.
-- Squire e Zola (1996) mostraram que uma lesão limitada à formação hipocampal produz amnésia anterógrada grave e amnésia retrógrada cobrindo até 25 anos.
-- **Reconsolidação** — o achado que quebrou a ideia de que a consolidação começa e termina uma única vez para cada item.
 -->
 
 ---
@@ -434,30 +395,8 @@ layout: section
 index: "02"
 kicker: Parte dois
 title: A memória no envelhecimento
-subtitle: A pergunta do capítulo não é se a memória muda, e sim qual sistema muda
-  — e quanto disso é envelhecimento e quanto já é doença.
+subtitle: O que muda no envelhecimento
 ---
-
----
-layout: statement
-kicker: Bloco 2 · o ponto de partida do capítulo
-title: O significado de envelhecimento cognitivo <em>saudável</em> ainda não está
-  estabelecido.
----
-
-A maior parte da pesquisa se voltou para os **distúrbios cerebrais do idoso** — em especial a
-doença de Alzheimer. Ao idoso que mostra pouco ou nenhum declínio, coube pouca atenção.
-
-<Callout tone="info" icon="lucide:info">
-A consequência prática: a linha de base contra a qual se julga um paciente é
-<strong>menos conhecida</strong> do que a doença que se procura nele.
-</Callout>
-
-<!--
-- Fonte: Abrisqueta-Gomez, cap. 10, seção "Conceitos básicos que norteiam o estudo da memória no idoso".
-- O capítulo dá duas razões para a lacuna: o interesse concentrado na patologia e as **dificuldades metodológicas** de projetar estudos populacionais com idosos sem declínio.
-- Isto é o oposto do que a turma costuma esperar. Vale demorar aqui trinta segundos: dizer que um escore é "normal para a idade" é uma afirmação mais frágil do que parece.
--->
 
 ---
 layout: steps
@@ -541,7 +480,7 @@ kicker: Fixação · pergunta 3
 title: Qual destes sistemas é o mais estável no envelhecimento normal?
 ---
 
-Um idoso de 78 anos, sem doença neurológica, escolaridade média. Segundo o padrão da Tabela 10.1,
+Um idoso de 78 anos, sem doença neurológica, escolaridade média. Segundo o padrão da Tabela,
 qual sistema você espera encontrar praticamente **inalterado**?
 
 <v-clicks>
@@ -706,26 +645,28 @@ panels:
 
 ---
 layout: columns
-kicker: Linhas 4 e 5 da Tabela 10.1
-title: O depósito se mantém; o processamento, não
+title: curto prazo / operacional
 columns:
   - {
       title: "O que se mantém",
-      items: [
-        "A amplitude de dígitos na ordem direta permanece",
-        "Cerca de sete itens, com variação de dois para mais ou para menos",
-        "O perfil de recuperação imediata é igual ao do adulto jovem",
-        "Alça fonológica e esboço visuoespacial: decréscimo apenas leve"
-      ]
+      items:
+        [
+          "A amplitude de dígitos na ordem direta permanece",
+          "Cerca de sete itens, com variação de dois para mais ou para menos",
+          "O perfil de recuperação imediata é igual ao do adulto jovem",
+          "Alça fonológica e esboço visuoespacial: decréscimo apenas leve"
+        ]
     }
   - {
       title: "O que cai",
-      items: [
-        "Reter <strong>e</strong> executar outra tarefa ao mesmo tempo",
-        "Resistir a distratores: no paradigma de Brown-Peterson, esquecem mais rápido",
-        "Resistir à interferência proativa no <em>span</em> de leitura",
-        "A tarefa <strong>secundária</strong> é a que mais se degrada na atenção dividida"
-      ]
+      items:
+        [
+          "Reter <strong>e</strong> executar outra tarefa ao mesmo tempo",
+          "Resistir a distratores: esquecem mais rápido",
+          "Resistir à interferência proativa no <em>span</em> de leitura",
+          "A tarefa <strong>secundária</strong> é a que mais se degrada na
+            atenção dividida"
+        ]
     }
 ---
 
@@ -877,26 +818,28 @@ que ao desempenho em avaliações formais.
 
 ---
 layout: default
-kicker: As limitações metodológicas
-title: Por que dois estudos discordam sobre quando o declínio começa
+kicker: Os dois desenhos na pesquisa com idosos
+title: O que cada um entrega, e o que cada um cobra
 ---
 
 <Grid head :data="[
   ['', 'Transversais (ET)', 'Longitudinais (EL)'],
-  ['O que fazem', 'comparam jovens e idosos num só momento', 'acompanham as mesmas pessoas ao longo do tempo'],
-  ['Quando dizem que começa', 'deterioração linear já a partir dos 20 anos', 'estável até cerca de 60 a 65, e então acelera'],
-  ['O que os distorce', 'viés de coorte: as gerações diferem em escolaridade', 'efeito de prática e efeito de abandono'],
+  ['A favor', 'Uma coleta só — rápidos e baratos<br>Cobrem faixas etárias amplas de uma vez<br>Foram os primeiros a mostrar a diferença entre jovens e idosos', 'Acompanham a <b>mesma</b> pessoa da vida adulta à velhice<br>Medem a mudança de cada indivíduo, não a média do grupo<br>Situaram o início do declínio por volta dos 60 a 65 anos'],
+  ['Contra', 'Não explicam o que encontram, nem dizem <b>quando</b> começa<br>Viés de coorte: as gerações diferem em escolaridade<br>Sugeriram declínio linear desde os 20 anos — refutado', 'O efeito de <b>prática</b> infla o reteste e mascara o declínio<br>O efeito de <b>abandono</b> vai elitizando a amostra<br>Caros e lentos, e o atrito cresce com os anos'],
 ]" />
 
 <Callout tone="warn" icon="lucide:triangle-alert">
-Quando idade <strong>e</strong> escolaridade são controladas estatisticamente, o declínio da
-memória episódica aparece <strong>muito mais tarde</strong>.
+Nenhum dos dois é o desenho certo: são <strong>vieses opostos</strong>. O ET exagera o declínio
+porque compara gerações; o EL o subestima, porque a prática infla e o abandono seleciona.
 </Callout>
 
 <!--
 - Fonte: Abrisqueta-Gomez, cap. 10, seção "Principais limitações nos estudos de memória do idoso".
-- É o argumento mais importante do capítulo para a prática clínica: **a idade cronológica explica menos do que parece**, e boa parte do que se atribui a ela é escolaridade e coorte.
-- Vale lembrar o dado do começo do capítulo: alguns indivíduos mantêm funcionamento adequado até os 80 anos ou mais, com apenas leves dificuldades em tarefas que demandam atenção — enquanto outros apresentam deficiências severas. A **variabilidade** é o achado, não a média.
+- **Como usar este slide**: a pergunta para a turma não é qual desenho é melhor, é *em que direção cada um erra*. Quem lê um artigo de envelhecimento precisa saber disso antes de aceitar o número.
+- Sobre os ET: o capítulo é direto ao dizer que eles "não tiveram suficiente competência para explicar os diversos resultados encontrados entre ambas as populações", nem informam o momento em que a memória do idoso começa a declinar.
+- Sobre os EL: o atrito é o problema central. **Efeito de prática** — melhora por reteste, que mascara a taxa real de declínio; Rabbitt et al. (2004) mostraram que ele varia por tarefa e por habilidade do participante. **Efeito de abandono** — quem sai cedo tem pior saúde geral, escolaridade e posição socioeconômica, e os homens saem antes; a amostra vai ficando elitizada e a amplitude real da mudança se perde.
+- O fecho clínico: quando idade **e** escolaridade são controladas estatisticamente, o declínio da memória episódica aparece **muito mais tarde**. A idade cronológica explica menos do que parece.
+- E a variabilidade continua sendo o achado, não a média: alguns mantêm funcionamento adequado até os 80 anos ou mais, enquanto outros apresentam deficiências severas.
 -->
 
 ---
@@ -1034,8 +977,8 @@ definition: "Subteste de <em>recordação de prosa</em> da Escala de Memória
   Wechsler: duas histórias curtas lidas em voz alta, recuperadas na hora e depois
   de meia hora."
 points:
-  - "Cada história é decomposta em <strong>25 unidades de ideia</strong>; o
-    escore é a soma das unidades recuperadas"
+  - "Cada história vale <strong>25 unidades de ideia</strong>; o escore da etapa
+    é a soma das duas — <strong>0 a 50</strong>, como manda o manual"
   - "Mede memória episódica verbal com material <em>com sentido</em> — mais
     próximo do cotidiano que uma lista de palavras"
   - "É um dos instrumentos mais usados no mundo para avaliar memória verbal, em
@@ -1153,28 +1096,29 @@ title: Contra qual média se compara
 ---
 
 <Grid head :data="[
-  ['Grupo', 'Evocação imediata — M (DP)', 'Evocação tardia — M (DP)'],
+  ['Grupo', 'Imediata — M (DP), de 0 a 50', 'Tardia — M (DP), de 0 a 50'],
   ['60 a 69 anos', '15,04 (6,25)', '9,82 (6,33)'],
   ['70 a 79 anos', '14,22 (5,63)', '7,87 (6,35)'],
   ['80 anos ou mais', '11,25 (4,95)', '4,31 (2,89)'],
   ['Analfabetos', '14,07 (4,91)', '3,71 (4,41)'],
-  ['1 a 4 anos de estudo', '12,71 (5,74)', '5,74 (5,71)'],
+  ['1 a 4 anos de estudo', '12,71 (5,74)', '7,38 (5,71)'],
   ['5 a 8 anos de estudo', '15,30 (5,67)', '9,99 (6,41)'],
   ['9 anos ou mais', '17,77 (6,59)', '12,03 (6,26)'],
 ]" />
 
 <Callout tone="warn" icon="lucide:triangle-alert">
-<strong>⚠︎ verificar</strong> — o artigo descreve o escore de cada etapa como indo de 0 a 25,
-enquanto o material de referência descreve 25 unidades <em>por história</em>. Confira qual
-convenção o seu protocolo usa antes de comparar um paciente com esta tabela.
+Some as <strong>duas</strong> histórias antes de comparar. Cada uma vale 25; a norma está na
+escala do <strong>par</strong>, de 0 a 50 — é o procedimento do manual da WMS-R.
 </Callout>
 
 <!--
 - Fonte: Oliveira, C. R. et al. (2017), *Avaliação Psicológica*, 16(1), 11-18. Amostra de 334 idosos; as linhas por idade e escolaridade excluem quem pontuou 6 ou mais na GDS-15.
+- **Cuidado com o texto do artigo**: ele diz que o escore de cada etapa vai "até 25", mas isso é o máximo *por história*. A escala das normas é a do par (0 a 50). Martins et al. (2015) deixam explícito que o procedimento do manual da WMS-R combina as duas histórias e que "o escore máximo de cada par é 50".
+- Como se confirma isso pelos próprios números: universitários saudáveis de 18 a 35 anos fizeram 12,2 na Ana Soares e 11,2 no Roberto Mota — 23,4 no par. Se a tabela acima estivesse em base 25, os idosos com 9+ anos de estudo (17,77) teriam superado os jovens em 45% numa história só. E os desvios-padrão de Oliveira (5,6 a 6,6) batem com os do **par** em Martins (6,5 a 7,0), não com os de história isolada (2,8 a 4,1).
 - **As quatro variáveis que a regressão isolou**: escolaridade (o maior impacto), idade, sexo e sintomas depressivos. Mulheres pontuaram mais que homens nas duas etapas.
 - O achado que amarra esta aula à aula 03: **sintomas depressivos rebaixaram significativamente as duas etapas**. A evocação imediata sozinha classificou corretamente 56% dos participantes quanto a ter ou não sintomas depressivos.
 - Repare no salto por escolaridade na **tardia**: de 3,71 no analfabeto a 12,03 em quem tem 9 anos ou mais. Corrigir sem olhar a escolaridade é produzir diagnóstico.
-- A ambiguidade da escala de pontuação é real e está no texto publicado — por isso a marca no slide. Resolva-a contra a folha de protocolo que você usa, não contra a memória.
+- **O critério de rebaixamento do artigo é 1,5 DP abaixo da média do grupo** — e, na tardia, isso dá **zero** em quase todos os grupos, porque o DP é do tamanho da média. Ou seja: para a evocação tardia a norma é praticamente inoperante, e é por isso que o slide seguinte insiste na porcentagem de retenção.
 -->
 
 ---
@@ -1291,19 +1235,6 @@ panels:
 - Sobre cultura: Araújo, Silva e Caixeta (2025) compararam idosos normais de área rural e de metrópole no Brasil. Os do interior tiveram boa evocação imediata e déficit de retenção após o intervalo; os urbanos erraram por **omissão**, não por comissão, na imediata. Os autores atribuem os erros a controle atencional, e não à memória em si.
 - Sobre prática: Beglinger et al. (2005), citados no cap. 10, mostraram que o efeito persiste em forma reduzida mesmo com versões alternativas.
 - Sobre funcionalidade: é o critério B do DSM-5, que a aula 04 tratou. Ele não sai de nenhum teste — sai da entrevista com o informante.
--->
-
----
-layout: embed
-kicker: Para revisar depois
-title: Tipos de memória, em vídeo
-iframe: https://www.youtube.com/embed/SMeJBBL5Wbk
----
-
-<!--
-- "Tipos de Memória — Memória e Neuropsicologia, Aula 2", do canal do Prof. Gustavo Siquara. Cobre a taxonomia do bloco 1 com outro vocabulário; serve como revisão para quem quiser rever antes da prova.
-- **O iframe não sobrevive ao export em PDF.** Nada de essencial está aqui: tudo o que o vídeo cobre já foi dado nos slides do bloco 1.
-- Se a projeção estiver sem internet, pule o slide.
 -->
 
 ---
@@ -1424,6 +1355,13 @@ items:
         the WMS-R for use in Brazil. <em>Dementia &amp; Neuropsychologia</em>,
         9(2), 136-148. doi:10.1590/1980-57642015DN92000008 — as histórias
         brasileiras, as versões alternativas e os critérios de correção."
+    }
+  - {
+      term: "Martins et al., 2015",
+      desc: "Versões alternativas do subteste Memória Lógica da WMS-R: análise de
+        desempenho de uma amostra saudável da cidade de São Paulo. <em>Psicologia:
+        Reflexão e Crítica</em>, 28(4) — é ele que fixa a escala: 25 por história,
+        50 no par."
     }
   - {
       term: "Oliveira et al., 2017",
