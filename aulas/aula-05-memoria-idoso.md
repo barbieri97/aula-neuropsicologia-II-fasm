@@ -253,39 +253,34 @@ title: A resposta é <span class="accent2">B</span>
 
 ---
 layout: steps
-kicker: Os processos
-title: Quatro coisas precisam acontecer para haver lembrança
+kicker: As três fases do processamento
+title: Três coisas precisam acontecer para haver lembrança
 steps:
   - {
       icon: "lucide:log-in",
-      title: "Aquisição (codificação)",
+      title: "Codificação",
       desc: "A informação é registrada num formato que a memória possa guardar.
         Depende de <strong>atenção</strong> e da profundidade do processamento"
     }
   - {
-      icon: "lucide:anchor",
-      title: "Consolidação",
-      desc: "O traço se estabiliza depois de adquirido — de minutos a anos, e não
-        de uma vez só"
-    }
-  - {
       icon: "lucide:archive",
       title: "Armazenamento",
-      desc: "O traço se mantém disponível ao longo do intervalo, sem que nada
-        aconteça de propósito"
+      desc: "O traço se mantém disponível ao longo do tempo — é aqui que a
+        <em>consolidação</em> o estabiliza"
     }
   - {
       icon: "lucide:search",
-      title: "Evocação",
+      title: "Recuperação",
       desc: "A busca encontra o traço — espontaneamente, com pista, ou apenas o
         reconhece entre distratores"
     }
 ---
 
 <!--
-- Esta é a sequência que a avaliação tenta desmontar. Um mesmo escore baixo pode ter nascido em qualquer um dos quatro pontos, e o instrumento sozinho não diz em qual.
-- O capítulo trata **codificação, armazenamento e recuperação** como as três fases clássicas e observa, com Brickman e Stern (2009), que o idoso declina mais na **aquisição** do que na recuperação.
-- A consolidação aparece aqui separada do armazenamento de propósito: são processos diferentes, e é o intervalo do teste que os separa.
+- São as **três fases** que o capítulo usa: codificação, armazenamento e recuperação (Abrisqueta-Gomez, cap. 10, p. 177, citando Brickman e Stern, 2009).
+- O capítulo trata **aquisição** como sinônimo de codificação e **evocação** como sinônimo de recuperação. Vale avisar a turma: os dois pares aparecem trocados na literatura o tempo todo.
+- O achado que interessa: os idosos apresentam **maior declínio na aquisição do que na recuperação**. Guarde isso para o bloco 3 — é o que explica um escore imediato baixo com retenção preservada.
+- Esta é a sequência que a avaliação tenta desmontar. Um mesmo escore baixo pode ter nascido em qualquer uma das três fases, e o instrumento sozinho não diz em qual.
 -->
 
 ---
@@ -296,20 +291,21 @@ note: "Esta figura é o método do bloco 3 inteiro: o padrão de erro localiza o
   processo, e o processo restringe a hipótese."
 ---
 
-<Figure src="/processos-memoria.svg" alt="Os quatro processos em cadeia — aquisição, consolidação, armazenamento e evocação — e sob cada um o sinal clínico de que a falha aconteceu ali" />
+<Figure src="/processos-memoria.svg" alt="As três fases em cadeia — codificação, armazenamento e recuperação — e sob cada uma o sinal clínico de que a falha aconteceu ali" />
 
 <!--
-- Leia a figura da esquerda para a direita como um algoritmo: a repetição imediata testa a aquisição; o intervalo testa consolidação e armazenamento; a pista e o reconhecimento testam a evocação.
-- O par mais confundido é o das duas últimas caixas. **Armazenamento**: nem a pista recupera, porque não há traço. **Evocação**: a pista recupera, porque o traço está lá e só a busca falhou.
+- Leia a figura da esquerda para a direita como um algoritmo: a repetição imediata testa a **codificação**; o intervalo põe à prova o **armazenamento**; a pista e o reconhecimento testam a **recuperação**.
+- O par mais confundido é o das duas últimas caixas. **Armazenamento**: nem a pista recupera, porque não há traço. **Recuperação**: a pista recupera, porque o traço está lá e só a busca falhou.
 - Este é o argumento inteiro do slide da evocação com dica, que volta no bloco 3.
 -->
 
 ---
 layout: define
-kicker: O processo que o intervalo do teste revela
+kicker: Dentro do armazenamento
 term: Consolidação
-definition: A estabilização progressiva do traço depois da aquisição — em dois
-  tempos, um de minutos e outro de anos.
+definition: "<strong>Não é uma quarta fase</strong>: é o mecanismo que faz o
+  armazenamento durar — a estabilização progressiva do traço depois de
+  codificado."
 points:
   - "<strong>Sináptica</strong>: minutos a horas, local, e acontece em toda
     estrutura que aprende"
@@ -320,6 +316,8 @@ points:
 ---
 
 <!--
+- Este slide existe porque é a consolidação que dá sentido ao **intervalo de 30 minutos** da Memória Lógica, no bloco 3. Sem ela, o intervalo pareceria arbitrário.
+- Mas ela **não** entra na conta das fases: o capítulo de referência trabalha com três — codificação, armazenamento e recuperação — e a consolidação é o que acontece dentro da segunda.
 - A consolidação sistêmica explica a **amnésia retrógrada com gradiente temporal**: na lesão hipocampal, as memórias antigas resistem e as recentes se perdem, porque as antigas já migraram.
 - Squire e Zola (1996) mostraram que uma lesão limitada à formação hipocampal produz amnésia anterógrada grave e amnésia retrógrada cobrindo até 25 anos.
 - **Reconsolidação** — o achado que quebrou a ideia de que a consolidação começa e termina uma única vez para cada item.
@@ -400,7 +398,7 @@ três — e **também não** recupera com pista categórica nem no reconheciment
 
 <v-clicks>
 
-- **A.** Na aquisição: a informação nunca chegou a entrar
+- **A.** Na codificação: a informação nunca chegou a entrar
 - **B.** Na atenção sustentada durante o intervalo
 - **C.** No armazenamento: entrou, e não ficou
 - **D.** Na evocação: está lá, e a busca não encontra
@@ -408,7 +406,7 @@ três — e **também não** recupera com pista categórica nem no reconheciment
 </v-clicks>
 
 <!--
-- Peça que justifiquem usando a figura dos quatro processos. A informação que decide está no enunciado: pista e reconhecimento **não** ajudaram.
+- Peça que justifiquem usando a figura das três fases. A informação que decide está no enunciado: pista e reconhecimento **não** ajudaram.
 -->
 
 ---
@@ -419,7 +417,7 @@ title: A resposta é <span class="accent2">C</span>
 
 <Grid head highlight="row:4" :data="[
   ['', 'Alternativa', 'Por que erra — ou por que acerta'],
-  ['A', 'Aquisição', 'a repetição imediata correta já prova que a informação entrou'],
+  ['A', 'Codificação', 'a repetição imediata correta já prova que a informação entrou'],
   ['B', 'Atenção sustentada', 'com desatenção o registro imediato também teria falhado'],
   ['C', 'Armazenamento', '<b>correta</b> — nem pista nem reconhecimento recuperam: não há traço a encontrar'],
   ['D', 'Evocação', 'falha de busca melhora com pista, e melhora ainda mais no reconhecimento; aqui nada melhorou'],
@@ -1001,7 +999,7 @@ title: O que a avaliação precisa separar
   ['A queixa de memória', 'humor deprimido — a queixa acompanha o humor mais que o desempenho'],
   ['Um escore baixo', 'escolaridade, letramento e cultura, antes de virar déficit'],
   ['Uma piora entre dois exames', 'ou uma melhora: o efeito de prática age nos dois sentidos'],
-  ['Falha na evocação', 'aquisição, armazenamento e busca — três origens, um só sintoma'],
+  ['Falha na evocação', 'codificação, armazenamento e recuperação — três origens, um só sintoma'],
   ['Desempenho ruim no consultório', 'o funcionamento em casa, que se pergunta ao informante'],
 ]" />
 
@@ -1105,7 +1103,7 @@ note: O intervalo é o elemento ativo do procedimento — sem ele, o teste mede
 <Figure src="/memoria-logica-fluxo.svg" alt="A linha do tempo da Memória Lógica: evocação imediata das duas histórias, intervalo de vinte e cinco a trinta e cinco minutos preenchido com tarefas não verbais, e evocação tardia seguida de reconhecimento" />
 
 <!--
-- Compare com a figura dos quatro processos do bloco 1: a fase I mede **aquisição**; o intervalo põe à prova **consolidação e armazenamento**; a fase II e o reconhecimento distinguem **armazenamento de evocação**.
+- Compare com a figura das três fases do bloco 1: a fase I mede **codificação**; o intervalo põe à prova o **armazenamento**; a fase II e o reconhecimento distinguem **armazenamento de recuperação**.
 - É o mesmo desenho do registro e da evocação do MEEM, que a turma viu na aula 04 — só que com material extenso e com trinta minutos em vez de três.
 -->
 
@@ -1144,7 +1142,7 @@ label: "<strong>Retenção = tardia ÷ imediata × 100.</strong> Ele recuperou 1
 <!--
 - Este é o índice que separa **quanto entrou** de **quanto ficou** — e é o que o escore bruto sozinho não mostra.
 - O contraste que vale mostrar em seguida: 8 na imediata e 6 na tardia dá 75% de retenção. O escore bruto é menor e o perfil é melhor.
-- Leitura clínica: retenção muito baixa aponta para **armazenamento** (perfil hipocampal); retenção preservada com escore bruto baixo aponta para **codificação ou evocação** (perfil frontal, lentificação, humor).
+- Leitura clínica: retenção muito baixa aponta para **armazenamento** (perfil hipocampal); retenção preservada com escore bruto baixo aponta para **codificação ou recuperação** (perfil frontal, lentificação, humor).
 - É exatamente essa dissociação que Araújo, Silva e Caixeta (2025) encontraram entre idosos de área rural e urbana no Brasil: boa evocação imediata e déficit de retenção após o intervalo.
 -->
 
@@ -1203,7 +1201,7 @@ columns:
       ]
     }
   - {
-      title: "Falha de evocação",
+      title: "Falha de recuperação",
       items: [
         "Imediata e tardia baixas",
         "Retenção percentual razoável",
@@ -1214,7 +1212,7 @@ columns:
 ---
 
 <!--
-- Estes três perfis são a figura dos quatro processos do bloco 1, aplicada a um protocolo real. Vale voltar a ela na projeção, se der tempo.
+- Estes três perfis são a figura das três fases do bloco 1, aplicada a um protocolo real. Vale voltar a ela na projeção, se der tempo.
 - Nenhum deles é diagnóstico. São **hipóteses de mecanismo**, que restringem o que investigar em seguida — e é assim que a avaliação neuropsicológica trabalha.
 - O perfil de armazenamento é o que mais preocupa, e é também o menos frequente numa clínica-escola. O de codificação, associado a humor e escolaridade, é o mais comum.
 - Um mesmo paciente pode ter mais de um: é comum haver componente de codificação **e** de armazenamento na doença de Alzheimer inicial.
