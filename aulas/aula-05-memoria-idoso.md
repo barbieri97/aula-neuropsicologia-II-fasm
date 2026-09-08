@@ -28,7 +28,7 @@ subtitle: O que a memória é, o que muda nela com a idade e como se mede essa
 ---
 layout: agenda
 kicker: Aula 05 · o caminho de hoje
-title: Três blocos e uma dinâmica
+title: Caminho da aula
 items:
   - {
       topic: "A memória",
@@ -66,15 +66,14 @@ subtitle: Antes de perguntar o que a idade faz com a memória, é preciso dizer 
 layout: define
 kicker: O que se está chamando de memória
 term: Memória
-definition: A capacidade de <em>adquirir</em>, <em>reter</em> e <em>recuperar</em>
-  informação — e de usá-la depois para orientar o comportamento.
+definition: A capacidade de <em>adquirir</em>, <em>reter</em> e
+  <em>recuperar</em> informação — e de usá-la depois para orientar o
+  comportamento.
 points:
   - "<strong>Não é uma função só.</strong> É um conjunto de sistemas, com
     substratos, regras e prazos diferentes"
   - "Cada sistema envelhece de um jeito próprio — por isso não existe <em>a
     memória do idoso</em> no singular"
-  - "A divisão em sistemas não é teórica: veio da clínica, de lesões que derrubam
-    um e poupam o outro"
 ---
 
 <!--
@@ -206,7 +205,7 @@ sessão nega ter feito o exercício antes. O que o achado demonstra?
 <v-clicks>
 
 - **A.** Que a amnésia é fingida: houve aprendizagem, logo houve memória consciente
-- **B.** Que a memória de procedimento não depende da episódica
+- **B.** Que a memória de procedimento não depende da episódica (Lobo Temporal Medial)
 - **C.** Que a memória semântica dele está preservada
 - **D.** Que a lesão poupou o hipocampo de um dos lados
 
@@ -480,8 +479,8 @@ kicker: Fixação · pergunta 3
 title: Qual destes sistemas é o mais estável no envelhecimento normal?
 ---
 
-Um idoso de 78 anos, sem doença neurológica, escolaridade média. Segundo o padrão da Tabela,
-qual sistema você espera encontrar praticamente **inalterado**?
+Um idoso de 78 anos, sem doença neurológica, escolaridade média.
+Qual sistema você espera encontrar praticamente **inalterado**?
 
 <v-clicks>
 
@@ -769,11 +768,6 @@ right:
     - "Auxílios externos compensam bem esta condição"
 ---
 
-<Callout tone="warn" icon="lucide:flip-horizontal-2">
-No <em>laboratório</em> o idoso vai pior que o jovem. Na <em>vida real</em>, melhor — usa auxílios
-externos com mais eficiência e supera o jovem em motivação e adesão.
-</Callout>
-
 <!--
 - Fontes: Park et al. (1997) para tempo × evento; Craik e Ken (1996) para os "lapsos momentâneos de intenção"; Rendell e Craik (2000) para o contraste laboratório × vida real, no jogo de tabuleiro "Semana Virtual".
 - A justificativa proposta para o paradoxo: o idoso costuma ter uma vida **mais estruturada e organizada** do que a do jovem de 20 anos.
@@ -939,10 +933,10 @@ title: O que a avaliação precisa separar
 
 <Grid head :data="[
   ['O que se apresenta', 'O que precisa ser separado disso'],
-  ['A queixa de memória', 'humor deprimido — a queixa acompanha o humor mais que o desempenho'],
+  ['A queixa de memória', 'declinio cognitivo ou humor rebaixado?'],
   ['Um escore baixo', 'escolaridade, letramento e cultura, antes de virar déficit'],
-  ['Uma piora entre dois exames', 'ou uma melhora: o efeito de prática age nos dois sentidos'],
-  ['Falha na evocação', 'codificação, armazenamento e recuperação — três origens, um só sintoma'],
+  ['Uma melhora entre dois exames', 'será o efeito de prática?'],
+  ['Falha na evocação', 'codificação, armazenamento e recuperação — três origens, qual a mais prejudicada?'],
   ['Desempenho ruim no consultório', 'o funcionamento em casa, que se pergunta ao informante'],
 ]" />
 
@@ -1000,14 +994,14 @@ steps:
   - {
       icon: "lucide:volume-2",
       title: "Leia a história em voz alta, num ritmo constante",
-      desc: "O paciente não lê nem vê o texto. Ritmo e entonação alterados mudam
-        o quanto entra"
+      desc: "O paciente não lê nem vê o texto. Ritmo e entonação alterados mudam o
+        quanto entra"
     }
   - {
       icon: "lucide:mic",
-      title: "Peça a lembrança imediatamente, e registre <em>verbatim</em>",
-      desc: "Anote o que ele disse, com as palavras dele. Corrigir depende do
-        registro literal, não do seu resumo"
+      title: "Peça a lembrança imediatamente, e registre <em>literalmente</em>",
+      desc: "Anote o que ele disse, com as palavras dele. Corrigir depende do registro
+        literal, não do seu resumo"
     }
   - {
       icon: "lucide:timer",
