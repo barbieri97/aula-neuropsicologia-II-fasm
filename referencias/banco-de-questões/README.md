@@ -26,7 +26,7 @@ Os níveis vão de **muito fácil** a **muito difícil**, com a distribuição c
 
 - **Nada de decoreba.** Nenhuma questão cobra ano de publicação, nome de amostra ou número solto. Onde autores e estudos aparecem, vêm no enunciado como apoio, nunca como resposta.
 - **Estudos de caso completos.** Cada vinheta traz pessoa, queixa, história de vida, observações clínicas e resultados de testes — no mesmo formato das vinhetas usadas nas aulas 03, 04 e 05 (`referencias/aula-0X/`). As perguntas são sobre **integrar** esses dados, não sobre reconhecer um rótulo.
-- **Contas que aparecem na prática.** Há questões que pedem pontuar a GDS-15, somar e corrigir o MEEM contra a faixa de escolaridade, ajustar o escore por item não realizado, estimar velocidade de progressão e calcular porcentagem de retenção na Memória Lógica.
+- **Resultados prontos, leitura cobrada.** Os casos trazem a ficha da GDS-15 já pontuada, o total do MEEM, o escore ajustado por item não realizado, a velocidade de progressão e a porcentagem de retenção da Memória Lógica **já apurados**. O que se pede é a interpretação: comparar com o ponto de corte da escolaridade certa, ler a forma do perfil, decidir a conduta. Nenhuma questão cobra a conta.
 - **Dados para interpretar.** Tabelas de prevalência, sensibilidade e especificidade por ponto de corte, perfis em desvios-padrão, curva de posição serial, efeito de prática e normas brasileiras aparecem como material de leitura das questões.
 - **Integração entre aulas.** Vários itens exigem conteúdo de mais de uma aula — por exemplo, humor (aula 03) rebaixando escores de memória (aula 05), ou reserva e escolaridade (aula 02) na leitura de um MEEM (aula 04).
 

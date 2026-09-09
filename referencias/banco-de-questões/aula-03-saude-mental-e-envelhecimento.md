@@ -4,7 +4,7 @@
 **Base** deck `aulas/aula-03-saude-mental-e-envelhecimento.md`; Nicolato & Alvarenga (2010), *Saúde mental e envelhecimento*, cap. 6 de Malloy-Diniz, Fuentes & Cosenza (orgs.); DSM-5-TR; Paradela, Lourenço & Veras (2005) para a GDS-15.
 **Total** 18 questões · 5 múltipla escolha · 3 verdadeiro ou falso · 3 afirmações corretas · 4 estudos de caso · 3 estilo ENADE/ENEM
 
-> **Como usar.** Cada questão traz tipo, nível e objetivo. Gabarito e comentário em bloco recolhível (`<details>`). As questões 6 e 16 exigem **pontuar uma ficha da GDS-15** e podem ser usadas como exercício prático em sala.
+> **Como usar.** Cada questão traz tipo, nível e objetivo. Gabarito e comentário em bloco recolhível (`<details>`). As questões 6 e 16 trazem **fichas completas da GDS-15 já pontuadas**: o que se pede é a interpretação do escore ao lado da história e da observação clínica, não a soma.
 >
 > **Eixo da aula.** No idoso, o mesmo diagnóstico não descreve o mesmo quadro. Apresentação atípica, comorbidade clínica, iatrogenia e subdiagnóstico se interpõem entre o transtorno que a pessoa tem e o que chega a ser diagnosticado.
 
@@ -15,7 +15,7 @@
 | 3 | Afirmações corretas | fácil | Os quatro filtros diagnósticos |
 | 4 | Estudo de caso | fácil | Comorbidade clínica e subdiagnóstico |
 | 5 | Múltipla escolha | médio | Por que a GDS evita itens somáticos |
-| 6 | Estudo de caso | médio | Pontuação e interpretação da GDS-15 |
+| 6 | Estudo de caso | médio | Interpretação de uma GDS-15 pontuada |
 | 7 | Verdadeiro ou falso | médio | Depressão de início tardio |
 | 8 | Afirmações corretas | médio | Perfil cognitivo da depressão |
 | 9 | ENADE/ENEM | médio | Prevalência e definição de caso |
@@ -170,7 +170,7 @@ Outras características de projeto: resposta dicotômica (sim/não, sem gradaç�
 ---
 
 ## Questão 6 · estudo de caso · médio
-**Objetivo** aplicar, pontuar e interpretar a GDS-15 num caso real.
+**Objetivo** interpretar uma GDS-15 já pontuada ao lado da história e da observação clínica.
 
 > **Dona Ivone, 71 anos, viúva há oito meses.**
 > **História de vida.** Nasceu na roça, em Minas; veio para a capital aos 19 anos. Três anos de escolaridade — lê com dificuldade, escreve o nome. Quarenta e sete anos de casamento; três filhos vivos, um morto há 12 anos. Trabalhou como doméstica; cuidou da mãe com Alzheimer por seis anos. Ativa na igreja até o ano passado, no grupo de oração e no coral.
@@ -189,28 +189,32 @@ Outras características de projeto: resposta dicotômica (sim/não, sem gradaç�
 | 7. Alegre a maior parte do tempo? | Não | 15. Muita gente em situação melhor? | Sim |
 | 8. Sente-se desamparada? | Sim | | |
 
-**a)** Qual é o escore total?
-**b)** O rastreamento é positivo ou negativo?
-**c)** Que dado do caso exige investigação **ativa e imediata**, independentemente do escore?
-**d)** Como interpretar a resposta ao item 10 diante do relato da filha?
+**Resultado: 9 pontos.** Pontuaram os itens 1, 2, 3, 4, 6, 7, 8, 13 e 15. Ponto de corte validado no Brasil: **5/6**.
+
+Qual é a leitura correta do conjunto — escala, história e observação clínica?
+
+**a)** O escore de 9 estabelece o diagnóstico de episódio depressivo maior, e a conduta é iniciar tratamento sem outras etapas.
+**b)** Como a perda do marido foi recente, o quadro se explica pelo luto, e o rastreio positivo não precisa ser investigado.
+**c)** Rastreamento positivo indica avaliação diagnóstica por entrevista clínica; independentemente do escore, a ideação passiva de morte exige investigar ativamente plano e intenção; e a divergência entre o item 10 e a queixa de memória trazida pela filha é achado clínico a registrar.
+**d)** O escore está na faixa de 6 a 10, que corresponde a depressão leve e autoriza conduta expectante.
+**e)** As queixas cognitivas trazidas pela filha indicam transtorno neurocognitivo, e a escala não deveria ter sido aplicada.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Chave de pontuação.** Pontuam **1 ponto** os itens redigidos em sentido positivo (1, 5, 7, 11, 12, 13, 14) quando a resposta é **NÃO**; e os itens em sentido negativo (2, 3, 4, 6, 8, 9, 10, 15) quando a resposta é **SIM**. Soma simples, sem pesos, de 0 a 15.
+**Gabarito: c**
 
-**a) Escore = 9.** Pontuam os itens 1, 2, 3, 4, 6, 7, 8, 13 e 15.
-*Conferência:* item 1 "Não" (+1); 2 "Sim" (+1); 3 "Sim" (+1); 4 "Sim" (+1); 5 "Sim" (0); 6 "Sim" (+1); 7 "Não" (+1); 8 "Sim" (+1); 9 "Não" (0); 10 "Não" (0); 11 "Sim" (0); 12 "Sim" (0); 13 "Não" (+1); 14 "Sim" (0); 15 "Sim" (+1).
+**Como o escore se compõe** (para conferência em sala): pontuam **1 ponto** os itens redigidos em sentido positivo (1, 5, 7, 11, 12, 13, 14) quando a resposta é **NÃO**, e os itens em sentido negativo (2, 3, 4, 6, 8, 9, 10, 15) quando a resposta é **SIM**. Soma simples, sem pesos, de 0 a 15. Aqui: 1 "Não", 2 "Sim", 3 "Sim", 4 "Sim", 6 "Sim", 7 "Não", 8 "Sim", 13 "Não" e 15 "Sim" — nove itens.
 
-**b) Rastreamento positivo** pelo corte 5/6 — na faixa de 6 a 10 impressa na ficha. O que isso indica é avaliação diagnóstica por entrevista, não diagnóstico.
+Por que as demais falham:
+- **a)** confunde rastreio com diagnóstico. Em todo estudo de validação, o padrão de referência é a entrevista clínica.
+- **b)** repete a exclusão por luto que o DSM-5 **retirou**: perda recente não impede o diagnóstico de episódio depressivo maior. Existe ainda a categoria de transtorno de luto prolongado, para luto persistente e incapacitante além de 12 meses no adulto.
+- **d)** trata as faixas 0–5, 6–10 e 11–15 como estadiamento de gravidade; elas são convenção de uso, e a escala não mede gravidade nem risco de suicídio.
+- **e)** inverte a conduta: a queixa cognitiva no idoso deprimido é um dos motivos mais comuns de encaminhamento, e a postura dela na testagem ("não sei", acerta quando encorajada, latência aumentada) é a coluna da **depressão** no diferencial com transtorno neurocognitivo.
 
-**c) A ideação passiva de morte.** "Se Deus me levasse, não reclamava" pontua como pensamento recorrente de morte e exige investigar **ativamente** plano e intenção. Nenhum escore autoriza pular essa investigação — e a GDS não mede risco de suicídio.
-
-**d) Divergência entre autorrelato e informante é achado clínico, não erro de aplicação.** A paciente responde "Não" à queixa de memória enquanto a filha traz queixa. Registre a discrepância. Em geral, a queixa do informante prediz melhor a evolução do que a do próprio paciente.
-
-**Duas notas conceituais sobre o caso:**
-- **luto não exclui depressão.** O DSM-5 retirou a exclusão por luto que existia na edição anterior: perda recente não impede o diagnóstico de episódio depressivo maior. Existe ainda a categoria de **transtorno de luto prolongado**, para luto persistente e incapacitante além de 12 meses no adulto.
-- **a postura na testagem** ("não sei", acerta quando encorajada, latência aumentada) é a coluna da depressão no diferencial com transtorno neurocognitivo.
+**Dois pontos que a alternativa correta reúne e valem ser ditos em voz alta:**
+- **a ideação passiva de morte não é item da escala** — "se Deus me levasse, não reclamava" é pensamento recorrente de morte e se investiga sempre, com qualquer escore;
+- **a divergência entre autorrelato e informante é dado, não erro.** A paciente responde "Não" à queixa de memória enquanto a filha traz queixa; em geral, a queixa do informante prediz melhor a evolução do que a do próprio paciente.
 </details>
 
 ---
@@ -520,20 +524,29 @@ Julgue como **verdadeira (V)** ou **falsa (F)**.
 | 7. Alegre a maior parte do tempo? | Sim | 15. Muita gente em situação melhor? | Sim |
 | 8. Sente-se desamparado? | Não | | |
 
-**a)** Qual é o escore? **b)** O rastreio é positivo? **c)** Quantos dos itens que pontuaram são produzidos pela doença de base? **d)** A investigação está encerrada? Justifique.
+**Resultado: 4 pontos.** Pontuaram os itens 2 (interrompeu atividades), 9 (prefere ficar em casa), 13 (falta de energia) e 15 (comparação social). Ponto de corte: 5/6 — **rastreamento negativo**.
+
+Qual é a leitura correta?
+
+**a)** O rastreio negativo afasta sofrimento psíquico relevante e encerra a investigação.
+**b)** O escore de 4 corresponde à faixa de depressão leve e indica introdução de antidepressivo.
+**c)** O rastreio é falso-negativo por comprometimento cognitivo, e a escala deve ser reaplicada.
+**d)** Três dos quatro itens que pontuaram são produzidos pela doença pulmonar e cardíaca, e não pelo humor; e o rastreio negativo não encerra a investigação, porque a frase que motivou o encaminhamento não é coberta por nenhum item da escala — o quadro é compatível com desmoralização, com capacidade de sentir prazer preservada.
+**e)** A ausência de itens somáticos torna a escala ininterpretável em pacientes com doença clínica avançada.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**a) Escore = 4.** Pontuam os itens 2 (interrompeu atividades), 9 (prefere ficar em casa), 13 (falta de energia) e 15 (comparação social).
+**Gabarito: d**
 
-**b) Rastreio negativo** pelo corte 5/6.
+**Sobre os quatro itens que pontuaram:** interromper atividades, preferir ficar em casa e falta de energia são, neste paciente, produzidos pela dispneia e pela dependência de oxigênio. E o item 13 é justamente um dos dois itens da escala que ainda tangenciam o somático — ou seja, mesmo um instrumento construído para evitar o somático não escapa dele por completo em doença avançada.
 
-**c) Três dos quatro.** Interromper atividades, preferir ficar em casa e falta de energia são, neste paciente, produzidos pela doença pulmonar e cardíaca — não pelo humor. E o item 13 é, justamente, um dos dois itens da escala que ainda tangenciam o somático. Ou seja: mesmo uma escala construída para evitar o somático não escapa dele por completo em pacientes com doença avançada.
+**Por que a investigação continua:** "não vale mais a pena" não aparece em nenhum item da GDS. Rastreio negativo diz que a probabilidade é menor, não que a pergunta clínica foi respondida.
 
-**d) Não.** A frase que motivou o encaminhamento — "não vale mais a pena" — **não aparece em nenhum item da escala**. Rastreio negativo não encerra investigação: ele diz que a probabilidade é menor, não que a pergunta clínica foi respondida.
+**A hipótese que o caso convida a considerar é a desmoralização** — desânimo, impotência e perda de sentido diante de uma situação concreta, **com capacidade de sentir prazer preservada**. Ele ri das piadas do neto, acompanha o campeonato e tem iniciativa. Distingue-se do episódio depressivo, em que há anedonia e humor deprimido persistentes. A conduta é diferente: controle de sintoma (dispneia é sintoma tratável), cuidado paliativo, suporte psicológico e conversa sobre o que ainda é possível — não necessariamente antidepressivo, o que derruba **b**.
 
-**A hipótese que o caso convida a considerar é desmoralização** — desânimo, impotência e perda de sentido diante de uma situação concreta, com **capacidade de sentir prazer preservada**. Ele ri, acompanha o campeonato, tem iniciativa. Distingue-se do episódio depressivo, em que há anedonia e humor deprimido persistentes. A conduta é diferente: cuidado paliativo, controle de sintoma (dispneia é sintoma tratável), suporte psicológico e conversa sobre sentido e sobre o que ainda é possível — não necessariamente antidepressivo.
+- **c)** não encontra apoio: não há comprometimento cognitivo no caso — as funções estão preservadas e ele está atento e colaborativo.
+- **e)** confunde limite com inutilidade: a escala informa, e o que se exige é ler o escore ao lado da doença de base.
 
 **O que este caso ensina em uma frase:** a escala responde à pergunta que ela faz. Ela não faz a pergunta do encaminhamento.
 </details>
@@ -615,8 +628,8 @@ Os cinco dados do caso caem, um a um, na coluna da esquerda.
 
 | Questão | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | V, F, V, V | a | c | b | 9 pontos · positivo | V, F, V, V | a | b |
+| **Gabarito** | b | V, F, V, V | a | c | b | c | V, F, V, V | a | b |
 
 | Questão | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | c | b | a | b | V, F, V, V | 4 pontos · negativo | b | b |
+| **Gabarito** | b | c | b | a | b | V, F, V, V | d | b | b |

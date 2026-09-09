@@ -4,7 +4,7 @@
 **Base** deck `aulas/aula-04-transtornos-neurocognitivos.md`; APA, *DSM-5*, capítulo Transtornos Neurocognitivos; Brucki et al. (2003) para o MEEM.
 **Total** 18 questões · 5 múltipla escolha · 3 verdadeiro ou falso · 3 afirmações corretas · 4 estudos de caso · 3 estilo ENADE/ENEM
 
-> **Como usar.** Cada questão traz tipo, nível e objetivo. Gabarito e comentário em bloco recolhível (`<details>`). As questões 5, 6 e 13 exigem **cálculo** (soma do MEEM, ponto de corte por escolaridade, ajuste por item não realizado, velocidade de progressão) e funcionam bem como exercício em sala.
+> **Como usar.** Cada questão traz tipo, nível e objetivo. Gabarito e comentário em bloco recolhível (`<details>`). As questões 5, 6 e 13 trazem os **resultados já apurados** (total do MEEM, escore ajustado por item não realizado, velocidade de progressão): o que se cobra é a comparação com o ponto de corte da escolaridade certa e a leitura clínica, não a conta.
 >
 > **Eixo da aula.** Primeiro a **síndrome** (TNC leve ou maior), depois a **etiologia**, depois o **grau de certeza**. E o que separa leve de maior não é o escore: é a independência nas atividades instrumentais — que não sai de nenhuma tabela normativa.
 
@@ -22,7 +22,7 @@
 | 10 | Verdadeiro ou falso | médio | TNC com corpos de Lewy |
 | 11 | Múltipla escolha | difícil | Vascular × Alzheimer |
 | 12 | Estudo de caso | difícil | Variante comportamental frontotemporal |
-| 13 | ENADE/ENEM | difícil | Ajuste do escore e velocidade de progressão |
+| 13 | ENADE/ENEM | difícil | Escore ajustado e velocidade de progressão |
 | 14 | Afirmações corretas | difícil | Limites do MEEM |
 | 15 | Múltipla escolha | difícil | Delirium sobreposto a TNC |
 | 16 | Verdadeiro ou falso | difícil | O raciocínio por trás do escore |
@@ -150,7 +150,7 @@ Três perguntas que só a entrevista responde, e que nenhum teste substitui:
 ---
 
 ## Questão 5 · estudo de caso · médio
-**Objetivo** corrigir o MEEM contra a faixa de escolaridade correta.
+**Objetivo** ler um MEEM contra a faixa de escolaridade correta.
 
 > **Sr. Belmiro, 70 anos, 16 anos de escolaridade (mestrado), professor aposentado.**
 > **História de vida.** Lecionou por 35 anos; escrevia artigos e dava aulas sem roteiro, improvisando a partir de tópicos.
@@ -172,23 +172,28 @@ Três perguntas que só a entrevista responde, e que nenhum teste substitui:
 | Escrita | 1 | 1 |
 | Cópia dos pentágonos | 1 | 1 |
 
-**a)** Qual o escore total? **b)** Qual o ponto de corte aplicável? **c)** O rastreio é positivo? **d)** Qual o nível provável, e qual critério decidiu?
+**Resultado: MEEM = 28/30**, com os 2 pontos perdidos na evocação. Ponto de corte para mais de 11 anos de estudo (Brucki et al., 2003): **29**.
+
+Qual é a leitura correta?
+
+**a)** 28/30 é resultado normal — rastreio negativo, sem indicação de investigação.
+**b)** O rastreio é positivo, e o escore, por si, já estabelece o nível de TNC.
+**c)** O rastreio é positivo, pois 28 está abaixo do corte de 29 da faixa de escolaridade dele; o perfil é amnéstico, com perda restrita à evocação e atenção e cálculo intactos; e o nível é **TNC leve**, decidido pela funcionalidade — independência preservada, com mais esforço e mais estratégia.
+**d)** Como a esposa minimiza a queixa, o achado deve ser atribuído à ansiedade do próprio paciente.
+**e)** O perfil amnéstico autoriza fechar o subtipo etiológico como doença de Alzheimer provável.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**a) 28/30.** Perdeu 2 pontos, ambos na evocação.
+**Gabarito: c**
 
-**b) 29.** Faixa de mais de 11 anos de estudo (Brucki et al., 2003). As cinco faixas: analfabetos 20 · 1 a 4 anos 25 · 5 a 8 anos 26,5 · 9 a 11 anos 28 · mais de 11 anos 29.
-
-**c) Positivo** — 28 está **abaixo** do corte de 29.
-
-**d) TNC leve (o CCL).** Quem decidiu foi o **critério B**: a independência está preservada, ainda que com mais esforço e mais estratégia (escrever a aula, conferir a agenda duas vezes). Ele dirige, administra dinheiro e não erra medicação.
+**As cinco faixas de corte** (Brucki et al., 2003): analfabetos 20 · 1 a 4 anos 25 · 5 a 8 anos 26,5 · 9 a 11 anos 28 · mais de 11 anos 29. Corrigir é somar **e** comparar com a faixa certa.
 
 **O que este caso ensina:**
-- **28 "parece" ótimo e está abaixo do corte.** Corrigir é somar **e** comparar com a faixa certa. Quem usasse o antigo corte único de 24 passaria batido — é o **efeito teto** do instrumento em pessoas de alta escolaridade.
-- O perfil é **amnéstico**: perde só na evocação, com atenção e cálculo intactos. Isso permite levantar hipótese (compatível com doença de Alzheimer), **não** cravar etiologia — a vinheta não traz neuroimagem nem marcador.
-- Repare em quem se queixa: é ele, e a esposa minimiza. É o inverso do padrão típico do TNC maior.
+- **28 "parece" ótimo e está abaixo do corte.** Quem usasse o antigo corte único de 24 passaria batido — é o **efeito teto** do instrumento em pessoas de alta escolaridade, e a razão pela qual se desenvolveram rastreios mais sensíveis ao comprometimento leve.
+- **O escore não decide o nível** (por isso **b** erra). O que decide é o **critério de funcionalidade**: escrever a aula inteira onde antes improvisava e conferir a agenda duas vezes são **estratégias compensatórias** que preservam a independência — ele dirige, administra o dinheiro e não errou dose nem compromisso.
+- **Quem se queixa é ele, e a esposa minimiza** — o inverso do padrão típico do TNC maior. Isso não desqualifica a queixa (**d**), e a queixa do próprio paciente com alteração objetiva no teste satisfaz o critério de declínio.
+- **e)** ultrapassa o que a vinheta permite: sem neuroimagem, marcador ou perfil clínico completo, o subtipo fica no máximo como "possível" — e no TNC leve o DSM-5 observa que com frequência o mais apropriado é "não especificado".
 </details>
 
 ---
@@ -216,23 +221,35 @@ Três perguntas que só a entrevista responde, e que nenhum teste substitui:
 | Escrita | 1 | 1 |
 | Cópia dos pentágonos | 1 | 0 |
 
-**a)** Escore total? **b)** Ponto de corte? **c)** Nível provável e critério decisivo? **d)** O que o contraste com o caso do Sr. Belmiro ensina?
+**Resultado: MEEM = 19/30.** Ponto de corte para 1 a 4 anos de estudo: **25** — seis pontos abaixo.
+
+Qual é a leitura correta?
+
+**a)** TNC leve, já que a paciente mantém autocuidado e o escore está a poucos pontos do corte.
+**b)** TNC maior — e o que decide não é o 19: é a perda de independência em atividades instrumentais (contas, medicação e preparo de refeição assumidos pela filha **depois** dos erros), somada à desorientação em ambiente familiar.
+**c)** Envelhecimento normal: com 2 anos de escolaridade, 19 pontos é o esperado.
+**d)** Delirium, pelo episódio de desorientação na rua.
+**e)** O escore de 19 é suficiente para o diagnóstico, o que dispensa a entrevista com informante.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**a) 19/30.**
+**Gabarito: b**
 
-**b) 25** — faixa de 1 a 4 anos de estudo. Seis pontos abaixo.
+A funcionalidade está perdida em **três** atividades instrumentais, e em cada uma delas a transferência da tarefa veio **depois** de um erro concreto — faturas em duplicata, doses repetidas, fogo aceso. Some-se o episódio de desorientação em ambiente familiar, que é bandeira vermelha, e a ausência de reconhecimento da própria dificuldade, sugestiva de anosognosia.
 
-**c) TNC maior.** E o que decide **não é o 19**: é o critério B. A funcionalidade está perdida em três atividades instrumentais (contas, medicação, preparo de refeição), com episódio de desorientação em ambiente familiar. A ausência de reconhecimento da própria dificuldade sugere anosognosia — dado convergente.
+**Por que c erra:** a escolaridade já está considerada no corte da faixa (25). Dizer que 19 é esperado para 2 anos de estudo é aplicar duas vezes a mesma correção — e apagar um achado real.
 
-**d) O contraste:**
-- 28 e 19 estão **ambos abaixo do corte**, e ainda assim os níveis são diferentes. O escore não decide o nível.
-- O mesmo número significa coisas opostas em pessoas diferentes: 26 é rastreio **negativo** para quem tem quatro anos de escola e **positivo** para quem tem faculdade.
-- Quem se queixa também muda: no TNC maior, tipicamente o informante; no leve, com frequência o próprio paciente.
+**Por que d erra:** delirium se instala em horas a dias, com flutuação no mesmo dia e perturbação obrigatória da atenção. Aqui o curso é de dois anos, insidioso e progressivo.
 
-**Cuidado a manter:** nenhum dos dois casos autoriza fechar etiologia. Sem neuroimagem, marcador ou perfil clínico completo, o subtipo fica, no máximo, como "possível" — e no TNC leve o DSM-5 observa que com frequência o mais apropriado é "não especificado".
+**Por que e erra:** é justamente o oposto. Nenhum item do MEEM mede funcionalidade; o critério que decidiu o nível veio inteiro da entrevista com a filha.
+
+**O contraste com o caso anterior é o que importa:**
+- 28 e 19 estão **ambos abaixo do corte**, e ainda assim os níveis são diferentes;
+- o mesmo número significa coisas opostas em pessoas diferentes — 26 é rastreio **negativo** para quem tem quatro anos de escola e **positivo** para quem tem faculdade;
+- quem se queixa também muda: no maior, tipicamente o informante; no leve, com frequência o próprio paciente.
+
+**Cuidado a manter:** nenhum dos dois casos autoriza fechar etiologia.
 </details>
 
 ---
@@ -431,36 +448,32 @@ Por que as demais falham:
 ---
 
 ## Questão 13 · ENADE/ENEM · difícil
-**Objetivo** aplicar dois cálculos que aparecem na prática.
+**Objetivo** interpretar dois ajustes que aparecem na prática.
 
-> **Situação 1.** Uma paciente com cegueira não consegue realizar os itens de **leitura**, **escrita** e **cópia** do MEEM (3 pontos no total). Obteve **15 pontos** nos itens que pôde realizar. A correção proporcional recomendada é:
-> **escore ajustado = (escore × 30) ÷ (30 − itens não realizados)**
+> **Situação 1.** Uma paciente com cegueira não consegue realizar os itens de **leitura**, **escrita** e **cópia** (3 pontos no total) e obteve **15 pontos** nos itens que pôde realizar. Aplicando a correção proporcional recomendada — **escore ajustado = (escore × 30) ÷ (30 − itens não realizados)**, ou seja (15 × 30) ÷ 27 —, o **escore ajustado é 17**.
 >
-> **Situação 2.** Um paciente com diagnóstico de doença de Alzheimer e **3 anos** de história de doença obteve **MEEM = 20**. A velocidade de progressão se estima por:
-> **(30 − MEEM inicial) ÷ anos de doença**
-> Faixas de referência: menos de 2 pontos/ano, lenta · 2 a 4, intermediária · mais de 5, rápida.
+> **Situação 2.** Um paciente com diagnóstico de doença de Alzheimer e **3 anos** de história de doença obteve **MEEM = 20**. Aplicando a estimativa de velocidade de progressão — **(30 − MEEM inicial) ÷ anos de doença** —, o resultado é **3,3 pontos por ano**. Faixas de referência: menos de 2 pontos/ano, lenta · 2 a 4, intermediária · mais de 5, rápida.
 
-Os resultados corretos são:
+A leitura correta desses dois resultados é:
 
-**a)** situação 1: 15 pontos (sem ajuste, pois itens não realizados não pontuam); situação 2: 10 pontos/ano, progressão rápida.
-**b)** situação 1: aproximadamente **17** pontos; situação 2: aproximadamente **3,3** pontos/ano, progressão intermediária — próxima do declínio médio esperado na doença de Alzheimer.
-**c)** situação 1: 13,5 pontos; situação 2: 6,7 pontos/ano, progressão rápida.
-**d)** situação 1: 20 pontos; situação 2: 1,5 ponto/ano, progressão lenta.
-**e)** nenhum dos cálculos é aplicável em idosos com deficiência sensorial.
+**a)** na situação 1, o ajuste superestima o desempenho e deve ser evitado, já que itens não realizados simplesmente não pontuam.
+**b)** na situação 2, 3,3 pontos por ano configura progressão rápida e obriga a revisar o diagnóstico.
+**c)** os dois procedimentos só se aplicam a pacientes com deficiência sensorial documentada.
+**d)** o ajuste devolve o escore à escala de 30 pontos e impede que a deficiência seja lida como déficit cognitivo — desde que a adaptação fique registrada; e 3,3 pontos por ano situa-se na faixa intermediária, próxima do declínio médio descrito na doença de Alzheimer, sendo portanto compatível com a evolução esperada.
+**e)** nenhum dos dois resultados é interpretável sem neuroimagem.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
-**Situação 1:** (15 × 30) ÷ (30 − 3) = 450 ÷ 27 = 16,67 → **17**.
-Sem o ajuste, a deficiência vira déficit cognitivo no papel — que é exatamente o erro que a fórmula existe para evitar. O mesmo raciocínio da aula 02: adaptação por deficiência física é legítima, desde que **registrada**, ou o reteste deixa de ser comparável.
+**Situação 1.** Sem o ajuste, os 15 pontos seriam comparados a um corte construído para quem pôde responder aos 30 itens — e a **deficiência viraria déficit cognitivo no papel**, que é exatamente o erro que a fórmula existe para evitar (o que derruba **a**). O mesmo raciocínio da aula 02: adaptação por deficiência física é legítima, desde que **registrada**, ou o reteste deixa de ser comparável.
 
-**Situação 2:** (30 − 20) ÷ 3 = 10 ÷ 3 = **3,3 pontos/ano** — faixa intermediária, e próxima do declínio médio de cerca de 3 pontos por ano descrito na doença de Alzheimer.
+**Situação 2.** O declínio médio descrito na doença de Alzheimer é de cerca de **3 pontos por ano** — daí 3,3 cair na faixa intermediária e não indicar, por si, nada de atípico (o que derruba **b**).
 
-**Duas leituras práticas do segundo cálculo:** um paciente que perde 6 pontos em um ano merece revisão do diagnóstico; um que não perde nada em três anos, também.
+**Duas leituras práticas do segundo cálculo:** um paciente que perde **6 pontos em um ano** merece revisão do diagnóstico; um que **não perde nada em três anos**, também.
 
-**Um cuidado que a aula 03 já havia introduzido:** antes de atribuir a variação à doença, verifique o que mudou na prescrição entre as avaliações. Parte da curva pode ser farmacológica.
+**Um cuidado que a aula 03 já havia introduzido:** antes de atribuir a variação à doença, verifique o que mudou na prescrição entre as avaliações — parte da curva pode ser farmacológica.
 
 **Sobre estadiamento** (só quando a demência já está diagnosticada, e nunca para diagnosticar): 20 a 26, fase leve; 10 a 19, moderada; abaixo de 10, grave.
 </details>
@@ -637,8 +650,8 @@ A ordem do raciocínio clínico espelha a estrutura do diagnóstico: queixa → 
 
 | Questão | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | V, F, V, V | a | b | 28/30 · corte 29 · TNC leve | 19/30 · corte 25 · TNC maior | b | b | a |
+| **Gabarito** | b | V, F, V, V | a | b | c | b | b | b | a |
 
 | Questão | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | V, F, V, V | b | b | b | a | b | V, V, F, F | c | b |
+| **Gabarito** | V, F, V, V | b | b | d | a | b | V, V, F, F | c | b |

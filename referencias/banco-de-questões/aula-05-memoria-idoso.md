@@ -4,7 +4,7 @@
 **Base** deck `aulas/aula-05-memoria-idoso.md`; Abrisqueta-Gomez, *Memória e envelhecimento cognitivo saudável*, cap. 10 de Malloy-Diniz, Fuentes & Cosenza (orgs.); Bolognani et al. (2015) e Oliveira et al. (2017) para a Memória Lógica.
 **Total** 18 questões · 5 múltipla escolha · 3 verdadeiro ou falso · 3 afirmações corretas · 4 estudos de caso · 3 estilo ENADE/ENEM
 
-> **Como usar.** Cada questão traz tipo, nível e objetivo. Gabarito e comentário em bloco recolhível (`<details>`). As questões 10, 12 e 17 exigem **cálculo de porcentagem de retenção** e comparação com dados normativos — funcionam bem como exercício em grupo.
+> **Como usar.** Cada questão traz tipo, nível e objetivo. Gabarito e comentário em bloco recolhível (`<details>`). Os estudos de caso trazem os **resultados já apurados** — escore de cada etapa e porcentagem de retenção —, de modo que o que se cobra é a leitura do perfil, e não a conta.
 >
 > **Eixo da aula.** Memória não é uma função: são sistemas, que envelhecem em ritmos diferentes. E na leitura de um protocolo, **o escore bruto diz quanto; a retenção diz o quê**.
 
@@ -19,7 +19,7 @@
 | 7 | Verdadeiro ou falso | médio | Ponta da língua e acesso lexical |
 | 8 | ENADE/ENEM | médio | Curva de posição serial |
 | 9 | Afirmações corretas | médio | Memória prospectiva |
-| 10 | Estudo de caso | médio | Memória Lógica: cálculo da retenção |
+| 10 | Estudo de caso | médio | Memória Lógica: leitura da retenção |
 | 11 | Múltipla escolha | difícil | Os três perfis de falha |
 | 12 | Estudo de caso | difícil | Integração: humor, escolaridade e retenção |
 | 13 | Afirmações corretas | difícil | Estudos transversais × longitudinais |
@@ -307,34 +307,39 @@ O item V tem consequência prática: memória prospectiva ruim não é redundant
 ---
 
 ## Questão 10 · estudo de caso · médio
-**Objetivo** calcular retenção e ler o perfil pela forma, não pelo total.
+**Objetivo** ler o perfil pela forma, e não pelo total.
 
-> Dois protocolos de **Memória Lógica** (recordação de prosa, duas histórias; escore do par de 0 a 50 em cada etapa; intervalo de cerca de 30 minutos preenchido com tarefas não verbais).
->
-> **Dona Zenaide, 73 anos, 4 anos de escolaridade.** Evocação imediata: história A = 9, história B = 7. Evocação tardia: história A = 2, história B = 1. Na tardia, aparecem conteúdos que não estavam nas histórias.
-> **Sr. Otávio, 71 anos, ensino superior.** Evocação imediata: história A = 5, história B = 5. Evocação tardia: história A = 4, história B = 4. Sem conteúdos acrescentados; erros por omissão, com o enredo preservado.
+> Dois protocolos de **Memória Lógica** (recordação de prosa, duas histórias; escore do **par** de 0 a 50 em cada etapa; intervalo de cerca de 30 minutos preenchido com tarefas não verbais). A retenção é a razão entre as duas etapas: tardia ÷ imediata × 100.
 
-**a)** Calcule o escore de cada etapa e a porcentagem de retenção de cada paciente.
-**b)** Qual dos dois tem o perfil mais preocupante?
-**c)** Como se chama, tecnicamente, o conteúdo acrescentado na evocação tardia da Dona Zenaide, e por que ele se anota?
+| | Imediata (0–50) | Tardia (0–50) | Retenção | Tipo de erro |
+|---|---|---|---|---|
+| **Dona Zenaide**, 73 anos, 4 anos de escolaridade | 16 | 3 | **19%** | conteúdos que não estavam nas histórias, na etapa tardia |
+| **Sr. Otávio**, 71 anos, ensino superior | 10 | 8 | **80%** | omissões, com o enredo preservado |
+
+Qual afirmação está correta?
+
+**a)** O Sr. Otávio tem o quadro mais preocupante, porque o escore bruto imediato é menor.
+**b)** Os dois têm o mesmo perfil de falha, em graus diferentes de gravidade.
+**c)** Dona Zenaide, apesar do **maior** escore bruto imediato, tem perfil de falha de **armazenamento**, de tipo amnéstico — retenção de 19% e intrusões; o Sr. Otávio tem perfil de falha de **codificação**, com armazenamento preservado, e é o mais benigno dos dois.
+**d)** Como ambos ficaram abaixo de 20 na etapa imediata, os dois perfis são equivalentes.
+**e)** Os conteúdos acrescentados pela Dona Zenaide indicam apenas desatenção e não têm valor clínico.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**a) Cálculo.** Some sempre as **duas** histórias antes de comparar: a norma está na escala do par.
+**Gabarito: c**
 
-| | Imediata | Tardia | Retenção = tardia ÷ imediata × 100 |
-|---|---|---|---|
-| Dona Zenaide | 9 + 7 = **16** | 2 + 1 = **3** | 3 ÷ 16 = **19%** |
-| Sr. Otávio | 5 + 5 = **10** | 4 + 4 = **8** | 8 ÷ 10 = **80%** |
+**Quem ordenar os dois pelo escore bruto inverte a gravidade.** É o ponto central da aula: o escore bruto diz *quanto*; a retenção diz *o quê*. Dona Zenaide **perdeu o que já tinha**; o Sr. Otávio **guardou o pouco que entrou**.
 
-**b) Dona Zenaide** — apesar de ter o **maior** escore bruto imediato. Retenção de 19% significa que ela **perdeu o que já tinha**: perfil de falha de **armazenamento**, do tipo amnéstico. O Sr. Otávio tem escore bruto baixo com retenção preservada: perfil de falha de **codificação**, o mais benigno dos dois e o mais comum numa clínica-escola — associado a lentificação, atenção, humor e escolaridade.
+**Sobre a escala:** somam-se sempre as **duas** histórias antes de comparar com a norma — cada uma vale 25 unidades de ideia, e o escore do par vai de 0 a 50.
 
-Quem ordenar os dois pelo escore bruto **inverte a gravidade**. É o ponto central da aula: o escore bruto diz *quanto*; a retenção diz *o quê*.
+**Sobre os conteúdos acrescentados (e):** eles têm nome e têm valor. São **intrusões** — informação *criada* —, por oposição às **omissões**, que são informação *perdida*. A distinção separa perfis, e só é possível registrar isso porque a evocação foi anotada **verbatim**, com as palavras do paciente. Registrar um resumo, em vez da fala dele, destrói o dado.
 
-**c) Intrusões.** São informações **criadas**, por oposição às omissões, que são informação perdida. Anotam-se porque a distinção separa perfis — e o registro **verbatim** da fala do paciente é o que torna essa contagem possível. Registrar um resumo, em vez das palavras dele, destrói o dado.
+**Perfil esperado de cada um:**
+- **codificação** (Sr. Otávio) — associado a lentificação, atenção, humor e escolaridade; é o mais comum numa clínica-escola;
+- **armazenamento** (Dona Zenaide) — perfil amnéstico, de tipo hipocampal; é o menos frequente e o que mais preocupa.
 
-**Cuidado ao concluir:** os dois perfis são **hipóteses de mecanismo**, não diagnósticos. Eles restringem o que investigar em seguida. E um mesmo paciente pode ter mais de um: componente de codificação **e** de armazenamento é comum na doença de Alzheimer inicial.
+**Cuidado ao concluir:** os dois são **hipóteses de mecanismo**, não diagnósticos — eles restringem o que investigar em seguida. E um mesmo paciente pode ter mais de um: componente de codificação **e** de armazenamento é comum na doença de Alzheimer inicial.
 </details>
 
 ---
@@ -383,23 +388,33 @@ A informação decisiva do enunciado é a **ausência de benefício** da pista e
 > **Memória Lógica.** Imediata: 4 + 3 = **7**. Tardia: 3 + 2 = **5**. Sem intrusões. Boa retenção do enredo, com perda de detalhes.
 > **Dados normativos brasileiros (escore do par, 0 a 50), média (DP):** faixa de 1 a 4 anos de estudo → imediata 12,71 (5,74); tardia 7,38 (5,71).
 
-**a)** Calcule a retenção. **b)** Qual o perfil de falha? **c)** Como o escore se situa frente à norma? **d)** Qual a conduta?
+**Resultado da Memória Lógica: imediata 7, tardia 5 — retenção de 71%**, sem intrusões, com boa preservação do enredo.
+
+Qual é a formulação e a conduta corretas?
+
+**a)** Perfil de falha de armazenamento, compatível com quadro amnéstico inicial; conduta: investigação de transtorno neurocognitivo.
+**b)** Desempenho dentro do esperado em tudo; nenhuma conduta necessária.
+**c)** Transtorno neurocognitivo leve, confirmado pelo escore bruto abaixo da média do grupo normativo.
+**d)** Perfil de falha de **codificação**, com armazenamento preservado — retenção de 71%, sem intrusões e com enredo mantido; o escore bruto, lido contra a norma da escolaridade dela e considerando o desvio-padrão, está próximo do esperado; a GDS-15 de 10 e a postura na testagem apontam quadro afetivo, e a conduta é tratar humor e sono e **reavaliar**, de preferência com versão alternativa do instrumento.
+**e)** A GDS não deve ser considerada aqui, porque a queixa de memória infla o escore da escala.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**a) Retenção = 5 ÷ 7 = 71%.**
+**Gabarito: d**
 
-**b) Falha de codificação, com armazenamento preservado.** Escore bruto baixo, retenção alta, sem intrusões, enredo mantido.
+**Frente à norma da faixa de 1 a 4 anos de estudo:** a imediata (7) está cerca de 1 DP abaixo da média (12,71; DP 5,74) e a tardia (5) está dentro de 1 DP da média (7,38; DP 5,71). Ou seja: **o escore bruto impressiona mais do que o desvio em relação à norma correta** — e usar norma de outra escolaridade produziria "déficit" onde não há. Isso derruba **c**.
 
-**c) Frente à norma da faixa de 1 a 4 anos de estudo:** a imediata (7) está cerca de 1 DP abaixo da média (12,71; DP 5,74); a tardia (5) está dentro de 1 DP da média (7,38; DP 5,71). Ou seja: **o escore bruto impressiona mais do que o desvio em relação à norma correta** — e usar norma de outra escolaridade produziria "déficit" onde não há.
-
-**d) Conduta.** Tratar humor e sono e **reavaliar**, preferencialmente com versão alternativa do instrumento para reduzir o efeito de prática. Três dados convergem para a hipótese afetiva:
+**Três dados convergem para a hipótese afetiva:**
 - **GDS-15 = 10**, bem acima do corte 5/6 — rastreio positivo, que indica avaliação diagnóstica;
-- **postura na testagem** típica de quadro depressivo — "não sei", desistência, latência, esforço variável;
-- **sintomas depressivos rebaixam significativamente as duas etapas da Memória Lógica**, achado explícito no estudo normativo brasileiro. A evocação imediata sozinha chegou a classificar corretamente mais da metade dos participantes quanto a ter ou não sintomas depressivos.
+- **postura na testagem** típica de quadro depressivo — "não sei", desistência, latência aumentada, esforço variável;
+- **sintomas depressivos rebaixam significativamente as duas etapas** da Memória Lógica, achado explícito no estudo normativo brasileiro — a evocação imediata sozinha chegou a classificar corretamente mais da metade dos participantes quanto a ter ou não sintomas depressivos.
 
-**E o dado da neta é convergente, não contraditório:** "esquece o que a gente combina, mas lembra de tudo o que aconteceu na vida dela" descreve episódica recente rebaixada com autobiográfica remota preservada — compatível tanto com quadro afetivo quanto com quadro degenerativo inicial, e é precisamente por isso que se trata e se reavalia, em vez de concluir agora.
+**Por que a erra:** falha de armazenamento exigiria retenção muito baixa e ausência de benefício de pista — o oposto do que se observa.
+**Por que b erra:** há sofrimento, insônia, perda de interesse e rastreio positivo. Retenção preservada não é sinônimo de "nada a fazer".
+**Por que e erra:** o item de queixa de memória de fato tangencia o somático e pode inflar o escore em amostras de clínica de memória, mas isso é uma ressalva de leitura — não motivo para descartar um escore de 10.
+
+**E o dado da neta é convergente, não contraditório:** "esquece o que a gente combina, mas lembra de tudo o que aconteceu na vida dela" descreve episódica recente rebaixada com autobiográfica remota preservada — compatível tanto com quadro afetivo quanto com quadro degenerativo inicial. É precisamente por isso que se trata e se reavalia, em vez de concluir agora.
 
 **O que não se pode dizer neste momento:** que há transtorno neurocognitivo. Falta o critério de funcionalidade, que não sai de nenhum teste, e falta a reavaliação após o tratamento do humor.
 </details>
@@ -513,16 +528,26 @@ Atalho para não trocar os conceitos: **reserva cerebral é hardware**; **reserv
 > **MEEM = 24/30** (perdeu 3 na evocação e 1 na orientação temporal); ponto de corte da faixa de 1 a 4 anos de estudo = 25.
 > **Memória Lógica.** Imediata 9 + 8 = **17**; tardia 2 + 1 = **3**. Intrusões na etapa tardia.
 
-**a)** Calcule a retenção e nomeie o perfil. **b)** Como o escore imediato se compara à norma da escolaridade dela (média 12,71; DP 5,74)? **c)** Que hipóteses concorrentes o caso permite descartar? **d)** O caso configura TNC leve ou maior — e o que decide?
+**Resultados reunidos:** MEEM **24/30** (perdeu 3 na evocação e 1 na orientação temporal), contra o corte de **25** da faixa de 1 a 4 anos de estudo. Memória Lógica: imediata **17**, tardia **3** — **retenção de 18%**, com intrusões na etapa tardia. Para referência, a média da faixa de escolaridade dela na etapa imediata é 12,71 (DP 5,74).
+
+Qual é a formulação correta?
+
+**a)** TNC leve: a funcionalidade está preservada com estratégia, já que a medicação foi organizada numa caixinha semanal.
+**b)** Quadro de origem afetiva, dada a magnitude da queda entre as duas etapas.
+**c)** **TNC maior.** O perfil é amnéstico — retenção de 18% com intrusões, apesar de um escore imediato **acima** da média da faixa de escolaridade dela —, e o que decide o **nível** é a perda de independência: o controle da própria medicação foi assumido pela nora depois de dois episódios de dose repetida, e o das contas, pelo filho após erros repetidos.
+**d)** Envelhecimento normal, já que o MEEM está a apenas 1 ponto do corte.
+**e)** Doença de Alzheimer confirmada, dado o perfil amnéstico e o gradiente temporal.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**a) Retenção = 3 ÷ 17 = 18%.** Perfil de falha de **armazenamento**, de tipo hipocampal — o desenho amnéstico. As **intrusões** na tardia reforçam o achado.
+**Gabarito: c**
 
-**b) O escore imediato (17) está acima da média da faixa dela** (12,71; DP 5,74) — ou seja, ela **codifica bem**. É justamente isso que torna o caso perigoso para quem lê só o escore bruto: o número que impressiona positivamente esconde o achado. **É a retenção que denuncia.**
+**O escore imediato é o que engana.** Ele está **acima** da média da faixa dela — ou seja, ela **codifica bem**. É a **retenção** que denuncia: 18% significa que a informação entrou e não ficou. E as **intrusões** na etapa tardia reforçam o achado.
 
-**c) O caso foi montado para fechar as portas das hipóteses concorrentes**, uma a uma:
+**Por que a erra, e é o erro mais fino da questão:** no TNC leve, a pessoa mantém a atividade **com mais esforço ou estratégia** — ela anota, confere duas vezes, usa alarme. Aqui a estratégia **não é dela**: outra pessoa assumiu a tarefa, e assumiu **depois** que o erro ocorreu. Isso é perda de independência, não compensação.
+
+**O caso foi montado para fechar as portas das hipóteses concorrentes**, uma a uma — o que derruba **b** e **d**:
 - **humor** — GDS-15 = 2, sem tristeza, anedonia, alteração de sono ou apetite;
 - **sensorial** — sem déficit auditivo, óculos em uso;
 - **farmacológica** — nenhum psicotrópico, nenhuma carga anticolinérgica;
@@ -530,11 +555,7 @@ Atalho para não trocar os conceitos: **reserva cerebral é hardware**; **reserv
 - **delirium** — curso de dois anos, insidioso e progressivo, sem flutuação aguda;
 - **escolaridade** — o desempenho imediato está acima da média da própria faixa.
 
-**d) TNC maior.** O que decide **não é o 24 do MEEM** (um ponto abaixo do corte da faixa dela), nem a retenção de 18%: é o **critério de funcionalidade**. Houve perda de independência numa atividade instrumental — o controle da própria medicação, transferido para a nora **após dois episódios de dose repetida** —, além da perda do controle das contas por erro repetido.
-
-Note a diferença em relação a um TNC leve: no leve, a pessoa mantém a atividade **com mais esforço ou estratégia** (anota, confere duas vezes). Aqui a estratégia não é dela: outra pessoa assumiu a tarefa depois de o erro ter ocorrido.
-
-**Dados convergentes de etiologia, que permitem hipótese e não diagnóstico:** curso insidioso e progressivo de dois anos, perfil amnéstico com falha de armazenamento, gradiente temporal clássico (memória remota preservada, recente rebaixada) e anosognosia ("é da idade"). Compatível com doença de Alzheimer — mas sem neuroimagem, marcador ou perfil clínico completo, o subtipo permanece como **possível**.
+**Por que e ultrapassa o permitido:** os dados de etiologia são convergentes — curso insidioso e progressivo, perfil amnéstico com falha de armazenamento, gradiente temporal clássico (remota preservada, recente rebaixada) e anosognosia ("é da idade"). Isso sustenta **hipótese**, não confirmação: sem neuroimagem, marcador ou perfil clínico completo, o subtipo permanece como **possível**.
 </details>
 
 ---
@@ -624,4 +645,4 @@ Sobre as demais:
 
 | Questão | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | 19% e 80% | b | 71% · codificação | a | V, V, F, V | b | TNC maior · critério funcional | b | b |
+| **Gabarito** | c | b | d | a | V, V, F, V | b | c | b | b |
