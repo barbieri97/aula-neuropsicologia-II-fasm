@@ -36,24 +36,24 @@
 
 Déficits cognitivos existem em vários transtornos mentais. O que caracteriza especificamente um **transtorno neurocognitivo** é o fato de o déficit ser:
 
-**a)** grave o suficiente para exigir internação.
-**b)** **primário** — a característica clínica central é a alteração da função cognitiva — e **adquirido**, representando declínio a partir de um nível de funcionamento antes alcançado, com etiologia frequentemente determinável.
-**c)** irreversível e progressivo em todos os casos.
+**a)** restrito ao domínio da memória.
+**b)** grave o suficiente para exigir internação.
+**c)** **primário** — a característica clínica central é a alteração da função cognitiva — e **adquirido**, representando declínio a partir de um nível de funcionamento antes alcançado, com etiologia frequentemente determinável.
 **d)** acompanhado obrigatoriamente de alterações de humor.
-**e)** restrito ao domínio da memória.
+**e)** irreversível e progressivo em todos os casos.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 Cada palavra da definição exclui uma vizinhança do manual:
 - **primário** exclui esquizofrenia e transtorno bipolar — neles há déficit cognitivo, mas a característica central é outra;
 - **adquirido** exclui deficiência intelectual e transtorno específico da aprendizagem — ali a função nunca esteve preservada, e o capítulo é o dos transtornos do neurodesenvolvimento;
 - **etiologia determinável** é a marca mais incomum: em nenhuma outra categoria do DSM-5 a investigação da patologia subjacente faz parte da estrutura do diagnóstico.
 
-**c)** é falsa: delirium é um TNC e é, tipicamente, reversível — e mesmo o TNC leve pode estabilizar ou reverter.
-**e)** é falsa: são seis domínios, e memória é apenas um deles.
+**a)** é falsa: são seis domínios, e memória é apenas um deles.
+**e)** é falsa: delirium é um TNC e é, tipicamente, reversível — e mesmo o TNC leve pode estabilizar ou reverter.
 </details>
 
 ---
@@ -99,16 +99,16 @@ Sobre a distinção entre TNC leve e TNC maior, considere:
 
 Estão corretas apenas:
 
-**a)** I, II, III e V
+**a)** todas
 **b)** I, II e IV
 **c)** II, III e IV
-**d)** I, IV e V
-**e)** todas
+**d)** I, II, III e V
+**e)** I, IV e V
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: d**
 
 **IV é falsa** e é o eixo da aula: os critérios C e D são idênticos nos dois níveis, e o que decide é o **critério B** — a funcionalidade. E ela sai da **história e do informante**, não da tabela normativa.
 
@@ -177,23 +177,23 @@ Três perguntas que só a entrevista responde, e que nenhum teste substitui:
 Qual é a leitura correta?
 
 **a)** 28/30 é resultado normal — rastreio negativo, sem indicação de investigação.
-**b)** O rastreio é positivo, e o escore, por si, já estabelece o nível de TNC.
-**c)** O rastreio é positivo, pois 28 está abaixo do corte de 29 da faixa de escolaridade dele; o perfil é amnéstico, com perda restrita à evocação e atenção e cálculo intactos; e o nível é **TNC leve**, decidido pela funcionalidade — independência preservada, com mais esforço e mais estratégia.
+**b)** O rastreio é positivo, pois 28 está abaixo do corte de 29 da faixa de escolaridade dele; o perfil é amnéstico, com perda restrita à evocação e atenção e cálculo intactos; e o nível é **TNC leve**, decidido pela funcionalidade — independência preservada, com mais esforço e mais estratégia.
+**c)** O perfil amnéstico autoriza fechar o subtipo etiológico como doença de Alzheimer provável.
 **d)** Como a esposa minimiza a queixa, o achado deve ser atribuído à ansiedade do próprio paciente.
-**e)** O perfil amnéstico autoriza fechar o subtipo etiológico como doença de Alzheimer provável.
+**e)** O rastreio é positivo, e o escore, por si, já estabelece o nível de TNC.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: c**
+**Gabarito: b**
 
 **As cinco faixas de corte** (Brucki et al., 2003): analfabetos 20 · 1 a 4 anos 25 · 5 a 8 anos 26,5 · 9 a 11 anos 28 · mais de 11 anos 29. Corrigir é somar **e** comparar com a faixa certa.
 
 **O que este caso ensina:**
 - **28 "parece" ótimo e está abaixo do corte.** Quem usasse o antigo corte único de 24 passaria batido — é o **efeito teto** do instrumento em pessoas de alta escolaridade, e a razão pela qual se desenvolveram rastreios mais sensíveis ao comprometimento leve.
-- **O escore não decide o nível** (por isso **b** erra). O que decide é o **critério de funcionalidade**: escrever a aula inteira onde antes improvisava e conferir a agenda duas vezes são **estratégias compensatórias** que preservam a independência — ele dirige, administra o dinheiro e não errou dose nem compromisso.
+- **O escore não decide o nível** (por isso **e** erra). O que decide é o **critério de funcionalidade**: escrever a aula inteira onde antes improvisava e conferir a agenda duas vezes são **estratégias compensatórias** que preservam a independência — ele dirige, administra o dinheiro e não errou dose nem compromisso.
 - **Quem se queixa é ele, e a esposa minimiza** — o inverso do padrão típico do TNC maior. Isso não desqualifica a queixa (**d**), e a queixa do próprio paciente com alteração objetiva no teste satisfaz o critério de declínio.
-- **e)** ultrapassa o que a vinheta permite: sem neuroimagem, marcador ou perfil clínico completo, o subtipo fica no máximo como "possível" — e no TNC leve o DSM-5 observa que com frequência o mais apropriado é "não especificado".
+- **c)** ultrapassa o que a vinheta permite: sem neuroimagem, marcador ou perfil clínico completo, o subtipo fica no máximo como "possível" — e no TNC leve o DSM-5 observa que com frequência o mais apropriado é "não especificado".
 </details>
 
 ---
@@ -238,11 +238,11 @@ Qual é a leitura correta?
 
 A funcionalidade está perdida em **três** atividades instrumentais, e em cada uma delas a transferência da tarefa veio **depois** de um erro concreto — faturas em duplicata, doses repetidas, fogo aceso. Some-se o episódio de desorientação em ambiente familiar, que é bandeira vermelha, e a ausência de reconhecimento da própria dificuldade, sugestiva de anosognosia.
 
-**Por que c erra:** a escolaridade já está considerada no corte da faixa (25). Dizer que 19 é esperado para 2 anos de estudo é aplicar duas vezes a mesma correção — e apagar um achado real.
+**Por que **c** erra:** a escolaridade já está considerada no corte da faixa (25). Dizer que 19 é esperado para 2 anos de estudo é aplicar duas vezes a mesma correção — e apagar um achado real.
 
-**Por que d erra:** delirium se instala em horas a dias, com flutuação no mesmo dia e perturbação obrigatória da atenção. Aqui o curso é de dois anos, insidioso e progressivo.
+**Por que **d** erra:** delirium se instala em horas a dias, com flutuação no mesmo dia e perturbação obrigatória da atenção. Aqui o curso é de dois anos, insidioso e progressivo.
 
-**Por que e erra:** é justamente o oposto. Nenhum item do MEEM mede funcionalidade; o critério que decidiu o nível veio inteiro da entrevista com a filha.
+**Por que **e** erra:** é justamente o oposto. Nenhum item do MEEM mede funcionalidade; o critério que decidiu o nível veio inteiro da entrevista com a filha.
 
 **O contraste com o caso anterior é o que importa:**
 - 28 e 19 estão **ambos abaixo do corte**, e ainda assim os níveis são diferentes;
@@ -260,19 +260,19 @@ A funcionalidade está perdida em **três** atividades instrumentais, e em cada 
 Um paciente de 68 anos relata declínio persistente da própria memória, mas apresenta desempenho **normal** em todos os domínios avaliados, com norma adequada à idade e à escolaridade. A leitura correta é:
 
 **a)** trata-se de TNC leve, porque a queixa é persistente.
-**b)** trata-se de comprometimento cognitivo subjetivo: sem alteração no teste não há critério A, e a conduta é **acompanhar** — sabendo que pode ser a primeira manifestação sintomática de um processo degenerativo, mas que a maior parte dos casos não evolui.
-**c)** a queixa deve ser descartada, já que os testes estão normais.
-**d)** o quadro configura simulação.
+**b)** o quadro configura simulação.
+**c)** trata-se de comprometimento cognitivo subjetivo: sem alteração no teste não há critério A, e a conduta é **acompanhar** — sabendo que pode ser a primeira manifestação sintomática de um processo degenerativo, mas que a maior parte dos casos não evolui.
+**d)** a queixa deve ser descartada, já que os testes estão normais.
 **e)** deve-se repetir a bateria até que algum escore caia.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 O comprometimento cognitivo subjetivo **não é categoria do DSM-5** — entra na discussão porque é o que costuma chegar primeiro ao consultório. Sem alteração objetiva, não há critério A; queixa não é diagnóstico.
 
-Nem descartar (**c**), nem diagnosticar (**a**). A conduta é acompanhar, com intervalo definido, e **tratar humor e sono**, que são os dois maiores contaminantes da autoqueixa: ela se correlaciona mais com humor e ansiedade do que com desempenho.
+Nem descartar (**d**), nem diagnosticar (**a**). A conduta é acompanhar, com intervalo definido, e **tratar humor e sono**, que são os dois maiores contaminantes da autoqueixa: ela se correlaciona mais com humor e ansiedade do que com desempenho.
 
 **Detalhe que muda o peso da queixa:** a queixa do **informante** prediz melhor a evolução do que a do próprio paciente.
 
@@ -297,22 +297,22 @@ Nem descartar (**c**), nem diagnosticar (**a**). A conduta é acompanhar, com in
 
 A leitura correta desse resultado é:
 
-**a)** o paciente apresenta declínio global, já que a média dos seis domínios está abaixo de zero.
-**b)** o perfil mostra memória **rebaixada** com executivas **limítrofes** e os demais domínios dentro do esperado — desenho amnéstico, que restringe as hipóteses etiológicas, sendo a doença de Alzheimer a mais compatível; a etiologia, porém, não se fecha só com isso.
-**c)** o perfil é compatível com TNC com corpos de Lewy, pela alteração perceptomotora.
+**a)** o perfil é compatível com TNC com corpos de Lewy, pela alteração perceptomotora.
+**b)** o escore de memória isoladamente já estabelece o diagnóstico de TNC maior.
+**c)** o paciente apresenta declínio global, já que a média dos seis domínios está abaixo de zero.
 **d)** o resultado é inconclusivo, porque nenhum domínio atingiu −3 DP.
-**e)** o escore de memória isoladamente já estabelece o diagnóstico de TNC maior.
+**e)** o perfil mostra memória **rebaixada** com executivas **limítrofes** e os demais domínios dentro do esperado — desenho amnéstico, que restringe as hipóteses etiológicas, sendo a doença de Alzheimer a mais compatível; a etiologia, porém, não se fecha só com isso.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
-O resultado da testagem é um **perfil**, não um número — e é a *forma* do perfil, não a média dela, que orienta a hipótese etiológica. Calcular a média dos seis domínios (**a**) apaga exatamente a informação útil.
+O resultado da testagem é um **perfil**, não um número — e é a *forma* do perfil, não a média dela, que orienta a hipótese etiológica. Calcular a média dos seis domínios (**c**) apaga exatamente a informação útil.
 
-Se a barra maior fosse a de **atenção complexa**, e ela **oscilasse** entre as sessões, a hipótese seria outra — e é isso que torna **c** incorreta: o achado perceptomotor aqui está dentro do esperado.
+Se a barra maior fosse a de **atenção complexa**, e ela **oscilasse** entre as sessões, a hipótese seria outra — e é isso que torna **a** incorreta: o achado perceptomotor aqui está dentro do esperado.
 
-**e)** ignora que o diagnóstico de nível exige o critério B, que nenhum escore fornece.
+**b)** ignora que o diagnóstico de nível exige o critério B, que nenhum escore fornece.
 
 **Nota sobre escore z:** −2 DP corresponde aproximadamente ao percentil 2 do grupo normativo **de mesma idade e escolaridade** — sem a norma correta, o número não significa nada.
 </details>
@@ -332,16 +332,16 @@ Sobre as etiologias dos transtornos neurocognitivos, considere:
 
 Estão corretas apenas:
 
-**a)** I, II, III e IV
-**b)** I, II e V
+**a)** I, II e V
+**b)** I, III e V
 **c)** III, IV e V
-**d)** I, III e V
-**e)** todas
+**d)** todas
+**e)** I, II, III e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: e**
 
 **V é falsa: patologias mistas são a regra no idoso**, e nesse caso o manual prevê o subtipo "devido a múltiplas etiologias".
 
@@ -393,22 +393,22 @@ Julgue como **verdadeira (V)** ou **falsa (F)**.
 
 Dois pacientes de 75 anos apresentam evocação livre igualmente baixa numa prova de memória verbal. O primeiro melhora substancialmente com pista e no reconhecimento; o segundo não melhora em nenhuma das duas condições. Considerando também que o primeiro tem lentificação marcada e prejuízo executivo, e o segundo tem atenção e velocidade preservadas, a leitura mais provável é:
 
-**a)** os dois têm o mesmo perfil, com gravidades diferentes.
-**b)** o primeiro é compatível com perfil vascular/disexecutivo — falha de **recuperação**, com velocidade e executivas afetadas; o segundo é compatível com perfil amnéstico de tipo hipocampal — falha de **armazenamento**, o desenho esperado na doença de Alzheimer inicial.
-**c)** o primeiro é compatível com doença de Alzheimer e o segundo com doença vascular.
-**d)** nenhum dos dois tem alteração de memória, já que a evocação livre é sensível a fatores inespecíficos.
-**e)** a diferença entre eles só poderia ser estabelecida por neuroimagem.
+**a)** o primeiro é compatível com perfil vascular/disexecutivo — falha de **recuperação**, com velocidade e executivas afetadas; o segundo é compatível com perfil amnéstico de tipo hipocampal — falha de **armazenamento**, o desenho esperado na doença de Alzheimer inicial.
+**b)** o primeiro é compatível com doença de Alzheimer e o segundo com doença vascular.
+**c)** a diferença entre eles só poderia ser estabelecida por neuroimagem.
+**d)** os dois têm o mesmo perfil, com gravidades diferentes.
+**e)** nenhum dos dois tem alteração de memória, já que a evocação livre é sensível a fatores inespecíficos.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 O raciocínio vem do paradigma de codificação controlada com evocação seletiva: quem **melhora com a pista** tem problema de **busca**; quem **não melhora** tem problema de **armazenamento**. A pista é uma manipulação experimental, não uma cortesia.
 
 O restante do quadro é convergente: no perfil vascular, a lesão de substância branca interrompe o circuito córtico-subcortical, e por isso a velocidade de processamento e o executivo caem primeiro — e a memória **responde melhor à pista** do que no Alzheimer.
 
-**e)** é a alternativa mais tentadora e ainda assim errada: a neuroimagem é necessária para o subtipo **provável** vascular (o manual exige lesão documentada ou evento cerebrovascular datado), mas o perfil neuropsicológico já discrimina os mecanismos — que é o que a questão pede.
+**c)** é a alternativa mais tentadora e ainda assim errada: a neuroimagem é necessária para o subtipo **provável** vascular (o manual exige lesão documentada ou evento cerebrovascular datado), mas o perfil neuropsicológico já discrimina os mecanismos — que é o que a questão pede.
 </details>
 
 ---
@@ -424,25 +424,25 @@ O restante do quadro é convergente: no perfil vascular, a lesão de substância
 
 Qual é a hipótese mais compatível, e o que o caso demonstra sobre o rastreio?
 
-**a)** Envelhecimento normal, dado o MEEM de 29 e a memória preservada.
-**b)** Quadro compatível com variante **comportamental** da degeneração frontotemporal: mudança de conduta e de cognição social com memória poupada; e o caso demonstra que o MEEM praticamente **não avalia** cognição social e quase não toca a função executiva, podendo vir normal num quadro grave.
-**c)** Doença de Alzheimer de início precoce, pela idade e pelo prejuízo executivo.
+**a)** Quadro compatível com variante **comportamental** da degeneração frontotemporal: mudança de conduta e de cognição social com memória poupada; e o caso demonstra que o MEEM praticamente **não avalia** cognição social e quase não toca a função executiva, podendo vir normal num quadro grave.
+**b)** Envelhecimento normal, dado o MEEM de 29 e a memória preservada.
+**c)** Transtorno de personalidade não diagnosticado previamente.
 **d)** Episódio maníaco, pelas compras impulsivas e pela desinibição.
-**e)** Transtorno de personalidade não diagnosticado previamente.
+**e)** Doença de Alzheimer de início precoce, pela idade e pelo prejuízo executivo.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 Três elementos sustentam a hipótese: **mudança adquirida** de conduta em alguém com padrão prévio oposto, **cognição social** rebaixada com memória preservada, e **apatia/indiferença** diante das consequências. A degeneração frontotemporal é causa comum de TNC **antes dos 65 anos**, e cerca de 40% dos casos têm história familiar de TNC precoce — dado que vale perguntar na anamnese.
 
 **O que o caso ensina sobre o instrumento:** o MEEM não tem nenhum item de cognição social e quase nada de função executiva; não avalia abstração nem julgamento. Um 29/30 aqui é **efeito teto**, não ausência de doença.
 
 Por que as demais falham:
-- **c)** o perfil do Alzheimer inicial é amnéstico, e aqui a memória está preservada;
+- **c)** transtorno de personalidade é padrão estável desde a vida adulta jovem; aqui houve **mudança marcada** num adulto de 61 anos, que é bandeira vermelha.
 - **d)** faltam os elementos nucleares do episódio maníaco (alteração de humor com aumento persistente de energia e atividade, redução da necessidade de sono, curso episódico). O que há é apatia com desinibição — combinação que aponta para o frontal;
-- **e)** transtorno de personalidade é padrão estável desde a vida adulta jovem; aqui houve **mudança marcada** num adulto de 61 anos, que é bandeira vermelha.
+- **e)** o perfil do Alzheimer inicial é amnéstico, e aqui a memória está preservada;
 </details>
 
 ---
@@ -456,8 +456,8 @@ Por que as demais falham:
 
 A leitura correta desses dois resultados é:
 
-**a)** na situação 1, o ajuste superestima o desempenho e deve ser evitado, já que itens não realizados simplesmente não pontuam.
-**b)** na situação 2, 3,3 pontos por ano configura progressão rápida e obriga a revisar o diagnóstico.
+**a)** na situação 2, 3,3 pontos por ano configura progressão rápida e obriga a revisar o diagnóstico.
+**b)** na situação 1, o ajuste superestima o desempenho e deve ser evitado, já que itens não realizados simplesmente não pontuam.
 **c)** os dois procedimentos só se aplicam a pacientes com deficiência sensorial documentada.
 **d)** o ajuste devolve o escore à escala de 30 pontos e impede que a deficiência seja lida como déficit cognitivo — desde que a adaptação fique registrada; e 3,3 pontos por ano situa-se na faixa intermediária, próxima do declínio médio descrito na doença de Alzheimer, sendo portanto compatível com a evolução esperada.
 **e)** nenhum dos dois resultados é interpretável sem neuroimagem.
@@ -467,9 +467,9 @@ A leitura correta desses dois resultados é:
 
 **Gabarito: d**
 
-**Situação 1.** Sem o ajuste, os 15 pontos seriam comparados a um corte construído para quem pôde responder aos 30 itens — e a **deficiência viraria déficit cognitivo no papel**, que é exatamente o erro que a fórmula existe para evitar (o que derruba **a**). O mesmo raciocínio da aula 02: adaptação por deficiência física é legítima, desde que **registrada**, ou o reteste deixa de ser comparável.
+**Situação 1.** Sem o ajuste, os 15 pontos seriam comparados a um corte construído para quem pôde responder aos 30 itens — e a **deficiência viraria déficit cognitivo no papel**, que é exatamente o erro que a fórmula existe para evitar (o que derruba **b**). O mesmo raciocínio da aula 02: adaptação por deficiência física é legítima, desde que **registrada**, ou o reteste deixa de ser comparável.
 
-**Situação 2.** O declínio médio descrito na doença de Alzheimer é de cerca de **3 pontos por ano** — daí 3,3 cair na faixa intermediária e não indicar, por si, nada de atípico (o que derruba **b**).
+**Situação 2.** O declínio médio descrito na doença de Alzheimer é de cerca de **3 pontos por ano** — daí 3,3 cair na faixa intermediária e não indicar, por si, nada de atípico (o que derruba **a**).
 
 **Duas leituras práticas do segundo cálculo:** um paciente que perde **6 pontos em um ano** merece revisão do diagnóstico; um que **não perde nada em três anos**, também.
 
@@ -493,16 +493,16 @@ Sobre os limites do Mini-Exame do Estado Mental, considere:
 
 Estão corretas apenas:
 
-**a)** I, II, III e V
-**b)** I, II e IV
-**c)** II, III e IV
+**a)** I, II e IV
+**b)** todas
+**c)** I, II, III e V
 **d)** I, IV e V
-**e)** todas
+**e)** II, III e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: c**
 
 **IV é falsa**, e é o argumento central da aula: o rastreio entrega **um número**. As perguntas por trás dele continuam sendo trabalho da avaliação neuropsicológica:
 
@@ -523,22 +523,22 @@ Um 18 pode vir de amnésia, de desatenção, de anomia ou de lentificação. O M
 
 Uma paciente de 84 anos com diagnóstico prévio de TNC maior é internada por infecção urinária. Em 24 horas apresenta piora acentuada da confusão, com agitação à noite e sonolência pela manhã, e perda da capacidade de manter o foco durante a entrevista. A leitura correta é:
 
-**a)** trata-se da progressão natural do TNC maior, e não há conduta adicional.
-**b)** trata-se de **delirium sobreposto** ao TNC preexistente: a instalação em horas, a flutuação no mesmo dia e a perturbação da atenção definem o quadro agudo, que tem causa fisiológica identificada e exige conduta médica imediata.
+**a)** a avaliação neuropsicológica formal deve ser realizada imediatamente, para documentar a piora.
+**b)** trata-se da progressão natural do TNC maior, e não há conduta adicional.
 **c)** o diagnóstico prévio de TNC maior impede o diagnóstico de delirium.
-**d)** a avaliação neuropsicológica formal deve ser realizada imediatamente, para documentar a piora.
+**d)** trata-se de **delirium sobreposto** ao TNC preexistente: a instalação em horas, a flutuação no mesmo dia e a perturbação da atenção definem o quadro agudo, que tem causa fisiológica identificada e exige conduta médica imediata.
 **e)** trata-se de quadro psicótico de início muito tardio.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 O critério do TNC exige apenas que os déficits **não ocorram exclusivamente** durante o delirium — por isso os dois diagnósticos coexistem sem contradição, o que torna **c** falsa.
 
-**a)** confunde curso agudo com curso progressivo: TNC maior não piora em 24 horas por conta própria. Piora aguda em paciente com demência é, até prova em contrário, causa clínica — infecção, fármaco, desidratação, dor, retenção urinária.
+**b)** confunde curso agudo com curso progressivo: TNC maior não piora em 24 horas por conta própria. Piora aguda em paciente com demência é, até prova em contrário, causa clínica — infecção, fármaco, desidratação, dor, retenção urinária.
 
-**d)** é o erro de conduta mais comum de estagiários: testar durante o delirium produz dado inválido e cansa a paciente. O momento de avaliar é **depois** da resolução do quadro agudo — e, se houver avaliação prévia, ela vira a linha de base contra a qual comparar.
+**a)** é o erro de conduta mais comum de estagiários: testar durante o delirium produz dado inválido e cansa a paciente. O momento de avaliar é **depois** da resolução do quadro agudo — e, se houver avaliação prévia, ela vira a linha de base contra a qual comparar.
 </details>
 
 ---
@@ -583,16 +583,16 @@ Julgue como **verdadeira (V)** ou **falsa (F)**.
 
 Qual é a conduta correta neste momento?
 
-**a)** Confirmar TNC maior: o MEEM de 22 está abaixo do corte da faixa dele, e a filha relata perda funcional.
-**b)** Concluir TNC leve, dado que o escore está abaixo do corte e a funcionalidade está apenas parcialmente comprometida.
-**c)** Não fechar diagnóstico de TNC neste momento. O perfil (melhora com pista, "não sei", latência, início demarcado após perda e mudança), o quadro afetivo, a privação sensorial não corrigida e o hipnótico não identificado são hipóteses concorrentes plausíveis; e a perda funcional relatada é, em boa parte, **restrição do ambiente**, não perda de capacidade. Conduta: corrigir o sensorial, identificar e revisar a medicação com o prescritor, tratar humor e sono, detalhar a funcionalidade com o informante e **reavaliar em 6 a 12 semanas**.
-**d)** Encerrar a investigação como envelhecimento normal, já que a memória melhora com pista.
+**a)** Não fechar diagnóstico de TNC neste momento. O perfil (melhora com pista, "não sei", latência, início demarcado após perda e mudança), o quadro afetivo, a privação sensorial não corrigida e o hipnótico não identificado são hipóteses concorrentes plausíveis; e a perda funcional relatada é, em boa parte, **restrição do ambiente**, não perda de capacidade. Conduta: corrigir o sensorial, identificar e revisar a medicação com o prescritor, tratar humor e sono, detalhar a funcionalidade com o informante e **reavaliar em 6 a 12 semanas**.
+**b)** Encerrar a investigação como envelhecimento normal, já que a memória melhora com pista.
+**c)** Concluir TNC leve, dado que o escore está abaixo do corte e a funcionalidade está apenas parcialmente comprometida.
+**d)** Confirmar TNC maior: o MEEM de 22 está abaixo do corte da faixa dele, e a filha relata perda funcional.
 **e)** Solicitar neuroimagem antes de qualquer outra medida, pois ela definirá o diagnóstico.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: c**
+**Gabarito: a**
 
 Este caso soma, de propósito, cinco camadas que a disciplina inteira vem treinando:
 
@@ -602,11 +602,11 @@ Este caso soma, de propósito, cinco camadas que a disciplina inteira vem treina
 4. **Norma e letramento** — 3 anos de escolaridade e leitura não fluente pedem norma compatível e cautela com itens dependentes de letramento.
 5. **Funcionalidade mal caracterizada** — "não faz mais nada" desmancha ao ser detalhado: preparar refeição e controlar remédio foram **assumidos pela filha por conveniência**; o transporte não é usado por desconhecimento de um bairro novo, não por incapacidade; e ele confere troco, decide compras e cuida da higiene.
 
-**Por que a e a b erram do mesmo jeito:** ambas convertem escore em diagnóstico e aceitam a descrição funcional sem interrogá-la. O critério B pergunta **o que ele deixou de conseguir**, não o que deixaram de deixá-lo fazer.
+**Por que **d** e **c** erram do mesmo jeito:** ambas convertem escore em diagnóstico e aceitam a descrição funcional sem interrogá-la. O critério B pergunta **o que ele deixou de conseguir**, não o que deixaram de deixá-lo fazer.
 
-**Por que d erra na direção oposta:** melhora com pista aponta mecanismo (recuperação), não ausência de problema. Há sofrimento, perda de peso, insônia e anedonia — há muito o que tratar.
+**Por que **b** erra na direção oposta:** melhora com pista aponta mecanismo (recuperação), não ausência de problema. Há sofrimento, perda de peso, insônia e anedonia — há muito o que tratar.
 
-**Por que e erra de método:** neuroimagem não define a síndrome. Primeiro a síndrome, depois a etiologia — e nem sequer se estabeleceu, aqui, que há síndrome.
+**Por que **e** erra de método:** neuroimagem não define a síndrome. Primeiro a síndrome, depois a etiologia — e nem sequer se estabeleceu, aqui, que há síndrome.
 
 **E vale dizer o que se escreve no laudo:** avaliação inconclusiva neste momento, com as hipóteses concorrentes nomeadas, o que foi encaminhado e a data da reavaliação. Isso é conclusão, não omissão.
 </details>
@@ -620,23 +620,23 @@ Este caso soma, de propósito, cinco camadas que a disciplina inteira vem treina
 
 Com base nesse trecho, é correto afirmar que:
 
-**a)** identificar a etiologia altera o diagnóstico de base, que deixa de ser TNC leve ou maior.
-**b)** a estrutura implica que a **síndrome vem antes da causa**: primeiro se estabelece o nível, depois se acrescenta o subtipo etiológico e, por fim, o grau de certeza — de modo que uma avaliação neuropsicológica pode sustentar o nível e apenas **levantar hipótese** sobre a etiologia quando faltam marcadores.
+**a)** no TNC leve, a designação "provável" é a regra, por ser a fase em que os marcadores são mais claros.
+**b)** a existência de múltiplas etiologias simultâneas foi excluída do manual, por comprometer a especificidade do diagnóstico.
 **c)** o grau de certeza depende exclusivamente de confirmação por necropsia, sendo irrelevante em vida.
-**d)** no TNC leve, a designação "provável" é a regra, por ser a fase em que os marcadores são mais claros.
-**e)** a existência de múltiplas etiologias simultâneas foi excluída do manual, por comprometer a especificidade do diagnóstico.
+**d)** identificar a etiologia altera o diagnóstico de base, que deixa de ser TNC leve ou maior.
+**e)** a estrutura implica que a **síndrome vem antes da causa**: primeiro se estabelece o nível, depois se acrescenta o subtipo etiológico e, por fim, o grau de certeza — de modo que uma avaliação neuropsicológica pode sustentar o nível e apenas **levantar hipótese** sobre a etiologia quando faltam marcadores.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 A ordem do raciocínio clínico espelha a estrutura do diagnóstico: queixa → nível prévio de desempenho (escolaridade e ocupação) → início e curso → comorbidades e medicações → testagem dos domínios com norma adequada → funcionalidade com informante → diferencial → e **só então** a etiologia. A sequência não é de mão única: um achado da história muda a hipótese e faz o caminho voltar atrás.
 
-- **a)** confunde acréscimo com substituição: uma causa nomeada não muda a síndrome; o diagnóstico de base continua sendo TNC leve ou maior.
+- **a)** inverte: é no nível **leve** que a confirmação costuma faltar, e o manual reconhece que "não especificado" é frequentemente o mais apropriado.
+- **b)** contraria o subtipo "devido a múltiplas etiologias", que existe precisamente porque **patologias mistas são a regra no idoso**.
 - **c)** exagera um fato verdadeiro. É correto que a confirmação definitiva de várias etiologias só venha por biópsia ou necropsia, mas o manual opera em vida com "provável/possível" justamente por isso.
-- **d)** inverte: é no nível **leve** que a confirmação costuma faltar, e o manual reconhece que "não especificado" é frequentemente o mais apropriado.
-- **e)** contraria o subtipo "devido a múltiplas etiologias", que existe precisamente porque **patologias mistas são a regra no idoso**.
+- **d)** confunde acréscimo com substituição: uma causa nomeada não muda a síndrome; o diagnóstico de base continua sendo TNC leve ou maior.
 
 **As três coisas que ficam da aula:**
 1. a síndrome vem antes da causa;
@@ -650,8 +650,8 @@ A ordem do raciocínio clínico espelha a estrutura do diagnóstico: queixa → 
 
 | Questão | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | V, F, V, V | a | b | c | b | b | b | a |
+| **Gabarito** | c | V, F, V, V | d | b | b | b | c | e | e |
 
 | Questão | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | V, F, V, V | b | b | d | a | b | V, V, F, F | c | b |
+| **Gabarito** | V, F, V, V | a | a | d | c | d | V, V, F, F | a | e |

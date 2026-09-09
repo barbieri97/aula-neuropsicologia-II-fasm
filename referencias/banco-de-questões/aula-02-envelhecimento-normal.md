@@ -36,20 +36,20 @@
 
 Chama-se **reserva funcional** a margem entre a capacidade máxima de um órgão e a capacidade que o repouso exige dele. A consequência clínica mais direta desse conceito é:
 
-**a)** que o órgão envelhecido funciona mal já em repouso, o que torna o diagnóstico fácil.
-**b)** que a perda de reserva só aparece sob sobrecarga — esforço, doença aguda, fármaco —, e é por isso que envelhecimento normal e doença podem se confundir na avaliação.
+**a)** que a perda de reserva só aparece sob sobrecarga — esforço, doença aguda, fármaco —, e é por isso que envelhecimento normal e doença podem se confundir na avaliação.
+**b)** que idosos devem ser avaliados sempre em sessões longas, para que a reserva seja poupada.
 **c)** que a reserva funcional se aplica apenas ao sistema cardiovascular.
 **d)** que a perda de reserva é sinônimo de doença crônica instalada.
-**e)** que idosos devem ser avaliados sempre em sessões longas, para que a reserva seja poupada.
+**e)** que o órgão envelhecido funciona mal já em repouso, o que torna o diagnóstico fácil.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 O exemplo canônico é cardíaco: a função de repouso permanece praticamente inalterada, e o que cai é a tolerância ao esforço. O sistema não está doente — está com menos margem.
 
-**Por que isso é uma questão de neuropsicologia:** uma bateria é, ela mesma, uma sobrecarga sustentada. Duas horas de testagem cobram atenção sustentada, postura, audição e visão de perto sob fadiga crescente. Daí a alternativa **e** estar invertida: o que a perda de reserva recomenda são sessões **mais curtas**, com pausas.
+**Por que isso é uma questão de neuropsicologia:** uma bateria é, ela mesma, uma sobrecarga sustentada. Duas horas de testagem cobram atenção sustentada, postura, audição e visão de perto sob fadiga crescente. Daí a alternativa **b** estar invertida: o que a perda de reserva recomenda são sessões **mais curtas**, com pausas.
 </details>
 
 ---
@@ -94,15 +94,15 @@ Sobre a triagem sensorial que antecede a aplicação de uma bateria em idosos, c
 Estão corretas apenas:
 
 **a)** I, II e V
-**b)** I, II, III e IV
+**b)** todas
 **c)** II, III e V
 **d)** I, III e V
-**e)** todas
+**e)** I, II, III e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 **V é falsa** por dois motivos convergentes. Primeiro, num levantamento brasileiro, poucos dos idosos com perda auditiva a percebiam. Segundo, a prevalência é alta o bastante para tornar o autorrelato um filtro ruim: cerca de 44% aos 60 anos, 66% entre 70 e 79 e 90% após os 80.
 
@@ -124,16 +124,16 @@ Os cinco passos cabem em três minutos e mudam a validade de tudo o que vem depo
 
 Qual é a leitura correta?
 
-**a)** O caso confirma transtorno neurocognitivo maior de início súbito, variante rapidamente progressiva.
-**b)** O início súbito e o curso flutuante afastam processo degenerativo e apontam causa clínica ou farmacológica; a revisão da lista de medicamentos precede a investigação de quadro demencial.
-**c)** Como houve regressão, trata-se de comprometimento cognitivo leve com reversão espontânea.
+**a)** A polifarmácia é irrelevante nesse caso, já que apenas um fármaco foi introduzido.
+**b)** Como houve regressão, trata-se de comprometimento cognitivo leve com reversão espontânea.
+**c)** O início súbito e o curso flutuante afastam processo degenerativo e apontam causa clínica ou farmacológica; a revisão da lista de medicamentos precede a investigação de quadro demencial.
 **d)** O quadro é de depressão, dada a piora vespertina.
-**e)** A polifarmácia é irrelevante nesse caso, já que apenas um fármaco foi introduzido.
+**e)** O caso confirma transtorno neurocognitivo maior de início súbito, variante rapidamente progressiva.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 Demência degenerativa é insidiosa e progressiva. Início súbito com curso flutuante é, antes de tudo, **delirium** — e delirium é emergência médica, não achado neuropsicológico.
 
@@ -164,15 +164,15 @@ Três mecanismos se somam neste caso e vale nomeá-los:
 A interpretação mais parcimoniosa desse perfil é:
 
 **a)** há déficits independentes em velocidade psicomotora, atenção seletiva e função executiva, somados a preservação da linguagem.
-**b)** o rebaixamento se concentra no que é **cronometrado**, com desempenho normal no que não é — padrão compatível com um único achado, a redução da velocidade de processamento, e não com múltiplos déficits.
-**c)** o perfil é típico de doença de Alzheimer inicial, pela dissociação entre provas verbais e não verbais.
-**d)** o perfil indica simulação, pela inconsistência entre provas.
-**e)** o perfil não é interpretável sem tomografia de crânio.
+**b)** o perfil é típico de doença de Alzheimer inicial, pela dissociação entre provas verbais e não verbais.
+**c)** o rebaixamento se concentra no que é **cronometrado**, com desempenho normal no que não é — padrão compatível com um único achado, a redução da velocidade de processamento, e não com múltiplos déficits.
+**d)** o perfil não é interpretável sem tomografia de crânio.
+**e)** o perfil indica simulação, pela inconsistência entre provas.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 Boa parte da diferença de idade em tarefas cognitivas deixa de aparecer quando se controla estatisticamente a velocidade de processamento. Quando um perfil mostra rebaixamento em tudo o que é cronometrado e desempenho normal no que não é, isso **não são cinco déficits — é um**.
 
@@ -180,7 +180,7 @@ Dois cuidados que a questão embute:
 - parte da lentidão nasce **fora** do cérebro: visão, audição e unidade motora. Sarcopenia e perda de unidades motoras contaminam qualquer tarefa cronometrada.
 - não é consenso que a velocidade seja a *causa* do declínio; ela pode ser um marcador comum da integridade da substância branca — o que conversa diretamente com o achado de "desconexão" descrito na neuroimagem do envelhecimento.
 
-**c)** falha porque o perfil amnéstico exigiria falha de memória que não melhora com pista nem no reconhecimento — e o reconhecimento aqui está normal.
+**b)** falha porque o perfil amnéstico exigiria falha de memória que não melhora com pista nem no reconhecimento — e o reconhecimento aqui está normal.
 </details>
 
 ---
@@ -197,15 +197,15 @@ Dois cuidados que a questão embute:
 A conduta e a interpretação corretas são:
 
 **a)** concluir transtorno neurocognitivo maior, dado o rebaixamento amplo, e encaminhar para neurologia.
-**b)** interpretar a dissociação entre provas orais e não orais como sinal de perda auditiva não corrigida; suspender a conclusão diagnóstica, encaminhar para avaliação audiológica e oftalmológica, e reavaliar com o sensorial corrigido — registrando tudo no laudo.
-**c)** aplicar a mesma bateria em voz mais alta, o que resolve o problema sem necessidade de encaminhamento.
-**d)** concluir que há depressão, pelo afastamento das atividades na igreja.
-**e)** manter o diagnóstico de demência e apenas anotar a queixa auditiva como comorbidade.
+**b)** aplicar a mesma bateria em voz mais alta, o que resolve o problema sem necessidade de encaminhamento.
+**c)** manter o diagnóstico de demência e apenas anotar a queixa auditiva como comorbidade.
+**d)** interpretar a dissociação entre provas orais e não orais como sinal de perda auditiva não corrigida; suspender a conclusão diagnóstica, encaminhar para avaliação audiológica e oftalmológica, e reavaliar com o sensorial corrigido — registrando tudo no laudo.
+**e)** concluir que há depressão, pelo afastamento das atividades na igreja.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 Privação sensorial produz, na folha de respostas, **o mesmo padrão** que déficit cognitivo. A diferença é que uma se corrige com óculos e aparelho auditivo.
 
@@ -218,7 +218,7 @@ A dissociação oral × não oral é a evidência mais forte do caso, e o afasta
 
 E existe uma quarta, puramente metodológica e a mais imediata para nós: **superdiagnóstico**. Boa parte dos testes é aplicada oralmente; quem não ouve a instrução erra a tarefa, e a folha de respostas não distingue as duas coisas.
 
-**Por que c é insuficiente:** aumentar o volume não corrige perda em frequências altas — distorce ainda mais. E a conduta correta inclui encaminhar, corrigir e **registrar**.
+**Por que **b** é insuficiente:** aumentar o volume não corrige perda em frequências altas — distorce ainda mais. E a conduta correta inclui encaminhar, corrigir e **registrar**.
 </details>
 
 ---
@@ -254,16 +254,16 @@ Julgue como **verdadeira (V)** ou **falsa (F)**.
 
 Numa prova de memória episódica verbal, um paciente recupera 3 de 15 palavras na evocação livre, 11 de 15 com pista semântica e 14 de 15 no reconhecimento. A leitura correta é:
 
-**a)** falha de armazenamento, sugestiva de comprometimento hipocampal.
-**b)** falha de recuperação — o material foi codificado e armazenado, e o que falhou foi a busca; é o padrão do envelhecimento normal e dos quadros disexecutivos.
+**a)** falha de codificação, porque a evocação livre foi muito baixa.
+**b)** simulação, dada a magnitude da diferença entre condições.
 **c)** desempenho inválido, porque as três condições deveriam produzir escores semelhantes.
-**d)** simulação, dada a magnitude da diferença entre condições.
-**e)** falha de codificação, porque a evocação livre foi muito baixa.
+**d)** falha de armazenamento, sugestiva de comprometimento hipocampal.
+**e)** falha de recuperação — o material foi codificado e armazenado, e o que falhou foi a busca; é o padrão do envelhecimento normal e dos quadros disexecutivos.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 A regra operacional da aula, que vale decorar como raciocínio (e não como frase):
 
@@ -272,7 +272,7 @@ A regra operacional da aula, que vale decorar como raciocínio (e não como fras
 
 A pista não é uma concessão ao paciente: é uma manipulação que separa duas hipóteses. É a lógica dos testes de evocação seletiva com codificação controlada.
 
-**Sobre e:** evocação livre baixa isolada é compatível com codificação *e* com recuperação. O que decide é o que acontece quando a pista entra.
+**Sobre **a**:** evocação livre baixa isolada é compatível com codificação *e* com recuperação. O que decide é o que acontece quando a pista entra.
 </details>
 
 ---
@@ -291,9 +291,9 @@ Sobre os sistemas de memória no envelhecimento normal, considere:
 Estão corretas apenas:
 
 **a)** I, II, III e IV
-**b)** I, III e V
+**b)** I, II e V
 **c)** II, IV e V
-**d)** I, II e V
+**d)** I, III e V
 **e)** III, IV e V
 
 <details>
@@ -321,16 +321,16 @@ E o item II é o que sustenta a reabilitação: a preservação do implícito é
 
 Qual leitura é a mais adequada — e o que se deve comunicar à família?
 
-**a)** A imagem contradiz a avaliação; um dos dois exames está errado, e deve-se repetir a ressonância.
-**b)** A discrepância é explicada de modo parcimonioso pela **reserva cognitiva** elevada: uso eficiente e flexível das redes, sustentado por escolaridade, complexidade ocupacional e engajamento. A contrapartida a comunicar é que a reserva **adia a manifestação clínica, mas não impede a patologia** — quando o declínio aparecer, ele tende a ser mais rápido, porque a patologia já estará avançada.
-**c)** O caso confirma que lesões de substância branca não têm significado clínico em nenhuma circunstância.
-**d)** Trata-se de anosognosia: o paciente não percebe o próprio déficit, e por isso não se queixa.
-**e)** A ausência de queixa exclui qualquer necessidade de acompanhamento.
+**a)** A discrepância é explicada de modo parcimonioso pela **reserva cognitiva** elevada: uso eficiente e flexível das redes, sustentado por escolaridade, complexidade ocupacional e engajamento. A contrapartida a comunicar é que a reserva **adia a manifestação clínica, mas não impede a patologia** — quando o declínio aparecer, ele tende a ser mais rápido, porque a patologia já estará avançada.
+**b)** Trata-se de anosognosia: o paciente não percebe o próprio déficit, e por isso não se queixa.
+**c)** A ausência de queixa exclui qualquer necessidade de acompanhamento.
+**d)** O caso confirma que lesões de substância branca não têm significado clínico em nenhuma circunstância.
+**e)** A imagem contradiz a avaliação; um dos dois exames está errado, e deve-se repetir a ressonância.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 Vale separar três conceitos que a alternativa usa:
 - **reserva cerebral** — recurso *anatômico* (número de neurônios, sinapses, volume): modelo passivo, importa quanto havia antes da lesão;
@@ -339,9 +339,9 @@ Vale separar três conceitos que a alternativa usa:
 
 Aqui há patologia documentada com função preservada — é reserva cognitiva, não manutenção.
 
-**Por que d é errada e perigosa:** anosognosia é desconhecimento do próprio déficit. Aqui não há déficit funcional a desconhecer, e a esposa (informante) não relata prejuízo de autonomia.
+**Por que **b** é errada e perigosa:** anosognosia é desconhecimento do próprio déficit. Aqui não há déficit funcional a desconhecer, e a esposa (informante) não relata prejuízo de autonomia.
 
-**Por que e é errada:** o caso pede acompanhamento com intervalo definido, justamente por causa da contrapartida do prognóstico — que é frequentemente omitida quando se fala de reserva de forma otimista.
+**Por que **c** é errada:** o caso pede acompanhamento com intervalo definido, justamente por causa da contrapartida do prognóstico — que é frequentemente omitida quando se fala de reserva de forma otimista.
 </details>
 
 ---
@@ -353,16 +353,16 @@ Dois idosos de 82 anos têm desempenho cognitivo dentro do esperado. Na neuroima
 
 A leitura conceitualmente correta é:
 
-**a)** os dois são casos de reserva cognitiva elevada, já que ambos têm desempenho preservado.
-**b)** o primeiro ilustra **reserva** (desempenho preservado *apesar* da patologia); o segundo ilustra **manutenção cerebral** (ausência ou adiamento da patologia) — são respostas diferentes para a mesma observação.
-**c)** o segundo caso é o único que se explica pela teoria, porque desempenho normal exige estrutura normal.
-**d)** os dois são casos de manutenção cerebral, já que ambos envelheceram bem.
+**a)** os dois são casos de manutenção cerebral, já que ambos envelheceram bem.
+**b)** os dois são casos de reserva cognitiva elevada, já que ambos têm desempenho preservado.
+**c)** o primeiro ilustra **reserva** (desempenho preservado *apesar* da patologia); o segundo ilustra **manutenção cerebral** (ausência ou adiamento da patologia) — são respostas diferentes para a mesma observação.
+**d)** o segundo caso é o único que se explica pela teoria, porque desempenho normal exige estrutura normal.
 **e)** a distinção entre reserva e manutenção não tem consequência clínica.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 Reserva explica desempenho preservado **apesar** da patologia; manutenção explica a **ausência** de patologia. É uma distinção sutil, e é exatamente por isso que cai em prova.
 
@@ -384,8 +384,8 @@ A leitura mais honesta desses dois resultados é:
 **a)** a de que o aparelho auditivo previne demência em toda a população idosa, conforme demonstrado pelo ensaio.
 **b)** a de que a estimativa de 8% pressupõe causalidade a partir de dados majoritariamente observacionais, e o ensaio sugere benefício **restrito a quem já está vulnerável** — de modo que a indicação de correção auditiva se sustenta, mas a promessa de prevenção populacional não.
 **c)** a de que o ensaio invalida completamente a estimativa de fração atribuível, tornando-a inútil.
-**d)** a de que, como o efeito só apareceu num subgrupo, o achado deve ser descartado como acaso e a correção auditiva não se justifica.
-**e)** a de que fração atribuível populacional e resultado de ensaio randomizado medem a mesma coisa, e o conflito indica erro em um dos estudos.
+**d)** a de que fração atribuível populacional e resultado de ensaio randomizado medem a mesma coisa, e o conflito indica erro em um dos estudos.
+**e)** a de que, como o efeito só apareceu num subgrupo, o achado deve ser descartado como acaso e a correção auditiva não se justifica.
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -395,8 +395,8 @@ A leitura mais honesta desses dois resultados é:
 A questão treina três leituras que o estudante levará para a vida profissional:
 
 1. **Fração atribuível pressupõe causalidade.** Ela responde "quanto do risco desapareceria se o fator fosse eliminado" — pergunta que só faz sentido se o fator for causa. Com dados observacionais, isso é hipótese, não medida.
-2. **Ausência de efeito no conjunto com efeito em subgrupo** é um resultado comum e legítimo, que se comunica como tal: provavelmente ajuda quem já está vulnerável. Não é nem prova de prevenção universal (**a**), nem motivo para descarte (**d**).
-3. **Os dois desenhos respondem a perguntas diferentes** (**e** erra nisso): um estima peso populacional, o outro testa intervenção.
+2. **Ausência de efeito no conjunto com efeito em subgrupo** é um resultado comum e legítimo, que se comunica como tal: provavelmente ajuda quem já está vulnerável. Não é nem prova de prevenção universal (**a**), nem motivo para descarte (**e**).
+3. **Os dois desenhos respondem a perguntas diferentes** (**d** erra nisso): um estima peso populacional, o outro testa intervenção.
 
 **E a conduta não muda em nenhuma das hipóteses:** corrigir e registrar. Para nós, o argumento mais imediato para corrigir a audição nem é o risco de demência — é a validade da testagem.
 </details>
@@ -415,15 +415,15 @@ A questão treina três leituras que o estudante levará para a vida profissiona
 Qual é a formulação e a conduta corretas?
 
 **a)** Transtorno neurocognitivo maior em fase inicial; a queixa detalhada indica preservação de crítica compatível com o quadro.
-**b)** Quadro compatível com síndrome cognitiva de origem depressiva: início demarcado, queixa enfática do próprio paciente, alteração de humor precedendo a cognitiva, "não sei" e desistência, memória que melhora com pista e funcionalidade preservada. Conduta: tratar o humor e **reavaliar a cognição** em intervalo definido.
-**c)** Envelhecimento normal, já que a autonomia está preservada e não há necessidade de reavaliação.
-**d)** Delirium, pelo início demarcado no tempo.
-**e)** Comprometimento cognitivo leve amnéstico, indicando início provável de doença de Alzheimer.
+**b)** Comprometimento cognitivo leve amnéstico, indicando início provável de doença de Alzheimer.
+**c)** Delirium, pelo início demarcado no tempo.
+**d)** Quadro compatível com síndrome cognitiva de origem depressiva: início demarcado, queixa enfática do próprio paciente, alteração de humor precedendo a cognitiva, "não sei" e desistência, memória que melhora com pista e funcionalidade preservada. Conduta: tratar o humor e **reavaliar a cognição** em intervalo definido.
+**e)** Envelhecimento normal, já que a autonomia está preservada e não há necessidade de reavaliação.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 O quadro reúne quase todos os itens da coluna "depressão" do diferencial:
 
@@ -488,11 +488,11 @@ Sobre a distinção entre envelhecimento normal, comprometimento cognitivo leve 
 
 Estão corretas apenas:
 
-**a)** I, II, III e IV
+**a)** todas
 **b)** I, III, IV e V
 **c)** II, III e V
 **d)** I, II e IV
-**e)** todas
+**e)** I, II, III e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -522,11 +522,11 @@ Ao receber uma paciente de 73 anos para avaliação, dois examinadores apresenta
 
 À luz do que se sabe sobre autopercepção do envelhecimento e desempenho, é correto afirmar que:
 
-**a)** a forma de apresentar a sessão é irrelevante, desde que a aplicação siga o manual.
+**a)** o efeito descrito só ocorre em pessoas com transtorno de ansiedade previamente diagnosticado.
 **b)** ativar o estereótipo antes da tarefa tende a **piorar** o desempenho de idosos — efeito maior justamente em quem mais valoriza a própria memória —, de modo que o enquadre da sessão é uma variável de erro sob controle direto do examinador.
-**c)** o primeiro enquadre é preferível, porque a transparência sobre a hipótese diagnóstica melhora a colaboração e o desempenho.
-**d)** o efeito descrito só ocorre em pessoas com transtorno de ansiedade previamente diagnosticado.
-**e)** autopercepções negativas do envelhecimento não têm relação demonstrada com desempenho ou com longevidade.
+**c)** autopercepções negativas do envelhecimento não têm relação demonstrada com desempenho ou com longevidade.
+**d)** o primeiro enquadre é preferível, porque a transparência sobre a hipótese diagnóstica melhora a colaboração e o desempenho.
+**e)** a forma de apresentar a sessão é irrelevante, desde que a aplicação siga o manual.
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -559,15 +559,15 @@ Note a ponte com a aula 01: o estereótipo, lá discutido como fenômeno sócio-
 Qual é a conduta mais adequada neste momento?
 
 **a)** Emitir laudo de transtorno neurocognitivo maior, dado o rebaixamento amplo e o relato da filha de que "ele não faz mais nada".
-**b)** Suspender a conclusão diagnóstica e endereçar, antes, as fontes concorrentes: correção sensorial (audiologia e oftalmologia), revisão farmacológica com o prescritor (carga anticolinérgica, sedativo, amitriptilina), investigação e tratamento de humor, dor e sono, uso de norma compatível com a escolaridade e entrevista funcional detalhada que separe perda de capacidade de restrição imposta pelo ambiente — reavaliando em seguida.
+**b)** Repetir a bateria completa imediatamente, para confirmar os escores.
 **c)** Concluir depressão e encerrar a investigação cognitiva, já que humor explica todo o quadro.
 **d)** Concluir envelhecimento normal, porque a memória melhora com pista.
-**e)** Repetir a bateria completa imediatamente, para confirmar os escores.
+**e)** Suspender a conclusão diagnóstica e endereçar, antes, as fontes concorrentes: correção sensorial (audiologia e oftalmologia), revisão farmacológica com o prescritor (carga anticolinérgica, sedativo, amitriptilina), investigação e tratamento de humor, dor e sono, uso de norma compatível com a escolaridade e entrevista funcional detalhada que separe perda de capacidade de restrição imposta pelo ambiente — reavaliando em seguida.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 Este caso foi montado com **seis** fontes concorrentes simultâneas, cada uma capaz de produzir sozinha o perfil observado:
 
@@ -578,9 +578,9 @@ Este caso foi montado com **seis** fontes concorrentes simultâneas, cada uma ca
 5. **normativa** — 3 anos de escolaridade exigem norma compatível, sob pena de transformar analfabetismo funcional em déficit;
 6. **ambiental** — a filha assumiu a medicação "para facilitar", e as quedas restringiram a saída. Isso é redução de oportunidade, não necessariamente perda de capacidade — e a mesma entrevista mostra que ele decide sobre a casa e confere troco.
 
-**Por que a a é o erro mais grave:** o pedido chega com o diagnóstico já escrito, e a frase "ele não faz mais nada" desmancha ao ser destrinchada. O critério de funcionalidade exige saber **o que ele deixou de conseguir**, não o que deixaram de deixá-lo fazer.
+**Por que a alternativa **a** é o erro mais grave:** o pedido chega com o diagnóstico já escrito, e a frase "ele não faz mais nada" desmancha ao ser destrinchada. O critério de funcionalidade exige saber **o que ele deixou de conseguir**, não o que deixaram de deixá-lo fazer.
 
-**Por que c e d também erram:** ambas fecham a conta com uma só variável, quando há seis. E **e** repete a medida sem mudar nenhuma das condições que a contaminaram — só produziria o mesmo erro com mais confiança.
+**Por que **c** e **d** também erram:** ambas fecham a conta com uma só variável, quando há seis. E **b** repete a medida sem mudar nenhuma das condições que a contaminaram — só produziria o mesmo erro com mais confiança.
 
 **O que registrar no laudo agora:** o que foi observado, o que não pôde ser corrigido, quais hipóteses estão abertas, o que foi encaminhado e o prazo de reavaliação. Um laudo pode — e às vezes deve — concluir por "avaliação inconclusiva neste momento, pelas razões X, Y e Z".
 </details>
@@ -594,25 +594,25 @@ Este caso foi montado com **seis** fontes concorrentes simultâneas, cada uma ca
 
 Com base no texto, a conclusão mais adequada é:
 
-**a)** a de que a reserva cognitiva é atributo individual, adquirido por esforço pessoal, e que sua distribuição desigual reflete diferenças de dedicação.
-**b)** a de que os fatores de reserva são **adquiridos** e dependem fortemente de quando e onde a pessoa nasceu, de modo que a reserva se distribui segundo condições sociais — o que torna a escolaridade, na prática clínica, ao mesmo tempo um preditor e uma variável de correção da norma.
-**c)** a de que, sendo a reserva determinada na infância, intervenções na vida adulta e na velhice são inúteis.
-**d)** a de que a associação entre escolaridade e cognição é espúria, já que decorre apenas de causalidade reversa.
-**e)** a de que a reserva cognitiva torna dispensável o uso de normas por escolaridade, pois corrige por si o desempenho.
+**a)** a de que a associação entre escolaridade e cognição é espúria, já que decorre apenas de causalidade reversa.
+**b)** a de que a reserva cognitiva torna dispensável o uso de normas por escolaridade, pois corrige por si o desempenho.
+**c)** a de que a reserva cognitiva é atributo individual, adquirido por esforço pessoal, e que sua distribuição desigual reflete diferenças de dedicação.
+**d)** a de que os fatores de reserva são **adquiridos** e dependem fortemente de quando e onde a pessoa nasceu, de modo que a reserva se distribui segundo condições sociais — o que torna a escolaridade, na prática clínica, ao mesmo tempo um preditor e uma variável de correção da norma.
+**e)** a de que, sendo a reserva determinada na infância, intervenções na vida adulta e na velhice são inúteis.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 O texto exige duas leituras simultâneas:
 
 - **teórica** — se os fatores de reserva são adquiridos e dependem de condições socialmente distribuídas, então reserva não é mérito. Sair da aula achando que reserva cognitiva é conquista individual é o mal-entendido que o slide de fechamento existe para impedir;
-- **prática** — escolaridade não é só preditor: é **variável de correção**. Aplicar norma inadequada à escolaridade do paciente é a fonte de erro mais comum na neuropsicologia do idoso no Brasil, e a alternativa **e** inverte isso completamente.
+- **prática** — escolaridade não é só preditor: é **variável de correção**. Aplicar norma inadequada à escolaridade do paciente é a fonte de erro mais comum na neuropsicologia do idoso no Brasil, e a alternativa **b** inverte isso completamente.
 
-**Sobre c:** o modelo prevê rendimento decrescente com a idade, não rendimento nulo — a intervenção continua valendo, com expectativa calibrada.
+**Sobre **e**:** o modelo prevê rendimento decrescente com a idade, não rendimento nulo — a intervenção continua valendo, com expectativa calibrada.
 
-**Sobre d:** causalidade reversa é uma explicação concorrente plausível a considerar, não um veredito que anule a associação. Reconhecer o limite do desenho observacional é diferente de descartar o achado.
+**Sobre **a**:** causalidade reversa é uma explicação concorrente plausível a considerar, não um veredito que anule a associação. Reconhecer o limite do desenho observacional é diferente de descartar o achado.
 </details>
 
 ---
@@ -621,8 +621,8 @@ O texto exige duas leituras simultâneas:
 
 | Questão | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | V, F, V, V | b | b | b | b | F, V, F, V | b | a |
+| **Gabarito** | a | V, F, V, V | e | c | c | d | F, V, F, V | e | a |
 
 | Questão | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | b | b | b | F, V, V, V, F | b | b | b | b |
+| **Gabarito** | a | c | b | d | F, V, V, V, F | b | b | e | d |

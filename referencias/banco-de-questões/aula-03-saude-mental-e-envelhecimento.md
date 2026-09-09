@@ -36,21 +36,21 @@
 
 Uma idosa de 74 anos obtém **8 pontos** na Escala de Depressão Geriátrica de 15 itens (GDS-15), aplicada por entrevistador treinado, com o acompanhante fora da sala. Adotando o ponto de corte validado no Brasil (5/6), a interpretação correta é:
 
-**a)** o escore fecha o diagnóstico de episódio depressivo maior.
-**b)** o escore está acima do ponto de corte: rastreamento positivo, que indica necessidade de avaliação diagnóstica por entrevista clínica.
-**c)** o escore está dentro da normalidade, já que o ponto de corte é 11.
-**d)** a escala não pode ser interpretada sem a aplicação simultânea de um teste de memória.
-**e)** o escore indica depressão grave, pela faixa em que se encontra.
+**a)** o escore está acima do ponto de corte: rastreamento positivo, que indica necessidade de avaliação diagnóstica por entrevista clínica.
+**b)** o escore está dentro da normalidade, já que o ponto de corte é 11.
+**c)** o escore fecha o diagnóstico de episódio depressivo maior.
+**d)** o escore indica depressão grave, pela faixa em que se encontra.
+**e)** a escala não pode ser interpretada sem a aplicação simultânea de um teste de memória.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 Rastreamento positivo significa uma coisa só: **investigar**. Em todo estudo de validação, o padrão de referência é a entrevista clínica contra critérios diagnósticos — que a escala não substitui.
 
-- **c)** confunde o corte com o limite da faixa "6 a 10" impressa em muitas fichas. O corte validado por Paradela, Lourenço e Veras (2005) é **5/6**: 6 ou mais é positivo.
-- **e)** trata as faixas 0–5, 6–10 e 11–15 como estadiamento de gravidade. Elas são **convenção de uso**: os estudos de validação testaram o ponto de corte binário, não a graduação. A GDS não é medida de gravidade nem de risco de suicídio.
+- **b)** confunde o corte com o limite da faixa "6 a 10" impressa em muitas fichas. O corte validado por Paradela, Lourenço e Veras (2005) é **5/6**: 6 ou mais é positivo.
+- **d)** trata as faixas 0–5, 6–10 e 11–15 como estadiamento de gravidade. Elas são **convenção de uso**: os estudos de validação testaram o ponto de corte binário, não a graduação. A GDS não é medida de gravidade nem de risco de suicídio.
 </details>
 
 ---
@@ -94,16 +94,16 @@ Considere as afirmações sobre os filtros que se interpõem entre o transtorno 
 
 Estão corretas apenas:
 
-**a)** I, II, III e IV
-**b)** I, III e V
-**c)** II, IV e V
-**d)** I, II e V
-**e)** todas
+**a)** todas
+**b)** I, II e V
+**c)** I, II, III e IV
+**d)** I, III e V
+**e)** II, IV e V
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: c**
 
 **V é falsa**, e é justamente o inverso do que a prática exige: hipótese de demência no encaminhamento **não** dispensa investigar humor — frequentemente é o contrário do que está escrito na guia. A queixa cognitiva é um dos motivos mais comuns de encaminhamento de idosos deprimidos para avaliação neuropsicológica.
 </details>
@@ -120,22 +120,22 @@ Estão corretas apenas:
 
 Qual afirmação descreve melhor o principal risco diagnóstico deste caso?
 
-**a)** O quadro é típico de depressão maior no idoso e dispensa investigação clínica adicional.
-**b)** Como o paciente nega tristeza, o diagnóstico de depressão está descartado.
-**c)** Os sintomas físicos tendem a ser creditados à insuficiência cardíaca — que de fato os produz —, e a depressão fica subdiagnosticada; a perda de interesse pela pescaria é o dado que sustenta a investigação de humor.
-**d)** Sintomas somáticos em idosos são inespecíficos e não devem entrar na avaliação de humor.
-**e)** O caso indica transtorno de ansiedade, pela insônia associada a dor.
+**a)** Os sintomas físicos tendem a ser creditados à insuficiência cardíaca — que de fato os produz —, e a depressão fica subdiagnosticada; a perda de interesse pela pescaria é o dado que sustenta a investigação de humor.
+**b)** O caso indica transtorno de ansiedade, pela insônia associada a dor.
+**c)** Sintomas somáticos em idosos são inespecíficos e não devem entrar na avaliação de humor.
+**d)** Como o paciente nega tristeza, o diagnóstico de depressão está descartado.
+**e)** O quadro é típico de depressão maior no idoso e dispensa investigação clínica adicional.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: c**
+**Gabarito: a**
 
 É o filtro da comorbidade clínica em estado puro: os sintomas existem, são reais e têm **duas explicações possíveis simultâneas** — e a explicação cardiológica é a que já estava sobre a mesa.
 
-- **a)** inverte o problema: a insuficiência cardíaca produz fadiga e insônia por si só, e nada aqui dispensa investigação clínica.
-- **b)** ignora que anedonia sem tristeza basta para o critério nuclear.
-- **d)** inverte a lógica do rastreio: é por serem pouco específicos que existe uma escala que os evita — a GDS.
+- **c)** inverte a lógica do rastreio: é por serem pouco específicos que existe uma escala que os evita — a GDS.
+- **d)** ignora que anedonia sem tristeza basta para o critério nuclear.
+- **e)** inverte o problema: a insuficiência cardíaca produz fadiga e insônia por si só, e nada aqui dispensa investigação clínica.
 
 **A relação é bidirecional, e vale dizê-la:** deprimidos têm mais coronariopatia, e coronariopatas deprimidos no pós-infarto têm maior mortalidade. A depressão predispõe e agrava doença crônica.
 </details>
@@ -147,16 +147,16 @@ Qual afirmação descreve melhor o principal risco diagnóstico deste caso?
 
 A Escala de Depressão Geriátrica foi construída deixando **de fora** itens sobre sono, apetite, peso, fadiga e dor. Essa ausência:
 
-**a)** é uma limitação do instrumento, que deveria ser corrigida acrescentando esses itens em idosos.
-**b)** é decisão de projeto: no idoso, esses sintomas têm várias causas simultâneas, e um instrumento que os pontue produziria falso-positivo sistemático nessa faixa etária.
-**c)** decorre da necessidade de encurtar a escala para 15 itens, sem relação com a população-alvo.
+**a)** decorre da necessidade de encurtar a escala para 15 itens, sem relação com a população-alvo.
+**b)** é uma limitação do instrumento, que deveria ser corrigida acrescentando esses itens em idosos.
+**c)** é decisão de projeto: no idoso, esses sintomas têm várias causas simultâneas, e um instrumento que os pontue produziria falso-positivo sistemático nessa faixa etária.
 **d)** torna a escala inadequada para uso em ambulatório geral.
 **e)** impede que a escala detecte sintomas depressivos em qualquer contexto de doença clínica.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 O que a escala mede é intensidade de **sintomas depressivos autorrelatados** — humor, satisfação com a vida, autoavaliação, retraimento, desesperança e comparação social desfavorável. A ausência do somático é intencional.
 
@@ -193,24 +193,24 @@ Outras características de projeto: resposta dicotômica (sim/não, sem gradaç�
 
 Qual é a leitura correta do conjunto — escala, história e observação clínica?
 
-**a)** O escore de 9 estabelece o diagnóstico de episódio depressivo maior, e a conduta é iniciar tratamento sem outras etapas.
-**b)** Como a perda do marido foi recente, o quadro se explica pelo luto, e o rastreio positivo não precisa ser investigado.
-**c)** Rastreamento positivo indica avaliação diagnóstica por entrevista clínica; independentemente do escore, a ideação passiva de morte exige investigar ativamente plano e intenção; e a divergência entre o item 10 e a queixa de memória trazida pela filha é achado clínico a registrar.
+**a)** Como a perda do marido foi recente, o quadro se explica pelo luto, e o rastreio positivo não precisa ser investigado.
+**b)** As queixas cognitivas trazidas pela filha indicam transtorno neurocognitivo, e a escala não deveria ter sido aplicada.
+**c)** O escore de 9 estabelece o diagnóstico de episódio depressivo maior, e a conduta é iniciar tratamento sem outras etapas.
 **d)** O escore está na faixa de 6 a 10, que corresponde a depressão leve e autoriza conduta expectante.
-**e)** As queixas cognitivas trazidas pela filha indicam transtorno neurocognitivo, e a escala não deveria ter sido aplicada.
+**e)** Rastreamento positivo indica avaliação diagnóstica por entrevista clínica; independentemente do escore, a ideação passiva de morte exige investigar ativamente plano e intenção; e a divergência entre o item 10 e a queixa de memória trazida pela filha é achado clínico a registrar.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: c**
+**Gabarito: e**
 
 **Como o escore se compõe** (para conferência em sala): pontuam **1 ponto** os itens redigidos em sentido positivo (1, 5, 7, 11, 12, 13, 14) quando a resposta é **NÃO**, e os itens em sentido negativo (2, 3, 4, 6, 8, 9, 10, 15) quando a resposta é **SIM**. Soma simples, sem pesos, de 0 a 15. Aqui: 1 "Não", 2 "Sim", 3 "Sim", 4 "Sim", 6 "Sim", 7 "Não", 8 "Sim", 13 "Não" e 15 "Sim" — nove itens.
 
 Por que as demais falham:
-- **a)** confunde rastreio com diagnóstico. Em todo estudo de validação, o padrão de referência é a entrevista clínica.
-- **b)** repete a exclusão por luto que o DSM-5 **retirou**: perda recente não impede o diagnóstico de episódio depressivo maior. Existe ainda a categoria de transtorno de luto prolongado, para luto persistente e incapacitante além de 12 meses no adulto.
+- **a)** repete a exclusão por luto que o DSM-5 **retirou**: perda recente não impede o diagnóstico de episódio depressivo maior. Existe ainda a categoria de transtorno de luto prolongado, para luto persistente e incapacitante além de 12 meses no adulto.
+- **b)** inverte a conduta: a queixa cognitiva no idoso deprimido é um dos motivos mais comuns de encaminhamento, e a postura dela na testagem ("não sei", acerta quando encorajada, latência aumentada) é a coluna da **depressão** no diferencial com transtorno neurocognitivo.
+- **c)** confunde rastreio com diagnóstico. Em todo estudo de validação, o padrão de referência é a entrevista clínica.
 - **d)** trata as faixas 0–5, 6–10 e 11–15 como estadiamento de gravidade; elas são convenção de uso, e a escala não mede gravidade nem risco de suicídio.
-- **e)** inverte a conduta: a queixa cognitiva no idoso deprimido é um dos motivos mais comuns de encaminhamento, e a postura dela na testagem ("não sei", acerta quando encorajada, latência aumentada) é a coluna da **depressão** no diferencial com transtorno neurocognitivo.
 
 **Dois pontos que a alternativa correta reúne e valem ser ditos em voz alta:**
 - **a ideação passiva de morte não é item da escala** — "se Deus me levasse, não reclamava" é pensamento recorrente de morte e se investiga sempre, com qualquer escore;
@@ -258,16 +258,16 @@ Sobre as alterações cognitivas esperadas na depressão do idoso, considere:
 
 Estão corretas apenas:
 
-**a)** I, II, III e V
-**b)** I, III e IV
-**c)** II, IV e V
+**a)** todas
+**b)** I, II, III e V
+**c)** I, III e IV
 **d)** I, II e IV
-**e)** todas
+**e)** II, IV e V
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: b**
 
 **IV é falsa** e inverte a definição: déficit cognitivo é **característica** do quadro, não complicação dele. Dizer "a depressão não altera o desempenho cognitivo" é erro conceitual.
 
@@ -293,11 +293,11 @@ O item V é o que impede a leitura tranquilizadora do quadro. Idosos deprimidos 
 
 A leitura correta desses dados é:
 
-**a)** os estudos se contradizem, e apenas o de menor prevalência é confiável, por usar critérios estritos.
+**a)** a variação decorre exclusivamente do tamanho das amostras.
 **b)** a prevalência varia cerca de vinte vezes entre a definição mais estrita e a mais frouxa na **mesma** faixa etária, porque o que muda não é a população, é o **critério de caso** — entrevista diagnóstica contra ponto de corte em escala de rastreio.
-**c)** a diferença entre os valores internacionais e brasileiros indica erro de tradução dos instrumentos.
-**d)** os números mostram que a depressão maior é o quadro mais frequente no idoso.
-**e)** a variação decorre exclusivamente do tamanho das amostras.
+**c)** os estudos se contradizem, e apenas o de menor prevalência é confiável, por usar critérios estritos.
+**d)** a diferença entre os valores internacionais e brasileiros indica erro de tradução dos instrumentos.
+**e)** os números mostram que a depressão maior é o quadro mais frequente no idoso.
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -308,7 +308,7 @@ Antes de comparar dois números de prevalência, é preciso perguntar **como cad
 
 **O achado clínico mais importante da tabela** é que há muito mais idosos na **zona cinzenta** — sintomatologia significativa que não fecha critério — do que na categoria fechada: cerca de quatro vezes mais, na comparação brasileira. E quadros subsindrômicos não são inofensivos: são fator de risco para depressão maior e para agravo cardiovascular.
 
-**d)** é falsa justamente por isso: a depressão maior é a linha de **menor** prevalência.
+**e)** é falsa justamente por isso: a depressão maior é a linha de **menor** prevalência.
 </details>
 
 ---
@@ -319,15 +319,15 @@ Antes de comparar dois números de prevalência, é preciso perguntar **como cad
 Diante de um idoso com queixa cognitiva e sintomas depressivos, a conduta descrita na aula é tratar adequadamente o humor e reavaliar a cognição em 6 a 12 semanas. A justificativa correta para esse procedimento é:
 
 **a)** que a remissão do humor exclui, por si, qualquer transtorno neurocognitivo.
-**b)** que o tratamento do humor funciona como a única prova diagnóstica disponível: o fluxo tem **três** saídas — quadro depressivo provável, transtorno neurocognitivo provável, ou os dois ao mesmo tempo —, e quem não recupera desempenho depois de remitir o humor tem, provavelmente, os dois quadros.
-**c)** que o tratamento antidepressivo melhora o desempenho cognitivo em todos os idosos, independentemente do diagnóstico.
-**d)** que a reavaliação serve apenas para calcular o efeito de prática do instrumento.
-**e)** que o diagnóstico de demência não pode ser feito na presença de qualquer sintoma depressivo.
+**b)** que a reavaliação serve apenas para calcular o efeito de prática do instrumento.
+**c)** que o diagnóstico de demência não pode ser feito na presença de qualquer sintoma depressivo.
+**d)** que o tratamento antidepressivo melhora o desempenho cognitivo em todos os idosos, independentemente do diagnóstico.
+**e)** que o tratamento do humor funciona como a única prova diagnóstica disponível: o fluxo tem **três** saídas — quadro depressivo provável, transtorno neurocognitivo provável, ou os dois ao mesmo tempo —, e quem não recupera desempenho depois de remitir o humor tem, provavelmente, os dois quadros.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 O erro mais comum é imaginar um fluxo binário — "ou é depressão, ou é demência". A terceira saída é frequente e clinicamente decisiva.
 
@@ -357,26 +357,26 @@ Elementos que orientam a leitura enquanto a reavaliação não chega:
 
 Qual conjunto de leituras é o correto?
 
-**a)** Em eutimia, espera-se desempenho equivalente ao de idosos sem o transtorno; portanto, os achados indicam início de transtorno neurocognitivo maior.
-**b)** A queixa é atribuível ao lítio, e a conduta é solicitar ao psiquiatra a suspensão imediata do fármaco.
-**c)** Mesmo em eutimia há lentificação e prejuízo de memória verbal e executivo no transtorno bipolar do idoso; o lítio tem efeito pequeno e circunscrito; e a combinação de oxibutinina com anti-histamínico de primeira geração e antipsicótico compõe **carga anticolinérgica** relevante, que deve ser levantada e comunicada ao prescritor antes de qualquer conclusão diagnóstica.
-**d)** O quadro maníaco tardio indica, quase certamente, doença cerebrovascular como causa.
-**e)** A latência de 16 anos entre o primeiro episódio depressivo e o primeiro de mania é atípica e sugere erro diagnóstico.
+**a)** O quadro maníaco tardio indica, quase certamente, doença cerebrovascular como causa.
+**b)** Em eutimia, espera-se desempenho equivalente ao de idosos sem o transtorno; portanto, os achados indicam início de transtorno neurocognitivo maior.
+**c)** A latência de 16 anos entre o primeiro episódio depressivo e o primeiro de mania é atípica e sugere erro diagnóstico.
+**d)** Mesmo em eutimia há lentificação e prejuízo de memória verbal e executivo no transtorno bipolar do idoso; o lítio tem efeito pequeno e circunscrito; e a combinação de oxibutinina com anti-histamínico de primeira geração e antipsicótico compõe **carga anticolinérgica** relevante, que deve ser levantada e comunicada ao prescritor antes de qualquer conclusão diagnóstica.
+**e)** A queixa é atribuível ao lítio, e a conduta é solicitar ao psiquiatra a suspensão imediata do fármaco.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: c**
+**Gabarito: d**
 
 Três informações se somam no caso:
 
 1. **Eutimia não autoriza esperar desempenho normal.** Idosos bipolares eutímicos apresentam lentificação e prejuízo de memória verbal e de funções executivas; cerca de metade altera o teste do relógio ou o rastreio cognitivo breve.
-2. **O efeito do lítio é pequeno e circunscrito** — maior no domínio psicomotor, com memória tardia e executivo praticamente intactos. Antes de responsabilizá-lo, verifique litemia, função tireoidiana e o próprio humor. E a conduta nunca é suspender: é registrar e comunicar (**b** erra nisso duplamente).
+2. **O efeito do lítio é pequeno e circunscrito** — maior no domínio psicomotor, com memória tardia e executivo praticamente intactos. Antes de responsabilizá-lo, verifique litemia, função tireoidiana e o próprio humor. E a conduta nunca é suspender: é registrar e comunicar (**e** erra nisso duplamente).
 3. **Carga anticolinérgica** é a soma do efeito antimuscarínico de **todos** os fármacos em uso — antiespasmódicos urinários, anti-histamínicos de primeira geração, tricíclicos, alguns antipsicóticos. Ela se associa a maior chance de comprometimento cognitivo e piora o desempenho em rastreios. Nenhum teste a detecta: ela sai da anamnese medicamentosa, feita com as caixas em mãos e não de memória.
 
-**Sobre d:** a associação entre mania tardia e doença cerebrovascular é **mais fraca** do que se supunha — se fosse tão forte, a mania no idoso seria muito mais frequente do que é. A conduta é descartar causa orgânica, sem assumir que ela está sempre presente.
+**Sobre **a**:** a associação entre mania tardia e doença cerebrovascular é **mais fraca** do que se supunha — se fosse tão forte, a mania no idoso seria muito mais frequente do que é. A conduta é descartar causa orgânica, sem assumir que ela está sempre presente.
 
-**Sobre e:** a latência longa é a **regra** no idoso — cerca de 17 anos, contra 3 nos jovens. É por isso que a virada tardia surpreende: o paciente passou décadas classificado como unipolar. E é também por isso que antidepressivo isolado, sem estabilizador, arrisca virada maníaca.
+**Sobre **c**:** a latência longa é a **regra** no idoso — cerca de 17 anos, contra 3 nos jovens. É por isso que a virada tardia surpreende: o paciente passou décadas classificado como unipolar. E é também por isso que antidepressivo isolado, sem estabilizador, arrisca virada maníaca.
 </details>
 
 ---
@@ -394,16 +394,16 @@ Três informações se somam no caso:
 
 Os autores identificaram o melhor equilíbrio estatístico em 6/7, mas **recomendaram** o corte 5/6. A justificativa mais consistente para essa escolha é:
 
-**a)** que o corte 5/6 apresenta, simultaneamente, a maior sensibilidade e a maior especificidade da tabela.
-**b)** que, num sistema hierarquizado de saúde, é preferível **privilegiar a sensibilidade** — encaminhar mais casos ao nível especializado — a perder portadores da condição; o custo aceito é a queda de especificidade, ou seja, mais falso-positivo.
-**c)** que a especificidade é irrelevante em instrumentos de rastreio.
+**a)** que a especificidade é irrelevante em instrumentos de rastreio.
+**b)** que o corte 5/6 apresenta, simultaneamente, a maior sensibilidade e a maior especificidade da tabela.
+**c)** que, num sistema hierarquizado de saúde, é preferível **privilegiar a sensibilidade** — encaminhar mais casos ao nível especializado — a perder portadores da condição; o custo aceito é a queda de especificidade, ou seja, mais falso-positivo.
 **d)** que o corte deve sempre coincidir com a mediana da distribuição de escores.
 **e)** que o corte 6/7 produziria mais falso-positivo do que o 5/6.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 Vale fixar o vocabulário, porque ele volta em toda leitura de teste:
 - **sensibilidade** — proporção de quem tem a condição que o teste identifica; sensibilidade alta significa **menos falso-negativo**;
@@ -412,8 +412,8 @@ Vale fixar o vocabulário, porque ele volta em toda leitura de teste:
 
 A escolha de um corte é, portanto, uma decisão sobre **qual erro se prefere cometer**. Em rastreio de depressão no idoso, deixar de identificar um caso custa mais do que encaminhar um caso a mais para entrevista.
 
-- **a)** é falsa pela própria tabela: sensibilidade e especificidade se movem em direções opostas.
-- **c)** exagera: especificidade importa, e é ela que define quanto trabalho desnecessário o serviço vai absorver.
+- **a)** exagera: especificidade importa, e é ela que define quanto trabalho desnecessário o serviço vai absorver.
+- **b)** é falsa pela própria tabela: sensibilidade e especificidade se movem em direções opostas.
 - **e)** inverte: corte mais alto produz **menos** falso-positivo e mais falso-negativo.
 
 **Contexto que muda tudo e costuma ser esquecido:** o valor preditivo positivo depende da **prevalência no serviço**, e não só da escala. O mesmo corte se comporta de forma diferente num ambulatório geral e numa clínica de memória.
@@ -434,16 +434,16 @@ Sobre os transtornos psicóticos de início tardio no idoso, considere:
 
 Estão corretas apenas:
 
-**a)** I, II, III e IV
-**b)** I, III e V
+**a)** I, III e V
+**b)** todas
 **c)** II, IV e V
 **d)** I, II e V
-**e)** todas
+**e)** I, II, III e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: e**
 
 **V é falsa e é a mais importante da lista.** No idoso, a maior parte dos quadros psicóticos **não** é esquizofrenia — é secundária: condição médica, substância ou quadro neurocognitivo. O diferencial obrigatório inclui hipertireoidismo, deficiência de B12, neurossífilis, delirium, epilepsia, tumor e neurocisticercose, entre outros.
 
@@ -458,19 +458,19 @@ Estão corretas apenas:
 Estudos com idosos com esquizofrenia mostram comprometimento em funções executivas, memória episódica, velocidade de processamento, atenção sustentada e cognição social, **sem** a deterioração progressiva observada na doença de Alzheimer, e com desempenho que se aproxima mais do de voluntários saudáveis do que do de pacientes com demência. A leitura correta desses achados é:
 
 **a)** que a esquizofrenia no idoso é uma forma de demência de progressão lenta.
-**b)** que o comprometimento é **estático** — existe e é estável ao longo do seguimento —, o que reforça a hipótese de alteração do neurodesenvolvimento, e que o desempenho deve ser interpretado contra a linha de base do próprio paciente, e não apenas contra o normativo geral.
+**b)** que a avaliação neuropsicológica não tem utilidade nesses casos.
 **c)** que não há comprometimento cognitivo na esquizofrenia de idosos.
-**d)** que o perfil cognitivo permite distinguir início precoce de início tardio com boa acurácia.
-**e)** que a avaliação neuropsicológica não tem utilidade nesses casos.
+**d)** que o comprometimento é **estático** — existe e é estável ao longo do seguimento —, o que reforça a hipótese de alteração do neurodesenvolvimento, e que o desempenho deve ser interpretado contra a linha de base do próprio paciente, e não apenas contra o normativo geral.
+**e)** que o perfil cognitivo permite distinguir início precoce de início tardio com boa acurácia.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
-Comparações entre esquizofrenia de início precoce, de início tardio e voluntários saudáveis mostram prejuízo executivo e de memória frente aos saudáveis **sem** diferença consistente entre precoce e tardio — o que torna **d** incorreta.
+Comparações entre esquizofrenia de início precoce, de início tardio e voluntários saudáveis mostram prejuízo executivo e de memória frente aos saudáveis **sem** diferença consistente entre precoce e tardio — o que torna **e** incorreta.
 
-O sentido clínico de "estático" é operacional: a primeira avaliação vira **linha de base**, e a pergunta sobre progressão só pode ser respondida contra ela. Sem linha de base, um seguimento não distingue doença que avança de doença que sempre esteve ali — o que torna **e** exatamente o oposto da conclusão.
+O sentido clínico de "estático" é operacional: a primeira avaliação vira **linha de base**, e a pergunta sobre progressão só pode ser respondida contra ela. Sem linha de base, um seguimento não distingue doença que avança de doença que sempre esteve ali — o que torna **b** exatamente o oposto da conclusão.
 
 **Ressalva honesta:** parte dos pacientes com psicose tardia evolui para demência ao longo de dez anos de observação. Perfil estático não é garantia de estabilidade eterna; é a descrição do que se observa no seguimento típico.
 </details>
@@ -528,25 +528,25 @@ Julgue como **verdadeira (V)** ou **falsa (F)**.
 
 Qual é a leitura correta?
 
-**a)** O rastreio negativo afasta sofrimento psíquico relevante e encerra a investigação.
-**b)** O escore de 4 corresponde à faixa de depressão leve e indica introdução de antidepressivo.
-**c)** O rastreio é falso-negativo por comprometimento cognitivo, e a escala deve ser reaplicada.
-**d)** Três dos quatro itens que pontuaram são produzidos pela doença pulmonar e cardíaca, e não pelo humor; e o rastreio negativo não encerra a investigação, porque a frase que motivou o encaminhamento não é coberta por nenhum item da escala — o quadro é compatível com desmoralização, com capacidade de sentir prazer preservada.
-**e)** A ausência de itens somáticos torna a escala ininterpretável em pacientes com doença clínica avançada.
+**a)** Três dos quatro itens que pontuaram são produzidos pela doença pulmonar e cardíaca, e não pelo humor; e o rastreio negativo não encerra a investigação, porque a frase que motivou o encaminhamento não é coberta por nenhum item da escala — o quadro é compatível com desmoralização, com capacidade de sentir prazer preservada.
+**b)** A ausência de itens somáticos torna a escala ininterpretável em pacientes com doença clínica avançada.
+**c)** O rastreio negativo afasta sofrimento psíquico relevante e encerra a investigação.
+**d)** O escore de 4 corresponde à faixa de depressão leve e indica introdução de antidepressivo.
+**e)** O rastreio é falso-negativo por comprometimento cognitivo, e a escala deve ser reaplicada.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: d**
+**Gabarito: a**
 
 **Sobre os quatro itens que pontuaram:** interromper atividades, preferir ficar em casa e falta de energia são, neste paciente, produzidos pela dispneia e pela dependência de oxigênio. E o item 13 é justamente um dos dois itens da escala que ainda tangenciam o somático — ou seja, mesmo um instrumento construído para evitar o somático não escapa dele por completo em doença avançada.
 
 **Por que a investigação continua:** "não vale mais a pena" não aparece em nenhum item da GDS. Rastreio negativo diz que a probabilidade é menor, não que a pergunta clínica foi respondida.
 
-**A hipótese que o caso convida a considerar é a desmoralização** — desânimo, impotência e perda de sentido diante de uma situação concreta, **com capacidade de sentir prazer preservada**. Ele ri das piadas do neto, acompanha o campeonato e tem iniciativa. Distingue-se do episódio depressivo, em que há anedonia e humor deprimido persistentes. A conduta é diferente: controle de sintoma (dispneia é sintoma tratável), cuidado paliativo, suporte psicológico e conversa sobre o que ainda é possível — não necessariamente antidepressivo, o que derruba **b**.
+**A hipótese que o caso convida a considerar é a desmoralização** — desânimo, impotência e perda de sentido diante de uma situação concreta, **com capacidade de sentir prazer preservada**. Ele ri das piadas do neto, acompanha o campeonato e tem iniciativa. Distingue-se do episódio depressivo, em que há anedonia e humor deprimido persistentes. A conduta é diferente: controle de sintoma (dispneia é sintoma tratável), cuidado paliativo, suporte psicológico e conversa sobre o que ainda é possível — não necessariamente antidepressivo, o que derruba **d**.
 
-- **c)** não encontra apoio: não há comprometimento cognitivo no caso — as funções estão preservadas e ele está atento e colaborativo.
-- **e)** confunde limite com inutilidade: a escala informa, e o que se exige é ler o escore ao lado da doença de base.
+- **b)** confunde limite com inutilidade: a escala informa, e o que se exige é ler o escore ao lado da doença de base.
+- **e)** não encontra apoio: não há comprometimento cognitivo no caso — as funções estão preservadas e ele está atento e colaborativo.
 
 **O que este caso ensina em uma frase:** a escala responde à pergunta que ela faz. Ela não faz a pergunta do encaminhamento.
 </details>
@@ -558,10 +558,10 @@ Qual é a leitura correta?
 
 Sobre o desempenho e os limites da GDS-15, é correto afirmar que:
 
-**a)** com sensibilidade e especificidade em torno de 0,80, o instrumento identifica praticamente todos os casos, e escore abaixo do corte permite excluir quadro depressivo com segurança.
+**a)** as faixas 0–5, 6–10 e 11–15 são estadiamento validado de gravidade.
 **b)** a acurácia é boa, mas não é alta — cerca de um em cada cinco casos escapa —, e ela **cai** na presença de comprometimento cognitivo, chegando, na doença de Alzheimer leve, a desempenho próximo ao acaso em pelo menos um estudo clássico.
 **c)** o instrumento é igualmente acurado em qualquer grau de comprometimento cognitivo, porque a resposta é dicotômica.
-**d)** as faixas 0–5, 6–10 e 11–15 são estadiamento validado de gravidade.
+**d)** com sensibilidade e especificidade em torno de 0,80, o instrumento identifica praticamente todos os casos, e escore abaixo do corte permite excluir quadro depressivo com segurança.
 **e)** a escala não deve ser aplicada em nenhum idoso com queixa cognitiva.
 
 <details>
@@ -571,8 +571,8 @@ Sobre o desempenho e os limites da GDS-15, é correto afirmar que:
 
 Meta-análise com dezenas de estudos e milhares de idosos aponta sensibilidade em torno de 0,80 e especificidade em torno de 0,79 — o que significa que **um em cada cinco casos escapa**. A mesma meta-análise registra queda de sensibilidade e especificidade em idosos com comprometimento cognitivo, e um estudo clássico em doença de Alzheimer leve encontrou área sob a curva de 0,66, não distante do acaso.
 
-- **a)** trata 0,80 como se fosse 1,0, e usa o teste para excluir — uso que a sensibilidade obtida não sustenta.
-- **d)** repete o erro das faixas: convenção de uso, não estadiamento.
+- **a)** repete o erro das faixas: convenção de uso, não estadiamento.
+- **d)** trata 0,80 como se fosse 1,0, e usa o teste para excluir — uso que a sensibilidade obtida não sustenta.
 - **e)** exagera na direção oposta. Comprometimento **leve a moderado não impede** a aplicação; o que muda é a interpretação. Os estudos de validação excluíram estágios avançados e rastreio cognitivo muito baixo, não qualquer déficit.
 
 **O que fazer na prática, então:** aplicar, registrar as condições, ponderar o item de queixa de memória, e **buscar informação do informante e da observação clínica**, em vez de decidir pelo número.
@@ -591,16 +591,16 @@ Meta-análise com dezenas de estudos e milhares de idosos aponta sensibilidade e
 
 A hipótese mais compatível com o conjunto dos dados, e a conduta correspondente, são:
 
-**a)** transtorno neurocognitivo maior com sintomas psicóticos, dada a idade de início; conduta: iniciar seguimento para demência.
-**b)** psicose esquizofreniforme de início muito tardio: delírio estruturado e sistematizado, funcionalidade preservada fora do âmbito do delírio, perfil cognitivo compatível e ausência de sinais de neurodegeneração — com correção sensorial e seguimento longitudinal como partes obrigatórias da conduta, já que parte desses casos converte para demência ao longo dos anos.
-**c)** delirium, pela presença de alucinações auditivas.
-**d)** transtorno delirante secundário à perda auditiva, o que dispensa qualquer investigação adicional.
-**e)** episódio depressivo com sintomas psicóticos, pela reclusão social.
+**a)** delirium, pela presença de alucinações auditivas.
+**b)** episódio depressivo com sintomas psicóticos, pela reclusão social.
+**c)** transtorno delirante secundário à perda auditiva, o que dispensa qualquer investigação adicional.
+**d)** psicose esquizofreniforme de início muito tardio: delírio estruturado e sistematizado, funcionalidade preservada fora do âmbito do delírio, perfil cognitivo compatível e ausência de sinais de neurodegeneração — com correção sensorial e seguimento longitudinal como partes obrigatórias da conduta, já que parte desses casos converte para demência ao longo dos anos.
+**e)** transtorno neurocognitivo maior com sintomas psicóticos, dada a idade de início; conduta: iniciar seguimento para demência.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 O contraste que o caso quer treinar:
 
@@ -614,10 +614,10 @@ O contraste que o caso quer treinar:
 
 Os cinco dados do caso caem, um a um, na coluna da esquerda.
 
-- **a)** transforma idade de início em diagnóstico. Psicose após os 60 anos **não** é sempre demencial — mas a preocupação por trás dessa alternativa é legítima, e é por isso que o seguimento entra na conduta correta.
-- **c)** ignora que delirium é agudo e flutuante, com perturbação obrigatória da atenção e da consciência; aqui são dez meses de curso estável.
-- **d)** acerta um fator associado importante e erra a conduta: a privação sensorial é fator de risco reconhecido e **deve ser corrigida**, mas isso não dispensa o diferencial obrigatório com causas secundárias (deficiência de B12, neurossífilis, hipertireoidismo, lesão estrutural, entre outras).
-- **e)** não encontra apoio: não há relato de humor deprimido, e a reclusão é explicada pelo próprio delírio.
+- **a)** ignora que delirium é agudo e flutuante, com perturbação obrigatória da atenção e da consciência; aqui são dez meses de curso estável.
+- **b)** não encontra apoio: não há relato de humor deprimido, e a reclusão é explicada pelo próprio delírio.
+- **c)** acerta um fator associado importante e erra a conduta: a privação sensorial é fator de risco reconhecido e **deve ser corrigida**, mas isso não dispensa o diferencial obrigatório com causas secundárias (deficiência de B12, neurossífilis, hipertireoidismo, lesão estrutural, entre outras).
+- **e)** transforma idade de início em diagnóstico. Psicose após os 60 anos **não** é sempre demencial — mas a preocupação por trás dessa alternativa é legítima, e é por isso que o seguimento entra na conduta correta.
 
 **Detalhe de conduta que a aula insiste:** ao registrar a avaliação, anote fármaco, dose e data de início de qualquer antipsicótico introduzido — a reavaliação futura vai precisar descontar esse efeito.
 </details>
@@ -628,8 +628,8 @@ Os cinco dados do caso caem, um a um, na coluna da esquerda.
 
 | Questão | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | V, F, V, V | a | c | b | c | V, F, V, V | a | b |
+| **Gabarito** | a | V, F, V, V | c | a | c | e | V, F, V, V | b | b |
 
 | Questão | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | c | b | a | b | V, F, V, V | d | b | b |
+| **Gabarito** | e | d | c | e | d | V, F, V, V | a | b | d |

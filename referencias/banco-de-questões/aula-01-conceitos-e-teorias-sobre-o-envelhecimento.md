@@ -36,23 +36,23 @@
 
 O envelhecimento biológico, também chamado de senescência, é definido como a diminuição progressiva da capacidade de adaptação e de sobrevivência. Sobre esse processo, é correto afirmar que ele:
 
-**a)** começa a partir dos 60 anos, idade em que a legislação brasileira reconhece a pessoa como idosa.
-**b)** é universal e determinado geneticamente na espécie, iniciando-se logo após a maturidade sexual e acelerando-se a partir da quinta década.
+**a)** é universal e determinado geneticamente na espécie, iniciando-se logo após a maturidade sexual e acelerando-se a partir da quinta década.
+**b)** começa a partir dos 60 anos, idade em que a legislação brasileira reconhece a pessoa como idosa.
 **c)** só ocorre em pessoas que acumularam doenças crônicas ao longo da vida.
-**d)** é sinônimo de velhice, já que ambos descrevem a mesma fase do ciclo vital.
-**e)** é um processo exclusivamente anatômico, sem repercussão funcional.
+**d)** é um processo exclusivamente anatômico, sem repercussão funcional.
+**e)** é sinônimo de velhice, já que ambos descrevem a mesma fase do ciclo vital.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 A definição é funcional, não anatômica — e é justamente isso que a torna útil à neuropsicologia: o que diminui é a *capacidade de adaptação*.
 
-- **a)** confunde o processo biológico com o corte etário administrativo. Os 60 anos vêm da demografia e da previdência, não da fisiologia.
+- **b)** confunde o processo biológico com o corte etário administrativo. Os 60 anos vêm da demografia e da previdência, não da fisiologia.
 - **c)** contraria a universalidade do processo: senescência acontece com todos, com ou sem doença.
-- **d)** é o erro central que a aula combate. Velhice é a *última fase do ciclo vital*, produto da ação concorrente de dois processos — desenvolvimento e envelhecimento. Reduzi-la ao segundo é apagar o primeiro.
-- **e)** inverte a definição, que é de capacidade e não de estrutura.
+- **d)** inverte a definição, que é de capacidade e não de estrutura.
+- **e)** é o erro central que a aula combate. Velhice é a *última fase do ciclo vital*, produto da ação concorrente de dois processos — desenvolvimento e envelhecimento. Reduzi-la ao segundo é apagar o primeiro.
 </details>
 
 ---
@@ -96,15 +96,15 @@ Considere as afirmações abaixo sobre os três paradigmas da psicologia do enve
 Estão corretas apenas:
 
 **a)** I e II
-**b)** I, II e III
-**c)** II, III e IV
-**d)** I e IV
+**b)** II, III e IV
+**c)** I e IV
+**d)** I, II e III
 **e)** III e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 **IV é falsa** e é o ponto da questão: a moldura decide o que a pesquisa consegue enxergar. Quem parte de crescimento–culminância–contração não formula a pergunta "o que ainda se desenvolve aqui?" — a resposta já estava embutida na premissa. Foi por isso que a observação dos anos 1960 (idosos que *continuavam a se desenvolver* em domínios selecionados) quebrou o paradigma, e não apenas acrescentou um dado a ele.
 </details>
@@ -119,22 +119,22 @@ Um município discute o fechamento do único centro de convivência para idosos 
 A leitura desse cenário à luz da **teoria da defasagem estrutural** é a de que:
 
 **a)** os idosos se afastam voluntariamente da vida social, e o fechamento apenas acompanha uma tendência natural.
-**b)** as estruturas sociais não conseguem oferecer aos idosos economicamente improdutivos os mesmos benefícios disponíveis aos membros produtivos — e o estereótipo do idoso como custo é subproduto dessa defasagem.
-**c)** o conhecimento acumulado pelos idosos ficou obsoleto diante das novas tecnologias, o que explica a decisão.
+**b)** a decisão é neutra do ponto de vista teórico, já que orçamento é matéria de gestão e não de psicologia do envelhecimento.
+**c)** as estruturas sociais não conseguem oferecer aos idosos economicamente improdutivos os mesmos benefícios disponíveis aos membros produtivos — e o estereótipo do idoso como custo é subproduto dessa defasagem.
 **d)** trata-se de um fenômeno individual, explicado pela baixa autoeficácia dos idosos do bairro.
-**e)** a decisão é neutra do ponto de vista teórico, já que orçamento é matéria de gestão e não de psicologia do envelhecimento.
+**e)** o conhecimento acumulado pelos idosos ficou obsoleto diante das novas tecnologias, o que explica a decisão.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 A defasagem estrutural diz que a sociedade não acompanha a própria mudança demográfica: continua organizada em torno da produtividade e não redistribui benefícios a quem saiu dela.
 
-- **c)** descreve o **primeiro processo da teoria da modernização** (novas tecnologias tornando obsoleto o conhecimento acumulado) — é uma teoria vizinha, não esta. Vale conhecer as duas e não trocá-las.
 - **a)** é a teoria do afastamento, que não se sustenta empiricamente.
+- **b)** ignora que a decisão orçamentária opera sobre um estereótipo com história documentada.
 - **d)** individualiza um fenômeno estrutural — exatamente o movimento que a aula critica.
-- **e)** ignora que a decisão orçamentária opera sobre um estereótipo com história documentada.
+- **e)** descreve o **primeiro processo da teoria da modernização** (novas tecnologias tornando obsoleto o conhecimento acumulado) — é uma teoria vizinha, não esta. Vale conhecer as duas e não trocá-las.
 </details>
 
 ---
@@ -149,20 +149,20 @@ Um serviço de saúde replica hoje o mesmo desenho: aplica, num único dia, a me
 Sobre esse raciocínio, é correto afirmar que:
 
 **a)** é válido, desde que os dois grupos tenham sido testados pelo mesmo examinador e no mesmo ambiente.
-**b)** é inválido apenas se os grupos diferirem em sexo, já que idade e escolaridade são variáveis independentes.
-**c)** é frágil, porque diferenças entre grupos etários em estudos transversais devem ser tratadas como efeito de coorte até prova em contrário — os grupos não compartilham a mesma história de escolarização e de exposição cultural.
-**d)** é robusto, porque o tamanho amostral compensa as diferenças de escolaridade entre os grupos.
-**e)** é inválido porque a idade cronológica não guarda nenhuma relação com o desempenho cognitivo.
+**b)** é robusto, porque o tamanho amostral compensa as diferenças de escolaridade entre os grupos.
+**c)** é inválido porque a idade cronológica não guarda nenhuma relação com o desempenho cognitivo.
+**d)** é inválido apenas se os grupos diferirem em sexo, já que idade e escolaridade são variáveis independentes.
+**e)** é frágil, porque diferenças entre grupos etários em estudos transversais devem ser tratadas como efeito de coorte até prova em contrário — os grupos não compartilham a mesma história de escolarização e de exposição cultural.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: c**
+**Gabarito: e**
 
 Coorte é o grupo que, por ter nascido no mesmo período histórico, compartilha experiências sociais — inclusive a qualidade e a duração da escola que teve. Num desenho transversal, efeito de idade e efeito de coorte estão somados e não podem ser separados.
 
-- **d)** amostra grande não corrige viés sistemático: só torna o viés mais preciso.
-- **e)** exagera na direção oposta. A idade tem efeito, mas ela não é *causa* — é índice de tempo vivido, e concorre com contexto e história como explicação.
+- **b)** amostra grande não corrige viés sistemático: só torna o viés mais preciso.
+- **c)** exagera na direção oposta. A idade tem efeito, mas ela não é *causa* — é índice de tempo vivido, e concorre com contexto e história como explicação.
 
 **Ponte com a prática:** é o mesmo problema, em escala clínica, de aplicar a um idoso de 80 anos com 3 anos de escolaridade uma norma construída em outra população. Normas por escolaridade existem por causa deste erro.
 </details>
@@ -180,11 +180,11 @@ Coorte é o grupo que, por ter nascido no mesmo período histórico, compartilha
 
 Qual leitura integra melhor os dados?
 
-**a)** O quadro indica declínio funcional progressivo e sugere transtorno neurocognitivo em fase inicial.
-**b)** O comportamento dependente é um traço de personalidade que emergiu com o envelhecimento e com a perda do papel de trabalhador.
+**a)** O comportamento dependente é um traço de personalidade que emergiu com o envelhecimento e com a perda do papel de trabalhador.
+**b)** Trata-se de perda de reserva funcional pela fratura, e a conduta é fisioterapia intensiva.
 **c)** O comportamento dependente é um padrão aprendido, mantido por contingências do ambiente: a dependência é reforçada com atenção e contato social imediatos, enquanto as tentativas de independência entram em extinção.
-**d)** A institucionalização produziu depressão, e a dependência é sintoma dela.
-**e)** Trata-se de perda de reserva funcional pela fratura, e a conduta é fisioterapia intensiva.
+**d)** O quadro indica declínio funcional progressivo e sugere transtorno neurocognitivo em fase inicial.
+**e)** A institucionalização produziu depressão, e a dependência é sintoma dela.
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -235,22 +235,22 @@ Julgue cada afirmação como **verdadeira (V)** ou **falsa (F)**.
 
 Na teoria do desenvolvimento psicossocial, a crise característica da velhice opõe **integridade do ego** e **desespero**, e a qualidade do ego que pode nascer dela é a sabedoria. Numa entrevista clínica, o achado que melhor corresponde ao polo do **desespero** descrito por essa teoria é:
 
-**a)** humor deprimido persistente, insônia terminal e perda de peso nos últimos três meses.
-**b)** a percepção de que não há mais tempo para refazer o que ficou por fazer, acompanhada de amargura ao revisar as próprias escolhas.
-**c)** desorientação temporal e dificuldade para reconhecer familiares.
-**d)** a recusa em participar de atividades no centro de convivência do bairro.
-**e)** a queixa de que a memória piorou desde a aposentadoria.
+**a)** a percepção de que não há mais tempo para refazer o que ficou por fazer, acompanhada de amargura ao revisar as próprias escolhas.
+**b)** a queixa de que a memória piorou desde a aposentadoria.
+**c)** humor deprimido persistente, insônia terminal e perda de peso nos últimos três meses.
+**d)** desorientação temporal e dificuldade para reconhecer familiares.
+**e)** a recusa em participar de atividades no centro de convivência do bairro.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 O desespero de Erikson é uma posição existencial diante do tempo, não um quadro psiquiátrico. Ele **convive** com a depressão e às vezes a antecede, mas não é sinônimo dela — e a diferença muda a conduta: a intervenção não é reverter o tempo, é ressignificar o percurso. A técnica de revisão de vida nasce daqui.
 
-- **a)** descreve um episódio depressivo, que exige conduta própria — e cuja confusão com o desespero eriksoniano é justamente o erro que a questão testa.
-- **c)** é achado neurológico.
-- **d)** e **e)** são dados isolados, compatíveis com muitas hipóteses.
+- **c)** descreve um episódio depressivo, que exige conduta própria — e cuja confusão com o desespero eriksoniano é justamente o erro que a questão testa.
+- **d)** é achado neurológico.
+- **e)** e **b)** são dados isolados, compatíveis com muitas hipóteses.
 
 **Consequência metodológica que Erikson deixa:** as tarefas evolutivas das crianças são universais; as dos idosos dependem muito mais da experiência pessoal. Quanto mais velho o sujeito, menos previsível pela idade e mais explicável pela biografia.
 </details>
@@ -266,22 +266,22 @@ O desespero de Erikson é uma posição existencial diante do tempo, não um qua
 
 À luz da teoria do relógio social, qual leitura é a mais adequada?
 
-**a)** O luto de Dona Priscila é patológico e o de Dona Marlene é normal, porque o tempo de recuperação difere.
-**b)** O impacto emocional tende a ser maior em Dona Priscila porque a transição é idiossincrática — rara, imprevisível, fora de qualquer prescrição cultural e vivida de forma solitária, sem repertório social prévio nem socialização antecipatória.
-**c)** O impacto tende a ser maior em Dona Marlene, pela proximidade da própria morte e pelo tempo de convivência perdido.
-**d)** Como o evento é o mesmo, a teoria prevê impacto equivalente; a diferença é apenas de personalidade.
+**a)** O impacto tende a ser maior em Dona Marlene, pela proximidade da própria morte e pelo tempo de convivência perdido.
+**b)** Como o evento é o mesmo, a teoria prevê impacto equivalente; a diferença é apenas de personalidade.
+**c)** O luto de Dona Priscila é patológico e o de Dona Marlene é normal, porque o tempo de recuperação difere.
+**d)** O impacto emocional tende a ser maior em Dona Priscila porque a transição é idiossincrática — rara, imprevisível, fora de qualquer prescrição cultural e vivida de forma solitária, sem repertório social prévio nem socialização antecipatória.
 **e)** A diferença se explica integralmente pela presença de filhos pequenos, variável que a teoria não considera.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 Transições **normativas** têm época esperada de ocorrência, são reconhecidas pela cultura, vividas junto com o grupo de idade e permitem socialização antecipatória — o que amortece o impacto. Transições **idiossincráticas** não têm nada disso.
 
 O ponto que a questão quer fixar: **não é que o luto seja outro**. É que um tem roteiro social e o outro não. Dona Priscila enfrenta a perda *e* a ausência de repertório coletivo para lidar com ela — inclusive a pressa alheia ("siga em frente"), que é a tentativa do grupo de devolvê-la ao relógio.
 
-- **a)** transforma diferença de contexto em diagnóstico, que é precisamente o erro.
+- **c)** transforma diferença de contexto em diagnóstico, que é precisamente o erro.
 - **e)** os filhos pequenos importam, mas eles são parte do que torna a transição fora do tempo esperado, não uma variável alheia à teoria.
 
 **Pergunta clínica que a teoria deixa:** *de quem é o relógio que este paciente está usando?*
@@ -301,10 +301,10 @@ Sobre a teoria da **seletividade socioemocional**, considere:
 
 Estão corretas apenas:
 
-**a)** I, II e III
+**a)** II e III
 **b)** II, III e IV
-**c)** I e IV
-**d)** II e III
+**c)** I, II e III
+**d)** I e IV
 **e)** I, III e IV
 
 <details>
@@ -335,21 +335,21 @@ O experimento de IV é o argumento decisivo, porque dissocia idade de horizonte 
 
 Um estagiário conclui, a partir da tabela, que "a rede social se deteriora progressivamente com a idade, e o isolamento é um desfecho esperado da velhice". A crítica mais consistente a essa conclusão é:
 
-**a)** a de que a tabela é insuficiente porque não informa o sexo dos participantes.
-**b)** a de que a conclusão generaliza a queda de uma das linhas para as duas, quando o dado mostra declínio dos contatos periféricos e **estabilidade** das relações próximas — padrão compatível com seleção ativa, e não com deterioração.
-**c)** a de que o índice relativo impede qualquer interpretação, já que não há valores absolutos.
-**d)** a de que estudos longitudinais não permitem conclusões sobre mudança individual.
-**e)** a de que a queda observada decorre integralmente de efeito de coorte.
+**a)** a de que o índice relativo impede qualquer interpretação, já que não há valores absolutos.
+**b)** a de que estudos longitudinais não permitem conclusões sobre mudança individual.
+**c)** a de que a queda observada decorre integralmente de efeito de coorte.
+**d)** a de que a tabela é insuficiente porque não informa o sexo dos participantes.
+**e)** a de que a conclusão generaliza a queda de uma das linhas para as duas, quando o dado mostra declínio dos contatos periféricos e **estabilidade** das relações próximas — padrão compatível com seleção ativa, e não com deterioração.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 A tabela contém duas trajetórias com formas distintas, e a conclusão do estagiário lê só uma delas. Ler a média das duas linhas, ou a linha maior, é o erro estatístico e o erro teórico ao mesmo tempo.
 
-- **d)** inverte a virtude do desenho longitudinal, que é justamente medir mudança intraindividual.
-- **e)** aplica a crítica de coorte fora de lugar: ela é o risco típico dos desenhos **transversais**.
+- **b)** inverte a virtude do desenho longitudinal, que é justamente medir mudança intraindividual.
+- **c)** aplica a crítica de coorte fora de lugar: ela é o risco típico dos desenhos **transversais**.
 
 **O que a leitura correta muda na conduta:** um idoso com menos contatos não é, por isso, um idoso em risco. O que se pergunta é se as relações **próximas** foram preservadas — e é a perda dessas, não das periféricas, que sinaliza problema.
 </details>
@@ -366,16 +366,16 @@ A tabela contém duas trajetórias com formas distintas, e a conclusão do estag
 
 A leitura correta do caso, à luz do metamodelo de seleção, otimização e compensação (SOC), é:
 
-**a)** há um quadro de perda funcional com restrição de atividades, e a conduta é ampliar o repertório para evitar desengajamento.
-**b)** a redução do repertório indica afastamento e prediz declínio; o caso ilustra a teoria do afastamento.
-**c)** reduzir o repertório é **seleção**; ensaiar mais cada peça é **otimização**; ajustar o andamento para produzir contraste é **compensação** — e a satisfação preservada apesar da perda documentada é o desfecho que o modelo prevê.
-**d)** o relato de satisfação apesar da perda sugere ausência de crítica sobre a própria condição, e deve ser investigado como anosognosia.
-**e)** trata-se de dependência comportamental, mantida pela atenção dos alunos avançados.
+**a)** reduzir o repertório é **seleção**; ensaiar mais cada peça é **otimização**; ajustar o andamento para produzir contraste é **compensação** — e a satisfação preservada apesar da perda documentada é o desfecho que o modelo prevê.
+**b)** o relato de satisfação apesar da perda sugere ausência de crítica sobre a própria condição, e deve ser investigado como anosognosia.
+**c)** trata-se de dependência comportamental, mantida pela atenção dos alunos avançados.
+**d)** a redução do repertório indica afastamento e prediz declínio; o caso ilustra a teoria do afastamento.
+**e)** há um quadro de perda funcional com restrição de atividades, e a conduta é ampliar o repertório para evitar desengajamento.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: c**
+**Gabarito: a**
 
 O caso reproduz o exemplo canônico do próprio Baltes com o pianista Rubinstein, deslocado para um contexto brasileiro.
 
@@ -383,9 +383,9 @@ O caso reproduz o exemplo canônico do próprio Baltes com o pianista Rubinstein
 - **Otimização** — aplicação e manutenção de recursos para buscar níveis mais altos de funcionamento no que restou selecionado.
 - **Compensação** — adoção de meios alternativos para manter o funcionamento.
 
-**A alternativa d é a mais instrutiva das erradas.** Perder capacidade e continuar bem não é negação: é **mediação**. Um paciente com perda funcional documentada que relata boa qualidade de vida pode estar compensando muito bem — e chamar isso de falta de crítica é um erro clínico com consequências, porque autoriza intervenções que ele não precisa.
+**A alternativa **b** é a mais instrutiva das erradas.** Perder capacidade e continuar bem não é negação: é **mediação**. Um paciente com perda funcional documentada que relata boa qualidade de vida pode estar compensando muito bem — e chamar isso de falta de crítica é um erro clínico com consequências, porque autoriza intervenções que ele não precisa.
 
-**A alternativa a** também merece nota: ampliar o repertório contraria a seleção que está sustentando o funcionamento. A conduta correta é apoiar a estratégia que já funciona.
+**A alternativa **e**** também merece nota: ampliar o repertório contraria a seleção que está sustentando o funcionamento. A conduta correta é apoiar a estratégia que já funciona.
 </details>
 
 ---
@@ -397,16 +397,16 @@ Uma paciente de 77 anos, após um período de dores e insônia, passou a usar um
 
 A leitura correta desse quadro, segundo o modelo de controle primário e secundário, é:
 
-**a)** trata-se de crença inválida, e a conduta é corrigir a atribuição causal, já que intervenções em saúde devem primar pela veracidade.
-**b)** trata-se de ilusão **funcional**: a crença é inválida, mas a ação resultante é eficaz — e o critério que importa não é a veracidade da atribuição, e sim se ela aumenta o potencial de controle primário.
-**c)** trata-se de controle primário, já que a paciente alterou o ambiente ao adquirir o amuleto.
-**d)** trata-se de estratégia disfuncional, porque toda crença inválida enfraquece o controle a longo prazo.
-**e)** trata-se de sintoma psicótico incipiente, e a conduta é encaminhamento psiquiátrico.
+**a)** trata-se de estratégia disfuncional, porque toda crença inválida enfraquece o controle a longo prazo.
+**b)** trata-se de controle primário, já que a paciente alterou o ambiente ao adquirir o amuleto.
+**c)** trata-se de ilusão **funcional**: a crença é inválida, mas a ação resultante é eficaz — e o critério que importa não é a veracidade da atribuição, e sim se ela aumenta o potencial de controle primário.
+**d)** trata-se de sintoma psicótico incipiente, e a conduta é encaminhamento psiquiátrico.
+**e)** trata-se de crença inválida, e a conduta é corrigir a atribuição causal, já que intervenções em saúde devem primar pela veracidade.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 O quadro de referência cruza duas dimensões — verídico/ilusório e funcional/disfuncional — e o que decide não é a primeira, é a segunda.
 
@@ -419,7 +419,7 @@ Aqui: a atribuição é inválida, a ansiedade caiu, a paciente voltou a se enga
 
 **A régua clínica**, que vale copiar: reenquadramento que **devolve ação** é funcional; reenquadramento que **anestesia e paralisa** é disfuncional. Se a mesma paciente tivesse abandonado o tratamento da dor confiando só no amuleto, a mesma crença viraria ilusão disfuncional — o quadrante muda com a consequência, não com o conteúdo.
 
-**Por que a alternativa a é tentadora e errada:** sob ameaça, ações que primam pela veracidade podem ser disfuncionais — criam desespero e desencorajam tentativas úteis de restabelecer o controle primário.
+**Por que a alternativa **e** é tentadora e errada:** sob ameaça, ações que primam pela veracidade podem ser disfuncionais — criam desespero e desencorajam tentativas úteis de restabelecer o controle primário.
 </details>
 
 ---
@@ -436,16 +436,16 @@ Sobre os três princípios gerais da dinâmica entre biologia e cultura ao longo
 
 Estão corretas apenas:
 
-**a)** I, II e IV
-**b)** I, III e IV
+**a)** II, III e IV
+**b)** I, II e IV
 **c)** II e III
 **d)** I e III
-**e)** II, III e IV
+**e)** I, III e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: b**
 
 **III inverte o terceiro princípio.** Os mais velhos são **menos** responsivos aos recursos culturais, porque a plasticidade e a resiliência biológicas são menores. É esse princípio que sustenta IV — e IV é a leitura clínica que interessa: rendimento decrescente não é rendimento nulo.
 
@@ -487,11 +487,11 @@ Nos modelos contemporâneos, o mecanismo de seleção, otimização e compensaç
 
 Uma consequência **direta** dessa posição no modelo é que:
 
-**a)** o bem-estar subjetivo na velhice é determinado pela quantidade de perdas acumuladas, de modo que mais perdas produzem, necessariamente, menor bem-estar.
+**a)** a mediação implica que idosos com perdas relevantes que relatam boa qualidade de vida estão, em regra, superestimando o próprio funcionamento.
 **b)** a continuidade da funcionalidade e da satisfação pode ocorrer **na presença** de riscos e perdas biológicas e sociais — o que o modelo chama de paradoxo do bem-estar — porque os recursos pessoais e sociais são convertidos em adaptação por um mecanismo intermediário.
 **c)** recursos pessoais e sociais produzem bem-estar diretamente, sem intermediação, e por isso medir esses recursos basta para prever o desfecho.
 **d)** adaptação bem-sucedida na velhice exige dispor de recursos excepcionais, o que restringe o desfecho positivo a uma elite.
-**e)** a mediação implica que idosos com perdas relevantes que relatam boa qualidade de vida estão, em regra, superestimando o próprio funcionamento.
+**e)** o bem-estar subjetivo na velhice é determinado pela quantidade de perdas acumuladas, de modo que mais perdas produzem, necessariamente, menor bem-estar.
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -500,9 +500,9 @@ Uma consequência **direta** dessa posição no modelo é que:
 
 Se o mecanismo é mediador, então o mesmo nível de perda pode gerar desfechos diferentes conforme a alocação de recursos — que é a definição de mediação. É isso que torna o paradoxo do bem-estar previsível, e não anômalo.
 
-- **a)** e **c)** descrevem modelos **sem** mediador: efeito direto e proporcional. É exatamente o que o modelo nega.
+- **a)** é o erro clínico que a aula combate desde o caso do Sr. Anselmo: relato positivo sob perda documentada é hipótese de boa compensação antes de ser hipótese de falta de crítica.
 - **d)** contraria a tese de que adaptação bem-sucedida é *viver bem com os recursos disponíveis*, e não dispor de recursos excepcionais.
-- **e)** é o erro clínico que a aula combate desde o caso do Sr. Anselmo: relato positivo sob perda documentada é hipótese de boa compensação antes de ser hipótese de falta de crítica.
+- **e)** e **c)** descrevem modelos **sem** mediador: efeito direto e proporcional. É exatamente o que o modelo nega.
 </details>
 
 ---
@@ -519,16 +519,16 @@ Se o mecanismo é mediador, então o mesmo nível de perda pode gerar desfechos 
 
 Qual é a formulação mais adequada do caso?
 
-**a)** Comprometimento cognitivo leve de provável etiologia degenerativa, dado o relato de piora funcional referido pela própria paciente.
-**b)** A queixa cognitiva não encontra correspondência nos testes; a redução da autonomia é mais bem explicada por eventos críticos do curso de vida — não normativos, incontroláveis e distribuídos segundo o status socioeconômico — sobre uma trajetória de baixa escolaridade e baixa renda, e a conduta passa por rede de apoio, segurança e acesso, e não por diagnóstico neurocognitivo.
-**c)** Dependência comportamental aprendida, mantida pelo reforço social oferecido pela vizinha.
-**d)** Quadro de afastamento, esperado nessa faixa etária, com indicação de estímulo à atividade.
+**a)** Dependência comportamental aprendida, mantida pelo reforço social oferecido pela vizinha.
+**b)** Comprometimento cognitivo leve de provável etiologia degenerativa, dado o relato de piora funcional referido pela própria paciente.
+**c)** Quadro de afastamento, esperado nessa faixa etária, com indicação de estímulo à atividade.
+**d)** A queixa cognitiva não encontra correspondência nos testes; a redução da autonomia é mais bem explicada por eventos críticos do curso de vida — não normativos, incontroláveis e distribuídos segundo o status socioeconômico — sobre uma trajetória de baixa escolaridade e baixa renda, e a conduta passa por rede de apoio, segurança e acesso, e não por diagnóstico neurocognitivo.
 **e)** Envelhecimento bem-sucedido, já que os testes estão dentro do esperado e não há indicativo de humor deprimido.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 O caso reúne, de propósito, três camadas que a aula pede que se leiam juntas:
 
@@ -537,9 +537,9 @@ O caso reúne, de propósito, três camadas que a aula pede que se leiam juntas:
 3. **A agência esbarra no macrossocial.** Recomendar "mais atividade" a quem não consegue sair de casa em segurança transfere para ela um problema que não é dela.
 
 Por que as demais falham:
-- **a)** transforma queixa em diagnóstico, sem alteração objetiva e sem prejuízo funcional atribuível à cognição — e comunicar isso como "início de Alzheimer" produziria dano.
-- **c)** confunde apoio contextualmente necessário com padrão dependente aprendido; falta a contingência (aqui, a vizinha compensa uma barreira real, e não reforça um repertório disponível).
-- **d)** naturaliza o desengajamento — o erro que o veredito sobre a teoria do afastamento já corrigiu.
+- **a)** confunde apoio contextualmente necessário com padrão dependente aprendido; falta a contingência (aqui, a vizinha compensa uma barreira real, e não reforça um repertório disponível).
+- **b)** transforma queixa em diagnóstico, sem alteração objetiva e sem prejuízo funcional atribuível à cognição — e comunicar isso como "início de Alzheimer" produziria dano.
+- **c)** naturaliza o desengajamento — o erro que o veredito sobre a teoria do afastamento já corrigiu.
 - **e)** lê só o escore e ignora a funcionalidade e o contexto.
 
 **Conduta que o caso sugere:** acionar rede (agente comunitária, unidade de saúde, assistência social), documentar a barreira de acesso, orientar a família e reavaliar em intervalo definido. E deixar registrado no laudo o que foi corrigido, o que não foi e como isso limita a interpretação.
@@ -556,22 +556,22 @@ Por que as demais falham:
 
 Considerando os dois trechos em conjunto, a afirmação que melhor sustenta a posição da autora é:
 
-**a)** a de que a teoria substitui o dado empírico, já que a interpretação teórica é suficiente para descrever o envelhecimento.
-**b)** a de que a teoria decide quais perguntas são pensáveis e o que conta como resultado — de modo que, sem ela, não se sabe o que medir nem o que a medida significa, e a tarefa de *distinguir* o típico da velhice do compartilhado com outras idades fica impossível.
-**c)** a de que o campo deve abandonar as microteorias e retornar às grandes narrativas da primeira metade do século XX.
+**a)** a de que o campo deve abandonar as microteorias e retornar às grandes narrativas da primeira metade do século XX.
+**b)** a de que a teoria substitui o dado empírico, já que a interpretação teórica é suficiente para descrever o envelhecimento.
+**c)** a de que a distinção proposta é retórica, uma vez que toda mudança observada em idosos decorre do processo de envelhecimento.
 **d)** a de que, como a idade é causa do declínio, cabe à teoria apenas descrever a magnitude da perda.
-**e)** a de que a distinção proposta é retórica, uma vez que toda mudança observada em idosos decorre do processo de envelhecimento.
+**e)** a de que a teoria decide quais perguntas são pensáveis e o que conta como resultado — de modo que, sem ela, não se sabe o que medir nem o que a medida significa, e a tarefa de *distinguir* o típico da velhice do compartilhado com outras idades fica impossível.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 Os dois trechos, lidos juntos, formam um argumento: a tarefa do campo é uma tarefa de **discriminação**, e discriminar exige um critério anterior ao dado. O paradigma de ciclo de vida ilustra o custo de não perceber isso — quem parte de "o ápice é a reprodução" já respondeu à pergunta sobre a velhice antes de coletar qualquer dado.
 
-- **a)** exagera até a caricatura; a autora defende teoria *antes* do dado, não *em vez* do dado.
-- **c)** contraria a trajetória descrita no capítulo: as grandes teorias cederam espaço a microteorias sobre aspectos particulares — menos grandiosas e muito mais testáveis.
-- **d)** e **e)** cometem o erro que a frase da autora existe para impedir: tratar idade como causa e correlação com idade como efeito da idade.
+- **a)** contraria a trajetória descrita no capítulo: as grandes teorias cederam espaço a microteorias sobre aspectos particulares — menos grandiosas e muito mais testáveis.
+- **b)** exagera até a caricatura; a autora defende teoria *antes* do dado, não *em vez* do dado.
+- **d)** e **c)** cometem o erro que a frase da autora existe para impedir: tratar idade como causa e correlação com idade como efeito da idade.
 
 **Fecho da aula:** a velhice deixou de ser o fim da curva; virou uma fase em que ainda se seleciona, otimiza e compensa.
 </details>
@@ -582,8 +582,8 @@ Os dois trechos, lidos juntos, formam um argumento: a tarefa do campo é uma tar
 
 | Questão | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | V, F, V, V | b | b | c | c | V, V, F, V | b | b |
+| **Gabarito** | a | V, F, V, V | d | c | e | c | V, V, F, V | a | d |
 
 | Questão | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | b | c | b | a | V, V, F, V | b | b | b |
+| **Gabarito** | b | e | a | c | b | V, V, F, V | b | d | e |

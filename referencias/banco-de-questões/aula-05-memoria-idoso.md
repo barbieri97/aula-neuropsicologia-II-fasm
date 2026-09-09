@@ -36,16 +36,16 @@
 
 A distinção entre memória **declarativa** e **não declarativa** se sustenta porque:
 
-**a)** a primeira é mais importante que a segunda para o funcionamento cotidiano.
-**b)** a declarativa é acessível à consciência e pode ser relatada, instalando-se muitas vezes com uma única exposição e dependendo do lobo temporal medial enquanto é nova; a não declarativa aparece no **desempenho**, costuma exigir repetição e sobrevive à amnésia densa do lobo temporal medial.
+**a)** a distinção é apenas didática e não tem correspondência clínica.
+**b)** a primeira é mais importante que a segunda para o funcionamento cotidiano.
 **c)** a segunda só existe em animais não humanos.
-**d)** ambas dependem integralmente do hipocampo, diferindo apenas no conteúdo.
-**e)** a distinção é apenas didática e não tem correspondência clínica.
+**d)** a declarativa é acessível à consciência e pode ser relatada, instalando-se muitas vezes com uma única exposição e dependendo do lobo temporal medial enquanto é nova; a não declarativa aparece no **desempenho**, costuma exigir repetição e sobrevive à amnésia densa do lobo temporal medial.
+**e)** ambas dependem integralmente do hipocampo, diferindo apenas no conteúdo.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
 O argumento mais forte a favor da separação é a **dupla dissociação**: a lesão que derruba um ramo deixa o outro intacto.
 
@@ -99,16 +99,16 @@ Sobre as três fases do processamento mnêmico, considere:
 
 Estão corretas apenas:
 
-**a)** I, II, III e IV
-**b)** I, II e V
-**c)** III, IV e V
-**d)** I, IV e V
-**e)** todas
+**a)** III, IV e V
+**b)** I, IV e V
+**c)** I, II e V
+**d)** todas
+**e)** I, II, III e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: e**
 
 **V está invertida:** os idosos apresentam **maior declínio na aquisição (codificação) do que na recuperação**. Guardar isso explica um achado que aparece muito na clínica — escore imediato baixo com retenção percentual preservada.
 
@@ -129,22 +129,22 @@ O par mais confundido é o das duas últimas: no armazenamento, **nem a pista re
 
 O que o achado demonstra?
 
-**a)** Que a amnésia é fingida: houve aprendizagem, logo houve memória consciente.
-**b)** Que a memória de procedimento não depende do lobo temporal medial — a habilidade se instala por vias como o estriado e o cerebelo, poupadas na lesão.
-**c)** Que a memória semântica do paciente está preservada.
-**d)** Que a lesão poupou o hipocampo de um dos lados.
+**a)** Que a memória de procedimento não depende do lobo temporal medial — a habilidade se instala por vias como o estriado e o cerebelo, poupadas na lesão.
+**b)** Que a amnésia é fingida: houve aprendizagem, logo houve memória consciente.
+**c)** Que a lesão poupou o hipocampo de um dos lados.
+**d)** Que a memória semântica do paciente está preservada.
 **e)** Que memória, inteligência e linguagem são a mesma função.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 É a demonstração fundadora da distinção declarativa/não declarativa, descrita a partir do caso do paciente H.M., operado nos anos 1950 para tratar epilepsia refratária.
 
-- **a)** é o erro mais interessante da lista, e vale explorá-lo em sala: ele exige consciência para admitir que houve memória. Aprendizagem **implícita** existe sem relato.
-- **c)** troca não declarativa por semântica — e a semântica é declarativa; o que é novo nela também é prejudicado.
-- **d)** atribui a dissociação a lesão incompleta, quando ela aparece com lesão bilateral.
+- **b)** é o erro mais interessante da lista, e vale explorá-lo em sala: ele exige consciência para admitir que houve memória. Aprendizagem **implícita** existe sem relato.
+- **c)** atribui a dissociação a lesão incompleta, quando ela aparece com lesão bilateral.
+- **d)** troca não declarativa por semântica — e a semântica é declarativa; o que é novo nela também é prejudicado.
 - **e)** contraria o que o caso fixou: memória não é a mesma coisa que inteligência ou linguagem, que ficaram intactas.
 
 **Consequência clínica direta:** um paciente com transtorno neurocognitivo pode continuar aprendendo rotinas motoras — e é nisso que a reabilitação se apoia.
@@ -157,21 +157,21 @@ O que o achado demonstra?
 
 Um homem de 76 anos repete **sete dígitos na ordem direta** sem erro. Quando precisa repeti-los enquanto acompanha um segundo estímulo, o desempenho despenca — e o da **tarefa secundária** despenca ainda mais. O achado é típico de:
 
-**a)** déficit de memória de curto prazo.
-**b)** rebaixamento da memória **operacional** — a queda aparece quando reter e executar competem pelo mesmo recurso.
-**c)** amnésia anterógrada incipiente.
-**d)** déficit de memória semântica.
+**a)** amnésia anterógrada incipiente.
+**b)** déficit de memória de curto prazo.
+**c)** déficit de memória semântica.
+**d)** rebaixamento da memória **operacional** — a queda aparece quando reter e executar competem pelo mesmo recurso.
 **e)** simulação, pela inconsistência entre as duas condições.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: d**
 
-Repetir sete dígitos na ordem é **curto prazo** (depósito); repeti-los de trás para frente, ou mantê-los enquanto se faz outra coisa, é **operacional** (depósito **mais** processamento). A amplitude de dígitos na ordem direta — cerca de sete itens, com variação de dois para mais ou para menos — é uma das medidas que **não** caem no envelhecimento normal, o que elimina **a**.
+Repetir sete dígitos na ordem é **curto prazo** (depósito); repeti-los de trás para frente, ou mantê-los enquanto se faz outra coisa, é **operacional** (depósito **mais** processamento). A amplitude de dígitos na ordem direta — cerca de sete itens, com variação de dois para mais ou para menos — é uma das medidas que **não** caem no envelhecimento normal, o que elimina **b**.
 
-- **c)** não se sustenta: não houve nenhuma medida de retenção por minutos.
-- **d)** nenhum item avaliou conhecimento de fatos ou vocabulário.
+- **a)** não se sustenta: não houve nenhuma medida de retenção por minutos.
+- **c)** nenhum item avaliou conhecimento de fatos ou vocabulário.
 
 **Por que este é o achado que mais gera falso alarme na família:** "ele não consegue mais fazer duas coisas ao mesmo tempo" é descrição de envelhecimento normal, não de demência.
 
@@ -196,21 +196,21 @@ Repetir sete dígitos na ordem é **curto prazo** (depósito); repeti-los de tr�
 
 A conclusão que a tabela sustenta é:
 
-**a)** que a memória do idoso é globalmente ruim, e um escore único de memória descreve bem esse funcionamento.
-**b)** que nem todos os sistemas de memória são igualmente afetados pela idade: os dois rebaixados são justamente os que **mais exigem controle executivo**, enquanto os mantidos são os automáticos e os cristalizados.
+**a)** que curto prazo e operacional se comportam de forma idêntica, por serem o mesmo sistema.
+**b)** que a memória prospectiva já está estabelecida como o sistema mais preservado.
 **c)** que apenas a memória semântica é afetada pelo envelhecimento.
-**d)** que curto prazo e operacional se comportam de forma idêntica, por serem o mesmo sistema.
-**e)** que a memória prospectiva já está estabelecida como o sistema mais preservado.
+**d)** que a memória do idoso é globalmente ruim, e um escore único de memória descreve bem esse funcionamento.
+**e)** que nem todos os sistemas de memória são igualmente afetados pela idade: os dois rebaixados são justamente os que **mais exigem controle executivo**, enquanto os mantidos são os automáticos e os cristalizados.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 Quem diz "a memória do idoso é ruim" está descrevendo **duas linhas** desta tabela e ignorando as outras quatro.
 
-- **d)** é contrariada pela própria tabela, que separa as duas em linhas de sentidos opostos de propósito: é a distinção depósito × processamento aparecendo como fato empírico.
-- **e)** força a linha da prospectiva, que está marcada como **em estudo** — e cujo achado central é um paradoxo, não uma preservação simples.
+- **a)** é contrariada pela própria tabela, que separa as duas em linhas de sentidos opostos de propósito: é a distinção depósito × processamento aparecendo como fato empírico.
+- **b)** força a linha da prospectiva, que está marcada como **em estudo** — e cujo achado central é um paradoxo, não uma preservação simples.
 
 **Quatro enfoques explicam a queda observada**, e não são hipóteses rivais: declínio da velocidade de processamento; redução de recursos atencionais; déficits inibitórios; e queda do controle cognitivo. O que é **automático** tende a ser imune ao envelhecimento; o que é **controlado** é o que declina.
 </details>
@@ -255,11 +255,11 @@ Julgue como **verdadeira (V)** ou **falsa (F)**.
 
 A leitura correta dessas curvas é:
 
-**a)** o idoso recorda menos em todas as posições, o que indica declínio uniforme da memória.
+**a)** a curva do idoso indica doença de Alzheimer inicial.
 **b)** o adulto jovem descreve um **U** e o idoso um **J**: o efeito de **recência** (últimas palavras, associado ao curto prazo/operacional) se mantém, enquanto o efeito de **primazia** (primeiras palavras, que já foram ensaiadas e transferidas para o longo prazo) é o que cai — padrão coerente com rebaixamento da memória de longo prazo e preservação do curto prazo.
-**c)** a diferença se explica apenas por menor motivação do idoso na tarefa.
-**d)** as duas curvas são equivalentes, já que ambas terminam no mesmo valor.
-**e)** a curva do idoso indica doença de Alzheimer inicial.
+**c)** o idoso recorda menos em todas as posições, o que indica declínio uniforme da memória.
+**d)** a diferença se explica apenas por menor motivação do idoso na tarefa.
+**e)** as duas curvas são equivalentes, já que ambas terminam no mesmo valor.
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -268,7 +268,7 @@ A leitura correta dessas curvas é:
 
 Compare a coluna 1 (80 contra 38) com a coluna 10 (86 contra 86): a perda está concentrada na **primazia**, e a recência é praticamente idêntica. O J é a assinatura gráfica do padrão "longo prazo rebaixado, curto prazo preservado".
 
-**e)** erra por excesso: na doença de Alzheimer inicial a primazia está **ainda mais** rebaixada que a do idoso normal, com a recência também se mantendo. A curva sozinha, sem outros dados, não fecha diagnóstico — mas a direção do achado importa.
+**a)** erra por excesso: na doença de Alzheimer inicial a primazia está **ainda mais** rebaixada que a do idoso normal, com a recência também se mantendo. A curva sozinha, sem outros dados, não fecha diagnóstico — mas a direção do achado importa.
 
 **A frase para levar:** a **forma** da curva informa mais que o total de palavras. Dois pacientes com o mesmo total podem ter curvas de sentidos opostos — ideia que retorna, com outros números, na leitura da Memória Lógica.
 </details>
@@ -288,16 +288,16 @@ Sobre a memória prospectiva no idoso, considere:
 
 Estão corretas apenas:
 
-**a)** I, II, III e V
-**b)** I, II e IV
-**c)** II, III e IV
-**d)** I, IV e V
-**e)** todas
+**a)** todas
+**b)** I, IV e V
+**c)** I, II, III e V
+**d)** II, III e IV
+**e)** I, II e IV
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: a**
+**Gabarito: c**
 
 **IV é falsa** e é a mais importante da lista, porque é um erro de conduta. O achado paradoxal é que o idoso vai **pior** no laboratório e **igual ou melhor** na vida real, provavelmente porque, no cotidiano, mantém rotina mais estruturada e usa mais apoios externos. A conduta correta é **perguntar ao informante**.
 
@@ -319,21 +319,21 @@ O item V tem consequência prática: memória prospectiva ruim não é redundant
 Qual afirmação está correta?
 
 **a)** O Sr. Otávio tem o quadro mais preocupante, porque o escore bruto imediato é menor.
-**b)** Os dois têm o mesmo perfil de falha, em graus diferentes de gravidade.
-**c)** Dona Zenaide, apesar do **maior** escore bruto imediato, tem perfil de falha de **armazenamento**, de tipo amnéstico — retenção de 19% e intrusões; o Sr. Otávio tem perfil de falha de **codificação**, com armazenamento preservado, e é o mais benigno dos dois.
-**d)** Como ambos ficaram abaixo de 20 na etapa imediata, os dois perfis são equivalentes.
-**e)** Os conteúdos acrescentados pela Dona Zenaide indicam apenas desatenção e não têm valor clínico.
+**b)** Os conteúdos acrescentados pela Dona Zenaide indicam apenas desatenção e não têm valor clínico.
+**c)** Como ambos ficaram abaixo de 20 na etapa imediata, os dois perfis são equivalentes.
+**d)** Dona Zenaide, apesar do **maior** escore bruto imediato, tem perfil de falha de **armazenamento**, de tipo amnéstico — retenção de 19% e intrusões; o Sr. Otávio tem perfil de falha de **codificação**, com armazenamento preservado, e é o mais benigno dos dois.
+**e)** Os dois têm o mesmo perfil de falha, em graus diferentes de gravidade.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: c**
+**Gabarito: d**
 
 **Quem ordenar os dois pelo escore bruto inverte a gravidade.** É o ponto central da aula: o escore bruto diz *quanto*; a retenção diz *o quê*. Dona Zenaide **perdeu o que já tinha**; o Sr. Otávio **guardou o pouco que entrou**.
 
 **Sobre a escala:** somam-se sempre as **duas** histórias antes de comparar com a norma — cada uma vale 25 unidades de ideia, e o escore do par vai de 0 a 50.
 
-**Sobre os conteúdos acrescentados (e):** eles têm nome e têm valor. São **intrusões** — informação *criada* —, por oposição às **omissões**, que são informação *perdida*. A distinção separa perfis, e só é possível registrar isso porque a evocação foi anotada **verbatim**, com as palavras do paciente. Registrar um resumo, em vez da fala dele, destrói o dado.
+**Sobre os conteúdos acrescentados (b):** eles têm nome e têm valor. São **intrusões** — informação *criada* —, por oposição às **omissões**, que são informação *perdida*. A distinção separa perfis, e só é possível registrar isso porque a evocação foi anotada **verbatim**, com as palavras do paciente. Registrar um resumo, em vez da fala dele, destrói o dado.
 
 **Perfil esperado de cada um:**
 - **codificação** (Sr. Otávio) — associado a lentificação, atenção, humor e escolaridade; é o mais comum numa clínica-escola;
@@ -349,11 +349,11 @@ Qual afirmação está correta?
 
 Numa avaliação de memória verbal, um paciente apresenta evocação imediata **razoável**, evocação tardia **muito baixa**, e **nenhum** benefício de pista ou de reconhecimento. O perfil e a hipótese de mecanismo são:
 
-**a)** falha de codificação, associada a lentificação, atenção, humor ou baixa escolaridade.
+**a)** falha de recuperação, de perfil frontal ou disexecutivo.
 **b)** falha de **armazenamento**, de tipo hipocampal — a informação entrou e não ficou, e não há traço a ser recuperado.
-**c)** falha de recuperação, de perfil frontal ou disexecutivo.
-**d)** desempenho normal para a idade, já que a evocação imediata foi razoável.
-**e)** resultado inválido, porque as três condições deveriam produzir escores semelhantes.
+**c)** resultado inválido, porque as três condições deveriam produzir escores semelhantes.
+**d)** falha de codificação, associada a lentificação, atenção, humor ou baixa escolaridade.
+**e)** desempenho normal para a idade, já que a evocação imediata foi razoável.
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -368,9 +368,9 @@ Os três perfis, lado a lado:
 | **Armazenamento** | razoável | muito baixa | não recuperam | amnéstico, de tipo hipocampal |
 | **Recuperação** | baixa | razoável | recuperam bem | frontal ou disexecutivo |
 
-A informação decisiva do enunciado é a **ausência de benefício** da pista e do reconhecimento. Se a pista recuperasse, a hipótese seria a **c**.
+A informação decisiva do enunciado é a **ausência de benefício** da pista e do reconhecimento. Se a pista recuperasse, a hipótese seria a **a**.
 
-**d)** toma a imediata como suficiente — e é justamente o intervalo que revela o problema.
+**e)** toma a imediata como suficiente — e é justamente o intervalo que revela o problema.
 
 **Uma armadilha que o capítulo registra:** idosos saudáveis se beneficiam de pistas e de reconhecimento **e** produzem mais falsos positivos, dizendo reconhecer distratores que nunca viram. Reconhecimento alto com muitos falsos positivos não é o mesmo que reconhecimento preservado.
 </details>
@@ -392,27 +392,27 @@ A informação decisiva do enunciado é a **ausência de benefício** da pista e
 
 Qual é a formulação e a conduta corretas?
 
-**a)** Perfil de falha de armazenamento, compatível com quadro amnéstico inicial; conduta: investigação de transtorno neurocognitivo.
-**b)** Desempenho dentro do esperado em tudo; nenhuma conduta necessária.
-**c)** Transtorno neurocognitivo leve, confirmado pelo escore bruto abaixo da média do grupo normativo.
-**d)** Perfil de falha de **codificação**, com armazenamento preservado — retenção de 71%, sem intrusões e com enredo mantido; o escore bruto, lido contra a norma da escolaridade dela e considerando o desvio-padrão, está próximo do esperado; a GDS-15 de 10 e a postura na testagem apontam quadro afetivo, e a conduta é tratar humor e sono e **reavaliar**, de preferência com versão alternativa do instrumento.
-**e)** A GDS não deve ser considerada aqui, porque a queixa de memória infla o escore da escala.
+**a)** Desempenho dentro do esperado em tudo; nenhuma conduta necessária.
+**b)** Perfil de falha de **codificação**, com armazenamento preservado — retenção de 71%, sem intrusões e com enredo mantido; o escore bruto, lido contra a norma da escolaridade dela e considerando o desvio-padrão, está próximo do esperado; a GDS-15 de 10 e a postura na testagem apontam quadro afetivo, e a conduta é tratar humor e sono e **reavaliar**, de preferência com versão alternativa do instrumento.
+**c)** A GDS não deve ser considerada aqui, porque a queixa de memória infla o escore da escala.
+**d)** Transtorno neurocognitivo leve, confirmado pelo escore bruto abaixo da média do grupo normativo.
+**e)** Perfil de falha de armazenamento, compatível com quadro amnéstico inicial; conduta: investigação de transtorno neurocognitivo.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: d**
+**Gabarito: b**
 
-**Frente à norma da faixa de 1 a 4 anos de estudo:** a imediata (7) está cerca de 1 DP abaixo da média (12,71; DP 5,74) e a tardia (5) está dentro de 1 DP da média (7,38; DP 5,71). Ou seja: **o escore bruto impressiona mais do que o desvio em relação à norma correta** — e usar norma de outra escolaridade produziria "déficit" onde não há. Isso derruba **c**.
+**Frente à norma da faixa de 1 a 4 anos de estudo:** a imediata (7) está cerca de 1 DP abaixo da média (12,71; DP 5,74) e a tardia (5) está dentro de 1 DP da média (7,38; DP 5,71). Ou seja: **o escore bruto impressiona mais do que o desvio em relação à norma correta** — e usar norma de outra escolaridade produziria "déficit" onde não há. Isso derruba **d**.
 
 **Três dados convergem para a hipótese afetiva:**
 - **GDS-15 = 10**, bem acima do corte 5/6 — rastreio positivo, que indica avaliação diagnóstica;
 - **postura na testagem** típica de quadro depressivo — "não sei", desistência, latência aumentada, esforço variável;
 - **sintomas depressivos rebaixam significativamente as duas etapas** da Memória Lógica, achado explícito no estudo normativo brasileiro — a evocação imediata sozinha chegou a classificar corretamente mais da metade dos participantes quanto a ter ou não sintomas depressivos.
 
-**Por que a erra:** falha de armazenamento exigiria retenção muito baixa e ausência de benefício de pista — o oposto do que se observa.
-**Por que b erra:** há sofrimento, insônia, perda de interesse e rastreio positivo. Retenção preservada não é sinônimo de "nada a fazer".
-**Por que e erra:** o item de queixa de memória de fato tangencia o somático e pode inflar o escore em amostras de clínica de memória, mas isso é uma ressalva de leitura — não motivo para descartar um escore de 10.
+**Por que **e** erra:** falha de armazenamento exigiria retenção muito baixa e ausência de benefício de pista — o oposto do que se observa.
+**Por que **a** erra:** há sofrimento, insônia, perda de interesse e rastreio positivo. Retenção preservada não é sinônimo de "nada a fazer".
+**Por que **c** erra:** o item de queixa de memória de fato tangencia o somático e pode inflar o escore em amostras de clínica de memória, mas isso é uma ressalva de leitura — não motivo para descartar um escore de 10.
 
 **E o dado da neta é convergente, não contraditório:** "esquece o que a gente combina, mas lembra de tudo o que aconteceu na vida dela" descreve episódica recente rebaixada com autobiográfica remota preservada — compatível tanto com quadro afetivo quanto com quadro degenerativo inicial. É precisamente por isso que se trata e se reavalia, em vez de concluir agora.
 
@@ -435,8 +435,8 @@ Sobre estudos transversais (ET) e longitudinais (EL) em memória e envelheciment
 Estão corretas apenas:
 
 **a)** I, II, III e IV
-**b)** I, III e V
-**c)** II, IV e V
+**b)** II, IV e V
+**c)** I, III e V
 **d)** I, II e V
 **e)** todas
 
@@ -495,22 +495,22 @@ Julgue como **verdadeira (V)** ou **falsa (F)**.
 
 Sobre os conceitos que explicam por que dois idosos da mesma idade têm desempenhos tão diferentes, é correto afirmar que:
 
-**a)** reserva cerebral e reserva cognitiva são sinônimos, distinguindo-se apenas pela terminologia dos autores.
-**b)** a **reserva cerebral** é um modelo passivo, de limiar, ligado ao substrato disponível (tamanho, número de neurônios, densidade sináptica); a **reserva cognitiva** é um conceito ativo, ligado ao uso eficiente das redes e ao recrutamento de vias compensatórias; e a **manutenção cerebral** não trata de lidar com a patologia, mas da relativa ausência ou do adiamento das alterações cerebrais.
-**c)** a escolaridade é medida suficiente de reserva cognitiva, dispensando outras informações sobre hábitos e ocupação.
-**d)** fatores de risco cardiovascular não afetam o desempenho cognitivo em idosos sem evento cerebrovascular.
-**e)** um único fator isolado é responsável pela manutenção da memória na velhice.
+**a)** a **reserva cerebral** é um modelo passivo, de limiar, ligado ao substrato disponível (tamanho, número de neurônios, densidade sináptica); a **reserva cognitiva** é um conceito ativo, ligado ao uso eficiente das redes e ao recrutamento de vias compensatórias; e a **manutenção cerebral** não trata de lidar com a patologia, mas da relativa ausência ou do adiamento das alterações cerebrais.
+**b)** fatores de risco cardiovascular não afetam o desempenho cognitivo em idosos sem evento cerebrovascular.
+**c)** um único fator isolado é responsável pela manutenção da memória na velhice.
+**d)** reserva cerebral e reserva cognitiva são sinônimos, distinguindo-se apenas pela terminologia dos autores.
+**e)** a escolaridade é medida suficiente de reserva cognitiva, dispensando outras informações sobre hábitos e ocupação.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: a**
 
 Atalho para não trocar os conceitos: **reserva cerebral é hardware**; **reserva cognitiva é software**; **manutenção é a ausência da avaria**.
 
-- **c)** é contrariada por um achado importante: idosos com **pouco hábito de leitura** declinaram mais na memória declarativa que os de hábito contínuo, **independentemente do nível de escolaridade**. É um argumento contra usar escolaridade sozinha como marcador de reserva, sobretudo em populações menos favorecidas — e um argumento a favor de perguntar, na anamnese, sobre rotinas e passatempos.
-- **d)** é falsa: pressão elevada, diabetes e hiperlipidemia rebaixam velocidade psicomotora, visuoconstrução, aprendizagem, memória e executivas.
-- **e)** contraria a ressalva do capítulo: é pouco provável que um fator isolado seja o segredo.
+- **b)** é falsa: pressão elevada, diabetes e hiperlipidemia rebaixam velocidade psicomotora, visuoconstrução, aprendizagem, memória e executivas.
+- **c)** contraria a ressalva do capítulo: é pouco provável que um fator isolado seja o segredo.
+- **e)** é contrariada por um achado importante: idosos com **pouco hábito de leitura** declinaram mais na memória declarativa que os de hábito contínuo, **independentemente do nível de escolaridade**. É um argumento contra usar escolaridade sozinha como marcador de reserva, sobretudo em populações menos favorecidas — e um argumento a favor de perguntar, na anamnese, sobre rotinas e passatempos.
 
 **Um achado contraintuitivo que vale citar em sala:** comparando professores universitários com operários, não se encontrou taxa de declínio mais lenta nos de capacidade acadêmica elevada — os dois grupos declinaram proporcionalmente ao que tinham. Reserva desloca o ponto de partida; não muda necessariamente a inclinação.
 </details>
@@ -532,11 +532,11 @@ Atalho para não trocar os conceitos: **reserva cerebral é hardware**; **reserv
 
 Qual é a formulação correta?
 
-**a)** TNC leve: a funcionalidade está preservada com estratégia, já que a medicação foi organizada numa caixinha semanal.
-**b)** Quadro de origem afetiva, dada a magnitude da queda entre as duas etapas.
+**a)** Envelhecimento normal, já que o MEEM está a apenas 1 ponto do corte.
+**b)** TNC leve: a funcionalidade está preservada com estratégia, já que a medicação foi organizada numa caixinha semanal.
 **c)** **TNC maior.** O perfil é amnéstico — retenção de 18% com intrusões, apesar de um escore imediato **acima** da média da faixa de escolaridade dela —, e o que decide o **nível** é a perda de independência: o controle da própria medicação foi assumido pela nora depois de dois episódios de dose repetida, e o das contas, pelo filho após erros repetidos.
-**d)** Envelhecimento normal, já que o MEEM está a apenas 1 ponto do corte.
-**e)** Doença de Alzheimer confirmada, dado o perfil amnéstico e o gradiente temporal.
+**d)** Doença de Alzheimer confirmada, dado o perfil amnéstico e o gradiente temporal.
+**e)** Quadro de origem afetiva, dada a magnitude da queda entre as duas etapas.
 
 <details>
 <summary>Gabarito e comentário</summary>
@@ -545,9 +545,9 @@ Qual é a formulação correta?
 
 **O escore imediato é o que engana.** Ele está **acima** da média da faixa dela — ou seja, ela **codifica bem**. É a **retenção** que denuncia: 18% significa que a informação entrou e não ficou. E as **intrusões** na etapa tardia reforçam o achado.
 
-**Por que a erra, e é o erro mais fino da questão:** no TNC leve, a pessoa mantém a atividade **com mais esforço ou estratégia** — ela anota, confere duas vezes, usa alarme. Aqui a estratégia **não é dela**: outra pessoa assumiu a tarefa, e assumiu **depois** que o erro ocorreu. Isso é perda de independência, não compensação.
+**Por que **b** erra, e é o erro mais fino da questão:** no TNC leve, a pessoa mantém a atividade **com mais esforço ou estratégia** — ela anota, confere duas vezes, usa alarme. Aqui a estratégia **não é dela**: outra pessoa assumiu a tarefa, e assumiu **depois** que o erro ocorreu. Isso é perda de independência, não compensação.
 
-**O caso foi montado para fechar as portas das hipóteses concorrentes**, uma a uma — o que derruba **b** e **d**:
+**O caso foi montado para fechar as portas das hipóteses concorrentes**, uma a uma — o que derruba **e** e **a**:
 - **humor** — GDS-15 = 2, sem tristeza, anedonia, alteração de sono ou apetite;
 - **sensorial** — sem déficit auditivo, óculos em uso;
 - **farmacológica** — nenhum psicotrópico, nenhuma carga anticolinérgica;
@@ -555,7 +555,7 @@ Qual é a formulação correta?
 - **delirium** — curso de dois anos, insidioso e progressivo, sem flutuação aguda;
 - **escolaridade** — o desempenho imediato está acima da média da própria faixa.
 
-**Por que e ultrapassa o permitido:** os dados de etiologia são convergentes — curso insidioso e progressivo, perfil amnéstico com falha de armazenamento, gradiente temporal clássico (remota preservada, recente rebaixada) e anosognosia ("é da idade"). Isso sustenta **hipótese**, não confirmação: sem neuroimagem, marcador ou perfil clínico completo, o subtipo permanece como **possível**.
+**Por que **d** ultrapassa o permitido:** os dados de etiologia são convergentes — curso insidioso e progressivo, perfil amnéstico com falha de armazenamento, gradiente temporal clássico (remota preservada, recente rebaixada) e anosognosia ("é da idade"). Isso sustenta **hipótese**, não confirmação: sem neuroimagem, marcador ou perfil clínico completo, o subtipo permanece como **possível**.
 </details>
 
 ---
@@ -579,25 +579,25 @@ Qual é a formulação correta?
 
 Sobre o uso desses dados, é correto afirmar que:
 
-**a)** o escore de **uma** das histórias deve ser comparado diretamente às médias da tabela, pois cada história vale 25 pontos.
-**b)** é preciso somar as duas histórias antes de comparar, pois a norma está na escala do **par**; e o critério de 1,5 DP abaixo da média torna-se praticamente inoperante na etapa **tardia** de vários grupos — onde o desvio-padrão é quase do tamanho da média, de modo que o corte cairia em zero ou abaixo dele —, razão pela qual a **porcentagem de retenção** é mais informativa nessa etapa.
-**c)** a tabela dispensa a consideração de sintomas depressivos, já que a análise controlou essa variável.
-**d)** como a escolaridade tem o maior impacto, a idade pode ser desconsiderada na escolha da linha de comparação.
-**e)** o salto entre analfabetos e 9 anos ou mais de estudo na etapa tardia é pequeno o bastante para permitir o uso de uma única norma geral.
+**a)** a tabela dispensa a consideração de sintomas depressivos, já que a análise controlou essa variável.
+**b)** como a escolaridade tem o maior impacto, a idade pode ser desconsiderada na escolha da linha de comparação.
+**c)** o salto entre analfabetos e 9 anos ou mais de estudo na etapa tardia é pequeno o bastante para permitir o uso de uma única norma geral.
+**d)** o escore de **uma** das histórias deve ser comparado diretamente às médias da tabela, pois cada história vale 25 pontos.
+**e)** é preciso somar as duas histórias antes de comparar, pois a norma está na escala do **par**; e o critério de 1,5 DP abaixo da média torna-se praticamente inoperante na etapa **tardia** de vários grupos — onde o desvio-padrão é quase do tamanho da média, de modo que o corte cairia em zero ou abaixo dele —, razão pela qual a **porcentagem de retenção** é mais informativa nessa etapa.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: e**
 
 Três leituras se somam nesta questão.
 
 1. **A escala.** Cada história vale 25 unidades de ideia, e o procedimento do manual combina as duas: o escore do par vai de **0 a 50**. Comparar o escore de uma história isolada às médias da tabela **superestima o déficit** — e é um erro comum.
 2. **O limite do critério normativo na etapa tardia.** Veja os analfabetos: média 3,71 com DP 4,41. Um corte de 1,5 DP abaixo da média cairia bem abaixo de zero, ou seja, **nenhum escore possível seria classificado como rebaixado**. Onde a norma não opera, a razão entre as etapas — a retenção — é o que resta de informativo.
-3. **A escolaridade como variável de correção.** Na tardia, a média vai de 3,71 (analfabetos) a 12,03 (9 anos ou mais): mais que o triplo. Corrigir sem olhar a escolaridade **produz diagnóstico** — o que derruba **e**.
+3. **A escolaridade como variável de correção.** Na tardia, a média vai de 3,71 (analfabetos) a 12,03 (9 anos ou mais): mais que o triplo. Corrigir sem olhar a escolaridade **produz diagnóstico** — o que derruba **c**.
 
-- **c)** inverte o sentido do achado: os sintomas depressivos foram identificados justamente como determinantes que **rebaixam** as duas etapas; a análise os identificou, não os anulou. Rastrear humor antes de interpretar a memória é conduta, não formalidade.
-- **d)** ignora que a tabela traz linhas por idade **e** por escolaridade, e que ambas entraram no modelo.
+- **a)** inverte o sentido do achado: os sintomas depressivos foram identificados justamente como determinantes que **rebaixam** as duas etapas; a análise os identificou, não os anulou. Rastrear humor antes de interpretar a memória é conduta, não formalidade.
+- **b)** ignora que a tabela traz linhas por idade **e** por escolaridade, e que ambas entraram no modelo.
 </details>
 
 ---
@@ -607,16 +607,16 @@ Três leituras se somam nesta questão.
 
 Sobre os limites da Memória Lógica como instrumento de avaliação de memória em idosos brasileiros, é correto afirmar que:
 
-**a)** por usar material com sentido, o instrumento é imune a efeitos de escolaridade e de cultura.
-**b)** escolaridade e repertório cultural pesam fortemente — inclusive porque o conteúdo das histórias supõe um repertório urbano —; o efeito de prática infla o reteste e formas alternativas o reduzem sem eliminá-lo; e nenhum item do subteste mede funcionalidade, que é o critério que separa transtorno neurocognitivo leve de maior.
-**c)** a evocação tardia sozinha estabelece o diagnóstico de comprometimento cognitivo leve amnéstico.
-**d)** o instrumento tem tradução oficial e validação plena na população brasileira, o que dispensa cautela na interpretação.
-**e)** por medir memória episódica verbal, o subteste torna dispensável a investigação de humor e de sono.
+**a)** a evocação tardia sozinha estabelece o diagnóstico de comprometimento cognitivo leve amnéstico.
+**b)** por usar material com sentido, o instrumento é imune a efeitos de escolaridade e de cultura.
+**c)** escolaridade e repertório cultural pesam fortemente — inclusive porque o conteúdo das histórias supõe um repertório urbano —; o efeito de prática infla o reteste e formas alternativas o reduzem sem eliminá-lo; e nenhum item do subteste mede funcionalidade, que é o critério que separa transtorno neurocognitivo leve de maior.
+**d)** por medir memória episódica verbal, o subteste torna dispensável a investigação de humor e de sono.
+**e)** o instrumento tem tradução oficial e validação plena na população brasileira, o que dispensa cautela na interpretação.
 
 <details>
 <summary>Gabarito e comentário</summary>
 
-**Gabarito: b**
+**Gabarito: c**
 
 Os três limites, com o que cada um implica:
 
@@ -625,9 +625,9 @@ Os três limites, com o que cada um implica:
 - **Funcionalidade.** Ela sai da entrevista com o informante, não de nenhum teste.
 
 Sobre as demais:
-- **d)** é falsa e importa: circulam no Brasil histórias em tradução livre, **sem tradução oficial nem validação plena** na nossa população — o que exige cautela ao comunicar resultados.
-- **c)** superestima o poder de uma medida isolada. Acrescentar a evocação tardia de uma história a outra prova de memória **aumenta muito** a acurácia de classificação entre idoso normal e comprometimento leve amnéstico, mas isso é acurácia de classificação em pesquisa, não diagnóstico clínico numa pessoa.
-- **e)** contraria o achado normativo brasileiro de que sintomas depressivos rebaixam significativamente as duas etapas — e contraria a lógica das três fases: humor e sono operam sobre a **codificação**.
+- **a)** superestima o poder de uma medida isolada. Acrescentar a evocação tardia de uma história a outra prova de memória **aumenta muito** a acurácia de classificação entre idoso normal e comprometimento leve amnéstico, mas isso é acurácia de classificação em pesquisa, não diagnóstico clínico numa pessoa.
+- **d)** contraria o achado normativo brasileiro de que sintomas depressivos rebaixam significativamente as duas etapas — e contraria a lógica das três fases: humor e sono operam sobre a **codificação**.
+- **e)** é falsa e importa: circulam no Brasil histórias em tradução livre, **sem tradução oficial nem validação plena** na nossa população — o que exige cautela ao comunicar resultados.
 
 **As três coisas que ficam da aula:**
 1. memória não é uma função — episódica e operacional caem; semântica, implícita e curto prazo se mantêm;
@@ -641,8 +641,8 @@ Sobre as demais:
 
 | Questão | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | b | V, V, F, V | a | b | b | b | V, V, V, F | b | a |
+| **Gabarito** | d | V, V, F, V | e | a | d | e | V, V, V, F | b | c |
 
 | Questão | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |
 |---|---|---|---|---|---|---|---|---|---|
-| **Gabarito** | c | b | d | a | V, V, F, V | b | c | b | b |
+| **Gabarito** | d | b | b | a | V, V, F, V | a | c | e | c |
