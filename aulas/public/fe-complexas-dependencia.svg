@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Três colunas — planejamento, raciocínio e resolução de problemas — e sob cada uma as funções executivas básicas de que ela depende">
+  <style>
+    .cab { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 21px; fill: #fdfdfb; }
+    .chip{ font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 18px; fill: #1d3e6e; }
+    .ori { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #6b6b63; letter-spacing: 0.1em; }
+  </style>
+
+  <!-- coluna 1 -->
+  <rect x="20" y="20" width="300" height="58" fill="#1d3e6e"/>
+  <text class="cab" x="170" y="57" text-anchor="middle">Planejamento</text>
+  <path d="M 170 78 L 170 104" stroke="#bfbeb3" stroke-width="2"/>
+  <rect x="34" y="104" width="272" height="46" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="chip" x="170" y="134" text-anchor="middle">memória operacional</text>
+  <rect x="34" y="160" width="272" height="46" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="chip" x="170" y="190" text-anchor="middle">flexibilidade cognitiva</text>
+  <rect x="34" y="216" width="272" height="46" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="chip" x="170" y="246" text-anchor="middle">controle inibitório</text>
+
+  <!-- coluna 2 -->
+  <rect x="350" y="20" width="300" height="58" fill="#1d3e6e"/>
+  <text class="cab" x="500" y="57" text-anchor="middle">Raciocínio</text>
+  <path d="M 500 78 L 500 104" stroke="#bfbeb3" stroke-width="2"/>
+  <rect x="364" y="104" width="272" height="46" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="chip" x="500" y="134" text-anchor="middle">memória operacional</text>
+  <rect x="364" y="160" width="272" height="46" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="chip" x="500" y="190" text-anchor="middle">controle inibitório</text>
+
+  <!-- coluna 3 -->
+  <rect x="680" y="20" width="300" height="58" fill="#1d3e6e"/>
+  <text class="cab" x="830" y="57" text-anchor="middle">Resolução de problemas</text>
+  <path d="M 830 78 L 830 104" stroke="#bfbeb3" stroke-width="2"/>
+  <rect x="694" y="104" width="272" height="46" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="chip" x="830" y="134" text-anchor="middle">memória operacional</text>
+  <rect x="694" y="160" width="272" height="46" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="chip" x="830" y="190" text-anchor="middle">flexibilidade cognitiva</text>
+  <rect x="694" y="216" width="272" height="46" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="chip" x="830" y="246" text-anchor="middle">controle inibitório</text>
+
+  <line x1="20" y1="296" x2="980" y2="296" stroke="#dcdbd3" stroke-width="1.5"/>
+  <text class="ori" x="500" y="326" text-anchor="middle">DE QUE NÚCLEO CADA UMA DEPENDE</text>
+</svg>

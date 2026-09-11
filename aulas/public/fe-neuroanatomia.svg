@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Encéfalo esquemático em vista lateral com três setores pré-frontais numerados — dorsolateral, orbitofrontal e cingulado anterior — e, ao lado, a síndrome característica de cada circuito">
+  <style>
+    .num { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #fdfdfb; font-weight: 700; }
+    .cir { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 19px; fill: #1d3e6e; }
+    .sin { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #4a4a45; }
+    .ori { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #6b6b63; letter-spacing: 0.1em; }
+  </style>
+
+  <!-- os setores pré-frontais são recortados pela própria silhueta, para que
+       nenhuma borda reta escape do contorno do encéfalo -->
+  <clipPath id="encefalo">
+    <path d="M 55 200 C 50 120, 130 55, 240 52 C 350 49, 445 85, 468 150 C 484 196, 462 232, 420 246 L 175 252 C 100 254, 60 232, 55 200 Z"/>
+  </clipPath>
+
+  <!-- silhueta do encéfalo, vista lateral esquerda, anterior à esquerda -->
+  <path d="M 55 200 C 50 120, 130 55, 240 52 C 350 49, 445 85, 468 150 C 484 196, 462 232, 420 246 L 175 252 C 100 254, 60 232, 55 200 Z"
+        fill="#f5f4ee" stroke="#bfbeb3" stroke-width="2"/>
+  <path d="M 330 250 C 338 286, 354 306, 364 324 L 396 316 C 380 292, 370 268, 368 248 Z"
+        fill="#edece4" stroke="#bfbeb3" stroke-width="1.5"/>
+  <ellipse cx="436" cy="272" rx="64" ry="42" fill="#edece4" stroke="#bfbeb3" stroke-width="1.5"/>
+
+  <g clip-path="url(#encefalo)">
+    <!-- 1 · dorsolateral -->
+    <path d="M 40 180 L 220 150 L 224 40 L 40 40 Z" fill="#1d3e6e" opacity="0.28"/>
+    <!-- 2 · orbitofrontal -->
+    <path d="M 40 200 L 222 190 L 224 268 L 40 268 Z" fill="#8a5a12" opacity="0.34"/>
+    <!-- 3 · cingulado anterior, na face medial -->
+    <path d="M 150 168 C 186 122, 252 110, 308 126" fill="none" stroke="#2c6047" stroke-width="20"
+          opacity="0.34" stroke-linecap="round"/>
+  </g>
+  <!-- o contorno volta por cima, para a linha ficar contínua -->
+  <path d="M 55 200 C 50 120, 130 55, 240 52 C 350 49, 445 85, 468 150 C 484 196, 462 232, 420 246 L 175 252 C 100 254, 60 232, 55 200 Z" fill="none" stroke="#bfbeb3" stroke-width="2"/>
+
+  <g>
+    <circle cx="132" cy="104" r="16" fill="#1d3e6e" stroke="#fdfdfb" stroke-width="2"/>
+    <text class="num" x="132" y="110" text-anchor="middle">1</text>
+    <circle cx="136" cy="220" r="16" fill="#8a5a12" stroke="#fdfdfb" stroke-width="2"/>
+    <text class="num" x="136" y="226" text-anchor="middle">2</text>
+    <circle cx="232" cy="118" r="16" fill="#2c6047" stroke="#fdfdfb" stroke-width="2"/>
+    <text class="num" x="232" y="124" text-anchor="middle">3</text>
+  </g>
+
+  <text class="ori" x="55" y="344">ANTERIOR</text>
+  <text class="ori" x="500" y="344" text-anchor="end">POSTERIOR</text>
+  <line x1="150" y1="339" x2="430" y2="339" stroke="#dcdbd3" stroke-width="1.5"/>
+
+  <line x1="560" y1="30" x2="560" y2="330" stroke="#dcdbd3" stroke-width="1.5"/>
+
+  <g>
+    <circle cx="608" cy="76" r="15" fill="#1d3e6e"/>
+    <text class="num" x="608" y="82" text-anchor="middle">1</text>
+    <text class="cir" x="636" y="72">Dorsolateral</text>
+    <text class="sin" x="636" y="98">síndrome disexecutiva</text>
+  </g>
+  <g>
+    <circle cx="608" cy="166" r="15" fill="#8a5a12"/>
+    <text class="num" x="608" y="172" text-anchor="middle">2</text>
+    <text class="cir" x="636" y="162">Orbitofrontal</text>
+    <text class="sin" x="636" y="188">desinibição</text>
+  </g>
+  <g>
+    <circle cx="608" cy="256" r="15" fill="#2c6047"/>
+    <text class="num" x="608" y="262" text-anchor="middle">3</text>
+    <text class="cir" x="636" y="252">Cingulado anterior</text>
+    <text class="sin" x="636" y="278">apatia</text>
+    <text class="ori" x="636" y="304">NA FACE MEDIAL DO LOBO</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Três núcleos executivos lado a lado — controle inibitório, memória operacional e flexibilidade cognitiva — sustentando, acima, a faixa das funções executivas complexas">
+  <style>
+    .top { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 22px; fill: #fdfdfb; }
+    .tops{ font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #b9c6da; }
+    .nuc { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 20px; fill: #1d3e6e; }
+    .des { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #4a4a45; }
+    .ori { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #6b6b63; letter-spacing: 0.1em; }
+  </style>
+
+  <!-- a faixa das complexas -->
+  <rect x="120" y="14" width="760" height="76" fill="#1d3e6e"/>
+  <text class="top"  x="500" y="47" text-anchor="middle">Funções executivas complexas</text>
+  <text class="tops" x="500" y="75" text-anchor="middle">planejamento · raciocínio · resolução de problemas</text>
+
+  <!-- fios de baixo para cima -->
+  <path d="M 500 90 L 500 118" stroke="#1d3e6e" stroke-width="2"/>
+  <path d="M 165 118 L 835 118" stroke="#1d3e6e" stroke-width="2"/>
+  <path d="M 165 118 L 165 158" stroke="#1d3e6e" stroke-width="2"/>
+  <path d="M 500 118 L 500 158" stroke="#1d3e6e" stroke-width="2"/>
+  <path d="M 835 118 L 835 158" stroke="#1d3e6e" stroke-width="2"/>
+
+  <!-- os três núcleos -->
+  <rect x="20"  y="158" width="290" height="112" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="1.5"/>
+  <text class="nuc" x="165" y="198" text-anchor="middle">Controle inibitório</text>
+  <text class="des" x="165" y="228" text-anchor="middle">segurar o impulso</text>
+  <text class="des" x="165" y="252" text-anchor="middle">e a distração</text>
+
+  <rect x="355" y="158" width="290" height="112" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="1.5"/>
+  <text class="nuc" x="500" y="198" text-anchor="middle">Memória operacional</text>
+  <text class="des" x="500" y="228" text-anchor="middle">guardar e mexer</text>
+  <text class="des" x="500" y="252" text-anchor="middle">na informação ao mesmo tempo</text>
+
+  <rect x="690" y="158" width="290" height="112" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="1.5"/>
+  <text class="nuc" x="835" y="198" text-anchor="middle">Flexibilidade cognitiva</text>
+  <text class="des" x="835" y="228" text-anchor="middle">mudar de regra,</text>
+  <text class="des" x="835" y="252" text-anchor="middle">de foco e de plano</text>
+
+  <line x1="20" y1="300" x2="980" y2="300" stroke="#dcdbd3" stroke-width="1.5"/>
+  <text class="ori" x="500" y="330" text-anchor="middle">OS TRÊS NÚCLEOS</text>
+</svg>
