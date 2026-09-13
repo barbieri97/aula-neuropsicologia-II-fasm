@@ -14,8 +14,7 @@ themeConfig:
 layout: lead
 index: "06"
 kicker: Neuropsicologia II · FASM
-subtitle: Os processos que controlam os outros processos — o que são, o que a
-  idade faz com eles e como se mede isso na clínica.
+subtitle: O gerente do cérebro.
 ---
 
 <!--
@@ -59,22 +58,19 @@ layout: section
 index: "01"
 kicker: Parte um
 title: As funções executivas
-subtitle: Antes de perguntar o que a idade faz com elas, é preciso dizer o que
-  elas são — e o que elas não são.
+subtitle: Definição e componentes.
 ---
 
 ---
 layout: define
 kicker: A definição
 term: Funções executivas
-definition: Conjunto de processos mentais que <em>controlam outros processos</em>
-  a serviço de um comportamento dirigido a uma meta — na formulação, no
-  planejamento, na execução e no desempenho efetivo da ação.
+definition: Conjunto de processos mentais que <em>controlam outros
+  processos</em> a serviço de um comportamento dirigido a uma meta — na
+  formulação, no planejamento, na execução e no desempenho efetivo da ação.
 points:
-  - "Não são um conteúdo, são um controle: não guardam a informação, decidem o
-    que fazer com ela"
   - "Aparecem quando a resposta automática não serve"
-  - "Comprometem-se com frequência após lesão frontal ou dos núcleos da base"
+  - "Gerencia e organiza os demais processos cognitivos."
 ---
 
 <!--
@@ -87,7 +83,7 @@ layout: showcase
 kicker: A observação fundadora
 title: O acidente que separou <em>inteligência</em> de <em>conduta</em>
 subtitle: Phineas Gage sobreviveu à barra de ferro e manteve fala, memória e
-  força. O que se desfez foi a capacidade de se conduzir.
+  força. O que se desfez foi a capacidade de controlar o seu comportamento.
 image: /phineas-gage.jpg
 side: right
 alt: Daguerreótipo de Phineas Gage segurando a barra de ferro que lhe atravessou
@@ -119,7 +115,7 @@ features:
   - {
       icon: "lucide:split",
       title: "Conflito",
-      desc: "a resposta mais fácil é a errada, e precisa ser segurada"
+      desc: "a resposta mais fácil é a errada, e precisa ser inibida"
     }
 ---
 
@@ -172,7 +168,7 @@ definition: Capacidade de <em>suprimir</em> uma resposta dominante — um impuls
   um hábito, uma distração — quando ela não serve à meta em curso.
 points:
   - "É o que permite não fazer o que já está pronto para ser feito"
-  - "Falha aqui aparece como impulsividade, não como esquecimento"
+  - "Falha aqui aparece como impulsividade."
 ---
 
 <!--
@@ -182,8 +178,7 @@ points:
 
 ---
 layout: columns
-kicker: As três faces da inibição
-title: O que exatamente está sendo segurado?
+title: Três formas de inibição.
 columns:
   - {
       title: "Inibição de resposta",
@@ -197,7 +192,7 @@ columns:
       title: "Controle de interferência",
       items: [
         "O alvo é um <strong>estímulo</strong> que compete",
-        "Ler a conta com a televisão ligada",
+        "Ler com a televisão ligada",
         "Achar o remédio na gaveta cheia"
       ]
     }
@@ -223,7 +218,7 @@ term: Memória operacional
 definition: Sistema de capacidade limitada que <em>mantém</em> a informação
   disponível e, ao mesmo tempo, <em>opera</em> sobre ela.
 points:
-  - "Manter sem manipular é memória de curto prazo — outra coisa"
+  - "Manter sem manipular é memória de curto prazo"
   - "É o que permite comparar, ordenar e recombinar sem apoio externo"
   - "O limite não é de tempo, é de quanto cabe em uso simultâneo"
 ---
@@ -237,12 +232,9 @@ points:
 layout: diagram
 kicker: Retomando a aula 05
 title: A central executiva de Baddeley
-note: Na aula passada este modelo explicava a memória. Hoje o que interessa é o
-  bloco de cima — a central executiva é atenção controlada, a mesma coisa que
-  aqui se chama núcleo executivo.
 ---
 
-<Figure src="/modelo-baddeley.svg" alt="A central executiva no topo, controlando três subsistemas — alça fonológica, buffer episódico e esboço visuoespacial — e, abaixo de cada um, o sistema de longo prazo com que ele conversa" />
+<Figure src="/modelo-baddeley.svg" alt="A central executiva no topo, ligada por setas de mão dupla aos três subsistemas — esboço visuoespacial, buffer episódico e alça fonológica — e, abaixo de cada um, o sistema cristalizado de longo prazo com que ele conversa" />
 
 <!--
 - O ponto do slide é a costura entre as duas aulas: memória operacional aparece nas duas listas porque é, literalmente, o mesmo sistema visto de dois ângulos.
@@ -258,7 +250,7 @@ definition: Capacidade de <em>mudar</em> de perspectiva, de regra ou de
 points:
   - "Exige inibir o critério antigo e carregar o novo na memória operacional"
   - "É o último dos três a se desenvolver e se apoia nos outros dois"
-  - "Falha aqui aparece como rigidez, não como lentidão"
+  - "Falha aqui aparece como rigidez."
 ---
 
 <!--
@@ -350,7 +342,6 @@ title: A resposta é <span class="accent2">B</span>
 
 ---
 layout: statement
-kicker: A transição do bloco
 title: As funções complexas não são um quarto componente. São os três núcleos
   <em>trabalhando juntos</em>.
 ---
@@ -396,14 +387,12 @@ steps:
 ---
 layout: columns
 kicker: Funções complexas
-title: Três nomes que aparecem juntos na literatura
 columns:
   - {
       title: "Raciocínio",
       items: [
         "Tornar explícito o que estava implícito",
         "Indutivo e dedutivo",
-        "Medido por semelhanças e matrizes"
       ]
     }
   - {
@@ -411,7 +400,6 @@ columns:
       items: [
         "Chegar à meta por uma sequência de operações",
         "Ou de uma vez, por <em>insight</em>",
-        "Medida por torres e labirintos"
       ]
     }
   - {
@@ -432,12 +420,10 @@ columns:
 ---
 layout: diagram
 kicker: Bloco 1 · em uma figura
-title: Cada complexa se apoia em núcleos diferentes
-note: É por isso que "déficit de planejamento" não é um diagnóstico de função — é
-  o começo de uma pergunta. A resposta está em qual dos núcleos falhou.
+title: As três básicas são a base das três complexas
 ---
 
-<Figure src="/fe-complexas-dependencia.svg" alt="Três colunas — planejamento, raciocínio e resolução de problemas — e sob cada uma as funções executivas básicas de que ela depende" />
+<Figure src="/fe-complexas-dependencia.svg" alt="Em cima, três funções complexas — planejamento, raciocínio e resolução de problemas; embaixo, uma base única formada pelas três funções executivas básicas que sustentam as três" />
 
 <!--
 - Consequência prática: dois pacientes podem falhar na Torre de Londres por motivos opostos — um por não segurar o primeiro movimento que veio à cabeça, outro por não conseguir manter a configuração-alvo em mente.
@@ -455,7 +441,7 @@ title: Como cada falha chega descrita pela família
   ['Inibição de resposta', '&quot;ficou sem filtro&quot;, &quot;fala o que não deve&quot;, &quot;gasta o que não tem&quot;'],
   ['Controle de interferência', '&quot;só funciona se estiver tudo quieto&quot;, &quot;se distrai com qualquer coisa&quot;'],
   ['Memória operacional', '&quot;esquece no meio do caminho o que ia fazer&quot;, &quot;erra a conta que sempre fez&quot;'],
-  ['Flexibilidade cognitiva', '&quot;não aceita fazer diferente&quot;, &quot;repete a mesma história no mesmo dia&quot;'],
+  ['Flexibilidade cognitiva', '&quot;não aceita fazer diferente&quot;, &quot;está muito teimoso, não aceita mudar&quot;'],
   ['Planejamento', '&quot;começa tudo e não termina nada&quot;, &quot;a festa de Natal virou um caos&quot;'],
   ['Avaliação do resultado', '&quot;faz errado e acha que ficou bom&quot;, &quot;não vê problema nenhum&quot;'],
 ]" />
@@ -552,63 +538,30 @@ title: A resposta é <span class="accent2">C</span>
 layout: diagram
 kicker: Neuroanatomia
 title: Três circuitos, três síndromes
-note: Cada circuito pré-frontal tem uma síndrome assinatura — e ela se repete
-  quando a lesão está na parte subcortical do mesmo circuito, não no córtex.
-  Cummings (1993); Bonelli e Cummings (2007).
 ---
 
-<Figure src="/fe-neuroanatomia.svg" alt="Encéfalo esquemático em vista lateral com três setores pré-frontais numerados — dorsolateral, orbitofrontal e cingulado anterior — e, ao lado, a síndrome característica de cada circuito" />
+<Figure src="/fe-neuroanatomia.svg" alt="Áreas de Brodmann em vistas lateral e medial do encéfalo, com três circuitos pré-frontais numerados — dorsolateral, orbitofrontal e cingulado anterior — e, ao lado, a síndrome característica de cada um" />
 
 <!--
 - São cinco circuitos no artigo de Cummings; dois são motores (oculomotor e motor). Os três de interesse comportamental são estes.
 - Cada circuito é uma alça: córtex pré-frontal → estriado → globo pálido e substância negra → tálamo → de volta ao mesmo córtex.
 -->
 
----
-layout: columns
-kicker: A consequência clínica da alça
-title: Por que disfunção executiva não é sinônimo de lesão frontal
-columns:
-  - {
-      title: "A alça inteira produz a síndrome",
-      items: [
-        "Lesão do estriado, do pálido ou do tálamo repete o quadro cortical",
-        "A substância branca que liga os pontos também conta",
-        "Daí o termo <strong>fronto-subcortical</strong>"
-      ]
-    }
-  - {
-      title: "Onde isso aparece no idoso",
-      items: [
-        "Doença de pequenos vasos e leucoaraiose",
-        "Doença de Parkinson e parkinsonismos atípicos",
-        "Depressão vascular, vista na aula 03"
-      ]
-    }
----
-
-<!--
-- É a razão de a FAB ter sido validada originalmente em doença de Parkinson, atrofia de múltiplos sistemas, degeneração corticobasal e paralisia supranuclear progressiva — e não só em demência frontotemporal (Dubois et al., 2000).
-- Para o laudo: descrever o perfil executivo não localiza lesão. Localiza circuito, no máximo — e mesmo isso com parcimônia.
--->
 
 ---
 layout: statement
-kicker: Fecho do bloco um
 title: O que se descreve é <em>função</em>. O que a neuroimagem descreve é
-  <em>lesão</em>. Os dois se encontram no circuito, não no escore.
+  <em>lesão</em>. Nem sempre aparecem juntos.
 ---
 
-<!--
-- Ponte para o bloco 2: agora que os componentes têm nome, dá para perguntar o que a idade faz com cada um — e a resposta não é a mesma para todos.
--->
+
 
 ---
 layout: section
 index: "02"
 kicker: Parte dois
-title: As executivas no envelhecimento
-subtitle: O declínio existe, é grande e não é uniforme. Qual subcomponente cai,
+title: As FEs no envelhecimento
+subtitle: Qual subcomponente cai,
   qual se mantém e o que isso significa na clínica.
 ---
 
@@ -631,16 +584,21 @@ label: O desempenho executivo do idoso saudável fica cerca de <strong>um
 layout: chart
 kicker: O declínio não é uniforme
 title: Tamanho de efeito por subcomponente
-note: g de Hedges, jovens de 18 a 35 anos contra idosos de 65 ou mais.
-  <em>Atualização</em> foi o único significativamente menor que os demais.
-  Maldonado et al. (2020), 438 amostras independentes.
+note: "O idoso saudável fica mais de um desvio-padrão abaixo do jovem em <em>inibição</em>, <em>velocidade</em> e <em>alternância</em>. Em <em>atualização</em> a diferença é bem menor."
 chart:
   type: bar
   horizontal: true
   height: "300px"
-  categories: ["Inibição", "Velocidade de processamento", "Alternância", "Executiva global", "Atualização"]
+  categories:
+    [
+      "Inibição",
+      "Velocidade de processamento",
+      "Alternância",
+      "Executiva global",
+      "Atualização"
+    ]
   series:
-    - { name: "g de Hedges", data: [1.64, 1.50, 1.40, 1.29, 0.80] }
+    - { name: "g de Hedges", data: [ 1.64, 1.50, 1.40, 1.29, 0.80 ] }
 ---
 
 <!--
@@ -649,32 +607,12 @@ chart:
 - Atualização difere dos outros três com p = 0,001; entre os outros três não houve diferença significativa.
 -->
 
----
-layout: default
-kicker: Lendo o gráfico
-title: O que cai muito, o que cai pouco — e a ressalva
----
-
-O idoso saudável fica mais de um desvio-padrão abaixo do jovem em **inibição**,
-**velocidade** e **alternância**. Em **atualização** a diferença é bem menor.
-
-<Callout tone="warn" icon="lucide:triangle-alert">
-Parte da vantagem da atualização pode ser de <strong>método</strong>: ela é medida por
-acerto, e as outras, por tempo de reação — que carrega a lentificação geral do idoso.
-</Callout>
-
-<!--
-- A segunda explicação que os autores oferecem: as tarefas de atualização são muito verbais, e vocabulário é o que menos muda com a idade.
-- Achado que desarma a explicação simples: mesmo com diferença grande em velocidade de processamento, a atualização não cai na mesma proporção. Ou seja, velocidade não é a causa única do declínio executivo.
--->
 
 ---
 layout: diagram
 kicker: A moldura que organiza tudo
 title: Fluida cai, cristalizada se mantém
-note: Traçado <em>esquemático</em>, para mostrar a forma das duas curvas — não são
-  dados de um estudo. A distinção é a que Corbo e Casagrande (2022) usam para
-  situar as funções complexas.
+note: Traçado <em>esquemático</em>, para mostrar a forma das duas curvas
 ---
 
 <Figure src="/fe-cristalizada-fluida.svg" alt="Duas curvas esquemáticas ao longo da vida adulta: a inteligência cristalizada sobe e se mantém até idades avançadas, enquanto a fluida, que sustenta as funções executivas, cai de forma contínua a partir do início da vida adulta" />
@@ -683,100 +621,6 @@ note: Traçado <em>esquemático</em>, para mostrar a forma das duas curvas — n
 - A fluida atinge o pico na adolescência e é sensível ao envelhecimento fisiológico; a cristalizada atinge o pico no início da vida adulta e é pouco afetada.
 - É a figura que explica por que o mesmo idoso conta uma história com riqueza de vocabulário e trava numa tarefa nova de duas regras.
 - E é o contraponto ao "déficit de atualização menor": o que sustenta a atualização é justamente material verbal, do lado cristalizado da conta.
--->
-
----
-layout: default
-kicker: Memória operacional no envelhecimento
-title: Guardar já é difícil. Guardar <em>enquanto</em> se faz outra coisa é pior
----
-
-<Grid head highlight="row:4" :data="[
-  ['Condição', 'g', 'Leitura'],
-  ['Só armazenar', '0,604', 'a diferença entre jovem e idoso já é média-alta na tarefa simples'],
-  ['Armazenar + processar', '0,638', 'com processamento concorrente a diferença cresce pouco'],
-  ['Custo da concorrência', '−0,182', 'o custo extra de fazer as duas coisas é <b>real, porém pequeno</b>'],
-]" />
-
-<Callout icon="lucide:scale">
-Quando se <strong>equipara a dificuldade de base</strong> entre os dois grupos antes de
-combinar as tarefas, o custo extra do idoso cai para perto de zero.
-</Callout>
-
-<!--
-- Jaroslawska e Rhodes (2019): 43 referências, 135 observações de tarefa dupla.
-- O termo técnico para equiparar a dificuldade de base é **titulação**. Sem titular, g = −0,246; com titulação, g = −0,111, não significativo.
-- A moral metodológica: boa parte do que se atribui a "déficit de coordenação do idoso" é, na verdade, o idoso partindo de um ponto mais baixo na tarefa simples.
--->
-
----
-layout: vs
-kicker: E o material também decide
-title: O mesmo idoso vai melhor com palavra do que com figura
-left:
-  title: "Material verbal"
-  items: [
-    "g = 0,553 na tarefa de armazenamento",
-    "Apoia-se no vocabulário, que a idade preserva",
-    "É o material da maior parte dos testes de rastreio"
-  ]
-right:
-  title: "Material não verbal"
-  items: [
-    "g = 0,859 na mesma tarefa",
-    "Sem apoio do que já foi aprendido",
-    "É onde a diferença de idade aparece maior"
-  ]
-label: "×"
----
-
-<!--
-- Jaroslawska e Rhodes (2019), diferença entre os dois domínios: −0,306, p < 0,05.
-- Consequência de escolha de teste: uma bateria só verbal subestima o déficit; uma bateria só visuoespacial superestima. Isso vale para qualquer laudo de idoso.
-- É a mesma dissociação verbal-não verbal que apareceu na aula 05, a propósito da Memória Lógica contra a Figura de Rey.
--->
-
----
-layout: default
-kicker: Fixação · pergunta 3
-title: Senhora de 73 anos perde o fio quando o neto entra na cozinha
----
-
-Ela conta que, se for interrompida no meio de uma receita, precisa "começar tudo de
-novo". Sozinha e em silêncio, cozinha sem erro. Faz compras, dirige e administra as
-contas. Como classificar o relato?
-
-<v-clicks>
-
-- **A.** É comprometimento cognitivo leve: a queixa é específica e tem repercussão prática
-- **B.** É falha de armazenamento: o conteúdo se perde depois de alguns segundos
-- **C.** É o padrão esperado — a idade aumenta o custo da interferência, com funcionalidade preservada
-- **D.** Nada muda na memória operacional do idoso saudável; a queixa precisa de outra explicação
-
-</v-clicks>
-
-<!--
-- Deixe a turma responder antes de virar o slide.
-- Pergunte o que precisaria mudar no relato para a resposta virar A — e ouça se alguém traz funcionalidade.
--->
-
----
-layout: default
-kicker: Fixação · resposta 3
-title: A resposta é <span class="accent2">C</span>
----
-
-<Grid head highlight="row:4" :data="[
-  ['', 'Alternativa', 'Por que erra — ou por que acerta'],
-  ['A', 'Comprometimento cognitivo leve', 'o critério exige declínio objetivo com independência preservada mas esforço aumentado em tarefa complexa; aqui não há falha, há custo em uma condição específica'],
-  ['B', 'Falha de armazenamento', 'confunde manter-em-uso com guardar; a receita não foi esquecida, foi despejada quando a atenção foi tomada'],
-  ['C', 'Padrão esperado da idade', '<b>correta</b> — é exatamente o efeito de processamento concorrente sobre o armazenamento, com toda a funcionalidade preservada'],
-  ['D', 'Nada muda no idoso saudável', 'contraria a meta-análise: a diferença existe mesmo na tarefa simples (g = 0,60) e cresce um pouco com concorrência'],
-]" />
-
-<!--
-- O que decide a resposta não é o escore, é a funcionalidade — a mesma lógica do critério de transtorno neurocognitivo leve × maior, da aula 04.
-- Conduta razoável aqui: orientação ambiental (uma tarefa por vez, reduzir ruído) e reavaliação no prazo, não bateria completa imediata.
 -->
 
 ---
@@ -847,8 +691,7 @@ layout: section
 index: "03"
 kicker: Parte três
 title: Avaliação das funções executivas
-subtitle: O que conferir antes de testar, e um instrumento de bancada — a Bateria
-  de Avaliação Frontal.
+subtitle: a Bateria de Avaliação Frontal (FAB).
 ---
 
 ---
@@ -894,7 +737,7 @@ title: O que o rastreio global <em>não</em> vê
 ---
 
 O MEEM não tem nenhum item de cognição social e quase nada de função executiva. Um
-paciente com desinibição franca pode fazer 28 em 30.
+paciente com desinibição clara pode fazer 28 em 30.
 
 <Callout tone="warn" icon="lucide:eye-off">
 Rastreio global normal <strong>não</strong> é evidência de função executiva preservada.
@@ -1095,25 +938,13 @@ executivo — não diz qual núcleo falhou, nem qual é a etiologia.
 -->
 
 ---
-layout: embed
-kicker: Ver aplicar
-title: Uma sessão de FAB, do primeiro ao sexto subteste
-iframe: https://www.youtube.com/embed/dJ0ubrh1ack
----
-
-<!--
-- A demonstração está **em inglês**; a ordem dos subtestes e os critérios são os mesmos da versão brasileira. Não encontrei registro equivalente em português — vale procurar antes da aula e trocar se aparecer.
-- Vale parar no subteste 6 e chamar atenção para o detalhe que os alunos sempre erram: o examinador não fala e não olha para o paciente enquanto toca as palmas.
--->
-
----
 layout: default
-kicker: Fixação · pergunta 4
+kicker: Fixação · pergunta 3
 title: Homem de 70 anos, quatro anos de escolaridade, FAB 11 em 18
 ---
 
 Aposentado, mora sozinho, cuida da casa e das contas sem ajuda. MEEM 26 em 30, sem
-queixa da família. Foi encaminhado para "avaliar o frontal". O que dizer do escore?
+queixa da família. Foi encaminhado para "avaliar o frontal" pelo neurologista. O que dizer do escore?
 
 <v-clicks>
 
@@ -1131,7 +962,7 @@ queixa da família. Foi encaminhado para "avaliar o frontal". O que dizer do esc
 
 ---
 layout: default
-kicker: Fixação · resposta 4
+kicker: Fixação · resposta 3
 title: A resposta é <span class="accent2">B</span>
 ---
 
@@ -1189,15 +1020,8 @@ panels:
 ---
 layout: statement
 kicker: Dinâmica em grupo
-title: Uma ficha. Corrijam a FAB, comparem com a norma certa e digam <em>qual
-  função</em> falhou.
+title: Corrijam a FAB, comparem com a norma certa e digam <em>qual função</em> falhou.
 ---
-
-Em grupos de quatro ou cinco. Cada grupo corrige os seis subtestes a partir do registro
-verbatim, soma o total, compara com a faixa de escolaridade e escreve o parágrafo de
-conclusão.
-
-<Tags :items="['1 · pontue cada subteste', '2 · some o total', '3 · compare com a faixa', '4 · leia o perfil', '5 · o que investigar depois?']" />
 
 <!--
 GABARITO — para você, não para eles. A ficha está em `referencias/aula-06/`.
