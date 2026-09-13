@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Duas curvas esquemáticas ao longo da vida adulta: a inteligência cristalizada sobe e se mantém até idades avançadas, enquanto a fluida, que sustenta as funções executivas, cai de forma contínua a partir do início da vida adulta">
+  <style>
+    .rot { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 19px; }
+    .sub { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #4a4a45; }
+    .eix { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 17px; fill: #6b6b63; }
+    .ori { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #6b6b63; letter-spacing: 0.1em; }
+  </style>
+
+  <!-- eixos -->
+  <line x1="90" y1="266" x2="700" y2="266" stroke="#bfbeb3" stroke-width="2"/>
+  <line x1="90" y1="40"  x2="90"  y2="266" stroke="#bfbeb3" stroke-width="2"/>
+
+  <!-- marcas de idade -->
+  <g>
+    <line x1="90"  y1="266" x2="90"  y2="274" stroke="#bfbeb3" stroke-width="2"/>
+    <line x1="242" y1="266" x2="242" y2="274" stroke="#bfbeb3" stroke-width="2"/>
+    <line x1="394" y1="266" x2="394" y2="274" stroke="#bfbeb3" stroke-width="2"/>
+    <line x1="546" y1="266" x2="546" y2="274" stroke="#bfbeb3" stroke-width="2"/>
+    <line x1="698" y1="266" x2="698" y2="274" stroke="#bfbeb3" stroke-width="2"/>
+    <text class="eix" x="90"  y="296" text-anchor="middle">20</text>
+    <text class="eix" x="242" y="296" text-anchor="middle">35</text>
+    <text class="eix" x="394" y="296" text-anchor="middle">50</text>
+    <text class="eix" x="546" y="296" text-anchor="middle">65</text>
+    <text class="eix" x="698" y="296" text-anchor="middle">80</text>
+  </g>
+  <text class="ori" x="394" y="330" text-anchor="middle">IDADE, EM ANOS</text>
+
+  <!-- cristalizada: sobe e se mantém -->
+  <path d="M 90 168 C 200 122, 300 104, 394 100 C 490 96, 600 102, 698 118"
+        fill="none" stroke="#2c6047" stroke-width="5" stroke-linecap="round"/>
+  <!-- fluida: cai de forma contínua -->
+  <path d="M 90 84 C 200 108, 300 140, 394 168 C 490 198, 600 226, 698 248"
+        fill="none" stroke="#1d3e6e" stroke-width="5" stroke-linecap="round"/>
+
+  <circle cx="698" cy="118" r="7" fill="#2c6047"/>
+  <circle cx="698" cy="248" r="7" fill="#1d3e6e"/>
+
+  <!-- legenda -->
+  <line x1="736" y1="60" x2="736" y2="252" stroke="#dcdbd3" stroke-width="1.5"/>
+
+  <rect x="764" y="82" width="34" height="6" fill="#2c6047"/>
+  <text class="rot" x="764" y="120" fill="#2c6047">Cristalizada</text>
+  <text class="sub" x="764" y="146">vocabulário e conhecimento,</text>
+  <text class="sub" x="764" y="168">o que já foi aprendido</text>
+
+  <rect x="764" y="196" width="34" height="6" fill="#1d3e6e"/>
+  <text class="rot" x="764" y="234" fill="#1d3e6e">Fluida</text>
+  <text class="sub" x="764" y="260">raciocinar sobre o novo —</text>
+  <text class="sub" x="764" y="282">é onde moram as executivas</text>
+</svg>

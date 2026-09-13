@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-label="Uma fundação larga e única, com as três funções executivas básicas lado a lado, sustenta por baixo um bloco mais estreito com as três funções complexas — as divisões dos dois blocos não se alinham, porque a base sustenta o conjunto, não uma função de cada vez">
+  <style>
+    .fn  { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 20px; fill: #1d3e6e; font-weight: 600; }
+    .cab { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 18px; fill: #fdfdfb; }
+    .ori { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 15px; fill: #6b6b63; letter-spacing: 0.1em; }
+  </style>
+
+  <!-- bloco de cima: as três funções complexas, apoiadas no bloco de baixo -->
+  <rect x="60" y="20" width="880" height="170" fill="#e7ecf3" stroke="#b9c6da" stroke-width="1.5"/>
+  <line x1="320" y1="20" x2="320" y2="190" stroke="#b9c6da" stroke-width="1.5"/>
+  <line x1="580" y1="20" x2="580" y2="190" stroke="#b9c6da" stroke-width="1.5"/>
+  <text class="fn" x="190" y="112" text-anchor="middle">Planejamento</text>
+  <text class="fn" x="450" y="112" text-anchor="middle">Raciocínio</text>
+  <text class="fn" x="760" y="112" text-anchor="middle">Resolução de problemas</text>
+
+  <!-- fundação: mais larga que o bloco de cima, sem divisão alinhada com ele -->
+  <rect x="20" y="190" width="960" height="110" fill="#1d3e6e"/>
+  <line x1="340" y1="190" x2="340" y2="300" stroke="#4a6a9c" stroke-width="1.5"/>
+  <line x1="660" y1="190" x2="660" y2="300" stroke="#4a6a9c" stroke-width="1.5"/>
+  <text class="cab" x="180" y="252" text-anchor="middle">memória operacional</text>
+  <text class="cab" x="500" y="252" text-anchor="middle">flexibilidade cognitiva</text>
+  <text class="cab" x="820" y="252" text-anchor="middle">controle inibitório</text>
+</svg>

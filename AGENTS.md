@@ -26,6 +26,140 @@ As três regras que mais quebram deck:
 
 `npm run lint` pega as três, com arquivo e linha. Rode antes de commitar.
 
+Uma quarta que não quebra, só sai errada: **`**negrito**` não funciona dentro do frontmatter.**
+Os `items:` de `columns`/`panels`, os `desc:` e os títulos são injetados com `v-html`, então o
+markdown aparece literal na tela — `**Conduta:**` sai com os asteriscos. Use `<strong>` e `<em>`.
+
+## O que vai na tela e o que fica na sua boca
+
+Todo primeiro rascunho de aula sai escrito como texto: o título argumenta, o marcador se defende,
+a figura carrega a metodologia junto. A revisão da aula 06 cortou sete slides e reescreveu uma
+dúzia de títulos **sem tirar uma ideia do lugar** — era tudo moldura. O que ela fixou:
+
+**Título e subtítulo nomeiam o slide; não o defendem.** `subtitle: Antes de perguntar o que a idade
+faz com elas, é preciso dizer o que elas são — e o que elas não são` virou `Definição e
+componentes.`; `O que exatamente está sendo segurado?` virou `Três formas de inibição.`; o
+subtítulo de abertura da aula inteira virou `O gerente do cérebro.` Nada de pergunta retórica, nada
+de "antes de X é preciso Y", nada de oração subordinada depois do travessão. Título com vírgula e
+travessão está fazendo o trabalho que é seu, ao vivo.
+
+**O marcador afirma uma coisa e para.** "Falha aqui aparece como impulsividade, **não como
+esquecimento**"; "Manter sem manipular é memória de curto prazo **— outra coisa**". A cauda de
+contraste saiu de todos. A turma lê o que está projetado enquanto você fala: duas orações por
+marcador é uma a mais. O contraste ("e não aquilo") é fala sua — vai para as notas, se for para
+algum lugar. E prefira a afirmação positiva: "Não são um conteúdo, são um controle" virou "Gerencia
+e organiza os demais processos cognitivos."
+
+**Kicker nomeia assunto, não posição no roteiro.** `kicker: A transição do bloco` e `kicker: Fecho
+do bloco um` saíram. A turma não precisa da arquitetura do deck, precisa saber do que é o slide.
+Sem assunto para nomear, omita o kicker.
+
+**`statement` fica só com a frase.** Dois `statement` tinham parágrafo e `<Tags>` embaixo e foram
+esvaziados. O layout existe para uma frase sozinha no meio da tela; o que se escreve sob ela
+compete com ela.
+
+**O `note:` de uma figura é a leitura da figura.** No `chart` de tamanhos de efeito o `note:` era a
+metodologia ("g de Hedges, jovens de 18 a 35 anos… Maldonado et al. (2020), 438 amostras
+independentes") e o slide seguinte, `Lendo o gráfico`, dizia o que o gráfico mostrava. Os dois
+viraram um: o `note:` passou a ser a frase que a turma deve tirar do gráfico e o slide de leitura
+foi apagado. Corolário: **citação não vai para a tela.** Autor e ano ficam nas notas do
+apresentador; o PDF fica em `referencias/aula-NN/`.
+
+**Corte a ressalva.** As maiores exclusões foram todas do mesmo tipo: a meta-análise com g por
+condição, a comparação verbal × não verbal, a tabela de titulação, o slide sobre por que disfunção
+executiva não é sinônimo de lesão frontal. É material verdadeiro, interessante e para outra
+plateia. Em aula de graduação "parte da vantagem pode ser de método" é frase falada, não slide — e
+`g = 0,604` não é para ninguém ler projetado.
+
+**O termo técnico quando é o termo que está sendo ensinado; a palavra comum no resto.** "a resposta
+mais fácil precisa ser *segurada*" virou "precisa ser *inibida*" — é o nome da função, e a aula é
+sobre ela. Na direção oposta: "desinibição franca" virou "desinibição clara" e "a capacidade de se
+conduzir" virou "a capacidade de controlar o seu comportamento".
+
+**Concretize o caso com quem está nele.** "Foi encaminhado para avaliar o frontal" ganhou "pelo
+neurologista"; quem pediu, quem reclamou, quem trouxe. A vinheta fica mais clínica com a mesma
+quantidade de texto. Nas tabelas de queixa da família, cada fala tem que ser a queixa **daquela**
+função: "repete a mesma história no mesmo dia" descrevia memória na linha da flexibilidade
+cognitiva, e virou "está muito teimoso, não aceita mudar".
+
+**Cortou uma fixação, renumere as outras.** As perguntas são numeradas no kicker (`Fixação ·
+pergunta 2`); apagar a do meio deixa a turma vendo 1, 2, 4.
+
+## Slides com figura
+
+O lint não pega nada disto — só o olho, num slide renderizado. A aula 03 chegou a ter cinco slides
+com os cinco defeitos ao mesmo tempo.
+
+**`layout: image` só comporta um corpo curto.** Parágrafo de abertura + três marcadores +
+`<Callout>` não cabem na meia-coluna: o texto transborda *para cima*, atravessa o título e o
+`<Callout>` cai fora do slide. Nada avisa — o Slidev não corta, só deixa vazar. Use `image` quando
+o texto for de duas ou três linhas. **Quando a figura é o assunto do slide — e o título costuma
+denunciar isso ("o fluxo tem três saídas", "a linha do tempo…") — o layout certo é `diagram` com
+um `<Figure>` no corpo**, o argumento em uma linha no `note:` e o resto nas notas do apresentador.
+
+**Desenhe o SVG na proporção do palco em que ele vai cair.** No `diagram` o palco é largo e baixo,
+perto de **2,8:1**; em `image` é quase quadrado. Um SVG de 960×620 jogado numa meia-coluna
+renderiza a ~430px de largura e o rótulo de 13px vira 6px na projeção. Como regra: um rótulo
+precisa de ~17px no viewBox para ser lido do fundo da sala, e o viewBox deve ter mais ou menos a
+largura em que a figura será exibida.
+
+**`font-family` sem aspas em SVG derruba a fonte inteira.** `font-family="Source Sans 3, Segoe UI,
+…"` é valor CSS inválido (o `3` sozinho não é identificador), e num atributo de apresentação do SVG
+o valor inválido invalida o atributo — o texto volta para a serifa padrão do navegador. Escreva
+sempre `font-family="'Source Sans 3','Segoe UI',system-ui,sans-serif"`.
+
+**Um SVG referenciado por `src` é um documento à parte** e não enxerga as `@font-face` do tema.
+Ele vai cair no fallback do sistema (Segoe UI no Windows, outra coisa no runner do CI), então deixe
+folga nas larguras de texto e não conte com a métrica do Source Sans.
+
+**Não repita na figura o que o slide vizinho já diz.** Foi a origem de metade do excesso: as quatro
+perguntas dentro do fluxograma eram as mesmas do `vs` anterior; a caixa de rodapé do SVG da GDS
+repetia o `<Callout>` do próprio slide. Figura que recapitula um slide anterior mostra só a forma
+do argumento — os nomes, não as descrições.
+
+**Uma figura faz uma afirmação: a do título.** O SVG das funções complexas era três colunas, cada
+uma com a sua lista de dependências — e "memória operacional" aparecia nas três. Isso é tabela, não
+figura. Virou dois blocos: as três básicas numa fundação larga, as três complexas apoiadas em cima,
+com as divisões desalinhadas de propósito, porque a base sustenta o conjunto e não uma função de
+cada vez. A nuance que se perdeu (cada complexa se apoia em núcleos diferentes) é fala do
+apresentador.
+
+**A figura não se legenda.** As faixas de rodapé em versalete — `DE QUE NÚCLEO CADA UMA DEPENDE`,
+`SISTEMAS CRISTALIZADOS, DE LONGO PRAZO` — saíram: quem intitula a figura é o `title:` do slide, e
+o que a faixa dizia ou já está no desenho (o sistema de longo prazo em caixa tracejada basta) ou é
+fala. Sobrevive só o que o olho não deduz: orientação (`ANTERIOR À ESQUERDA EM AMBAS AS VISTAS`) e
+legenda de cor.
+
+**Copie a figura canônica quando ela existe.** O modelo de Baddeley foi redesenhado para bater com
+a figura publicada: a ordem dos subsistemas (esboço visuoespacial, buffer episódico, alça
+fonológica), setas de **mão dupla** — para cima e para baixo — em vez de fios, e a fileira
+cristalizada em caixa tracejada, categoria visual própria. A turma vai reencontrar essa figura no
+livro; desenhá-la "melhor" custa o reconhecimento.
+
+**Quando o assunto é anatomia, a figura tem que ser anatômica.** A silhueta esquemática do encéfalo
+foi trocada por um atlas de Brodmann de verdade. E se a estrutura não aparece na vista que você
+desenhou, **acrescente a vista** em vez de escrever um aviso: o cingulado anterior rendia um rótulo
+`NA FACE MEDIAL DO LOBO` grudado na legenda, e agora há uma vista medial ao lado da lateral. A
+figura dobrou de viewBox (1400×500) e continuou na proporção do palco do `diagram`.
+
+**Refez a figura? Reescreva o `aria-label` e o `alt` junto.** São o mesmo texto e descrevem o
+desenho que existe agora — o `alt` do `<Figure>` no deck é fácil de esquecer e fica mentindo. É
+também onde o detalhe cortado do desenho ainda cabe: é texto, ninguém lê da terceira fileira.
+
+**Os assets de origem não moram em `aulas/public/`.** O `public/` é publicado inteiro. O atlas de
+onde saíram as duas vistas do encéfalo ficou em `referencias/aula-06/`, junto dos PDFs; para
+`public/` vai só o SVG que algum slide referencia.
+
+Para conferir um slide sem abrir o navegador, exporte só ele em PNG e olhe:
+
+```bash
+node node_modules/@slidev/cli/bin/slidev.mjs export aulas/<aula>.md \
+  --format png --range 16-19 --output .tmp-export
+```
+
+Peça um intervalo com folga em volta do slide de interesse: intervalos curtos às vezes terminam
+sem gravar arquivo nenhum, e repetir com um intervalo maior resolve. Apague o diretório depois.
+
 ## Antes de mexer no tema
 
 O visual inteiro sai de [`theme/styles/tokens.css`](theme/styles/tokens.css) — é o único arquivo
