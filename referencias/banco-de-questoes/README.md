@@ -4,11 +4,11 @@ Um arquivo por aula, com **18 questões cada** (90 no total), escritas a partir 
 
 | Arquivo | Aula | Temas centrais |
 |---|---|---|
-| [`aula-01-conceitos-e-teorias-sobre-o-envelhecimento.md`](aula-01-conceitos-e-teorias-sobre-o-envelhecimento.md) | 01 — Conceitos e teorias | paradigmas, coorte, teorias clássicas e contemporâneas, SOC, dependência comportamental, seletividade socioemocional, controle primário e secundário |
-| [`aula-02-envelhecimento-normal.md`](aula-02-envelhecimento-normal.md) | 02 — Envelhecimento normal | reserva funcional, processos sensoriais, cérebro que envelhece, o que declina e o que se preserva, reserva cognitiva, bandeiras vermelhas |
-| [`aula-03-saude-mental-e-envelhecimento.md`](aula-03-saude-mental-e-envelhecimento.md) | 03 — Saúde mental | depressão no idoso, depressão vascular, transtorno bipolar, psicoses de início tardio, GDS-15 |
-| [`aula-04-transtornos-neurocognitivos.md`](aula-04-transtornos-neurocognitivos.md) | 04 — Transtornos neurocognitivos | delirium, TNC leve e maior, etiologias e assinaturas, seis domínios, MEEM |
-| [`aula-05-memoria-idoso.md`](aula-05-memoria-idoso.md) | 05 — Memória no idoso | taxonomia e processos, o que muda com a idade, Memória Lógica, retenção, normas brasileiras |
+| [`aula-01-conceitos-e-teorias-sobre-o-envelhecimento.docx`](aula-01-conceitos-e-teorias-sobre-o-envelhecimento.docx) | 01 — Conceitos e teorias | paradigmas, coorte, teorias clássicas e contemporâneas, SOC, dependência comportamental, seletividade socioemocional, controle primário e secundário |
+| [`aula-02-envelhecimento-normal.docx`](aula-02-envelhecimento-normal.docx) | 02 — Envelhecimento normal | reserva funcional, processos sensoriais, cérebro que envelhece, o que declina e o que se preserva, reserva cognitiva, bandeiras vermelhas |
+| [`aula-03-saude-mental-e-envelhecimento.docx`](aula-03-saude-mental-e-envelhecimento.docx) | 03 — Saúde mental | depressão no idoso, depressão vascular, transtorno bipolar, psicoses de início tardio, GDS-15 |
+| [`aula-04-transtornos-neurocognitivos.docx`](aula-04-transtornos-neurocognitivos.docx) | 04 — Transtornos neurocognitivos | delirium, TNC leve e maior, etiologias e assinaturas, seis domínios, MEEM |
+| [`aula-05-memoria-idoso.docx`](aula-05-memoria-idoso.docx) | 05 — Memória no idoso | taxonomia e processos, o que muda com a idade, Memória Lógica, retenção, normas brasileiras |
 
 ## Composição de cada arquivo
 
@@ -32,6 +32,6 @@ Os níveis vão de **muito fácil** a **muito difícil**, com a distribuição c
 
 ## Formato
 
-Cada questão traz **tipo**, **nível** e **objetivo de aprendizagem**. O gabarito e o comentário ficam dentro de um bloco `<details>`, que aparece recolhido no GitHub e pode ser apagado ao montar a prova. Ao final de cada arquivo há uma **chave rápida** com todos os gabaritos.
+Cada questão traz **tipo**, **nível** e **objetivo de aprendizagem**. O gabarito e o comentário ficam em um bloco destacado logo abaixo de cada questão, que pode ser apagado ao montar a prova. Ao final de cada arquivo há uma **chave rápida** com todos os gabaritos.
 
 Os comentários foram escritos para serem lidos pelo aluno depois da prova: explicam por que a alternativa correta é correta **e** por que cada distrator erra — muitos distratores são erros clínicos reais, escolhidos de propósito.
