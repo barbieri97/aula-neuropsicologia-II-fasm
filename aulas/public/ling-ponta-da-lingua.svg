@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 100 1280 370" width="1280" height="370" role="img" aria-label="O fenômeno da ponta da língua: o significado da palavra está acessível, mas a ligação com a sua forma sonora está fraca, desenhada em tracejado, e a palavra não chega à fala. Uma pista fonêmica, a primeira sílaba, chega por baixo à forma sonora e completa a ligação">
+  <style>
+    .lab { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 32px; fill: #1d3e6e; }
+    .labw { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 32px; fill: #8a5a12; }
+    .sub { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 27px; fill: #4a4a45; }
+    .inv { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 30px; fill: #fdfdfb; }
+    .ori { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 19px; fill: #6b6b63; letter-spacing: 0.1em; }
+  </style>
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1d3e6e"/>
+    </marker>
+    <marker id="setaw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a5a12"/>
+    </marker>
+  </defs>
+  <rect x="80" y="130" width="300" height="130" rx="6" fill="#1d3e6e" />
+  <text class="inv" x="230" y="205" text-anchor="middle">significado</text>
+  <rect x="550" y="130" width="300" height="130" rx="6" fill="#e7ecf3" stroke="#1d3e6e" stroke-width="2" stroke-dasharray="10 8"/>
+  <text class="lab" x="700" y="205" text-anchor="middle">forma sonora</text>
+  <rect x="1020" y="130" width="300" height="130" rx="6" fill="#fdfdfb" stroke="#b9c6da" stroke-width="2"/>
+  <text class="sub" x="1170" y="205" text-anchor="middle">fala</text>
+  <path d="M 380 195 L 545 195" stroke="#1d3e6e" stroke-width="3" stroke-dasharray="4 10" stroke-linecap="round" marker-end="url(#seta)"/>
+  <path d="M 850 195 L 1015 195" stroke="#b9c6da" stroke-width="3" stroke-dasharray="4 10" stroke-linecap="round" marker-end="url(#seta)"/>
+  <rect x="610" y="380" width="180" height="70" rx="35" fill="#f4ece0" stroke="#8a5a12" stroke-width="2"/>
+  <text class="labw" x="700" y="424" text-anchor="middle">“ca…”</text>
+  <path d="M 700 378 L 700 268" stroke="#8a5a12" stroke-width="3" marker-end="url(#setaw)"/>
+  <text class="labw" x="720" y="330">pista fonêmica</text>
+</svg>
