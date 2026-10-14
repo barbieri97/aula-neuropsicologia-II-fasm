@@ -6,7 +6,6 @@ info: O que é a linguagem, expressiva e receptiva, e os seus processos; o que m
   clássicas; avaliação da linguagem e a fluência verbal
 date: "2026-10-06"
 author: FASM · Neuropsicologia II
-# Gera o PDF no build (via playwright-chromium) e liga o botão de download no deck.
 download: true
 exportFilename: aula-07-linguagem-e-comunicacao-idoso
 themeConfig:
@@ -70,11 +69,6 @@ points:
   - "Envolve símbolos, regras para combiná-los e significados"
   - "Existe para a comunicação entre pessoas"
 ---
-
-<!--
-- A definição é a da aula de linguagem do primeiro semestre (Processos Cognitivos e Neurociências).
-- A tese de que a linguagem é antes de tudo ferramenta de comunicação, e não de pensamento: Fedorenko, Piantadosi e Gibson (2024), *Nature*.
--->
 
 ---
 layout: diagram
@@ -568,15 +562,24 @@ title: Três afasias, três perfis
 ---
 layout: embed
 kicker: Afasia de Broca
-title: Fala escassa, compreensão preservada
 iframe: https://www.youtube-nocookie.com/embed/IIR778K8UDs
 ---
 
-<!--
-- Vídeo "Afasia de Broca legendado", canal Henrique Akira: https://www.youtube.com/watch?v=IIR778K8UDs (o mesmo da aula do primeiro semestre).
-- Outras opções da mesma aula: afasia de Broca em *House*, episódio 2x10 (https://www.youtube.com/watch?v=kAACNJ8W75w); afasia de condução (https://www.youtube.com/watch?v=G94TvTvjeeU).
-- Peça à turma que observe o que ele entende antes de observar o que ele diz.
--->
+
+---
+layout: embed
+kicker: Afasia de Wernicke
+iframe: https://www.youtube.com/embed/kAACNJ8W75w?si=753nA3O8h55pKcAW
+---
+
+
+---
+layout: embed
+kicker: Afasia de Condução
+iframe: https://www.youtube.com/embed/G94TvTvjeeU?si=11oQn1q78tmBIK2d
+---
+
+
 
 ---
 layout: default
@@ -719,110 +722,195 @@ points:
 ---
 
 <!--
-- Brucki e Rocha (2004): a fluência é usada como medida de funções executivas e de linguagem, e também para avaliar memória semântica.
+- Machado et al. (2009): a fluência fonêmica é sensível às funções do lobo frontal, sobretudo das áreas pré-frontais esquerdas. Nenhuma das duas versões exige material além de cronômetro e folha.
 - A versão fonêmica com a letra S é o subteste 2 da FAB, visto na aula 06.
+- A versão que a aula usa daqui em diante é a FAS: as três letras, um minuto cada.
 -->
 
 ---
 layout: steps
-kicker: Fluência semântica · animais
+kicker: Fluência fonêmica · FAS
 title: Como se aplica
 steps:
   - {
       title: "Instrução",
-      desc: "“Diga o maior número de animais que conseguir lembrar.”",
+      desc: "“Vou dizer uma letra. Diga o maior número de palavras que começam
+        com ela.”",
       icon: "lucide:message-square"
     }
   - {
+      title: "Regras",
+      desc: "sem nomes próprios e sem a mesma palavra com outra terminação",
+      icon: "lucide:ban"
+    }
+  - {
       title: "Cronômetro",
-      desc: "um minuto, a partir do fim da instrução",
+      desc: "um minuto para cada letra: F, depois A, depois S",
       icon: "lucide:timer"
     }
   - {
-      title: "Registro",
-      desc: "tudo o que for dito, em quatro intervalos de 15 segundos",
-      icon: "lucide:clipboard-list"
-    }
-  - {
       title: "Contagem",
-      desc: "o número de animais válidos",
+      desc: "a soma das palavras válidas nas três letras",
       icon: "lucide:hash"
     }
 ---
 
 <!--
-- Brucki e Rocha (2004): um minuto, com as respostas separadas em quatro períodos de 15 s.
-- Registre também o que não vai contar (repetições, palavras de fora da categoria): é dado clínico.
-- A produção cai ao longo do minuto: mais itens nos primeiros 15 s e redução progressiva até o quarto intervalo, em todas as faixas de escolaridade.
+- Instrução de Machado et al. (2009), por extenso: "Vou dizer uma letra do alfabeto. Quero que a senhora me diga o maior número de palavras que conseguir que comecem com essa letra, o mais rápido possível. Por exemplo, se eu disser B, a senhora pode dizer *bola*, *bonito*, mas não pode dizer nomes próprios, como *Brasil* ou *Beatriz*. Também não pode dizer a mesma palavra com outra terminação."
+- Depois da instrução, pergunte se ela entendeu. Só então dê a primeira letra e dispare o cronômetro.
+- Nomes próprios incluem nomes de pessoas, de cidades e de países.
+- Registre tudo o que for dito, inclusive o que não vai contar: o tipo de erro é dado clínico.
 -->
 
 ---
 layout: default
-kicker: Brucki e Rocha (2004) · Damasceno et al. (2018)
+kicker: Fluência fonêmica · correção
 title: O que conta
 ---
 
 <Grid head :data="[
   ['Resposta', 'Conta?', 'Exemplo'],
-  ['Cada animal diferente', '<b>sim</b>', 'vaca, cavalo, galinha'],
-  ['Repetição', 'conta uma vez só', 'vaca... cavalo... vaca'],
-  ['Palavra fora da categoria', '<b>não</b>', 'vaca, cavalo, <em>pasto</em>'],
+  ['Cada palavra diferente com a letra', '<b>sim</b>', 'faca, fogo, feliz'],
+  ['Palavra com dois sentidos', 'duas vezes, se ele disser os dois', 'fonte <em>de água</em>, fonte <em>de letra</em>'],
+  ['Estrangeira de uso corrente', '<b>sim</b>', 'site, show'],
+  ['Nome próprio', '<b>não</b>', 'Fernanda, França'],
+  ['Repetição', '<b>não</b>', 'faca... fogo... <em>faca</em>'],
+  ['Mesma palavra, outra terminação', '<b>não</b>', 'falar, <em>falou</em>, <em>falando</em>'],
+  ['Palavra de outra letra', '<b>não</b>', 'no A: arroz, <em>faca</em>'],
 ]" />
 
 <!--
-- Repetição conta como uma resposta só: Brucki e Rocha (2004). Palavra que não pertence à categoria não conta: Damasceno et al. (2018).
+- Os três erros têm nome em Machado et al. (2009). **Perseveração** — a mesma palavra dita duas vezes ou mais. **Derivação** — a palavra que só varia em número, grau, gênero ou conjugação. **Intrusão** — palavra que serviria para outra letra, dita na letra da vez.
+- Palavra estrangeira conta se estiver no dicionário de português ou for de uso corrente, mesmo fora do dicionário.
+- Se o paciente se corrige, não é erro.
+- O escore final é só a soma das respostas corretas nas três letras.
 -->
 
 ---
 layout: chart
-kicker: Brucki e Rocha (2004) · 257 adultos saudáveis
-title: Animais em um minuto, por escolaridade
-note: Quanto mais anos de estudo, mais animais. Na amostra de 1997, menores e
-  maiores de 65 anos fizeram 13,7 e 13,9.
+kicker: Fluência fonêmica · 345 idosos saudáveis
+title: FAS por escolaridade e idade
+note: Quanto mais anos de estudo, mais palavras. Idade e sexo não mudaram o
+  resultado.
 chart:
   type: bar
   height: "300px"
-  categories:
-    [
-      "Analfabetos",
-      "1 a 4 anos",
-      "5 a 8 anos",
-      "9 a 11 anos",
-      "Mais de 11"
-    ]
+  categories: [ "1 a 3 anos", "4 a 7 anos", "8 a 11 anos", "12 ou mais" ]
   series:
-    - { name: "Média de animais", data: [ 12.1, 12.3, 14.0, 16.7, 17.8 ] }
+    - { name: "60 a 69", data: [ 18.3, 26.1, 31.9, 38.7 ] }
+    - { name: "70 a 79", data: [ 18.3, 26.0, 28.8, 32.0 ] }
+    - { name: "80 ou mais", data: [ 20.6, 26.2, 28.9, 34.0 ] }
 ---
 
 <!--
-- Brucki e Rocha (2004): a escolaridade teve efeito em todas as medidas; o sexo não teve efeito; a idade não mexeu no total depois de controlada a escolaridade.
-- Brucki et al. (1997): 336 pessoas; médias de 13,7 (até 64 anos) e 13,9 (65 ou mais), sem diferença.
+- Machado et al. (2009): 345 idosos cognitivamente saudáveis de Belo Horizonte, São Paulo e Rio de Janeiro, de 60 a 93 anos e de 1 a 24 anos de estudo. Analfabetos foram excluídos: a norma não serve para eles.
+- Média da amostra inteira: 28,3 palavras (DP 11,5). Escolaridade e MEEM explicaram o escore; a escolaridade foi o fator mais forte. Idade e sexo não tiveram efeito significativo.
+- A queda aos 70 anos com 12 ou mais de estudo aparece no gráfico, mas não se confirmou na regressão.
+- A fluência fonêmica depende da frequência das palavras de cada letra em cada língua: norma de outro país não serve aqui.
 -->
 
 ---
-layout: stats
-kicker: Brucki et al. (1997)
-title: O ponto de corte depende da escolaridade
-columns: 2
-stats:
+layout: default
+kicker: Fluência fonêmica · tabela 2 · 1 de 3
+title: 60 a 69 anos · n = 135
+---
+
+<Grid head :data="[
+  ['Escolaridade', '1 a 3 anos', '4 a 7 anos', '8 a 11 anos', '12 ou mais'],
+  ['n', '14', '31', '36', '54'],
+  ['Média', '18,29', '26,13', '31,92', '38,72'],
+  ['DP', '8,99', '7,07', '10,75', '10,55'],
+  ['Mediana', '16,50', '28,00', '31,50', '36,50'],
+  ['Percentil 5', '5,00', '14,00', '17,00', '22,00'],
+  ['Percentil 25', '13,00', '20,00', '23,50', '31,00'],
+  ['Percentil 75', '24,00', '31,00', '38,00', '47,00'],
+  ['Percentil 95', '33,00', '35,00', '49,00', '61,00'],
+  ['Percentil 99', '33,00', '40,00', '63,00', '63,00'],
+]" />
+
+<!--
+- Reprodução da tabela 2 de Machado et al. (2009), dividida em três slides, um por faixa de idade. Escolaridade em anos de estudo formal; analfabetos foram excluídos da amostra, e a tabela não serve para eles.
+- Como consultar: ache a faixa de idade, depois a coluna da escolaridade, e veja entre quais percentis o total do paciente cai.
+-->
+
+---
+layout: default
+kicker: Fluência fonêmica · tabela 2 · 2 de 3
+title: 70 a 79 anos · n = 160
+---
+
+<Grid head :data="[
+  ['Escolaridade', '1 a 3 anos', '4 a 7 anos', '8 a 11 anos', '12 ou mais'],
+  ['n', '38', '57', '32', '33'],
+  ['Média', '18,32', '25,95', '28,75', '32,03'],
+  ['DP', '8,84', '8,75', '9,29', '12,31'],
+  ['Mediana', '16,00', '26,00', '28,00', '32,00'],
+  ['Percentil 5', '6,00', '13,00', '16,00', '12,00'],
+  ['Percentil 25', '13,00', '20,00', '21,00', '26,00'],
+  ['Percentil 75', '24,00', '31,00', '34,00', '38,00'],
+  ['Percentil 95', '35,00', '43,00', '46,00', '60,00'],
+  ['Percentil 99', '40,00', '46,00', '47,00', '63,00'],
+]" />
+
+<!--
+- A faixa da fixação (79 anos, 3 de estudo) e a da Dona Celina (76 anos, 5 de estudo).
+- O percentil 5 com 12 anos ou mais (12) é menor que o de 8 a 11 (16): o percentil 5 é instável em amostra pequena. Por isso a leitura se apoia também no percentil 25.
+-->
+
+---
+layout: default
+kicker: Fluência fonêmica · tabela 2 · 3 de 3
+title: 80 anos ou mais · n = 50
+---
+
+<Grid head :data="[
+  ['Escolaridade', '1 a 3 anos', '4 a 7 anos', '8 a 11 anos', '12 ou mais'],
+  ['n', '14', '20', '11', '5'],
+  ['Média', '20,64', '26,15', '28,91', '34,00'],
+  ['DP', '9,19', '8,21', '9,90', '11,51'],
+  ['Mediana', '18,50', '26,50', '28,00', '37,00'],
+  ['Percentil 5', '7,00', '15,00', '18,00', '22,00'],
+  ['Percentil 25', '16,00', '19,00', '20,00', '22,00'],
+  ['Percentil 75', '26,00', '32,00', '33,00', '42,00'],
+  ['Percentil 95', '45,00', '41,50', '49,00', '47,00'],
+  ['Percentil 99', '45,00', '44,00', '49,00', '47,00'],
+]" />
+
+<!--
+- A coluna de 12 anos ou mais tem só 5 pessoas: leia com cuidado.
+-->
+
+---
+layout: columns
+kicker: Fluência fonêmica · interpretação
+title: Onde o total cai na faixa do paciente
+columns:
   - {
-      value: 9,
-      label: "animais ou mais: menos de 8 anos de estudo, inclusive analfabetos",
-      icon: "lucide:book",
-      tone: "info"
+      title: "Abaixo do percentil 5",
+      items: [
+        "Muito abaixo do esperado",
+        "Investigar"
+      ]
     }
   - {
-      value: 13,
-      label: "animais ou mais: 8 anos de estudo ou mais",
-      icon: "lucide:graduation-cap",
-      tone: "info"
+      title: "Do percentil 5 ao 25",
+      items: [
+        "Abaixo da média",
+        "Ler junto com o resto da avaliação"
+      ]
+    }
+  - {
+      title: "Percentil 25 ou mais",
+      items: [
+        "Dentro do esperado"
+      ]
     }
 ---
 
 <!--
-- Brucki et al. (1997), retomado em Brucki e Rocha (2004): "9 para analfabetos e pessoas com menos de 8 anos de escolaridade, e 13 para pessoas com mais de 8 anos de escolaridade".
-- No estudo de 1997, com o corte 9: sensibilidade 75% e especificidade 79% em analfabetos; 100% e 84% até 4 anos de estudo; 87% e 88% entre 4 e 7 anos. Com o corte 13, sensibilidade 86% e especificidade 67%.
-- Abaixo do corte é rastreio positivo: diz que vale investigar, não diz o porquê.
+- Machado et al. (2009) não propõem ponto de corte: dão a média e os percentis por idade e escolaridade para que o clínico situe o paciente. As três faixas do slide são a convenção usual de leitura de percentil, não do artigo.
+- O passo a passo: idade e escolaridade do paciente → linha e tabela certas → onde o total cai.
+- Abaixo do esperado é rastreio positivo: diz que vale investigar, não diz o porquê.
 -->
 
 ---
@@ -831,20 +919,23 @@ kicker: Fixação · pergunta 5
 title: Lavrador aposentado de 79 anos, três anos de escolaridade
 ---
 
-Em um minuto: "vaca, boi, cavalo, galinha, porco, cachorro, gato, vaca, pato,
-cabrito, papagaio". Como corrigir e interpretar?
+**F:** faca, foice, feijão, fogo, faca, Francisco.
+**A:** arroz, alho, abóbora, açúcar, amigo, foice.
+**S:** sapo, sal, sapato, sapatos, semente, sono. Como corrigir e interpretar?
 
 <v-clicks>
 
-- **A.** 11 animais, abaixo do corte de 13: resultado alterado
-- **B.** 10 animais, abaixo do corte de 13: resultado alterado
-- **C.** 10 animais, acima do corte de 9: dentro do esperado
-- **D.** Não dá para interpretar: ele só citou animais de fazenda
+- **A.** 14 palavras, abaixo da média da faixa dele (18,32): resultado alterado
+- **B.** 14 palavras, abaixo do percentil 25 de 70 a 79 anos com 12 ou mais de estudo (26): alterado
+- **C.** 14 palavras, entre o percentil 25 (13) e a mediana (16) da faixa dele: dentro do esperado
+- **D.** 16 palavras: <em>Francisco</em> e <em>sapatos</em> começam com a letra certa
 
 </v-clicks>
 
 <!--
 - Deixe a turma responder antes de virar o slide.
+- A faixa dele: tabela 2, 70 a 79 anos, coluna de 1 a 3 anos de estudo. Média 18,32; percentil 25 = 13; mediana = 16.
+- Se a turma pedir, volte ao slide da tabela de 70 a 79 anos.
 -->
 
 ---
@@ -855,14 +946,17 @@ title: A resposta é <span class="accent2">C</span>
 
 <Grid head highlight="row:4" :data="[
   ['', 'Alternativa', 'Por que erra, ou por que acerta'],
-  ['A', '11, abaixo de 13', 'erra duas vezes: conta a repetição de <em>vaca</em> e usa o corte de quem tem 8 anos de estudo ou mais'],
-  ['B', '10, abaixo de 13', 'conta certo e usa a norma errada; com três anos de estudo, o corte é 9'],
-  ['C', '10, acima de 9', '<b>correta</b>: a repetição conta uma vez, e o corte é o da escolaridade dele'],
-  ['D', 'Só animais de fazenda', 'todos são animais válidos; buscar na própria experiência é estratégia, não erro'],
+  ['A', '14, abaixo da média', 'conta certo, mas usa a média como corte; quem situa o paciente é o percentil'],
+  ['B', '14, abaixo de 26', 'conta certo e usa a coluna errada; com três anos de estudo, o percentil 25 é 13'],
+  ['C', '14, entre 13 e 16', '<b>correta</b>: tira os quatro erros e lê a coluna da idade e da escolaridade dele'],
+  ['D', '16', 'nome próprio e outra terminação da mesma palavra não contam'],
 ]" />
 
 <!--
-- O ponto que fica: corrigir é contar o que vale, e interpretar é comparar com a norma certa.
+- Os quatro erros: *faca* repetida (perseveração), *Francisco* (nome próprio), *foice* no A (intrusão), *sapatos* (derivação de *sapato*).
+- Por letra: F = 4, A = 5, S = 5. Total = 14.
+- Sobre a A: metade dos idosos saudáveis da faixa fica abaixo da mediana. Estar abaixo da média não é estar alterado.
+- O ponto que fica: corrigir é contar o que vale, e interpretar é achar a coluna certa da tabela e ver entre quais percentis o total cai.
 -->
 
 ---
@@ -875,19 +969,20 @@ title: Corrijam a fluência, separem o que ela <em>diz</em> do que ela
 <!--
 GABARITO — para você, não para eles. A ficha está em `referencias/aula-07/vinheta-1-dona-celina.docx`.
 
-**Dona Celina, 76 anos, 5 anos de escolaridade. Fluência semântica, animais.**
-Ditos em 60 s: cachorro, gato, gato, cadeira, galinha.
-- *gato* repetido conta uma vez; *cadeira* está fora da categoria.
-- **Total = 3 animais válidos** (cachorro, gato, galinha).
-- Corte para menos de 8 anos de estudo: 9 (Brucki et al., 1997). **Bem abaixo.**
-- Pela tabela de 2004, a média da faixa de 5 a 8 anos é 14,0.
-- Distribuição: 2 respostas nos primeiros 15 s, 2 no segundo intervalo, 1 no terceiro, nenhuma no último. Pausas longas, esforço visível, frustração.
-- Resumo da tabela: 5 palavras ditas, 1 repetição, 1 fora da categoria, 3 válidos.
-- O "não... sai" é dito depois do minuto e não entra na conta.
+**Dona Celina, 76 anos, 5 anos de escolaridade. Fluência fonêmica, FAS.**
+Ditos, um minuto por letra:
+- **F:** faca, feijão, faca → *faca* repetida (perseveração). **2 válidas.**
+- **A:** água, árvore, feijão → *feijão* é do F (intrusão). **2 válidas.**
+- **S:** sal; depois aponta o próprio sapato, tenta falar, não sai som. **1 válida.**
+- **Total = 5 palavras válidas.**
+- Faixa: 70 a 79 anos, 4 a 7 anos de estudo (Machado et al., 2009). Média 26,0; percentil 5 = 13; percentil 25 = 20. **Muito abaixo do percentil 5.**
+- Resumo da tabela: 7 palavras ditas, 1 repetição, 1 de outra letra, 0 nomes próprios, 0 com outra terminação, 5 válidas.
+- O "não... sai" é dito depois do último minuto e não entra na conta.
 
 O QUE A FLUÊNCIA MOSTRA
 - Produção oral muito reduzida e laboriosa: a linguagem expressiva está comprometida.
-- O gesto de asas no último intervalo mostra que o conceito estava lá; faltou a palavra.
+- O gesto para o sapato no S mostra que o conceito estava lá; faltou a palavra.
+- *Feijão* de novo no A: a palavra que já saiu volta no lugar da que não sai.
 - A fluência não mede compreensão. Um escore baixo não autoriza concluir nada sobre o que ela entende.
 
 O QUE A OBSERVAÇÃO MOSTRA (a resposta ao juiz)
@@ -983,31 +1078,18 @@ kicker: Referências · 2 de 2
 title: A fluência verbal
 items:
   - {
-      term: "Brucki et al., 1997",
-      desc: "Dados normativos para o teste de fluência verbal categoria animais em
-        nosso meio. <em>Arquivos de Neuro-Psiquiatria</em>, 55(1), 56-61.
-        doi:10.1590/s0004-282x1997000100009 — <strong>os pontos de corte</strong>."
-    }
-  - {
-      term: "Brucki e Rocha, 2004",
-      desc: "Category fluency test: effects of age, gender and education on total
-        scores, clustering and switching in Brazilian Portuguese-speaking subjects.
-        <em>Brazilian Journal of Medical and Biological Research</em>, 37(12),
-        1771-1777. doi:10.1590/s0100-879x2004001200002 — a aplicação e as médias
-        por escolaridade."
-    }
-  - {
-      term: "Damasceno et al., 2018",
-      desc: "Normative values of the Brief Repeatable Battery of Neuropsychological
-        Tests in a Brazilian population sample: discrete and regression-based norms.
-        <em>Arquivos de Neuro-Psiquiatria</em>, 76(3), 163-169.
-        doi:10.1590/0004-282x20180006"
+      term: "Machado et al., 2009",
+      desc: "Machado, T. H., Fichman, H. C., Santos, E. L., Carvalho, V. A.,
+        Fialho, P. P., Koenig, A. M., Fernandes, C. S., Lourenço, R. A.,
+        Paradela, E. M. P. e Caramelli, P. Normative data for healthy elderly on
+        the phonemic verbal fluency task – FAS. <em>Dementia &amp;
+        Neuropsychologia</em>, 3(1), 55-60 — <strong>a aplicação, a correção e as
+        normas por idade e escolaridade</strong>."
     }
 ---
 
 <!--
-- Brucki et al. (1997): só o resumo foi consultado (PubMed); as médias e os cortes vêm dele. Os cortes aparecem também, por extenso, no artigo de 2004, que é de acesso aberto no SciELO.
-- **doi** — identificador digital de objeto, o endereço permanente de um artigo.
+- Artigo de acesso aberto. Salve o PDF em `referencias/aula-07/`.
 -->
 
 ---
