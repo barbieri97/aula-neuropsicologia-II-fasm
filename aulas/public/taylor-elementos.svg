@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" width="1400" height="500" role="img" aria-label="A Figura Complexa de Taylor simplificada com os doze elementos numerados, como na folha de registro: 1 retângulo principal; 2 triângulo à esquerda; 3 seta vertical na ponta desse triângulo; 4 linha vertical central; 5 linha horizontal central; 6 triângulo inferior, no canto de baixo à direita; 7 linha pontilhada, do centro ao canto de baixo à direita; 8 estrela, no quadrante inferior esquerdo; 9 X no quadrante superior esquerdo; 10 diagonal no quadrante superior direito; 11 retângulo superior, sobre a metade esquerda; 12 seta que sai do canto superior direito">
+  <style>
+    .num { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 18px; fill: #fdfdfb; font-weight: 700; }
+    .item { font-family: 'Source Sans 3','Segoe UI',system-ui,sans-serif; font-size: 27px; fill: #1d3e6e; }
+  </style>
+  <g fill="none" stroke="#1d3e6e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="115.0,97.5 385.0,97.5 385.0,390.0 115.0,390.0"/>
+    <polygon points="115.0,52.5 250.0,52.5 250.0,97.5 115.0,97.5"/>
+    <line x1="115.0" y1="165.0" x2="385.0" y2="165.0"/>
+    <line x1="115.0" y1="232.5" x2="385.0" y2="232.5"/>
+    <line x1="250.0" y1="97.5" x2="250.0" y2="390.0"/>
+    <line x1="115.0" y1="97.5" x2="250.0" y2="232.5"/>
+    <line x1="250.0" y1="97.5" x2="115.0" y2="232.5"/>
+    <line x1="250.0" y1="232.5" x2="385.0" y2="97.5"/>
+    <line x1="385.0" y1="97.5" x2="452.5" y2="30.0"/>
+    <polyline points="433.0,33.0 452.5,30.0 449.5,49.5"/>
+    <line x1="250.0" y1="232.5" x2="377.5" y2="382.5" stroke-dasharray="12 10"/>
+    <polygon points="385.0,390.0 347.5,465.0 422.5,465.0"/>
+    <polyline points="115.0,97.5 40.0,232.5 115.0,390.0"/>
+    <line x1="40.0" y1="322.5" x2="40.0" y2="45.0"/>
+    <polyline points="28.0,63.0 40.0,45.0 52.0,63.0"/>
+    <line x1="199.0" y1="360.0" x2="226.0" y2="360.0"/>
+    <line x1="203.0" y1="350.5" x2="222.0" y2="369.5"/>
+    <line x1="212.5" y1="346.5" x2="212.5" y2="373.5"/>
+    <line x1="222.0" y1="350.5" x2="203.0" y2="369.5"/>
+  </g>
+  <g fill="#9a5b2d">
+    <circle cx="317.5" cy="79.5" r="15"/><text class="num" x="317.5" y="85.5" text-anchor="middle">1</text>
+    <circle cx="62.5" cy="139.5" r="15"/><text class="num" x="62.5" y="145.5" text-anchor="middle">2</text>
+    <circle cx="16.0" cy="75.0" r="15"/><text class="num" x="16.0" y="81.0" text-anchor="middle">3</text>
+    <circle cx="268.0" cy="322.5" r="15"/><text class="num" x="268.0" y="328.5" text-anchor="middle">4</text>
+    <circle cx="163.0" cy="258.0" r="15"/><text class="num" x="163.0" y="264.0" text-anchor="middle">5</text>
+    <circle cx="448.0" cy="442.5" r="15"/><text class="num" x="448.0" y="448.5" text-anchor="middle">6</text>
+    <circle cx="340.0" cy="304.5" r="15"/><text class="num" x="340.0" y="310.5" text-anchor="middle">7</text>
+    <circle cx="175.0" cy="340.5" r="15"/><text class="num" x="175.0" y="346.5" text-anchor="middle">8</text>
+    <circle cx="182.5" cy="130.5" r="15"/><text class="num" x="182.5" y="136.5" text-anchor="middle">9</text>
+    <circle cx="358.0" cy="175.5" r="15"/><text class="num" x="358.0" y="181.5" text-anchor="middle">10</text>
+    <circle cx="182.5" cy="75.0" r="15"/><text class="num" x="182.5" y="81.0" text-anchor="middle">11</text>
+    <circle cx="475.0" cy="55.5" r="15"/><text class="num" x="475.0" y="61.5" text-anchor="middle">12</text>
+  </g>
+  <g fill="#9a5b2d">
+    <circle cx="560.0" cy="88.0" r="15"/><text class="num" x="560.0" y="94.0" text-anchor="middle">1</text><text class="item" x="588" y="95">Retângulo principal</text>
+    <circle cx="560.0" cy="152.0" r="15"/><text class="num" x="560.0" y="158.0" text-anchor="middle">2</text><text class="item" x="588" y="159">Triângulo à esquerda</text>
+    <circle cx="560.0" cy="216.0" r="15"/><text class="num" x="560.0" y="222.0" text-anchor="middle">3</text><text class="item" x="588" y="223">Seta na ponta do triângulo</text>
+    <circle cx="560.0" cy="280.0" r="15"/><text class="num" x="560.0" y="286.0" text-anchor="middle">4</text><text class="item" x="588" y="287">Linha vertical central</text>
+    <circle cx="560.0" cy="344.0" r="15"/><text class="num" x="560.0" y="350.0" text-anchor="middle">5</text><text class="item" x="588" y="351">Linha horizontal central</text>
+    <circle cx="560.0" cy="408.0" r="15"/><text class="num" x="560.0" y="414.0" text-anchor="middle">6</text><text class="item" x="588" y="415">Triângulo inferior</text>
+    <circle cx="1010" cy="88.0" r="15"/><text class="num" x="1010" y="94.0" text-anchor="middle">7</text><text class="item" x="1038" y="95">Linha pontilhada</text>
+    <circle cx="1010" cy="152.0" r="15"/><text class="num" x="1010" y="158.0" text-anchor="middle">8</text><text class="item" x="1038" y="159">Estrela</text>
+    <circle cx="1010" cy="216.0" r="15"/><text class="num" x="1010" y="222.0" text-anchor="middle">9</text><text class="item" x="1038" y="223">X do quadrante esquerdo</text>
+    <circle cx="1010" cy="280.0" r="15"/><text class="num" x="1010" y="286.0" text-anchor="middle">10</text><text class="item" x="1038" y="287">Diagonal do quadrante direito</text>
+    <circle cx="1010" cy="344.0" r="15"/><text class="num" x="1010" y="350.0" text-anchor="middle">11</text><text class="item" x="1038" y="351">Retângulo superior</text>
+    <circle cx="1010" cy="408.0" r="15"/><text class="num" x="1010" y="414.0" text-anchor="middle">12</text><text class="item" x="1038" y="415">Seta do quadrante direito</text>
+  </g>
+</svg>

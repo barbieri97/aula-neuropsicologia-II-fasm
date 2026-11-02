@@ -2,8 +2,8 @@
 theme: slidev-theme-fasm
 title: "Processamento espacial no idoso"
 info: O que é o processamento visioespacial e os seus componentes; o que muda
-  no envelhecimento normal e nos quadros demenciais; avaliação pelo Teste do
-  Desenho do Relógio, com a escala de Shulman
+  no envelhecimento normal e nos quadros demenciais; avaliação pela Figura
+  Complexa de Taylor simplificada
 date: "2026-10-20"
 author: FASM · Neuropsicologia II
 download: true
@@ -21,7 +21,7 @@ subtitle: Perceber, orientar-se, construir.
 - **DLFT**: degeneração lobar frontotemporal.
 - **AVC**: acidente vascular cerebral.
 - **MEEM**: Miniexame do Estado Mental.
-- **TDR**: Teste do Desenho do Relógio.
+- **sTCFT**: versão simplificada da Figura Complexa de Taylor (sigla em inglês).
 - Nesta aula, "corpos de Lewy" vai por extenso: a sigla DCL já foi usada para declínio cognitivo leve.
 - Estrutura do encontro: 1 h de exposição, 30 min de intervalo, 1 h 30 de vinheta em grupo.
 -->
@@ -41,11 +41,11 @@ items:
     }
   - {
       topic: "Avaliação",
-      desc: "o Teste do Desenho do Relógio e a escala de Shulman"
+      desc: "a Figura de Taylor simplificada: cópia e evocação"
     }
   - {
       topic: "Vinheta clínica",
-      desc: "um relógio para pontuar e interpretar em grupo"
+      desc: "uma figura para pontuar e interpretar em grupo"
     }
 ---
 
@@ -337,24 +337,24 @@ antiga, em outro bairro, sem errar o caminho.
 <v-clicks>
 
 - **A.** Amnésia espacial retrógrada
-- **B.** Amnésia espacial anterógrada
+- **B.** Envelhecimento normal da visão
 - **C.** Agnosia de ponto de referência
-- **D.** Envelhecimento normal da visão
+- **D.** Amnésia espacial anterógrada
 
 </v-clicks>
 
 ---
 layout: default
 kicker: Fixação · resposta 2
-title: A resposta é <span class="accent2">B</span>
+title: A resposta é <span class="accent2">D</span>
 ---
 
-<Grid head highlight="row:3" :data="[
+<Grid head highlight="row:5" :data="[
   ['', 'Alternativa', 'Por que erra, ou por que acerta'],
   ['A', 'Retrógrada', 'atinge os ambientes antigos; o caminho da casa antiga está preservado'],
-  ['B', 'Anterógrada', '<b>correta</b>: navega no que já conhecia e não aprende o ambiente novo'],
+  ['B', 'Visão', 'a visão é a mesma nos dois trajetos; o que muda é a novidade do lugar'],
   ['C', 'Ponto de referência', 'ele reconhece o próprio bloco quando chega nele'],
-  ['D', 'Visão', 'a visão é a mesma nos dois trajetos; o que muda é a novidade do lugar'],
+  ['D', 'Anterógrada', '<b>correta</b>: navega no que já conhecia e não aprende o ambiente novo'],
 ]" />
 
 <!--
@@ -408,7 +408,7 @@ steps:
 <!--
 - Modelo de Guérin, Ska e Belleville (1999), citado no capítulo.
 - A imagem mental envolve coordenadas, relações entre os elementos, mapeamento espacial, troca do foco da atenção e memória de trabalho.
-- Para figuras familiares (como o relógio), a programação motora pode partir direto da memória de longo prazo, sem planejamento novo.
+- Para figuras familiares, a programação motora pode partir direto da memória de longo prazo, sem planejamento novo. Uma figura geométrica nova, como a da parte três, obriga a passar pelas quatro etapas.
 -->
 
 ---
@@ -481,23 +481,7 @@ columns:
 - Podem mediar dificuldades na cópia sem que haja quadro patológico. Cabe ao neuropsicólogo separar uma coisa da outra.
 -->
 
----
-layout: image
-kicker: Envelhecimento normal
-title: Dirigir
-image: https://picsum.photos/seed/aula08-dirigir/900/900
-side: right
-alt: Imagem ilustrativa provisória
----
 
-A direção tende a ficar menos eficiente com a idade.
-
-Muitos erros ao volante vêm de falhas visioespaciais e visuomotoras.
-
-<!--
-- Dawson et al. (2010), citados no capítulo.
-- A imagem é um placeholder do Lorem Picsum: troque por uma foto de um idoso ao volante.
--->
 
 ---
 layout: fact
@@ -559,15 +543,16 @@ note: A cópia, embaixo, cola no modelo, em cima, e o atravessa no final.
 ---
 layout: diagram
 kicker: Visioconstrução
-title: A mesma figura em seis pessoas
+title: A mesma figura em cinco pessoas
 note: Cada quadro desorganiza a cópia do seu jeito.
 ---
 
-<Figure src="/cap11-fig4-seis-diagnosticos.png" alt="Seis cópias de uma figura complexa adaptada: um retângulo dividido, com cruzes, um asterisco, um triângulo embaixo e setas. Modelo; controle saudável, quase idêntico ao modelo; doença de Alzheimer inicial, com as divisões desalinhadas e o asterisco desfeito; degeneração lobar frontotemporal, com a estrutura mantida e partes omitidas; lesão vascular à esquerda, com elementos fora do lugar; demência mista, Alzheimer e vascular, com a estrutura deformada e o triângulo solto" />
+<Figure src="/cap11-fig4-cinco-copias.png" alt="O modelo da Figura Complexa de Taylor simplificada (um retângulo dividido, com um X, um asterisco, um triângulo embaixo e setas) e quatro cópias feitas por idosos. Controle saudável, quase idêntica ao modelo; degeneração lobar frontotemporal, com a estrutura mantida e partes omitidas; lesão vascular à esquerda, com elementos fora do lugar e círculos nas interseções; demência mista, Alzheimer e vascular, com a estrutura deformada e o triângulo solto" />
 
 <!--
-- Figura 11.4 do mesmo capítulo.
-- Compare a DA inicial com a DLFT: na DLFT o contorno geral se mantém e o que falta são partes, por desatenção e planejamento.
+- Figura 11.4 do mesmo capítulo, sem o painel da DA inicial: ele é a cópia pré-operatória do Sr. Valdemar na vinheta.
+- A figura é a Figura de Taylor simplificada, o teste da parte três.
+- Na DLFT o contorno geral se mantém e o que falta são partes, por desatenção e planejamento.
 -->
 
 ---
@@ -630,7 +615,7 @@ note: O paciente não reproduz um quadrado simples de palitos nem copia o cubo.
 
 ---
 layout: define
-kicker: Apresentação atípica da DA
+kicker: Apresentação atípica da D.A.
 term: Atrofia cortical posterior
 definition: Declínio progressivo e relativamente <em>restrito</em> ao
   processamento visual, com atrofia dos lobos occipital e parietal.
@@ -657,8 +642,8 @@ recados da família sem esquecer. A filha diz: "é a vista".
 
 <v-clicks>
 
-- **A.** Presbiopia: troca de óculos resolve
-- **B.** Alteração perceptiva e espacial: precisa ser investigada
+- **A.** Alteração perceptiva e espacial: precisa ser investigada
+- **B.** Presbiopia: troca de óculos resolve
 - **C.** Esperado no envelhecimento normal
 - **D.** Falha de memória episódica
 
@@ -667,13 +652,13 @@ recados da família sem esquecer. A filha diz: "é a vista".
 ---
 layout: default
 kicker: Fixação · resposta 3
-title: A resposta é <span class="accent2">B</span>
+title: A resposta é <span class="accent2">A</span>
 ---
 
-<Grid head highlight="row:3" :data="[
+<Grid head highlight="row:2" :data="[
   ['', 'Alternativa', 'Por que erra, ou por que acerta'],
-  ['A', 'Presbiopia', 'a visão já foi corrigida e examinada; o sensorial está resolvido'],
-  ['B', 'Perceptiva e espacial', '<b>correta</b>: com o olho funcionando, falha o uso da informação espacial'],
+  ['A', 'Perceptiva e espacial', '<b>correta</b>: com o olho funcionando, falha o uso da informação espacial'],
+  ['B', 'Presbiopia', 'a visão já foi corrigida e examinada; o sensorial está resolvido'],
   ['C', 'Envelhecimento normal', 'perder-se em lugar conhecido não é esperado com a idade'],
   ['D', 'Memória episódica', 'ela guarda e repassa os recados sem erro'],
 ]" />
@@ -687,7 +672,7 @@ layout: section
 index: "03"
 kicker: Parte três
 title: Avaliação do processamento espacial
-subtitle: O Teste do Desenho do Relógio.
+subtitle: A Figura de Taylor simplificada.
 ---
 
 ---
@@ -719,169 +704,159 @@ columns:
 
 <!--
 - Para quem tem pouca escolaridade, tarefas clássicas de visioconstrução (Figura Complexa de Rey, cópia de figuras do CERAD) são muitas vezes pouco válidas e ansiogênicas (Baiyewu et al., 2005).
+- A Figura de Taylor simplificada foi feita para essa população: idosos com baixa escolaridade e analfabetos.
 - Visioconstrução só se interpreta quando o déficit não é motor nem sensorial.
 -->
 
 ---
 layout: define
-kicker: A tarefa clássica
-term: Teste do Desenho do Relógio
-definition: Tarefa breve de rastreio em que a pessoa desenha um relógio de
-  ponteiros marcando uma <em>hora pedida</em>.
+kicker: A tarefa
+term: Figura de Taylor simplificada
+definition: Cópia de uma figura geométrica, seguida de duas <em>evocações</em>
+  de memória.
 points:
-  - "Exige planejamento, visioconstrução e conhecimento do relógio"
-  - "O peso maior é das funções executivas"
+  - "Avalia visioconstrução, planejamento e memória visioespacial"
+  - "Depende menos da escolaridade que a figura original"
 ---
 
 <!--
-- Paula et al. (2013), em 170 idosos: a associação mais forte do relógio foi com as funções executivas, seguidas do estado cognitivo global, do processamento visioespacial e do conhecimento semântico.
-- Há vários sistemas de pontuação. Nesta aula, o de Shulman, que tem dados brasileiros.
+- Figura original: Taylor (1969). Versão simplificada e validação brasileira: de Paula, Costa, Andrade, Ávila e Malloy-Diniz (2016), em idosos com baixa escolaridade.
+- A sigla na literatura é sTCFT (simplified Taylor Complex Figure Test).
+- É a figura da Figura 11.4 do capítulo, que a turma já viu na parte dois.
 -->
 
 ---
 layout: steps
-kicker: Teste do Desenho do Relógio
+kicker: Figura de Taylor simplificada
 title: Como se aplica
 steps:
   - {
-      title: "Entregue a folha",
-      desc: "Com um círculo já desenhado",
-      icon: "lucide:circle"
-    }
-  - {
-      title: "Dê a instrução",
-      desc: "Coloque os números para que isto fique parecido com um relógio e marque onze e dez",
-      icon: "lucide:message-square"
-    }
-  - {
-      title: "Peça a cópia",
-      desc: "Depois, mostre um relógio pronto e peça que ele o copie",
+      title: "Cópia",
+      desc: "Com o modelo à vista, sem borracha e sem girar o cartão",
       icon: "lucide:copy"
     }
+  - {
+      title: "Evocação imediata",
+      desc: "Até três minutos depois, sem o modelo",
+      icon: "lucide:timer"
+    }
+  - {
+      title: "Evocação tardia",
+      desc: "Entre 20 e 30 minutos depois, sem o modelo",
+      icon: "lucide:hourglass"
+    }
 ---
 
 <!--
-- Instrução de Shulman (Sunnybrook, Toronto): círculo pré-desenhado e "onze e dez". Os ponteiros têm de apontar para o 11 e para o 2.
-- Fale a hora por extenso, "onze e dez", e não "11h10": o número escrito dá a resposta.
-- Avalia-se só o desenho final, sem tempo-limite.
-- A cópia não tem norma brasileira: nesta aula ela é uma comparação qualitativa com o desenho livre.
--->
-
----
-layout: default
-kicker: Escala de Shulman
-title: A pontuação, de 0 a 5
----
-
-<Grid head :data="[
-  ['Pontos', 'O desenho'],
-  ['5', 'relógio perfeito'],
-  ['4', 'erros visioespaciais pequenos'],
-  ['3', 'hora errada, com boa organização visioespacial'],
-  ['2', 'desorganização visioespacial moderada dos números; a hora não pode ser marcada'],
-  ['1', 'desorganização visioespacial grave'],
-  ['0', 'nenhuma representação razoável de um relógio'],
-]" />
-
-<!--
-- Escala de Shulman (2000), na redação de Graeff et al. (2021).
-- Leia de cima para baixo: primeiro pergunte se a organização está boa; só depois olhe a hora.
+- Instrução do manual: "Nesse próximo teste você deverá desenhar nessa folha uma figura geométrica bem diferente. Não precisa ser uma cópia perfeita, mas quero que você tente fazer o melhor que você conseguir. Preste atenção nas proporções e nas formas da figura. Não precisa ter pressa, pode fazer no seu tempo. Caso você erre alguma coisa, pode rasurar e depois eu avalio com mais calma."
+- Uma folha em branco para cada etapa. Nas evocações, o estímulo não é mostrado de novo.
+- Não avise que haverá evocação: a memória testada é a incidental.
+- Logo depois da cópia, registre a abordagem (global ou por detalhes) e o planejamento. Esses índices ainda não têm norma.
+- Cada etapa dura, em média, menos de cinco minutos. No intervalo até a tardia, aplique tarefas não visuais.
 -->
 
 ---
 layout: diagram
-kicker: Escala de Shulman
-title: Um relógio para cada escore
-note: Do 5 ao 3 a organização se mantém; do 2 para baixo ela se perde.
+kicker: Figura de Taylor simplificada
+title: Doze elementos
+note: Cada elemento vale de 0 a 2; a soma vai de 0 a 24.
 ---
 
-<Figure src="/relogio-shulman-escores.svg" alt="Seis relógios desenhados num círculo já impresso, um por escore da escala de Shulman. 5: números e ponteiros certos, marcando onze e dez. 4: números com espaçamento irregular e hora certa. 3: números bem distribuídos, mas ponteiros no 10 e no 11, hora errada. 2: números amontoados na metade direita e embaixo, hora impossível de marcar. 1: números soltos, repetidos e fora do círculo. 0: um número e um rabisco, sem relógio" />
+<Figure src="/taylor-elementos.svg" alt="A Figura Complexa de Taylor simplificada com os doze elementos numerados, como na folha de registro: 1 retângulo principal; 2 triângulo à esquerda; 3 seta vertical na ponta desse triângulo; 4 linha vertical central; 5 linha horizontal central; 6 triângulo inferior; 7 linha pontilhada; 8 estrela; 9 X no quadrante superior esquerdo; 10 diagonal no quadrante superior direito; 11 retângulo superior; 12 seta que sai do canto superior direito" />
 
 <!--
-- Desenhos esquemáticos, feitos para a aula.
-- O 3 é o erro mais típico: o ponteiro vai para o 10, preso ao número dito na instrução, em vez de ir para o 2.
+- A numeração é a da folha de registro do manual (Labep_neuro, de Paula, 2019).
+- A mesma pontuação vale para as três etapas: cópia, evocação imediata e evocação tardia.
 -->
 
 ---
-layout: stats
-kicker: Escala de Shulman · idosos brasileiros
-title: Como interpretar
-columns: 3
-stats:
-  - {
-      value: "0–3",
-      label: "alterado; 4 e 5 são normais (Fuzikawa et al., 2007)",
-      icon: "lucide:scale",
-      tone: "warn"
-    }
-  - {
-      value: "≤ 4",
-      unit: " anos",
-      label: "de estudo: o teste é confiável, mas pouco válido (Lourenço et al., 2008)",
-      icon: "lucide:graduation-cap",
-      tone: "bad"
-    }
-  - {
-      value: "90",
-      unit: "%",
-      label: "de sensibilidade para DA quando somado ao MEEM (Aprahamian et al., 2010)",
-      icon: "lucide:plus",
-      tone: "good"
-    }
+layout: default
+kicker: Figura de Taylor simplificada
+title: Cada elemento, de 0 a 2
 ---
 
+<Grid head :data="[
+  ['Pontos', 'Localização', 'Precisão'],
+  ['2', 'boa', 'boa'],
+  ['1', 'boa', 'ruim'],
+  ['1', 'ruim', 'boa'],
+  ['0,5', 'ruim, mas reconhecível', 'ruim'],
+  ['0', 'ausente ou irreconhecível', ''],
+]" />
+
 <!--
-- Fuzikawa et al. (2007): 1.118 idosos de Bambuí (MG), com baixa escolaridade, escala de Shulman, corte 3/4.
-- Lourenço et al. (2008): 211 idosos com até 4 anos de estudo, no Rio de Janeiro; sensibilidade e especificidade em torno de 65%.
-- Aprahamian et al. (2010): 121 idosos com DA e 99 controles, escolaridade heterogênea. Relógio + MEEM: sensibilidade de 89 a 90% e especificidade de 72 a 80%. É o artigo-base para os alunos.
-- Rastreio não é diagnóstico: o escore baixo aponta onde investigar.
+- É o crivo das figuras complexas em geral (Rey, Taylor, Boston).
+- Localização: o elemento está no lugar certo em relação aos outros. Precisão: a forma está correta.
+-->
+
+---
+layout: default
+kicker: Normas preliminares · idosos brasileiros
+title: Do escore ao percentil
+---
+
+<Grid head :data="[
+  ['', 'Cópia', 'Evocação imediata', 'Evocação tardia'],
+  ['Média (DP)', '20,3 (4,0)', '14,0 (4,3)', '13,8 (4,6)'],
+  ['Pc 5', '11', '6', '5'],
+  ['Pc 10', '16', '8', '8'],
+  ['Pc 25', '19', '12', '11'],
+  ['Pc 50', '22', '14', '14'],
+  ['Pc 75', '23', '17', '17'],
+  ['Pc 90', '24', '19', '19'],
+  ['Pc 95', '24', '20', '21'],
+]" />
+
+<!--
+- Tabela da p. 8 do manual (Labep_neuro, de Paula, 2019), adaptada de de Paula (2018): 100 idosos, 72,7 ± 8,2 anos, de 0 a 26 anos de estudo (média de 6,2 ± 4,7).
+- Mínimo e máximo: cópia de 5 a 24; imediata de 1 a 24; tardia de 2 a 24. Alfa de Cronbach: 0,845, 0,867 e 0,865.
+- Como ler: procure a linha cujo valor o escore alcança. Um escore entre duas linhas fica entre os dois percentis. Exemplo: cópia 17 fica entre o Pc 10 e o Pc 25.
+- Não há ponto de corte: o escore se lê pelo percentil. As normas são preliminares.
+- Boa concordância entre examinadores na correção (de Paula et al., 2016).
 -->
 
 ---
 layout: vs
-kicker: Teste do Desenho do Relógio
-title: Desenho livre e cópia
+kicker: Figura de Taylor simplificada
+title: Cópia e evocação
 left:
-  title: "Desenho livre"
-  items: [
-    "Exige planejar e evocar o relógio",
-    "Mais sensível ao declínio inicial",
-    "Peso das funções executivas"
-  ]
-right:
   title: "Cópia"
   items: [
     "O modelo está à vista",
-    "Exige menos planejamento",
-    "Peso da visioconstrução"
+    "Peso da visioconstrução",
+    "Anda junto com os testes construtivos"
+  ]
+right:
+  title: "Evocação"
+  items: [
+    "Sem o modelo",
+    "Peso da memória visioespacial",
+    "Anda junto com os testes de memória"
   ]
 label: "×"
 ---
 
 <!--
-- Beber et al. (2016): o desenho livre é mais exigente e separa melhor os grupos que a versão de cópia.
-- Crowe et al. (2010): o desenho livre se liga mais às funções executivas; a cópia, à construção visioespacial.
-- Leitura clínica: livre ruim e cópia boa sugere dificuldade de planejamento ou de evocar o conceito; livre ruim e cópia ruim sugere dificuldade visioconstrutiva.
+- de Paula et al. (2016): a cópia compartilha 29% da variância com a praxia construtiva da Mattis e 31% com o teste dos palitos, e só de 4 a 10% com tarefas de memória. As evocações compartilham 27% com a memória da Mattis e de 16 a 17% com o RAVLT, e de 1 a 7% com os testes visioespaciais.
+- A cópia também se liga ao planejamento (Torre de Londres), por meio da memória operacional e da flexibilidade cognitiva (Ávila et al., 2015).
+- Leitura clínica: a evocação só se interpreta à luz da cópia. Quem copiou mal não tem o que lembrar; o que importa é quanto do que foi copiado se manteve.
 -->
 
 ---
-layout: two-cols
+layout: default
 kicker: Fixação · pergunta 4
-title: Homem de 70 anos, oito anos de estudo
+title: Mulher de 72 anos, sete anos de estudo
 ---
 
-<Figure src="/relogio-pergunta-4.svg" alt="Relógio desenhado num círculo impresso: os doze números bem distribuídos, mas um ponteiro aponta para o 10 e o outro para o 11, em vez de onze e dez" />
-
-::right::
-
-Pedido: "onze e dez". Qual o escore de Shulman?
+Na Figura de Taylor simplificada fez cópia 22, evocação imediata 15 e
+evocação tardia 3.
 
 <v-clicks>
 
-- **A.** 5
-- **B.** 4
-- **C.** 3
-- **D.** 2
+- **A.** Déficit visioconstrutivo
+- **B.** Falha de planejamento na cópia
+- **C.** Falha de memória visioespacial
+- **D.** Desempenho esperado para a idade
 
 </v-clicks>
 
@@ -892,49 +867,53 @@ title: A resposta é <span class="accent2">C</span>
 ---
 
 <Grid head highlight="row:4" :data="[
-  ['', 'Escore', 'Por que erra, ou por que acerta'],
-  ['A', '5', 'os números estão certos, mas a hora não; o 5 exige as duas coisas'],
-  ['B', '4', 'o 4 é para erro visioespacial pequeno com a hora certa'],
-  ['C', '3', '<b>correta</b>: organização boa, hora errada'],
-  ['D', '2', 'o 2 é para números desorganizados; aqui eles estão bem distribuídos'],
+  ['', 'Alternativa', 'Por que erra, ou por que acerta'],
+  ['A', 'Visioconstrução', 'a cópia é 22, na mediana das normas'],
+  ['B', 'Planejamento', 'uma cópia de 22 pontos não mostra falha de organização'],
+  ['C', 'Memória', '<b>correta</b>: copiou bem, guardou no início e perdeu quase tudo na tardia'],
+  ['D', 'Esperado', 'a tardia de 3 fica abaixo do percentil 5'],
 ]" />
 
 <!--
-- Escore 3 fica abaixo do corte 3/4: rastreio alterado.
-- O ponteiro no 10 é o erro de ficar preso ao número da instrução. Puxe a ligação com as funções executivas.
--->
-
----
-layout: embed
-kicker: Teste do Desenho do Relógio
-title: Aplicação no consultório
-iframe: https://www.youtube-nocookie.com/embed/QCsRNAclNIU
----
-
-<!--
-- "Teste do relógio: Avaliação Cognitiva do Idoso", vídeo de alunos de Habilidades Médicas III da UNIFOR.
-- Assista antes da aula: o vídeo foi escolhido pelo título e pela descrição, e o sistema de pontuação usado pode não ser o de Shulman.
+- O contrário do Sr. Valdemar antes da cirurgia: aqui a cópia é boa e a memória falha.
+- A queda da imediata para a tardia aponta perda do que foi armazenado, e não falta de codificação.
 -->
 
 ---
 layout: statement
 kicker: Vinheta clínica
-title: Pontuem o relógio e comparem o <em>desenho livre</em> com a
-  <em>cópia</em>.
+title: Pontuem as duas cópias e respondam à <em>equipe médica</em>.
 ---
 
 <!--
 GABARITO. A ficha está em `referencias/aula-08/vinheta-1-sr-valdemar.docx`.
 
-**Sr. Valdemar, 74 anos, 6 anos de estudo.**
-- Desenho livre: os doze números estão todos lá, mas espremidos na metade direita e na parte de baixo do círculo; o quadrante superior esquerdo está vazio. Os ponteiros apontam para a região do 10 e do 11, embaixo. **Shulman = 2** (desorganização moderada dos números; a hora não pode ser marcada).
-- Corte 3/4 (Fuzikawa et al., 2007): **alterado.** Com 6 anos de estudo, a ressalva de Lourenço (≤ 4 anos) não se aplica.
-- Cópia: com o modelo à vista, o círculo sai aberto, o 7 e o 8 se amontoam, o 12 escorrega para a esquerda e os ponteiros não partem do centro. **A cópia não resolve:** a dificuldade é visioconstrutiva, não só de planejamento.
-- Sensorial × perceptivo: catarata operada e visão corrigida (exame recente). A queixa persiste com o olho funcionando.
-- Orientação: perde-se no caminho de 30 anos (navegação em ambiente antigo).
-- Memória: recados, conversas e compromissos preservados.
-- Conclusão descritiva: alteração do processamento visioespacial (orientação e visioconstrução), com o componente sensorial corrigido e a memória do dia a dia relativamente preservada.
-- Se algum grupo fechar diagnóstico: o perfil lembra uma apresentação posterior, mas a ficha não traz imagem nem avaliação completa. O trabalho de hoje é descrever a função.
+**Sr. Valdemar, 74 anos, 6 anos de estudo. Meningioma temporo-occipital direito, retirado por completo. Cópia da Figura de Taylor duas semanas antes e três meses depois da cirurgia.**
+
+| # | Elemento | Pré | Pós |
+|---|---|---|---|
+| 1 | Retângulo principal | 1 | 2 |
+| 2 | Triângulo à esquerda | 1 | 2 |
+| 3 | Seta na ponta do triângulo | 1 | 1 |
+| 4 | Linha vertical central | 1 | 2 |
+| 5 | Linha horizontal central | 1 | 2 |
+| 6 | Triângulo inferior | 1 | 1 |
+| 7 | Linha pontilhada | 0,5 | 2 |
+| 8 | Estrela | 1 | 1 |
+| 9 | X do quadrante esquerdo | 0,5 | 2 |
+| 10 | Diagonal do quadrante direito | 0,5 | 2 |
+| 11 | Retângulo superior | 2 | 2 |
+| 12 | Seta do quadrante direito | 0,5 | 1 |
+| | **Total** | **11** | **20** |
+
+- Pré 11: no percentil 5. Retângulo torto, X desfeito, a pontilhada virou uma diagonal contínua, estrela desfeita, as setas sem ponta. **Alteração visioconstrutiva.**
+- Pós 20: entre os percentis 25 e 50, dentro do esperado. A armação, as divisões, o X, a diagonal e a pontilhada saem certos. Sobram os elementos soltos: a seta da esquerda longe da ponta do triângulo, o triângulo de baixo fora do canto, a estrela com raios que não se cruzam, a seta de cima com a ponta pela metade.
+- A estratégia mudou junto com o escore: antes começou pelo detalhe (o retângulo pequeno) e não fechou a estrutura; depois começou pela armação, "primeiro o esquadro".
+- Aceite meio ponto de diferença entre os grupos: o crivo pede julgamento.
+- Efeito de prática: mesmo teste, três meses depois. Um ganho de 9 pontos, do percentil 5 para a faixa média, vai muito além do que a repetição explica, e vem junto com a melhora fora do teste: veste-se sozinho, voltou aos consertos, pega a caneta de primeira, sai pela porta certa, pentágonos certos no MEEM.
+- Sensorial × perceptivo: exame oftalmológico com campo visual normal antes da cirurgia. A queixa era perceptiva, e foi ela que melhorou.
+- Resposta à equipe: a cirurgia não teve impacto negativo sobre a habilidade visioconstrutiva. A cópia passou de alterada para dentro do esperado, o que indica recuperação depois da retirada do tumor. Restam imprecisões na localização de elementos periféricos; vale reavaliar no seguimento.
+- Se algum grupo atribuir a melhora à cirurgia "curar" a região: o meningioma comprime o tecido sem invadi-lo, e a retirada alivia a compressão. Isso é fala do professor, não precisa estar no parágrafo dos alunos.
 -->
 
 ---
@@ -959,19 +938,19 @@ panels:
       ]
     }
   - {
-      title: "O relógio com a norma certa",
-      icon: "lucide:clock",
+      title: "A figura com a norma certa",
+      icon: "lucide:shapes",
       items: [
-        "Shulman: 0 a 3 é alterado",
-        "Compare o desenho livre com a cópia"
+        "Cópia de 0 a 24, lida pelo percentil",
+        "Leia a evocação à luz da cópia"
       ]
     }
 ---
 
 ---
 layout: reference
-kicker: Referências · 1 de 2
-title: O capítulo e o que o relógio mede
+kicker: Referências
+title: O capítulo e a Figura de Taylor simplificada
 groups:
   - title: "Processamento espacial e envelhecimento"
     items:
@@ -984,79 +963,40 @@ groups:
             abordagem multidimensional</em>. Porto Alegre: Artmed, cap. 11, p.
             197-209 — <strong>base primária dos blocos 1 e 2 e das figuras</strong>."
         }
-  - title: "O que o relógio mede"
+  - title: "A Figura de Taylor simplificada"
     items:
       - {
-          term: "Paula et al., 2013",
-          desc: "Paula, J. J., Miranda, D. M., Moraes, E. N. e Malloy-Diniz, L. F.
-            Mapping the clockworks: what does the Clock Drawing Test assess in
-            normal and pathological aging? <em>Arquivos de
-            Neuro-Psiquiatria</em>, 71(10), 763-768."
+          term: "de Paula et al., 2016",
+          desc: "de Paula, J. J., Costa, M. V., Andrade, G. F., Ávila, R. T. e
+            Malloy-Diniz, L. F. Validity and reliability of a “simplified” version
+            of the Taylor Complex Figure Test for the assessment of older adults
+            with low formal education. <em>Dementia &amp; Neuropsychologia</em>,
+            10(1), 52-57 — <strong>artigo-base para a turma</strong>."
         }
       - {
-          term: "Beber et al., 2016",
-          desc: "Beber, B. C., Kochhann, R., Matias, B. e Chaves, M. L. F. The Clock
-            Drawing Test: performance differences between the free-drawn and
-            incomplete-copy versions in patients with MCI and dementia.
-            <em>Dementia &amp; Neuropsychologia</em>, 10(3), 227-231."
+          term: "de Paula, 2018",
+          desc: "de Paula, J. J. Variantes da Figura Complexa de Taylor. In:
+            Malloy-Diniz, L. F. et al. (orgs.), <em>Avaliação
+            neuropsicológica</em>, 2. ed. Porto Alegre: Artmed."
         }
       - {
-          term: "Crowe et al., 2010",
-          desc: "Crowe, M., Allman, R. M., Triebel, K., Sawyer, P. e Martin, R. C.
-            Normative performance on an executive clock drawing task (CLOX) in a
-            community-dwelling sample of older adults. <em>Archives of Clinical
-            Neuropsychology</em>, 25(7), 610-617."
+          term: "Ávila et al., 2015",
+          desc: "Ávila, R. T. et al. Working memory and cognitive flexibility
+            mediates visuoconstructional abilities in older adults with
+            heterogeneous cognitive ability. <em>Journal of the International
+            Neuropsychological Society</em>, 21(5), 392-398."
+        }
+      - {
+          term: "Taylor, 1969",
+          desc: "Taylor, L. B. Localization of cerebral lesions by psychological
+            testing. <em>Clinical Neurosurgery</em>, 16, 269-287."
         }
 ---
 
 <!--
 - Os autores citados nas notas dos blocos 1 e 2 (Ungerleider e Mishkin, Goodale e Milner, Farah, Gil, Aguirre e D'Esposito, Benton, Kleist, Guérin, Ska e Belleville, Mitrushina, Salthouse, Sadun, Serra, Crutch, Bozeat, Dawson, Baiyewu) estão na lista de referências do capítulo. Não foram conferidos nos originais.
-- As figuras 11.1 a 11.4 são recortes do capítulo (`referencias/aula-08/recortes/`). Os esquemas das vias e dos relógios são autorais; o das vias usa o atlas de Brodmann da aula 06.
--->
-
----
-layout: reference
-kicker: Referências · 2 de 2
-title: O teste do relógio · escala e dados brasileiros
-items:
-  - {
-      term: "Aprahamian et al., 2010",
-      desc: "Aprahamian, I., Martinelli, J. E., Neri, A. L. e Yassuda, M. S. The
-        accuracy of the Clock Drawing Test compared to that of standard
-        screening tests for Alzheimer's disease. <em>International
-        Psychogeriatrics</em>, 22(1), 64-71. doi:10.1017/S1041610209991141 —
-        <strong>artigo-base para a turma</strong>."
-    }
-  - {
-      term: "Shulman, 2000",
-      desc: "Shulman, K. I. Clock-drawing: is it the ideal cognitive screening
-        test? <em>International Journal of Geriatric Psychiatry</em>, 15(6),
-        548-561."
-    }
-  - {
-      term: "Graeff et al., 2021",
-      desc: "Graeff, D. B. et al. Clock drawing test: comparison between the
-        Pfizer and the Shulman systems. <em>Dementia &amp;
-        Neuropsychologia</em>, 15(4), 480-484. doi:10.1590/1980-57642021dn15-040009"
-    }
-  - {
-      term: "Fuzikawa et al., 2007",
-      desc: "Fuzikawa, C., Lima-Costa, M. F., Uchôa, E. e Shulman, K.
-        Correlation and agreement between the MMSE and the Clock Drawing Test
-        in older adults with low levels of schooling. <em>International
-        Psychogeriatrics</em>, 19(4), 657-667."
-    }
-  - {
-      term: "Lourenço et al., 2008",
-      desc: "Lourenço, R. A. et al. The Clock Drawing Test: performance among
-        elderly with low educational level. <em>Revista Brasileira de
-        Psiquiatria</em>, 30(4), 309-315."
-    }
----
-
-<!--
-- Aprahamian et al. (2010) não é de acesso aberto. Para a turma, a revisão aberta dos mesmos autores é Aprahamian et al. (2009), The Clock Drawing Test: a review of its accuracy in screening for dementia, Dementia & Neuropsychologia, 3(2), 74-81.
-- A instrução com círculo pré-desenhado e "onze e dez" é a descrita pelo próprio Shulman.
+- O manual de aplicação, com a folha de registro e as normas preliminares, está em `referencias/aula-08/1063565119-Taylor.pdf` (Labep_neuro, de Paula, 2019, versão 2).
+- As figuras 11.1 a 11.4 são recortes do capítulo (`referencias/aula-08/recortes/`); a 11.4 aparece sem o painel da DA inicial. O esquema das vias e o da figura numerada são autorais; o das vias usa o atlas de Brodmann da aula 06.
 -->
 
 ---
