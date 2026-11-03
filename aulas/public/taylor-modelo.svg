@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 470 475" width="470" height="475" role="img" aria-label="A Figura Complexa de Taylor simplificada, sem numeração: um retângulo principal dividido por uma linha vertical e uma horizontal centrais, com um retângulo menor sobre a metade esquerda, um triângulo à esquerda com uma seta vertical na ponta, um triângulo no canto de baixo à direita, uma linha pontilhada do centro até esse canto, uma estrela no quadrante inferior esquerdo, um X no quadrante superior esquerdo, uma diagonal no quadrante superior direito e uma seta saindo do canto superior direito">
+  <g fill="none" stroke="#1d3e6e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="115.0,97.5 385.0,97.5 385.0,390.0 115.0,390.0"/>
+    <polygon points="115.0,52.5 250.0,52.5 250.0,97.5 115.0,97.5"/>
+    <line x1="115.0" y1="165.0" x2="385.0" y2="165.0"/>
+    <line x1="115.0" y1="232.5" x2="385.0" y2="232.5"/>
+    <line x1="250.0" y1="97.5" x2="250.0" y2="390.0"/>
+    <line x1="115.0" y1="97.5" x2="250.0" y2="232.5"/>
+    <line x1="250.0" y1="97.5" x2="115.0" y2="232.5"/>
+    <line x1="250.0" y1="232.5" x2="385.0" y2="97.5"/>
+    <line x1="385.0" y1="97.5" x2="452.5" y2="30.0"/>
+    <polyline points="433.0,33.0 452.5,30.0 449.5,49.5"/>
+    <line x1="250.0" y1="232.5" x2="377.5" y2="382.5" stroke-dasharray="12 10"/>
+    <polygon points="385.0,390.0 347.5,465.0 422.5,465.0"/>
+    <polyline points="115.0,97.5 40.0,232.5 115.0,390.0"/>
+    <line x1="40.0" y1="322.5" x2="40.0" y2="45.0"/>
+    <polyline points="28.0,63.0 40.0,45.0 52.0,63.0"/>
+    <line x1="199.0" y1="360.0" x2="226.0" y2="360.0"/>
+    <line x1="203.0" y1="350.5" x2="222.0" y2="369.5"/>
+    <line x1="212.5" y1="346.5" x2="212.5" y2="373.5"/>
+    <line x1="222.0" y1="350.5" x2="203.0" y2="369.5"/>
+  </g>
+</svg>

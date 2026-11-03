@@ -758,6 +758,19 @@ steps:
 ---
 layout: diagram
 kicker: Figura de Taylor simplificada
+title: Copie a figura
+---
+
+<Figure src="/taylor-modelo.svg" alt="A Figura Complexa de Taylor simplificada, sem numeração: um retângulo principal dividido por uma linha vertical e uma horizontal centrais, com um retângulo menor sobre a metade esquerda, um triângulo à esquerda com uma seta vertical na ponta, um triângulo no canto de baixo à direita, uma linha pontilhada do centro até esse canto, uma estrela no quadrante inferior esquerdo, um X no quadrante superior esquerdo, uma diagonal no quadrante superior direito e uma seta saindo do canto superior direito" />
+
+<!--
+- A turma copia a figura numa folha em branco, como na aplicação: sem régua, sem borracha.
+- No slide seguinte, cada um confere os doze elementos da própria cópia.
+-->
+
+---
+layout: diagram
+kicker: Figura de Taylor simplificada
 title: Doze elementos
 note: Cada elemento vale de 0 a 2; a soma vai de 0 a 24.
 ---
