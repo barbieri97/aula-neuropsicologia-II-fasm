@@ -4,7 +4,18 @@
 |---|---|
 | [`banco-questoes-primeiro-semestre.docx`](banco-questoes-primeiro-semestre.docx) | Banco de questões de estudo das aulas 01 a 06, com gabarito no final |
 | [`guia_estudo_primeiro_semestre.docx`](guia_estudo_primeiro_semestre.docx) | Guia do que é cobrado em cada aula |
-| `Prova primeiro semestre.docx` · `prova-primeiro-semestre-gabarito.docx` | Prova e gabarito (protegidos por senha) |
+| [`banco-questoes-segundo-semestre.docx`](banco-questoes-segundo-semestre.docx) | Banco de questões das aulas 07 e 08 e de integração entre as funções, com gabarito no final |
+| `../provas/prova-1-bimestre.docx` · `../provas/prova-1-bimestre-gabarito.docx` | Prova e gabarito do 1º bimestre (protegidos por senha) |
+| `../provas/prova-2-bimestre.docx` · `../provas/prova-2-bimestre-gabarito.docx` | Prova e gabarito do 2º bimestre (protegidos por senha) |
+
+## Segundo semestre
+
+Mesmo padrão do primeiro: cinco questões da aula 07, cinco da aula 08 e dez de **integração**,
+20 no total. As de integração obrigam a juntar funções vistas em aulas diferentes — fluência
+verbal lida junto com as funções executivas, a evocação da Figura de Taylor lida à luz da cópia,
+a queixa da família ligada à função que ela aponta, o sensorial e a escolaridade antes de
+interpretar qualquer teste. A prova repete a estrutura da do 1º bimestre (oito objetivas e duas
+dissertativas de estudo de caso), com as normas necessárias escritas no próprio enunciado.
 
 ## Banco de questões
 
