@@ -7,6 +7,8 @@
 | [`banco-questoes-segundo-semestre.docx`](banco-questoes-segundo-semestre.docx) | Banco de questões das aulas 07 e 08 e de integração entre as funções, com gabarito no final |
 | `../provas/prova-1-bimestre.docx` · `../provas/prova-1-bimestre-gabarito.docx` | Prova e gabarito do 1º bimestre (protegidos por senha) |
 | `../provas/prova-2-bimestre.docx` · `../provas/prova-2-bimestre-gabarito.docx` | Prova e gabarito do 2º bimestre (protegidos por senha) |
+| `../provas/prova-substitutiva.docx` · `../provas/prova-substitutiva-gabarito.docx` | Prova e gabarito sobre o semestre inteiro, aulas 01 a 08 (protegidos por senha) |
+| `../provas/prova-exame.docx` · `../provas/prova-exame-gabarito.docx` | Prova e gabarito sobre o semestre inteiro, aulas 01 a 08, com questões diferentes da anterior (protegidos por senha) |
 
 ## Segundo semestre
 
