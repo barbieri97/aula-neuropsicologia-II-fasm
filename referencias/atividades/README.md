@@ -14,8 +14,9 @@ Mesmo padrão do primeiro: cinco questões da aula 07, cinco da aula 08 e dez de
 20 no total. As de integração obrigam a juntar funções vistas em aulas diferentes — fluência
 verbal lida junto com as funções executivas, a evocação da Figura de Taylor lida à luz da cópia,
 a queixa da família ligada à função que ela aponta, o sensorial e a escolaridade antes de
-interpretar qualquer teste. A prova repete a estrutura da do 1º bimestre (oito objetivas e duas
-dissertativas de estudo de caso), com as normas necessárias escritas no próprio enunciado.
+interpretar qualquer teste. A prova tem dez questões objetivas de 1,0 ponto (as duas últimas
+são casos clínicos completos), com as normas necessárias escritas no próprio enunciado e o
+gabarito sem padrão de sequência.
 
 ## Banco de questões
 
