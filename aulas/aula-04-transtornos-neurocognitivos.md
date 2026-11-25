@@ -4,7 +4,7 @@ title: "Transtornos neurocognitivos"
 info: Conceito, critérios diagnósticos, etiologias, domínios cognitivos, o
   lugar da avaliação neuropsicológica e a aplicação do MEEM
 date: "2026-09-01"
-author: FASM · Neuropsicologia II
+author: FASM · Neuropsicologia Aplicada ao Idoso
 # Gera o PDF no build (via playwright-chromium) e liga o botão de download no deck.
 download: true
 exportFilename: aula-04-transtornos-neurocognitivos
@@ -12,7 +12,7 @@ themeConfig:
   lang: pt-BR
 layout: lead
 index: "04"
-kicker: Neuropsicologia II · FASM
+kicker: Neuropsicologia Aplicada ao Idoso · FASM
 subtitle: Alterações na cognição e na funcionalidade — o que o DSM-5 pede, o que
   a lesão explica e o que só a avaliação neuropsicológica separa.
 ---

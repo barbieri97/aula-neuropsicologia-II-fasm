@@ -4,7 +4,7 @@ title: "Avaliação da memória no idoso"
 info: Taxonomia, processos e neuroanatomia da memória; o que o envelhecimento
   muda em cada sistema; aplicação, correção e interpretação da Memória Lógica
 date: "2026-09-08"
-author: FASM · Neuropsicologia II
+author: FASM · Neuropsicologia Aplicada ao Idoso
 # Gera o PDF no build (via playwright-chromium) e liga o botão de download no deck.
 download: true
 exportFilename: aula-05-memoria-idoso
@@ -12,7 +12,7 @@ themeConfig:
   lang: pt-BR
 layout: lead
 index: "05"
-kicker: Neuropsicologia II · FASM
+kicker: Neuropsicologia Aplicada ao Idoso · FASM
 subtitle: O que a memória é, o que muda nela com a idade e como se mede essa
   mudança na clínica.
 ---
@@ -1394,5 +1394,5 @@ layout: end
 title: Até a próxima
 subtitle: A memória é um conjunto de sistemas. A avaliação é o trabalho de dizer
   qual deles falhou, e por quê.
-contact: FASM · Neuropsicologia II
+contact: FASM · Neuropsicologia Aplicada ao Idoso
 ---

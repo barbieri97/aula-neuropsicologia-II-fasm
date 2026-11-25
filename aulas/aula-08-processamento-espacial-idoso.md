@@ -5,14 +5,14 @@ info: O que é o processamento visioespacial e os seus componentes; o que muda
   no envelhecimento normal e nos quadros demenciais; avaliação pela Figura
   Complexa de Taylor simplificada
 date: "2026-10-20"
-author: FASM · Neuropsicologia II
+author: FASM · Neuropsicologia Aplicada ao Idoso
 download: true
 exportFilename: aula-08-processamento-espacial-idoso
 themeConfig:
   lang: pt-BR
 layout: lead
 index: "08"
-kicker: Neuropsicologia II · FASM
+kicker: Neuropsicologia Aplicada ao Idoso · FASM
 subtitle: Perceber, orientar-se, construir.
 ---
 
@@ -1016,5 +1016,5 @@ groups:
 layout: end
 title: Até a próxima
 subtitle: Enxergar bem e entender o que se vê são coisas diferentes.
-contact: FASM · Neuropsicologia II
+contact: FASM · Neuropsicologia Aplicada ao Idoso
 ---

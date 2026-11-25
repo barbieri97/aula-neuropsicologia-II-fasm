@@ -5,14 +5,14 @@ info: O que é a linguagem, expressiva e receptiva, e os seus processos; o que m
   e o que se mantém na linguagem do envelhecimento normal; as três afasias
   clássicas; avaliação da linguagem e a fluência verbal
 date: "2026-10-06"
-author: FASM · Neuropsicologia II
+author: FASM · Neuropsicologia Aplicada ao Idoso
 download: true
 exportFilename: aula-07-linguagem-e-comunicacao-idoso
 themeConfig:
   lang: pt-BR
 layout: lead
 index: "07"
-kicker: Neuropsicologia II · FASM
+kicker: Neuropsicologia Aplicada ao Idoso · FASM
 subtitle: Produzir e compreender.
 ---
 
@@ -1097,5 +1097,5 @@ layout: end
 title: Até a próxima
 subtitle: Quem não consegue dizer pode estar entendendo tudo. Avaliar é separar
   uma coisa da outra.
-contact: FASM · Neuropsicologia II
+contact: FASM · Neuropsicologia Aplicada ao Idoso
 ---

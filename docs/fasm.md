@@ -68,14 +68,14 @@ theme: slidev-theme-fasm
 title: "Envelhecimento normal"        # vira o título do site e o rótulo do rodapé
 info: Corpo, cérebro e mundo social   # uma linha; alimenta a landing page
 date: "2026-08-18"                    # YYYY-MM-DD; idem
-author: FASM · Neuropsicologia II
+author: FASM · Neuropsicologia Aplicada ao Idoso
 download: true                        # gera o PDF no build e liga o botão de download
 exportFilename: aula-02-envelhecimento-normal
 themeConfig:
   lang: pt-BR                         # hifenização e caixa alta corretas em português
 layout: lead                          # o primeiro slide começa aqui mesmo
 index: "02"
-kicker: Neuropsicologia II · FASM
+kicker: Neuropsicologia Aplicada ao Idoso · FASM
 subtitle: O que muda no corpo e no sistema nervoso.
 ---
 ```

@@ -5,7 +5,7 @@ info: O que são as funções executivas, a tríade que as sustenta e as funçõ
   complexas que dela dependem; o que o envelhecimento normal muda em cada
   subcomponente; aplicação, correção e interpretação da FAB
 date: "2026-09-15"
-author: FASM · Neuropsicologia II
+author: FASM · Neuropsicologia Aplicada ao Idoso
 # Gera o PDF no build (via playwright-chromium) e liga o botão de download no deck.
 download: true
 exportFilename: aula-06-funcoes-executivas-idoso
@@ -13,7 +13,7 @@ themeConfig:
   lang: pt-BR
 layout: lead
 index: "06"
-kicker: Neuropsicologia II · FASM
+kicker: Neuropsicologia Aplicada ao Idoso · FASM
 subtitle: O gerente do cérebro.
 ---
 
@@ -1210,5 +1210,5 @@ layout: end
 title: Até a próxima
 subtitle: Função executiva é o que sobra quando a rotina acaba. A avaliação é o
   trabalho de dizer qual parte desse controle falhou, e onde isso aparece na vida.
-contact: FASM · Neuropsicologia II
+contact: FASM · Neuropsicologia Aplicada ao Idoso
 ---

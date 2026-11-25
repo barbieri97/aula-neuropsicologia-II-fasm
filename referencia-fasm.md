@@ -41,7 +41,7 @@ subtitle: Os slides que abrem, dividem e pontuam — não os que ensinam.
 
 ---
 layout: cover
-kicker: Neuropsicologia II · FASM
+kicker: Neuropsicologia Aplicada ao Idoso · FASM
 title: A capa, com <em>ênfase</em> no título
 subtitle: Kicker, título e subtítulo centrados. A porta do deck.
 ---

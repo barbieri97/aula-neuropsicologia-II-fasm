@@ -1,4 +1,4 @@
-# Aulas — Psicologia Comportamental (FASM)
+# Aulas — Neuropsicologia Aplicada ao Idoso (FASM)
 
 Um repositório de decks [Slidev](https://sli.dev/) com tema próprio, `slidev-theme-fasm`, que mora
 aqui mesmo em [`theme/`](theme/). **Uma aula por arquivo `.md`**, publicadas no GitHub Pages, cada

@@ -1,16 +1,16 @@
-# Psicologia Comportamental · FASM
+# Neuropsicologia Aplicada ao Idoso · FASM
 
 Slides das aulas do semestre. Uma aula por arquivo em [`aulas/`](aulas/), feitas com
 [Slidev](https://sli.dev/) e o tema próprio [`slidev-theme-fasm`](theme/), publicadas no GitHub
 Pages — cada aula na sua própria URL, com PDF para download.
 
 ```
-https://barbieri97.github.io/template-aulas/                    ← índice
-https://barbieri97.github.io/template-aulas/aula-01-fundamentos-do-behaviorismo/
+https://barbieri97.github.io/aula-neuropsicologia-aplicada-ao-idoso-fasm/                 ← índice
+https://barbieri97.github.io/aula-neuropsicologia-aplicada-ao-idoso-fasm/aula-01-conceitos-e-teorias-sobre-o-envelhecimento/
 ```
 
 > **O nome do repositório é o prefixo de todas as URLs.** Renomeá-lo troca todos os links do site
-> (foi o que aconteceu quando este repo virou `template-aulas`). Nenhuma configuração precisa ser
+> (foi o que aconteceu quando este repo virou `aula-neuropsicologia-aplicada-ao-idoso-fasm`). Nenhuma configuração precisa ser
 > tocada — o workflow lê o nome do próprio repositório —, mas links antigos param de valer.
 
 ## Uso diário

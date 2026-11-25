@@ -4,7 +4,7 @@ title: "Envelhecimento normal"
 info: Sentidos, cérebro e cognição — o que muda no envelhecimento normal e o que
   isso cobra da avaliação neuropsicológica
 date: "2026-08-18"
-author: FASM · Neuropsicologia II
+author: FASM · Neuropsicologia Aplicada ao Idoso
 # Gera o PDF no build (via playwright-chromium) e liga o botão de download no deck.
 download: true
 exportFilename: aula-02-envelhecimento-normal
@@ -12,7 +12,7 @@ themeConfig:
   lang: pt-BR
 layout: lead
 index: "02"
-kicker: Neuropsicologia II · FASM
+kicker: Neuropsicologia Aplicada ao Idoso · FASM
 subtitle: O que muda nos sentidos, no cérebro e na cognição — e o que disso o
   neuropsicólogo precisa saber.
 ---
